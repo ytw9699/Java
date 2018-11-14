@@ -1,2 +1,2 @@
-# picksell
-picksell
+1. 생활코딩 자바 수업
+2. 
