@@ -1,5 +1,5 @@
 package ch05;
-class ArrayEx03{
+class ArrayEx03_배열의복사_비효율{
 	public static void main(String[] args) {
 		int[] arr = new int[5];
 
