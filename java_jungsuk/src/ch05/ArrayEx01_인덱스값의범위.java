@@ -1,7 +1,8 @@
 package ch05;
-class ArrayEx01 {
-	public static void main(String[] args) { 
+class ArrayEx01_인덱스값의범위 {
+	public static void main(String[] args) {
 		int[] score = new int[5];
+		
 		int k = 1;
 
 		score[0] = 50;
@@ -14,10 +15,10 @@ class ArrayEx01 {
 
 	    // for문으로 배열의 모든 요소를 출력한다.
 		for(int i=0; i < 5; i++) {
-			System.out.printf("score[%d]:%d%n",i, score[i]);		
+			System.out.printf("score[%d]:%d%n", i, score[i]);		
 		}
-
 		System.out.printf("tmp:%d%n", tmp);
 		System.out.printf("score[%d]:%d%n",7,score[7]); //index의 범위를 벗어난 값
+		
 	} // main
 }
