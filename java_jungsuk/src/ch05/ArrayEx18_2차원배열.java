@@ -1,6 +1,7 @@
 package ch05;
-class ArrayEx18 {
+class ArrayEx18_2차원배열 {
 	public static void main(String[] args) {
+		
 		 int[][] score = {
 							{ 100, 100, 100}
 							, { 20, 20, 20}
