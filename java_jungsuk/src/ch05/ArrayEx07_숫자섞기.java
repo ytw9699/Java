@@ -1,6 +1,8 @@
 package ch05;
-class ArrayEx07 {
+class ArrayEx07_¼ıÀÚ¼¯±â {
+	
 	public static void main(String[] args) {
+		
 		int[] numArr = new int[10];
 
 		for (int i=0; i < numArr.length ; i++ ) {
