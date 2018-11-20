@@ -1,7 +1,7 @@
 package ch05;
 import java.util.*;
 
-class MultiArrEx2 {
+class MultiArrEx2_2차원배열나중 {
 	public static void main(String[] args) {
 		final int SIZE = 5;
 		int x = 0 , y = 0;

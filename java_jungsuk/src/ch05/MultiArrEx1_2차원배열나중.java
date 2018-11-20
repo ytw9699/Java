@@ -1,7 +1,7 @@
 package ch05;
 import java.util.*;
 
-class MultiArrEx1 {
+class MultiArrEx1_2차원배열나중 {
 	public static void main(String[] args) {
 		final int SIZE = 10;
 		int x = 0, y = 0;
@@ -21,7 +21,7 @@ class MultiArrEx1 {
 		};
 
 	     // 0행에 행번호를, 0열에 열번호를 저장한다. 
-		for(int i=1;i<SIZE;i++)
+		for(int i=1; i<SIZE; i++)
 			board[0][i] = board[i][0] = (char)(i+'0');
 
 		Scanner scanner = new Scanner(System.in);

@@ -1,7 +1,7 @@
 package ch05;
 import java.util.*;
 
-class  MultiArrEx4{
+class  MultiArrEx4_2차원배열나중{
 	public static void main(String[] args) {
 		String[][] words = {
 			{"chair","의자"},			// words[0][0], words[0][1]

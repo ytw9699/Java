@@ -1,5 +1,5 @@
 package ch05;
-class MultiArrEx3 {
+class MultiArrEx3_2차원배열나중 {
 	public static void main(String[] args) {
 		int[][] m1 = {
 			{1, 2, 3},
