@@ -4,7 +4,7 @@ class ArrayEx15 {
 		
 		String source = "SOSHELP";
 		
-		String[] morse = {
+		String[] morse = {//a~z±îÁö
 						   ".-", "-...", "-.-.","-..", "."
 						,"..-.", "--.", "....","..",".---"
 						, "-.-", ".-..", "--", "-.", "---"
