@@ -1,5 +1,5 @@
 package ch05;
-class ArrayEx12_for문을이용한배열반복 {
+class ArrayEx12_향상된for문을이용한배열반복 {
 	public static void main(String[] args) {
 		String[] names = {"Kim", "Park", "Yi"};
 
