@@ -1,5 +1,5 @@
 package ch05;
-class ArrayEx17 {
+class ArrayEx17_커맨드라인 {
 	public static void main(String[] args) {
 		if (args.length !=3) {
 			System.out.println("usage: java ArrayEx15 NUM1 OP NUM2");
