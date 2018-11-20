@@ -1,5 +1,5 @@
 package ch05;
-class ArrayEx10 {
+class ArrayEx10_bubbleSort {
 	public static void main(String[] args) {
 		int[] numArr = new int[10];
 
@@ -8,10 +8,10 @@ class ArrayEx10 {
 		}
 		System.out.println();
 
-		for (int i=0; i < numArr.length-1 ; i++ ) {
+		for (int i=0; i < numArr.length-1 ; i++ ) {//전체 크게 총 횟수
 			boolean changed = false;	// 자리바꿈이 발생했는지를 체크한다.
 
-			for (int j=0; j < numArr.length-1-i ;j++) {
+			for (int j=0; j < numArr.length-1-i ;j++) {//한번 바꿀때 안에서 횟수
 				if(numArr[j] > numArr[j+1]) { // 옆의 값이 작으면 서로 바꾼다.
 					int temp = numArr[j];
 					numArr[j] = numArr[j+1];
