@@ -1,5 +1,5 @@
 package ch05;
-class ArrayEx08 { 
+class ArrayEx08_로또번호자동생성 { //로또번호 자동생성
 	public static void main(String[] args) { 
 		// 45개의 정수값을 저장하기 위한 배열 생성. 
 		int[] ball = new int[45];       
