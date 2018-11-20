@@ -1,5 +1,5 @@
 package ch05;
-class ArrayEx19 {
+class ArrayEx19_2차원배열 {
 	public static void main(String[] args) {
 		 int[][] score = {
 							{ 100, 100, 100}
@@ -13,11 +13,11 @@ class ArrayEx19 {
 		int engTotal = 0;
 		int mathTotal = 0;
 
-	    System.out.println("번호 국어 영어 수학 총점 평균 ");
+	    System.out.println("번호    국어    영어    수학    총점    평균 ");
 	    System.out.println("=============================");
 
-		for(int i=0;i < score.length;i++) {
-			int   sum = 0;       // 개인별 총점
+		for(int i=0; i < score.length; i++) {
+			int sum = 0;       // 개인별 총점
 			float avg = 0.0f;   // 개인별 평균
 
 			korTotal  += score[i][0];
@@ -34,7 +34,7 @@ class ArrayEx19 {
 			System.out.printf("%5d %5.1f%n", sum, avg);
 		}
 
-	    System.out.println("=============================");
-	    System.out.printf("총점:%3d %4d %4d%n", korTotal, engTotal, mathTotal);
+    System.out.println("=============================");
+    System.out.printf(" 총점: %3d %4d %4d%n", korTotal, engTotal, mathTotal);
 	}
 }
