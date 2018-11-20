@@ -1,9 +1,9 @@
 package ch05;
-class ArrayEx12 {
+class ArrayEx12_for문을이용한배열반복 {
 	public static void main(String[] args) {
 		String[] names = {"Kim", "Park", "Yi"};
 
-		for(int i=0; i < names.length;i++) {
+		for(int i=0; i < names.length; i++) {
 			System.out.println("names["+i+"]:"+names[i]);
 		}
 
