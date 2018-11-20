@@ -1,5 +1,5 @@
 package ch05;
-class ArrayEx10_bubbleSort {
+class ArrayEx10_bubbleSort {//버블소트는 정렬이 느리기때문에 안쓰임 학습용
 	public static void main(String[] args) {
 		int[] numArr = new int[10];
 
