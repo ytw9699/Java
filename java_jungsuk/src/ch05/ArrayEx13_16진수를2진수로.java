@@ -27,5 +27,6 @@ class ArrayEx13_16진수를2진수로 {
 		System.out.println("hex:"+ new String(hex)); // String(char[] value)
 		System.out.println(hex);
 		System.out.println("binary:"+result);
+		//System.out.println('C'-'A'+10);
 	}
 }
