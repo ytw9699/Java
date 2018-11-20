@@ -1,5 +1,5 @@
 package ch05;
-class ArrayEx15 {
+class ArrayEx15_morse∫Œ»£ {
 	public static void main(String[] args) {
 		
 		String source = "SOSHELP";
