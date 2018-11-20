@@ -1,6 +1,7 @@
 package ch05;
-class ArrayEx11 {
+class ArrayEx11_숫자세기 {
 	public static void main(String[] args) {
+		
 		int[] numArr  = new int[10];
 		int[] counter = new int[10];
 
@@ -11,7 +12,8 @@ class ArrayEx11 {
 		System.out.println();
 
 		for (int i=0; i < numArr.length ; i++ ) {
-			counter[numArr[i]]++;
+			counter[numArr[i]]++;//카운터배열의 각요소(0으로초기화되어있는것)
+			//들을 횟수를 1씩 증가시켜주는것
 		}
 
 		for (int i=0; i < numArr.length ; i++ ) {
