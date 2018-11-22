@@ -11,9 +11,11 @@ public class b_ArrayList와_제네릭활용 {
        /* public void add(String element){
         ArrayList.this.add(nextIndex++, element);
         }*/
+        
         al.add("one");
         al.add("two");
         al.add("three");
+        
         for(int i=0; i<al.size(); i++){
             String value = al.get(i);//(String)형변환 필요없음
             //get을 통해 가져오는게 string타입이기때문
