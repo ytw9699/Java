@@ -1,7 +1,9 @@
 package z_Collection_Framework2;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
+
 public class b_ListSet의차이점1 {
    public static void main(String[] args) {
 	   ArrayList<Integer> A = new ArrayList<Integer>();//중복된값을 허용한다
@@ -17,6 +19,7 @@ public class b_ListSet의차이점1 {
            System.out.println(hi.next());
        }
        System.out.println();
+       
    HashSet<Integer> B = new HashSet<Integer>();//중복된 값을 허용하지 않는다
    B.add(1);
    B.add(2);
