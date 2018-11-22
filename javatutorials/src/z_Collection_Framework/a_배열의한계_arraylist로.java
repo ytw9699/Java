@@ -1,11 +1,16 @@
 package z_Collection_Framework;
+
 import java.util.ArrayList;//임포트해야함
+
 public class a_배열의한계_arraylist로 {
+	
 public static void main(String[] args) {
+	
     String[] arrayObj = new String[2];//2개의 값만 들어간다
     arrayObj[0] = "one";
     arrayObj[1] = "two";
     // arrayObj[2] = "three"; 오류가 발생한다. 배열의 한계
+    
     for(int i=0; i<arrayObj.length; i++){
         System.out.println(arrayObj[i]);
     }
@@ -25,11 +30,14 @@ public static void main(String[] args) {
     //이 인자의 데이터타입은 오브젝트여야함 오브젝트는 모든 데이터
 	//타입의 조상이기때문에 어떤 데이터타입도 수용하려면 이렇게 해야함
 	}*/
+    
     for(int i=0; i<al.size(); i++){
         String value = (String)al.get(i);//오브젝트를 스트링으로 형변환>>>
         System.out.println(value);
         }
+    
     System.out.println();
+    
     for(int i=0; i<al.size(); i++){
         System.out.println(al.get(i));
     }
