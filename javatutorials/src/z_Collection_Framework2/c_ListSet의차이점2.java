@@ -1,7 +1,9 @@
 package z_Collection_Framework2;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
+
 public class c_ListSet의차이점2 {
    public static void main(String[] args) {
        ArrayList<String> al = new ArrayList<String>();
@@ -16,6 +18,7 @@ public class c_ListSet의차이점2 {
        while(ai.hasNext()){
            System.out.println(ai.next());
        }
+       
        HashSet<String> hs = new HashSet<String>();
        hs.add("one");
        hs.add("two");
