@@ -7,8 +7,8 @@ class HashSetEx3 {
 
 		set.add("abc");
 		set.add("abc");
-		set.add(new Person("David",10));
-		set.add(new Person("David",10));
+		set.add(new Person("David",10));//중복발생안됨
+		set.add(new Person("David",10));//중복발생안됨
 
 		System.out.println(set);
 	}
