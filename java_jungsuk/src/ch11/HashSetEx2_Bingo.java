@@ -1,7 +1,7 @@
 package ch11;
 import java.util.*; 
 
-class Bingo { 
+class HashSetEx2_Bingo { 
       public static void main(String[] args) { 
             Set set = new HashSet(); 
 //          Set set = new LinkedHashSet(); //이걸쓰면 오름차순정렬안됨
