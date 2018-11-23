@@ -1,5 +1,8 @@
 package z_Collection_Framework3;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 public class a_HashMap과반복자 {
     public static void main(String[] args) {
         HashMap<String, Integer> a = new HashMap<String, Integer>();
@@ -12,6 +15,17 @@ public class a_HashMap과반복자 {
         System.out.println(a.get("two"));
         System.out.println(a.get("three"));
         System.out.println(a.get("four"));
+        
+        System.out.println(a);
+        
+        Set set = a.keySet();
+        System.out.println(set);
+        
+        System.out.println(a.values());
+        
+        a.remove("two");
+        System.out.println(a);
+        
         //맵에 저장된 값들을 하나식 열거해서 꺼내는 반복처리방법에 대해 알아보자
         iteratorUsingForEach(a);//2가지 방식의 반복 처리 방법
         iteratorUsingIterator(a);
@@ -30,7 +44,7 @@ public class a_HashMap과반복자 {
             //Entry인터페이스가 결국 맵과 같은 역할을 하는것이다
         }
     }
-    static void iteratorUsingIterator(HashMap map){
+    static void iteratorUsingIterator(HashMap map){//맵은 이터레이터가없어서 set을 얻고 이터레이터를 얻자
         /*Set entries = map.entrySet();*/
         Set<Map.Entry<String, Integer>> entries = map.entrySet();
         Iterator<Map.Entry<String, Integer>> i = entries.iterator();//셋은 iterator를 가지고있음
