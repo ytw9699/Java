@@ -25,5 +25,4 @@ class ObjectDemo {
         //String name="egoing"; //로 같다면 오버라이딩해서 바꾼거
     }
  //나중에 hashcode에대해서도 알아봐 이거랑연관
- //결론적으로 equals는 오브젝트 클래스가 가진걸 그대로 사용하는걸 권장
 }
