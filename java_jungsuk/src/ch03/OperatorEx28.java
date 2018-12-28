@@ -5,7 +5,7 @@ class OperatorEx28 {
 		int y = 0xF;
 
 		System.out.printf("x = %#X \t\t%s%n", x, toBinaryString(x));
-		System.out.printf("y = %#X \t\t%s%n", x, toBinaryString(y));
+		System.out.printf("y = %#X \t\t%s%n", y, toBinaryString(y));
 		System.out.printf("%#X | %#X = %#X \t%s%n", x, y, x | y, toBinaryString(x | y));
 		System.out.printf("%#X & %#X = %#X \t%s%n", x, y, x & y, toBinaryString(x & y));
 		System.out.printf("%#X ^ %#X = %#X \t%s%n", x, y, x ^ y, toBinaryString(x ^ y));
