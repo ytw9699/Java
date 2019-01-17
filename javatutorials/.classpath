@@ -4,6 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="I_don&apos;t_know_java"/>
 	<classpathentry kind="src" path="Java_of_JungSeok"/>
-	<classpathentry kind="src" path="src2"/>
+	<classpathentry kind="src" path="javatutorials"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
