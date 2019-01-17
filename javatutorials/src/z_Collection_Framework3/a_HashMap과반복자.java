@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Set;
 public class a_HashMap과반복자 {
     public static void main(String[] args) {
+    	
         HashMap<String, Integer> a = new HashMap<String, Integer>();
         //key 와 value로 어떠한 값을쓸것인지 제네릭으로 지정
         a.put("one", 1);//put메소드는  맵 인터페이스에만 존재
