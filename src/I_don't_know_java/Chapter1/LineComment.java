@@ -4,7 +4,7 @@ package Chapter1;
 // 작성일: 2012년 9월 25일
 // 작성이유: System.out.println 메소드 기능 테스트
 
-class SystemOutPrintln2
+class LineComment
 {
 	public static void main(String[] args)
 	{

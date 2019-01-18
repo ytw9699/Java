@@ -1,3 +1,5 @@
+package Chapter2;
+
 class ENotation
 {
 	public static void main(String[] args)

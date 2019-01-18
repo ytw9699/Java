@@ -1,3 +1,5 @@
+package Chapter2;
+
 class UseVariable
 {
 	public static void main(String[] args)

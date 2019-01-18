@@ -1,3 +1,5 @@
+package Chapter2;
+
 class UnicodeChar
 {
 	public static void main(String[] args)
