@@ -1,3 +1,4 @@
+package Chapter3;
 class SuffixConst
 {
 	public static void main(String[] args)
@@ -10,5 +11,7 @@ class SuffixConst
 		
 		System.out.println(e1);
 		System.out.println(n1);	
+		System.out.println(e2);	
+		System.out.println(n2);	
 	}
 }
