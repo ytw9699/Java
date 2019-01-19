@@ -1,5 +1,5 @@
+package Chapter12;
 import java.util.Scanner;
-
 class ScanningMethods
 {
 	public static void main(String[] args)

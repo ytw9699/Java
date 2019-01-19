@@ -1,3 +1,4 @@
+package Chapter12;
 class Friend
 {
 	String myName;

@@ -1,5 +1,6 @@
-import java.io.*;
-
+package Chapter12;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 class PastReadInt
 {
 	public static void main(String[] args)
