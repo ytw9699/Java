@@ -1,3 +1,4 @@
+package Chapter6;
 class Method2Param
 {
 	public static void main(String[] args)

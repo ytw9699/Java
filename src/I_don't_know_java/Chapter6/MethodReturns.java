@@ -1,3 +1,4 @@
+package Chapter6;
 class MethodReturns
 {
 	public static void main(String[] args)
