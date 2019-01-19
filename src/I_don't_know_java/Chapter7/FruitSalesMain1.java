@@ -1,8 +1,9 @@
+package Chapter7;
 class FruitSeller
 {
-	int numOfApple;
-	int myMoney;
-	int APPLE_PRICE;
+	int numOfApple=20;
+	int myMoney=0;
+	final int APPLE_PRICE=1000;
 	
 	public int saleApple(int money)
 	{
@@ -16,17 +17,11 @@ class FruitSeller
 		System.out.println("남은 사과: " + numOfApple);
 		System.out.println("판매 수익: " + myMoney);
 	}
-	public void initMembers(int money, int appleNum, int price)
-	{
-		myMoney=money;
-		numOfApple=appleNum;
-		APPLE_PRICE=price;
-	}
 } 
 
 class FruitBuyer
 {
-	int myMoney=10000;   // 여기서도 클래스의 변경이 발생!
+	int myMoney=5000;
 	int numOfApple=0;
 	
 	public void buyApple(FruitSeller seller, int money)
@@ -41,25 +36,16 @@ class FruitBuyer
 	}
 }
 
-class FruitSalesMain2
+class FruitSalesMain1
 {
 	public static void main(String[] args)
 	{
-		FruitSeller seller1 = new FruitSeller();
-		seller1.initMembers(0, 30, 1500);
-		
-		FruitSeller seller2 = new FruitSeller();
-		seller2.initMembers(0, 20, 1000);
-		
+		FruitSeller seller = new FruitSeller();
 		FruitBuyer buyer = new FruitBuyer();
-		buyer.buyApple(seller1, 4500);
-		buyer.buyApple(seller2, 2000);
+		buyer.buyApple(seller, 2000);
 		
-		System.out.println("과일 판매자1의 현재 상황");
-		seller1.showSaleResult();
-		
-		System.out.println("과일 판매자2의 현재 상황");
-		seller2.showSaleResult();
+		System.out.println("과일 판매자의 현재 상황");
+		seller.showSaleResult();
 		
 		System.out.println("과일 구매자의 현재 상황");
 		buyer.showBuyResult();

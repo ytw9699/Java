@@ -3,6 +3,8 @@ class FormatString
 {
 	public static void main(String[] args)
 	{
+		System.out.print("1");
+		System.out.print("2");
 		int age=20;
 		double tall=175.7;
 		String name="È«ÀÚ¹Ù";

@@ -1,10 +1,11 @@
-class FruitSeller
+package Chapter7;
+class FruitSeller3
 {
 	int numOfApple;
 	int myMoney;
-	final int APPLE_PRICE;
+	final int APPLE_PRICE;//파이널도 이렇게 생성자를 통해 초기화하면 값이 저장됨
 	
-	public FruitSeller(int money, int appleNum, int price)
+	public FruitSeller3(int money, int appleNum, int price)
 	{
 		myMoney=money;
 		numOfApple=appleNum;
@@ -25,18 +26,18 @@ class FruitSeller
 	}
 } 
 
-class FruitBuyer
+class FruitBuyer3
 {
 	int myMoney;
 	int numOfApple;
 	
-	public FruitBuyer(int money)
+	public FruitBuyer3(int money)
 	{
 		myMoney=money;
 		numOfApple=0;
 	}
 	
-	public void buyApple(FruitSeller seller, int money)
+	public void buyApple(FruitSeller3 seller, int money)
 	{
 		numOfApple+=seller.saleApple(money);
 		myMoney-=money;
@@ -52,10 +53,10 @@ class FruitSalesMain3
 {
 	public static void main(String[] args)
 	{
-		FruitSeller seller1 = new FruitSeller(0, 30, 1500);
-		FruitSeller seller2 = new FruitSeller(0, 20, 1000);
+		FruitSeller3 seller1 = new FruitSeller3(0, 30, 1500);
+		FruitSeller3 seller2 = new FruitSeller3(0, 20, 1000);
 		
-		FruitBuyer buyer = new FruitBuyer(10000);
+		FruitBuyer3 buyer = new FruitBuyer3(10000);
 		buyer.buyApple(seller1, 4500);
 		buyer.buyApple(seller2, 2000);
 		
