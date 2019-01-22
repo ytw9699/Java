@@ -1,10 +1,11 @@
-class StringMethod
+package Chapter11;
+class D_StringMethod
 {
 	public static void main(String[] args)
 	{
-		String str1="Smart";
-		String str2=" and ";
-		String str3="Simple";
+		String str1="amart";
+		String str2=" bnd ";
+		String str3="cimple";
 		String str4=str1.concat(str2).concat(str3);
 		
 		System.out.println(str4);	

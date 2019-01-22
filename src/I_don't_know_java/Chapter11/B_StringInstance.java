@@ -1,4 +1,5 @@
-class StringInstance
+package Chapter11;
+class B_StringInstance
 {
 	public static void main(String[] args)
 	{

@@ -1,4 +1,5 @@
-class StringCopy
+package Chapter11;
+class C_StringCopy
 {
 	public static void main(String[] args)
 	{

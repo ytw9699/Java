@@ -1,14 +1,15 @@
-class Person
+package Chapter11;
+class Person2
 {
 	private int perID;
 	private int milID;
 	
-	public Person(int pID, int mID)
+	public Person2(int pID, int mID)
 	{
 		perID=pID;
 		milID=mID;
 	}
-	public Person(int pID)
+	public Person2(int pID)
 	{
 		perID=pID;
 		milID=0;
@@ -23,12 +24,12 @@ class Person
 	}
 }
 
-class Overloading
+class A_Overloading
 {
 	public static void main(String[] args)
 	{
-		Person man=new Person(950123, 880102);
-		Person woman=new Person(941125);	
+		Person2 man=new Person2(950123, 880102);
+		Person2 woman=new Person2(941125);	
 		man.showInfo();
 		woman.showInfo();
 	}

@@ -1,4 +1,5 @@
-class BuilderString
+package Chapter11;
+class F_BuilderString
 {
 	public static void main(String[] args)
 	{

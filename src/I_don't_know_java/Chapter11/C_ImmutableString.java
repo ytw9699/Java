@@ -1,4 +1,5 @@
-class ImmutableString
+package Chapter11;
+class C_ImmutableString
 {
 	public static void main(String[] args)
 	{

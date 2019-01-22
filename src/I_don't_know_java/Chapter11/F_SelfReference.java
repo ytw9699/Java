@@ -1,3 +1,4 @@
+package Chapter11;
 class SimpleAdder
 {
 	private int num;
@@ -14,7 +15,7 @@ class SimpleAdder
 	}
 }
 
-class SelfReference
+class F_SelfReference
 {
 	public static void main(String[] args)
 	{
