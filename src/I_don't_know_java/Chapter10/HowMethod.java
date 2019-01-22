@@ -1,3 +1,4 @@
+package Chapter10;
 class SimpleMath    // 단순 계산 클래스
 {
 	public static final double PI=3.1415;	

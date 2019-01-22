@@ -1,3 +1,4 @@
+package Chapter10;
 class InstCnt
 {
 	static int instNum=100;

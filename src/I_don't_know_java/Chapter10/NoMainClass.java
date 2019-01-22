@@ -1,3 +1,4 @@
+package Chapter10;
 class Employer     /* ╟М©Каж */
 {
 	private int myMoney;

@@ -1,7 +1,10 @@
+package Chapter10;
 class AAA
 {
 	int aaa;
-	public AAA(int num){ aaa=num; }
+	public AAA(int num){ 
+		aaa=num; 
+		}
 	
 	public static void main(String[] args)
 	{
@@ -16,7 +19,9 @@ class AAA
 class BBB 
 {
 	int bbb;
-	public BBB(int num){ bbb=num; }
+	public BBB(int num){
+		bbb=num; 
+		}
 	
 	public static void main(String[] args)
 	{

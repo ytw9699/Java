@@ -1,3 +1,4 @@
+package Chapter10;
 class AccessWay
 {
 	static int num=0;
