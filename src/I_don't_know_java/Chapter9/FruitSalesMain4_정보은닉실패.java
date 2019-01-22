@@ -1,8 +1,9 @@
+package Chapter9;
 class FruitSeller
 {
-	private int numOfApple;
-	private int myMoney;
-	private final int APPLE_PRICE;
+	int numOfApple;
+	int myMoney;
+	final int APPLE_PRICE;
 	
 	public FruitSeller(int money, int appleNum, int price)
 	{
@@ -27,8 +28,8 @@ class FruitSeller
 
 class FruitBuyer
 {
-	private int myMoney; 
-	private int numOfApple;
+	int myMoney; 
+	int numOfApple;
 	
 	public FruitBuyer(int money)
 	{
@@ -48,14 +49,18 @@ class FruitBuyer
 	}
 }
 
-class FruitSalesMain5
+class FruitSalesMain4_정보은닉실패
 {
 	public static void main(String[] args)
 	{
 		FruitSeller seller = new FruitSeller(0, 30, 1500);
 		FruitBuyer buyer = new FruitBuyer(10000);
 		
-		buyer.buyApple(seller, 4500);  // 유일한 과일 구매 방법
+		seller.myMoney += 500;   // 돈 500원 내고!
+		buyer.myMoney -= 500;
+		
+		seller.numOfApple -= 20;
+		buyer.numOfApple += 20;   // 사과 스무 개 가져가는 꼴이네! 
 		
 		System.out.println("과일 판매자의 현재 상황");
 		seller.showSaleResult();

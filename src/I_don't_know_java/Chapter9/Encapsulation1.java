@@ -1,3 +1,4 @@
+package Chapter9;
 class SinivelCap   // Äà¹° Ã³Ä¡¿ë Ä¸½¶
 {
 	public void take(){System.out.println("Äà¹°ÀÌ ½Ï~ ³³´Ï´Ù.");}
@@ -15,7 +16,9 @@ class SnuffleCap   // ÄÚ¸·Èû Ã³Ä¡¿ë Ä¸½¶
 
 class ColdPatient
 {
-	public void takeSinivelCap(SinivelCap cap){cap.take();}
+	public void takeSinivelCap(SinivelCap cap){
+		cap.take();
+	}
 	public void takeSneezeCap(SneezeCap cap){cap.take();}
 	public void takeSnuffleCap(SnuffleCap cap){cap.take();}
 }

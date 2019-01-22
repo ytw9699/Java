@@ -1,4 +1,4 @@
-package orange.cal;
+package Chapter9;
 
 public class Calculator
 {
@@ -30,7 +30,11 @@ class Adder
 	private int cntAdd;
 
 	Adder() { cntAdd = 0; }
-	int getCntAdd() { return cntAdd; }
+	
+	int getCntAdd() { 
+	return cntAdd; 
+	}
+	
 	int addTwoNumber(int num1, int num2)
 	{
 		cntAdd++;
@@ -43,7 +47,11 @@ class Subtractor
 	private int cntSub;
 
 	Subtractor() { cntSub = 0; }
-	int getCntSub() { return cntSub; }
+	
+	int getCntSub() { 
+	return cntSub; 
+	}
+	
 	int subTwoNumber(int num1, int num2)
 	{
 		cntSub++;

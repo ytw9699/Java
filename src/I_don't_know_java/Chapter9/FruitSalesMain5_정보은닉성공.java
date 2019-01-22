@@ -1,10 +1,11 @@
-class FruitSeller
+package Chapter9;
+class FruitSeller2
 {
-	int numOfApple;
-	int myMoney;
-	final int APPLE_PRICE;
+	private int numOfApple;
+	private int myMoney;
+	private final int APPLE_PRICE;
 	
-	public FruitSeller(int money, int appleNum, int price)
+	public FruitSeller2(int money, int appleNum, int price)
 	{
 		myMoney=money;
 		numOfApple=appleNum;
@@ -25,18 +26,18 @@ class FruitSeller
 	}
 } 
 
-class FruitBuyer
+class FruitBuyer2
 {
-	int myMoney; 
-	int numOfApple;
+	private int myMoney; 
+	private int numOfApple;
 	
-	public FruitBuyer(int money)
+	public FruitBuyer2(int money)
 	{
 		myMoney=money;
 		numOfApple=0;
 	}
 	
-	public void buyApple(FruitSeller seller, int money)
+	public void buyApple(FruitSeller2 seller, int money)
 	{
 		numOfApple+=seller.saleApple(money);
 		myMoney-=money;
@@ -48,18 +49,14 @@ class FruitBuyer
 	}
 }
 
-class FruitSalesMain4
+class FruitSalesMain5_정보은닉성공
 {
 	public static void main(String[] args)
 	{
-		FruitSeller seller = new FruitSeller(0, 30, 1500);
-		FruitBuyer buyer = new FruitBuyer(10000);
+		FruitSeller2 seller = new FruitSeller2(0, 30, 1500);
+		FruitBuyer2 buyer = new FruitBuyer2(10000);
 		
-		seller.myMoney += 500;   // 돈 500원 내고!
-		buyer.myMoney -= 500;
-		
-		seller.numOfApple -= 20;
-		buyer.numOfApple += 20;   // 사과 스무 개 가져가는 꼴이네! 
+		buyer.buyApple(seller, 4500);  // 유일한 과일 구매 방법
 		
 		System.out.println("과일 판매자의 현재 상황");
 		seller.showSaleResult();
