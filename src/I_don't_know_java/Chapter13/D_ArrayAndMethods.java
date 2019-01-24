@@ -1,4 +1,5 @@
-class ArrayAndMethods
+package Chapter13;
+class D_ArrayAndMethods
 {
 	public static int[] addAllArray(int[] ar, int addVal)
 	{

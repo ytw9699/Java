@@ -1,4 +1,5 @@
-class AccessArray
+package Chapter13;
+class A_AccessArray
 {
 	public static void main(String[] args)
 	{

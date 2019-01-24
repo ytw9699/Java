@@ -1,4 +1,5 @@
-class InstanceArray
+package Chapter13;
+class B_InstanceArray
 {
 	public static void main(String[] args)
 	{

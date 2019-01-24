@@ -1,4 +1,5 @@
-class MainParam
+package Chapter13;
+class I_MainParam
 {
 	public static void main(String[] args)
 	{	

@@ -1,4 +1,5 @@
-class PatiallyFilledArray
+package Chapter13;
+class F_PartiallyFilledArray
 {
 	public static void main(String[] args)
 	{

@@ -1,3 +1,4 @@
+package Chapter13;
 class Number
 {
 	public int num;
@@ -11,7 +12,7 @@ class Number
 	}
 }
 
-class EnhancedForInst
+class H_EnhancedForInst
 {
 	public static void main(String[] args)
 	{	

@@ -1,4 +1,5 @@
-class EnhancedFor
+package Chapter13;
+class G_EnhancedFor
 {
 	public static void main(String[] args)
 	{		
