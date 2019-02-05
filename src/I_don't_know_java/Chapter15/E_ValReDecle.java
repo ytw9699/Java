@@ -1,25 +1,27 @@
-class AAA 
+package Chapter15;
+class AAA1 
 {
 	public int num=2;
 }
 
-class BBB extends AAA
+class BBB1 extends AAA1
 {
 	public int num=5;
 }
 
-class CCC extends BBB
+class CCC1 extends BBB1
 {
 	public int num=7;
 }
 
-class ValReDecle
+class E_ValReDecle
 {
 	public static void main(String[] args)
 	{
-		CCC ref1=new CCC();		
-		BBB ref2=ref1;
-		AAA ref3=ref2;
+		CCC1 ref1=new CCC1();		
+		BBB1 ref2=ref1;
+		AAA1 ref3=ref2;
+		//BBB1 ref4=ref3;//에러발생
 		
 		System.out.println("CCC's ref: "+ref1.num);		
 		System.out.println("BBB's ref: "+ref2.num);		

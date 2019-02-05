@@ -1,8 +1,11 @@
-class Gun
+package Chapter15;
+class Gun1
 {
 	int bullet;    	// 장전된 총알의 수
 	
-	public Gun(int bnum){bullet=bnum;}
+	public Gun1(int bnum){
+		bullet=bnum;
+		}
 	public void shut()
 	{
 		System.out.println("BBANG!");
@@ -10,11 +13,11 @@ class Gun
 	}
 }
 
-class Police extends Gun
-{
+class Police1 extends Gun//경찰은 무조건 건을 소유하게된다
+{							//강한연결고리
 	int handcuffs;	     // 소유한 수갑의 수
 	
-	public Police(int bnum, int bcuff)
+	public Police1(int bnum, int bcuff)
 	{
 		super(bnum);
 		handcuffs=bcuff;
@@ -26,7 +29,7 @@ class Police extends Gun
 	}
 }
 
-class HASInheritance
+class B_HASInheritance
 {
 	public static void main(String[] args)
 	{

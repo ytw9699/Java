@@ -1,8 +1,12 @@
+package Chapter15;
+//상속의 관계만 파악하자
 class Computer
 {
 	String owner;
 	
-	public Computer(String name){owner=name;}
+	public Computer(String name){
+		owner=name;
+		}
 	public void calculate()
 	{
 		System.out.println("요청 내용을 계산합니다.");
@@ -65,7 +69,7 @@ class TabletNotebook extends NotebookComp
 	}
 }
 
-class ISAInheritance
+class A_ISAInheritance
 {
 	public static void main(String[] args)
 	{

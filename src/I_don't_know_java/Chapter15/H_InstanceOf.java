@@ -1,3 +1,4 @@
+package Chapter15;
 class Box
 {
 	public void simpleWrap(){System.out.println("simple wrap");}
@@ -13,11 +14,11 @@ class GoldPaperBox extends PaperBox
 	public void goldWrap() {System.out.println("gold wrap");}
 }
 
-class InstanceOf
+class H_InstanceOf
 {
 	public static void wrapBox(Box box)
 	{
-		if(box instanceof GoldPaperBox)
+		if(box instanceof GoldPaperBox)//box가 GoldPaperBox로 형변환가능하다면
 			((GoldPaperBox)box).goldWrap();
 		else if(box instanceof PaperBox)
 			((PaperBox)box).paperWrap();
