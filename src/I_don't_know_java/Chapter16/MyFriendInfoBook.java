@@ -1,5 +1,6 @@
+package Chapter16;
 import java.util.Scanner;
-
+//메소드 오버라이드와 상속은 뗄수가없다 
 class Friend 
 {
 	String name;
@@ -18,7 +19,7 @@ class Friend
 		System.out.println("전화 : "+phoneNum);
 		System.out.println("주소 : "+addr);
 	}
-	public void showBasicInfo(){}
+	public void showBasicInfo(){}//오버라이드를 위해만들었다
 }
 
 class HighFriend extends Friend		// 고교동창
@@ -63,9 +64,9 @@ class UnivFriend extends Friend 	// 대학동기
 	}
 }
 
-class FriendInfoHandler
+class FriendInfoHandler//컨트롤 클래스
 {
-	private Friend[] myFriends;
+	private Friend[] myFriends;//UnivFriend와 HighFriend클래스 friend 로 한꺼번 담는 장점 
 	private int numOfFriends;
 	
 	public FriendInfoHandler(int num)
@@ -74,7 +75,7 @@ class FriendInfoHandler
 		numOfFriends=0;
 	}
 	
-	private void addFriendInfo(Friend fren)
+	private void addFriendInfo(Friend fren)//메소드도 하나로 통일 장점
 	{
 		myFriends[numOfFriends++]=fren;
 	}
