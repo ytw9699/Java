@@ -1,3 +1,4 @@
+package Chapter17;
 class OuterClass
 {
 	private String myName;

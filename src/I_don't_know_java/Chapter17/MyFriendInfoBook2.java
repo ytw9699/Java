@@ -1,6 +1,7 @@
+package Chapter17;
 import java.util.Scanner;
 
-abstract class Friend 
+abstract class Friend //abstract선언, 인스턴스 생성안된다
 {
 	String name;
 	String phoneNum;
@@ -18,7 +19,7 @@ abstract class Friend
 		System.out.println("전화 : "+phoneNum);
 		System.out.println("주소 : "+addr);
 	}
-	abstract void showBasicInfo();
+	abstract void showBasicInfo();//메소드중에 하나라도 abstract 가있으면 abstract클래스이다
 }
 
 class HighFriend extends Friend		// 고교동창
@@ -35,7 +36,7 @@ class HighFriend extends Friend		// 고교동창
 		super.showData();
 		System.out.println("직업 : "+work);
 	}
-	void showBasicInfo()
+	void showBasicInfo()//오버라이딩 안해주면 이메소드는 추상메소드이기때문에 이클래스도 abstract클래스가 되어야한다
 	{
 		System.out.println("이름 : "+name);
 		System.out.println("전화 : "+phoneNum);

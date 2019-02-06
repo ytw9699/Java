@@ -1,3 +1,4 @@
+package Chapter17;
 class OuterClassOne
 {
 	OuterClassOne()
@@ -8,7 +9,7 @@ class OuterClassOne
 	
 	static class NestedClass
 	{
-		public void simpleMethod()
+		public void simpleMethod() 
 		{
 			System.out.println("Nested Instance Method One");
 		}
@@ -32,7 +33,7 @@ class OuterClassTwo
 	}
 }
 
-class NestedClassTest
+class A_NestedClassTest
 {	
 	public static void main(String[] args)
 	{

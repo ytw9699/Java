@@ -1,3 +1,4 @@
+package Chapter17;
 interface UpperCasePrintable
 {
 	// 비어 있음

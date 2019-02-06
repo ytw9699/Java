@@ -1,3 +1,4 @@
+package Chapter17;
 abstract class PersonalNumberStorage
 {
 	public abstract void addPersonalInfo(String perNum, String name);

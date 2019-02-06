@@ -1,3 +1,4 @@
+package Chapter17;
 interface PersonalNumberStorage
 {
 	void addPersonalInfo(String perNum, String name);

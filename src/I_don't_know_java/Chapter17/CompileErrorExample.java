@@ -1,3 +1,4 @@
+package Chapter17;
 class TV
 {
 	public void onTV()
@@ -6,12 +7,7 @@ class TV
 	}
 }
 
-interface Computer
-{
-	public void dataReceive();
-}
-
-class ComputerImpl
+class Computer
 {	
 	public void dataReceive()
 	{
@@ -19,14 +15,8 @@ class ComputerImpl
 	}
 }
 
-class IPTV extends TV implements Computer
+class IPTV extends TV, Computer
 {
-	ComputerImpl comp=new ComputerImpl();
-	
-	public void dataReceive()
-	{
-		comp.dataReceive();
-	}
 	public void powerOn()
 	{
 		dataReceive();
@@ -34,7 +24,7 @@ class IPTV extends TV implements Computer
 	}
 }
 
-class MultiInheriAlternative
+class CompileErrorExample
 {	
 
 	public static void main(String[] args)
