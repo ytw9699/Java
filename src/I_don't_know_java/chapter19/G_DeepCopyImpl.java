@@ -1,3 +1,4 @@
+package chapter19;
 
 class Business implements Cloneable
 {
@@ -55,7 +56,7 @@ class PersonalInfo implements Cloneable
 	}
 }
 
-class DeepCopyImpl
+class G_DeepCopyImpl
 {	
 	public static void main(String[] args)
 	{

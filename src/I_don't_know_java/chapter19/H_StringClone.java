@@ -1,3 +1,4 @@
+package chapter19;
 class Person implements Cloneable
 {
 	private String name;
@@ -25,7 +26,7 @@ class Person implements Cloneable
 	}
 }
 
-class StringClone
+class H_StringClone
 {	
 	public static void main(String[] args)
 	{

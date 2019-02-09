@@ -1,4 +1,5 @@
-class StringEquals
+package chapter19;
+class B_StringEquals
 {	
 	public static void main(String[] args)
 	{

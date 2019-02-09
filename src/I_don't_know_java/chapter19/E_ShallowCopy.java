@@ -1,3 +1,4 @@
+package chapter19;
 class Point implements Cloneable
 {
 	private int xPos;
@@ -53,7 +54,7 @@ class Rectangle implements Cloneable
 	}
 }
 
-class ShallowCopy
+class E_ShallowCopy
 {	
 	public static void main(String[] args)
 	{
@@ -62,7 +63,7 @@ class ShallowCopy
 		
 		try
 		{
-			cpy=(Rectangle)org.clone();
+			cpy=(Rectangle)org.clone();//여기서 클론을 하면 Point인스턴스까지 복제를 하는게아니라 똑같은 인스턴스를 참조하는것이다
 			org.changePos(2, 2, 7, 7);
 			org.showPosition();
 			cpy.showPosition();

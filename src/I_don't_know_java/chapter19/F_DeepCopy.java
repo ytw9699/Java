@@ -1,9 +1,10 @@
-class Point implements Cloneable
+package chapter19;
+class Point1 implements Cloneable
 {
 	private int xPos;
 	private int yPos;
 	
-	public Point(int x, int y)
+	public Point1(int x, int y)
 	{
 		xPos=x;
 		yPos=y;
@@ -23,14 +24,14 @@ class Point implements Cloneable
 	}
 }
 
-class Rectangle implements Cloneable
+class Rectangle1 implements Cloneable
 {
-	Point upperLeft, lowerRight;
+	Point1 upperLeft, lowerRight;
 	
-	public Rectangle(int x1, int y1, int x2, int y2)
+	public Rectangle1(int x1, int y1, int x2, int y2)
 	{
-		upperLeft=new Point(x1, y1);
-		lowerRight=new Point(x2, y2);
+		upperLeft=new Point1(x1, y1);
+		lowerRight=new Point1(x2, y2);
 	}
 	public void showPosition()
 	{
@@ -49,23 +50,23 @@ class Rectangle implements Cloneable
 	}
 	public Object clone() throws CloneNotSupportedException
 	{
-		Rectangle copy=(Rectangle)super.clone();
-		copy.upperLeft=(Point)upperLeft.clone();
-		copy.lowerRight=(Point)lowerRight.clone();		
+		Rectangle1 copy=(Rectangle1)super.clone();
+		copy.upperLeft=(Point1)upperLeft.clone();//point 인스턴스 까지 통재로다복사
+		copy.lowerRight=(Point1)lowerRight.clone();		
 		return copy;
 	}
 }
 
-class DeepCopy
+class F_DeepCopy
 {	
 	public static void main(String[] args)
 	{
-		Rectangle org=new Rectangle(1, 1, 9, 9);
-		Rectangle cpy;
+		Rectangle1 org=new Rectangle1(1, 1, 9, 9);
+		Rectangle1 cpy;
 		
 		try
 		{
-			cpy=(Rectangle)org.clone();
+			cpy=(Rectangle1)org.clone();
 			org.changePos(2, 2, 7, 7);
 			org.showPosition();
 			cpy.showPosition();

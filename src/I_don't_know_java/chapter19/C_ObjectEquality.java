@@ -1,3 +1,4 @@
+package chapter19;
 class IntNumber
 {
 	int num;
@@ -7,7 +8,7 @@ class IntNumber
 		this.num=num;
 	}
 	
-	public boolean isEquals(IntNumber numObj)
+	public boolean isEquals(IntNumber numObj)//메소드를 내가 만들고 비교하는것
 	{
 		if(this.num==numObj.num)
 			return true;
@@ -16,7 +17,7 @@ class IntNumber
 	}
 }
 
-class ObjectEquality
+class C_ObjectEquality
 {
 	public static void main(String[] args)
 	{
