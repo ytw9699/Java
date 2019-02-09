@@ -1,4 +1,5 @@
-class DoubleError
+package Chapter20;
+class E_DoubleError
 {
 	public static void main(String[] args)
 	{

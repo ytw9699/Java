@@ -1,6 +1,7 @@
+package Chapter20;
 import java.util.StringTokenizer;
 
-class TokenizeString2
+class M_TokenizeString2
 {	
 	public static void main(String[] args)
 	{

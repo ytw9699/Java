@@ -1,6 +1,7 @@
+package Chapter20;
 import java.util.Random;
 
-class RandomNumberGenerator
+class J_RandomNumberGenerator
 {	
 	public static void main(String[] args)
 	{

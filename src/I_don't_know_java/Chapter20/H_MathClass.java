@@ -1,4 +1,5 @@
-class MathClass
+package Chapter20;
+class H_MathClass
 {	
 	public static void main(String[] args)
 	{

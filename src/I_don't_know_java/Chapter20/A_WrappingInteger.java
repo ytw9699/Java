@@ -1,3 +1,4 @@
+package Chapter20;
 class IntWrapper
 {
 	private int num;
@@ -11,7 +12,7 @@ class IntWrapper
 	}
 }
 
-class WrappingInteger
+class A_WrappingInteger
 {
 	public static void showData(Object obj)
 	{

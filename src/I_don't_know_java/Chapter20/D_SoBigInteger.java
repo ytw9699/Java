@@ -1,6 +1,7 @@
+package Chapter20;
 import java.math.*;
 
-class SoBigInteger
+class D_SoBigInteger
 {
 	public static void main(String[] args)
 	{
