@@ -1,3 +1,4 @@
+package Chapter18;
 import java.util.Scanner;
 
 class ExceptionHandleUseTryCatch

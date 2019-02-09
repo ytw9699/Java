@@ -1,3 +1,4 @@
+package Chapter18;
 class RuntimeExceptionCase
 {	
 	public static void main(String[] args)

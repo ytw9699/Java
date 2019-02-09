@@ -1,8 +1,9 @@
+package Chapter18;
 import java.util.Scanner;
 
-class AgeInputException extends Exception
+class AgeInputException2 extends Exception
 {
-	public AgeInputException()
+	public AgeInputException2()
 	{
 		super("유효하지 않은 나이가 입력되었습니다.");
 	}
@@ -10,20 +11,20 @@ class AgeInputException extends Exception
 
 class ThrowsFromMain
 {	
-	public static void main(String[] args) throws AgeInputException
+	public static void main(String[] args) throws AgeInputException2
 	{
 		System.out.print("나이를 입력하세요: ");
 		int age=readAge();
 		System.out.println("당신은 "+age+"세입니다.");
 	}
 	
-	public static int readAge() throws AgeInputException
+	public static int readAge() throws AgeInputException2
 	{
 		Scanner keyboard=new Scanner(System.in);
 		int age=keyboard.nextInt();
 		if(age<0)
 		{
-			AgeInputException excpt=new AgeInputException();
+			AgeInputException2 excpt=new AgeInputException2();
 			throw excpt;
 		}		
 		return age;
