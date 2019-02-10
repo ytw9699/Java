@@ -1,4 +1,5 @@
-class AAA
+package Chapter21;
+class AAA2
 {
 	public String toString()
 	{
@@ -6,7 +7,7 @@ class AAA
 	}
 }
 
-class BBB
+class BBB2
 {
 	public String toString()
 	{
@@ -23,15 +24,15 @@ class InstanceTypeShower2
 	}
 }
 
-class IntroGenericMethod2
+class D_IntroGenericMethod2
 {	
 	public static void main(String[] args)
 	{
-		AAA aaa=new AAA();
-		BBB bbb=new BBB();
+		AAA2 aaa=new AAA2();
+		BBB2 bbb=new BBB2();
 		
 		InstanceTypeShower2 shower=new InstanceTypeShower2();
-		shower.<AAA, BBB>showInstType(aaa, bbb);
-		shower.showInstType(aaa, bbb);
+		shower.<AAA2, BBB2>showInstType(aaa, bbb);
+		shower.showInstType(aaa, bbb);//<AAA2, BBB2>생략가능
 	}
 }

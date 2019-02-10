@@ -1,4 +1,5 @@
-class IntroGenericArray
+package Chapter21;
+class G_IntroGenericArray
 {	
 	public static <T> void showArrayData(T[] arr)
 	{

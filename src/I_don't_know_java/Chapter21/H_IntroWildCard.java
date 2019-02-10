@@ -1,4 +1,5 @@
-class Fruit
+package Chapter21;
+class Fruit4
 {
 	public void showYou()
 	{ 
@@ -6,7 +7,7 @@ class Fruit
 	}
 }
 
-class Apple extends Fruit
+class Apple4 extends Fruit4
 {
 	public void showYou()
 	{
@@ -15,27 +16,27 @@ class Apple extends Fruit
 	}	
 }
 
-class FruitBox<T>
+class FruitBox4<T>
 {
 	T item;
 	public void store(T item) { this.item=item; }
 	public T pullOut() { return item; }
 }
 
-class IntroWildCard
+class H_IntroWildCard
 {
-	public static void openAndShowFruitBox(FruitBox<? extends Fruit> box)
+	public static void openAndShowFruitBox(FruitBox4< ? extends Fruit4 > box)//Fruit4상속하는 모든 클래스
 	{
-		Fruit fruit=box.pullOut();
+		Fruit4 fruit=box.pullOut();
 		fruit.showYou();
 	}
 	public static void main(String[] args)
 	{
-		FruitBox<Fruit> box1=new FruitBox<Fruit>();
-		box1.store(new Fruit());
+		FruitBox4<Fruit4> box1=new FruitBox4<Fruit4>();
+		box1.store(new Fruit4());
 		
-		FruitBox<Apple> box2=new FruitBox<Apple>();
-		box2.store(new Apple());
+		FruitBox4<Apple4> box2=new FruitBox4<Apple4>();
+		box2.store(new Apple4());
 		
 		openAndShowFruitBox(box1);
 		openAndShowFruitBox(box2);

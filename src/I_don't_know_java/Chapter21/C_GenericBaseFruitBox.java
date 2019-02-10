@@ -1,3 +1,4 @@
+package Chapter21;
 class Orange
 {
 	int sugarContent;	// 당분 함량
@@ -25,7 +26,7 @@ class FruitBox<T>
 	public T pullOut() { return item; }
 }
 
-class GenericBaseFruitBox
+class C_GenericBaseFruitBox
 {	
 	public static void main(String[] args)
 	{
@@ -35,7 +36,7 @@ class GenericBaseFruitBox
 		org.showSugarContent();
 		
 		FruitBox<Apple> apBox=new FruitBox<Apple>();
-		apBox.store(new Apple(20));
+		apBox.store(new Apple(20));//자료형의 안정성과 편의성을 둘다 갖춘 제네릭구조
 		Apple app=apBox.pullOut();
 		app.showAppleWeight();
 	}

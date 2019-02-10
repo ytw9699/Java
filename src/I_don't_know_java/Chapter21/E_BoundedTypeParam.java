@@ -1,3 +1,4 @@
+package Chapter21;
 interface SimpleInterface
 {
 	public void showYourName();
@@ -27,7 +28,7 @@ class BBB  extends UpperClass implements SimpleInterface
 	}
 }
 
-class BoundedTypeParam
+class E_BoundedTypeParam
 {	
 	public static <T> void showInstanceAncestor(T param)
 	{
