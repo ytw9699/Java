@@ -27,7 +27,7 @@ class Person implements Comparable<Person>//Comparable을 구현해야함
             return 0;//같다면 0
     }
 }
-class a06_ComparablePerson 
+class ComparablePerson 
 {
 	public static void main(String[] args)
 	{

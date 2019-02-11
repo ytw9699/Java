@@ -3,7 +3,7 @@ import java.util.TreeMap;
 import java.util.Iterator;
 import java.util.NavigableSet;
 
-class a08_IntroTreeMap
+class IntroTreeMap
 {
 	public static void main(String[] args)
 	{

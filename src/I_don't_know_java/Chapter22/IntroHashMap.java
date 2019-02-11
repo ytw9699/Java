@@ -1,7 +1,7 @@
 package Chapter22;
 import java.util.HashMap;
 
-class a07_IntroHashMap
+class IntroHashMap
 {
 	public static void main(String[] args)
 	{

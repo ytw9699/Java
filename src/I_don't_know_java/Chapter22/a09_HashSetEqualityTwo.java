@@ -27,12 +27,12 @@ class SimpleNumber2
 	}
 }
 
-class a04_HashSetEqualityTwo
+class a09_HashSetEqualityTwo
 {
 	public static void main(String[] args)
 	{
 		HashSet<SimpleNumber2> hSet=new HashSet<SimpleNumber2>();
-		hSet.add(new SimpleNumber2(10));//이 add메소드어딘가에서 해시코드와 이콜스 메소드와 연관된 부분이 작동되는듯하다 그래서 성능과 중복여부를 판단하는것이다
+		hSet.add(new SimpleNumber2(10));
 		hSet.add(new SimpleNumber2(20));
 		hSet.add(new SimpleNumber2(20));
 		

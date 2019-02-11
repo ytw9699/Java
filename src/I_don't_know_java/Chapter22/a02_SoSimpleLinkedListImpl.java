@@ -14,7 +14,7 @@ class Box<T>
 		}
 }
 
-class a01_SoSimpleLinkedListImpl
+class a02_SoSimpleLinkedListImpl
 {
 	public static void main(String[] args)
 	{

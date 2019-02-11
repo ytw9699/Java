@@ -2,7 +2,7 @@ package Chapter22;
 import java.util.Iterator;
 import java.util.TreeSet;
 
-class a05_SortTreeSet
+class SortTreeSet
 {
 	public static void main(String[] args)
 	{
