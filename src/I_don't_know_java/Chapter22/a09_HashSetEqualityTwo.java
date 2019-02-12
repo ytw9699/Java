@@ -20,7 +20,7 @@ class SimpleNumber2
 	public boolean equals(Object obj) // 이 메소드의 리턴값으로 해시셋의 중복여부를 결정한다
 	{
 		SimpleNumber2 comp=(SimpleNumber2)obj;
-		if(comp.num==num)
+		if(comp.num==num)//인스턴스 변수 num이 같을때 동일 인스턴스로 간주
 			return true;
 		else
 			return false;		

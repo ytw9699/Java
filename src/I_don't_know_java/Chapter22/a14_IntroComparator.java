@@ -1,3 +1,4 @@
+package Chapter22;
 import java.util.TreeSet;
 import java.util.Iterator;
 import java.util.Comparator;
@@ -19,7 +20,7 @@ class StrLenComparator implements Comparator<String>
 	}
 }
 
-class IntroComparator
+class a14_IntroComparator
 {
 	public static void main(String[] args)
 	{
