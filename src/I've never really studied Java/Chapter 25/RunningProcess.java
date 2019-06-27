@@ -1,4 +1,4 @@
-import java.io.*;
+ï»¿import java.io.*;
 
 class RunningProcess
 {	
@@ -8,8 +8,8 @@ class RunningProcess
 		proc.waitFor();
 		
 		if(proc.exitValue()==0)
-			System.out.println("Àß Á¾·áµÇ¾ú±º!");
+			System.out.println("ì˜ ì¢…ë£Œë˜ì—ˆêµ°!");
 		else
-			System.out.println("¹«¾ùÀÎ°¡ ¹®Á¦°¡ ÀÖ¾î!");
+			System.out.println("ë¬´ì—‡ì¸ê°€ ë¬¸ì œê°€ ìˆì–´!");
 	}
 }

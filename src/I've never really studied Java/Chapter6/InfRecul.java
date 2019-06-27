@@ -1,4 +1,4 @@
-package Chapter6;
+ï»¿package Chapter6;
 class InfRecul
 {
 	public static void main(String[] args)
@@ -9,8 +9,8 @@ class InfRecul
 	public static void showHi(int cnt)
 	{
 		System.out.println("Hi~ ");
-		showHi(cnt--);//Àç±Í°¡ Á¾·áµÇÁö¸øÇÔ..--cnt·Î ¹Ù²ã¾ßÇÔ
-		if(cnt==1)  //ÀÌ°Íµµ ¸Ş¼Òµå¿Í Àç±Í¸¦ ºÎ¸£´Â Áß°£¿¡ ³õ¿©Á®¾ßÇÔ
+		showHi(cnt--);//ì¬ê·€ê°€ ì¢…ë£Œë˜ì§€ëª»í•¨..--cntë¡œ ë°”ê¿”ì•¼í•¨
+		if(cnt==1)  //ì´ê²ƒë„ ë©”ì†Œë“œì™€ ì¬ê·€ë¥¼ ë¶€ë¥´ëŠ” ì¤‘ê°„ì— ë†“ì—¬ì ¸ì•¼í•¨
 			return;
 	}
 }

@@ -1,5 +1,5 @@
-package Chapter10;
-class Employer     /* °í¿ëÁÖ */
+ï»¿package Chapter10;
+class Employer     /* ê³ ìš©ì£¼ */
 {
 	private int myMoney;
 	
@@ -20,7 +20,7 @@ class Employer     /* °í¿ëÁÖ */
 	}	
 }
 
-class Employee   /* °í¿ëÀÎ */
+class Employee   /* ê³ ìš©ì¸ */
 {
 	private int myMoney;
 	

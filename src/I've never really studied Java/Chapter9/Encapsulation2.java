@@ -1,17 +1,17 @@
-package Chapter9;
-class SinivelCap2   // Äà¹° Ã³Ä¡¿ë Ä¸½¶
+ï»¿package Chapter9;
+class SinivelCap2   // ì½§ë¬¼ ì²˜ì¹˜ìš© ìº¡ìŠ
 {
-	public void take(){System.out.println("Äà¹°ÀÌ ½Ï~ ³³´Ï´Ù.");}
+	public void take(){System.out.println("ì½§ë¬¼ì´ ì‹¹~ ë‚©ë‹ˆë‹¤.");}
 }
 
-class SneezeCap2   // ÀçÃ¤±â Ã³Ä¡¿ë Ä¸½¶
+class SneezeCap2   // ì¬ì±„ê¸° ì²˜ì¹˜ìš© ìº¡ìŠ
 {
-	public void take() {System.out.println("ÀçÃ¤±â°¡ ¸Ü½À´Ï´Ù.");}
+	public void take() {System.out.println("ì¬ì±„ê¸°ê°€ ë©ìŠµë‹ˆë‹¤.");}
 }
 
-class SnuffleCap2   // ÄÚ¸·Èû Ã³Ä¡¿ë Ä¸½¶
+class SnuffleCap2   // ì½”ë§‰í˜ ì²˜ì¹˜ìš© ìº¡ìŠ
 {
-	public void take() {System.out.println("ÄÚ°¡ »½ ¶Õ¸³´Ï´Ù.");}
+	public void take() {System.out.println("ì½”ê°€ ë»¥ ëš«ë¦½ë‹ˆë‹¤.");}
 }
 
 class CONTAC600 
@@ -28,16 +28,16 @@ class CONTAC600
 	}
 	public void take()
 	{
-		sin.take();//ÀÌ·¯ÇÑ ¼ø¼­¸¦ Á¤ÇØÁÖ´Â°Í ÀÌ°Ô Ä¸½¶È­ÀÇ ÀåÁ¡ÀÌ´Ù
-		sne.take();//ÀÌ·¯ÇÑ ¼ø¼­¸¦ Á¤ÇØÁÖ´Â°Í ÀÌ°Ô Ä¸½¶È­ÀÇ ÀåÁ¡ÀÌ´Ù
-		snu.take();//ÀÌ·¯ÇÑ ¼ø¼­¸¦ Á¤ÇØÁÖ´Â°Í ÀÌ°Ô Ä¸½¶È­ÀÇ ÀåÁ¡ÀÌ´Ù
+		sin.take();//ì´ëŸ¬í•œ ìˆœì„œë¥¼ ì •í•´ì£¼ëŠ”ê²ƒ ì´ê²Œ ìº¡ìŠí™”ì˜ ì¥ì ì´ë‹¤
+		sne.take();//ì´ëŸ¬í•œ ìˆœì„œë¥¼ ì •í•´ì£¼ëŠ”ê²ƒ ì´ê²Œ ìº¡ìŠí™”ì˜ ì¥ì ì´ë‹¤
+		snu.take();//ì´ëŸ¬í•œ ìˆœì„œë¥¼ ì •í•´ì£¼ëŠ”ê²ƒ ì´ê²Œ ìº¡ìŠí™”ì˜ ì¥ì ì´ë‹¤
 	}
 }
 
 class ColdPatient2
 {
 	public void takeCONTAC600(CONTAC600 cap){
-		cap.take();//ÀÌ ¸Ş¼Òµå ÇÏ³ª¸¸ ¾Ë¸é ¾Ë¾Æ¼­ÇØÁÖ´Â ÀåÁ¡
+		cap.take();//ì´ ë©”ì†Œë“œ í•˜ë‚˜ë§Œ ì•Œë©´ ì•Œì•„ì„œí•´ì£¼ëŠ” ì¥ì 
 		}
 }
 

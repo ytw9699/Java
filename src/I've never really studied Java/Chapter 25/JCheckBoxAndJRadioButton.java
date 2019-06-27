@@ -1,4 +1,4 @@
-import java.awt.*;
+ï»¿import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -38,7 +38,7 @@ class JCheckBoxAndJRadioButton
 	{
 		JFrame frm=new JFrame("Choice Component");		
 		frm.setBounds(120, 120, 200, 200);
-		frm.setLayout(new GridLayout(0, 1));   /* °¡·Î´Â 1, ¼¼·Î´Â ÀÚÀ¯·Ó°Ô */
+		frm.setLayout(new GridLayout(0, 1));   /* ê°€ë¡œëŠ” 1, ì„¸ë¡œëŠ” ììœ ë¡­ê²Œ */
 		
 		JCheckBox checkBox=new JCheckBox("Are you a programmer");
 		

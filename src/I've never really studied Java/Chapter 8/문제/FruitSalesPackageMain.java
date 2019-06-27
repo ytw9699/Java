@@ -1,4 +1,4 @@
-	import orange.seller.FruitSeller;
+ï»¿	import orange.seller.FruitSeller;
 	import orange.buyer.FruitBuyer;
 	
 	class FruitSalesPackageMain
@@ -12,13 +12,13 @@
 			buyer.buyApple(seller1, 2000);
 			buyer.buyApple(seller2, 4500);
 			
-			System.out.println("°úÀÏ ÆÇ¸ÅÀÚ1ÀÇ ÇöÀç »óÈ²");
+			System.out.println("ê³¼ì¼ íŒë§¤ì1ì˜ í˜„ì¬ ìƒí™©");
 			seller1.showSaleResult();
 		
-			System.out.println("°úÀÏ ÆÇ¸ÅÀÚ2ÀÇ ÇöÀç »óÈ²");
+			System.out.println("ê³¼ì¼ íŒë§¤ì2ì˜ í˜„ì¬ ìƒí™©");
 			seller2.showSaleResult();
 			
-			System.out.println("°úÀÏ ±¸¸ÅÀÚÀÇ ÇöÀç »óÈ²");
+			System.out.println("ê³¼ì¼ êµ¬ë§¤ìì˜ í˜„ì¬ ìƒí™©");
 			buyer.showBuyResult();
 		}
 	}

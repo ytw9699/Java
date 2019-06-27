@@ -1,4 +1,4 @@
-package chapter19;
+ï»¿package chapter19;
 class MyName
 {
 	String objName;
@@ -11,7 +11,7 @@ class MyName
 	protected void finalize() throws Throwable
 	{
 		super.finalize();
-		System.out.println(objName+"ÀÌ ¼Ò¸êµÇ¾ú½À´Ï´Ù.");
+		System.out.println(objName+"ì´ ì†Œë©¸ë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 }
 
@@ -19,14 +19,14 @@ class A_ObjectFinalize
 {	
 	public static void main(String[] args)
 	{
-		MyName obj1=new MyName("ÀÎ½ºÅÏ½º1");
-		MyName obj2=new MyName("ÀÎ½ºÅÏ½º2");
+		MyName obj1=new MyName("ì¸ìŠ¤í„´ìŠ¤1");
+		MyName obj2=new MyName("ì¸ìŠ¤í„´ìŠ¤2");
 		obj1=null;
 		obj2=null;
 		
-		System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
-		//°¡ºñÁöÄÃ·ºÅÍ°¡ ½ÇÇàÀÌ ¾ÈµÉ¼öµµÀÖ±â ¶§¹®¿¡ ¾Æ·¡Ã³·³ ½ÇÇàÇØÁØ°Å
-		 //System.gc();//°¡ºñÁö ÄÃ·ºÅÍ ½ÇÇà
-		// System.runFinalization();//finalize ¸Ş¼Òµå ½ÇÇà
+		System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
+		//ê°€ë¹„ì§€ì»¬ë ‰í„°ê°€ ì‹¤í–‰ì´ ì•ˆë ìˆ˜ë„ìˆê¸° ë•Œë¬¸ì— ì•„ë˜ì²˜ëŸ¼ ì‹¤í–‰í•´ì¤€ê±°
+		 //System.gc();//ê°€ë¹„ì§€ ì»¬ë ‰í„° ì‹¤í–‰
+		// System.runFinalization();//finalize ë©”ì†Œë“œ ì‹¤í–‰
 	}
 }

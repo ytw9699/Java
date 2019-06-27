@@ -1,4 +1,4 @@
-package Chapter12;
+ï»¿package Chapter12;
 class Friend
 {
 	String myName;
@@ -9,7 +9,7 @@ class Friend
 	
 	public String toString()
 	{
-		return "Á¦ ÀÌ¸§Àº "+myName+"ÀÔ´Ï´Ù.";
+		return "ì œ ì´ë¦„ì€ "+myName+"ì…ë‹ˆë‹¤.";
 	}	
 }
 
@@ -17,14 +17,14 @@ class StringToString
 {
 	public static void main(String[] args)
 	{		
-		Friend fnd1=new Friend("ÀÌÁ¾¼ö");
-		Friend fnd2=new Friend("ÇöÁÖÀº");
+		Friend fnd1=new Friend("ì´ì¢…ìˆ˜");
+		Friend fnd2=new Friend("í˜„ì£¼ì€");
 		
 		System.out.println(fnd1);
 		System.out.println(fnd2);
 		
-		System.out.print("Ãâ·ÂÀÌ ");
-		System.out.print("Á¾·áµÇ¾ú½À´Ï´Ù.");
+		System.out.print("ì¶œë ¥ì´ ");
+		System.out.print("ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 		System.out.println("");
 	}
 }

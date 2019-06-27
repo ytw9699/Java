@@ -1,4 +1,4 @@
-class Calculator
+ï»¿class Calculator
 {
 	int opCnt=0;
 	
@@ -14,7 +14,7 @@ class Calculator
 	}
 	public void showOpCnt()
 	{
-		System.out.println("ÃÑ ¿¬»ê È½¼ö: "+opCnt);
+		System.out.println("ì´ ì—°ì‚° íšŸìˆ˜: "+opCnt);
 	}
 }
 

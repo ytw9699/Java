@@ -1,4 +1,4 @@
-package chapter19;
+﻿package chapter19;
 class Point2 implements Cloneable
 {
 	private int xPos;

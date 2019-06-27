@@ -1,13 +1,13 @@
-package Chapter5;
+ï»¿package Chapter5;
 class DupFor
 {
 	public static void main(String[] args)
 	{
 		for(int i=0; i<3; i++)
 		{
-			System.out.println("º¯¼ö iÀÇ  °ª: " + i);
+			System.out.println("ë³€ìˆ˜ iì˜  ê°’: " + i);
 			for(int j=0; j<3; j++)
-				System.out.println("***º¯¼ö jÀÇ °ª: " + j);
+				System.out.println("***ë³€ìˆ˜ jì˜ ê°’: " + j);
 		}
 	}
 }

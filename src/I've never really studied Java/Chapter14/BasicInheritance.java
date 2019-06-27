@@ -1,4 +1,4 @@
-package Chapter14;
+ï»¿package Chapter14;
 class Man
 {
 	String name;
@@ -8,8 +8,8 @@ class Man
 
 class BusinessMan extends Man
 {
-	String company; 	// È¸»çÀÌ¸§
-	String position;	// Á÷±Ş
+	String company; 	// íšŒì‚¬ì´ë¦„
+	String position;	// ì§ê¸‰
 	public BusinessMan(String name, String company, String position)
 	{
 		super(name);
@@ -20,7 +20,7 @@ class BusinessMan extends Man
 	{
 		System.out.println("My company is "+company);
 		System.out.println("My position is "+position);
-		tellYourName();   	// Man Å¬·¡½º¸¦ »ó¼ÓÇß±â ¶§¹®¿¡ È£Ãâ °¡´É!
+		tellYourName();   	// Man í´ë˜ìŠ¤ë¥¼ ìƒì†í–ˆê¸° ë•Œë¬¸ì— í˜¸ì¶œ ê°€ëŠ¥!
 	}
 }
 

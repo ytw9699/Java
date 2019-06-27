@@ -1,4 +1,4 @@
-package chapter19;
+ï»¿package chapter19;
 class Person implements Cloneable
 {
 	private String name;
@@ -15,8 +15,8 @@ class Person implements Cloneable
 	}
 	public void showPersonInfo()
 	{
-		System.out.println("ÀÌ¸§: "+ name);
-		System.out.println("³ªÀÌ: "+ age);
+		System.out.println("ì´ë¦„: "+ name);
+		System.out.println("ë‚˜ì´: "+ age);
 		System.out.println("");
 	}
 	public Object clone() throws CloneNotSupportedException
@@ -32,13 +32,13 @@ class H_StringClone
 	{
 		try
 		{
-			Person p1=new Person("ÀÌ½Â¿ø", 22);
+			Person p1=new Person("ì´ìŠ¹ì›", 22);
 	
 			Person p2=(Person)p1.clone();
-			p2.changeName("Á¤Çı¿µ");
+			p2.changeName("ì •í˜œì˜");
 			
 			Person p3=(Person)p2.clone();
-			p3.changeName("Á¤½ÂÁÖ");
+			p3.changeName("ì •ìŠ¹ì£¼");
 			
 			p1.showPersonInfo();
 			p2.showPersonInfo();

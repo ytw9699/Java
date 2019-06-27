@@ -1,4 +1,4 @@
-import java.awt.*;
+ï»¿import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -6,7 +6,7 @@ class MouseEventHandler implements MouseListener
 {
 	public void mouseClicked(MouseEvent e)
 	{
-		System.out.println("¸¶¿ì½º ¹öÆ° ´­·È´Ù Ç®¸²");
+		System.out.println("ë§ˆìš°ìŠ¤ ë²„íŠ¼ ëˆŒë ¸ë‹¤ í’€ë¦¼");
 	}
 	
 	public void mouseEntered(MouseEvent e) { }

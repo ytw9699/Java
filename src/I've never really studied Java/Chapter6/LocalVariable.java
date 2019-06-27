@@ -1,4 +1,4 @@
-package Chapter6;
+﻿package Chapter6;
 class LocalVariable
 {	
 	public static void main(String[] args)

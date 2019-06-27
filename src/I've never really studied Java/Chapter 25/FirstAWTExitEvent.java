@@ -1,4 +1,4 @@
-import java.awt.*;
+ï»¿import java.awt.*;
 import java.awt.event.*;
 
 class FirstAWTExitEvent
@@ -13,7 +13,7 @@ class FirstAWTExitEvent
 		{
 			public void windowClosing(WindowEvent ev)
 			{
-				System.exit(0);	// ÇÁ·Î±×·¥ÀÇ Á¾·á¸¦ ¸í·ÉÇÏ´Â ¸Ş¼Òµå 
+				System.exit(0);	// í”„ë¡œê·¸ë¨ì˜ ì¢…ë£Œë¥¼ ëª…ë ¹í•˜ëŠ” ë©”ì†Œë“œ 
 			}
 		};
 		

@@ -1,4 +1,4 @@
-package Chapter10;
+ï»¿package Chapter10;
 
 class InstCnt2
 {
@@ -7,7 +7,7 @@ class InstCnt2
 	public InstCnt2()
 	{
 		instNum++;
-		System.out.println("ÀÎ½ºÅÏ½º »ı¼º: "+instNum);
+		System.out.println("ì¸ìŠ¤í„´ìŠ¤ ìƒì„±: "+instNum);
 	}
 }
 

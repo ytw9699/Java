@@ -1,19 +1,19 @@
-package Chapter18;
+ï»¿package Chapter18;
 class FinallyTest
 {	
 	public static void main(String[] args)
 	{
 		boolean divOK=divider(4, 2);
 		if(divOK)
-			System.out.println("¿¬»ê ¼º°ø");
+			System.out.println("ì—°ì‚° ì„±ê³µ");
 		else
-			System.out.println("¿¬»ê ½ÇÆĞ");
+			System.out.println("ì—°ì‚° ì‹¤íŒ¨");
 		
 		divOK=divider(4, 0);
 		if(divOK)
-			System.out.println("¿¬»ê ¼º°ø");
+			System.out.println("ì—°ì‚° ì„±ê³µ");
 		else
-			System.out.println("¿¬»ê ½ÇÆĞ");
+			System.out.println("ì—°ì‚° ì‹¤íŒ¨");
 	}
 	
 	public static boolean divider(int num1, int num2)
@@ -21,7 +21,7 @@ class FinallyTest
 		try
 		{
 			int result=num1/num2;
-			System.out.println("³ª´°¼À °á°ú´Â "+result);
+			System.out.println("ë‚˜ëˆ—ì…ˆ ê²°ê³¼ëŠ” "+result);
 			return true;
 		}
 		catch(ArithmeticException e)
@@ -31,7 +31,7 @@ class FinallyTest
 		}
 		finally
 		{
-			System.out.println("finally ¿µ¿ª ½ÇÇà");
+			System.out.println("finally ì˜ì—­ ì‹¤í–‰");
 		}
 	}
 }

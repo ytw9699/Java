@@ -1,4 +1,4 @@
-	package orange.buyer;
+ï»¿	package orange.buyer;
 	
 	import orange.seller.FruitSeller;
 	
@@ -20,7 +20,7 @@
 		}
 		public void showBuyResult()
 		{
-			System.out.println("ÇöÀç ÀÜ¾×: " + myMoney);
-			System.out.println("»ç°ú °³¼ö: " + numOfApple);
+			System.out.println("í˜„ìž¬ ìž”ì•¡: " + myMoney);
+			System.out.println("ì‚¬ê³¼ ê°œìˆ˜: " + numOfApple);
 		}
 	}

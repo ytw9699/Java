@@ -1,7 +1,7 @@
-package Chapter17;
+ï»¿package Chapter17;
 import java.util.Scanner;
 
-abstract class Friend //abstract¼±¾ğ, ÀÎ½ºÅÏ½º »ı¼º¾ÈµÈ´Ù
+abstract class Friend //abstractì„ ì–¸, ì¸ìŠ¤í„´ìŠ¤ ìƒì„±ì•ˆëœë‹¤
 {
 	String name;
 	String phoneNum;
@@ -15,14 +15,14 @@ abstract class Friend //abstract¼±¾ğ, ÀÎ½ºÅÏ½º »ı¼º¾ÈµÈ´Ù
 	}
 	void showData()
 	{
-		System.out.println("ÀÌ¸§ : "+name);
-		System.out.println("ÀüÈ­ : "+phoneNum);
-		System.out.println("ÁÖ¼Ò : "+addr);
+		System.out.println("ì´ë¦„ : "+name);
+		System.out.println("ì „í™” : "+phoneNum);
+		System.out.println("ì£¼ì†Œ : "+addr);
 	}
-	abstract void showBasicInfo();//¸Ş¼ÒµåÁß¿¡ ÇÏ³ª¶óµµ abstract °¡ÀÖÀ¸¸é abstractÅ¬·¡½ºÀÌ´Ù
+	abstract void showBasicInfo();//ë©”ì†Œë“œì¤‘ì— í•˜ë‚˜ë¼ë„ abstract ê°€ìˆìœ¼ë©´ abstractí´ë˜ìŠ¤ì´ë‹¤
 }
 
-class HighFriend extends Friend		// °í±³µ¿Ã¢
+class HighFriend extends Friend		// ê³ êµë™ì°½
 {
 	String work;
 	
@@ -34,18 +34,18 @@ class HighFriend extends Friend		// °í±³µ¿Ã¢
 	void showData()
 	{
 		super.showData();
-		System.out.println("Á÷¾÷ : "+work);
+		System.out.println("ì§ì—… : "+work);
 	}
-	void showBasicInfo()//¿À¹ö¶óÀÌµù ¾ÈÇØÁÖ¸é ÀÌ¸Ş¼Òµå´Â Ãß»ó¸Ş¼ÒµåÀÌ±â¶§¹®¿¡ ÀÌÅ¬·¡½ºµµ abstractÅ¬·¡½º°¡ µÇ¾î¾ßÇÑ´Ù
+	void showBasicInfo()//ì˜¤ë²„ë¼ì´ë”© ì•ˆí•´ì£¼ë©´ ì´ë©”ì†Œë“œëŠ” ì¶”ìƒë©”ì†Œë“œì´ê¸°ë•Œë¬¸ì— ì´í´ë˜ìŠ¤ë„ abstractí´ë˜ìŠ¤ê°€ ë˜ì–´ì•¼í•œë‹¤
 	{
-		System.out.println("ÀÌ¸§ : "+name);
-		System.out.println("ÀüÈ­ : "+phoneNum);
+		System.out.println("ì´ë¦„ : "+name);
+		System.out.println("ì „í™” : "+phoneNum);
 	}
 }
 
-class UnivFriend extends Friend 	// ´ëÇĞÄ£±¸
+class UnivFriend extends Friend 	// ëŒ€í•™ì¹œêµ¬
 {
-	String major;		// Àü°øÇĞ°ú
+	String major;		// ì „ê³µí•™ê³¼
 	public UnivFriend(String name, String phone, String addr, String major)
 	{
 		super(name, phone, addr);
@@ -54,13 +54,13 @@ class UnivFriend extends Friend 	// ´ëÇĞÄ£±¸
 	void showData()
 	{
 		super.showData();
-		System.out.println("Àü°ø : "+major);
+		System.out.println("ì „ê³µ : "+major);
 	}
 	void showBasicInfo()
 	{
-		System.out.println("ÀÌ¸§ : "+name);
-		System.out.println("ÀüÈ­ : "+phoneNum);
-		System.out.println("Àü°ø : "+major);
+		System.out.println("ì´ë¦„ : "+name);
+		System.out.println("ì „í™” : "+phoneNum);
+		System.out.println("ì „ê³µ : "+major);
 	}
 }
 
@@ -85,21 +85,21 @@ class FriendInfoHandler
 		String name, phoneNum, addr, job, major;
 		
 		Scanner sc=new Scanner(System.in);		
-		System.out.print("ÀÌ¸§ : "); name=sc.nextLine();
-		System.out.print("ÀüÈ­ : "); phoneNum=sc.nextLine();
-		System.out.print("ÁÖ¼Ò : "); addr=sc.nextLine();
+		System.out.print("ì´ë¦„ : "); name=sc.nextLine();
+		System.out.print("ì „í™” : "); phoneNum=sc.nextLine();
+		System.out.print("ì£¼ì†Œ : "); addr=sc.nextLine();
 		
 		if(choice==1)
 		{
-			System.out.print("Á÷¾÷ : "); job=sc.nextLine();
+			System.out.print("ì§ì—… : "); job=sc.nextLine();
 			addFriendInfo(new HighFriend(name, phoneNum, addr, job));
 		}
 		else	// if(choice==2)
 		{
-			System.out.print("ÇĞ°ú : "); major=sc.nextLine();
+			System.out.print("í•™ê³¼ : "); major=sc.nextLine();
 			addFriendInfo(new UnivFriend(name, phoneNum, addr, major));
 		}
-		System.out.println("ÀÔ·Â ¿Ï·á! \n");
+		System.out.println("ì…ë ¥ ì™„ë£Œ! \n");
 	}
 	
 	public void showAllData()
@@ -129,13 +129,13 @@ class MyFriendInfoBook2
 		
 		while(true)
 		{			
-			System.out.println("*** ¸Ş´º ¼±ÅÃ ***");
-			System.out.println("1. °í±³ Á¤º¸ ÀúÀå");
-			System.out.println("2. ´ëÇĞ Ä£±¸ ÀúÀå");
-			System.out.println("3. ÀüÃ¼ Á¤º¸ Ãâ·Â");
-			System.out.println("4. ±âº» Á¤º¸ Ãâ·Â");			
-			System.out.println("5. ÇÁ·Î±×·¥ Á¾·á");
-			System.out.print("¼±ÅÃ>> ");
+			System.out.println("*** ë©”ë‰´ ì„ íƒ ***");
+			System.out.println("1. ê³ êµ ì •ë³´ ì €ì¥");
+			System.out.println("2. ëŒ€í•™ ì¹œêµ¬ ì €ì¥");
+			System.out.println("3. ì „ì²´ ì •ë³´ ì¶œë ¥");
+			System.out.println("4. ê¸°ë³¸ ì •ë³´ ì¶œë ¥");			
+			System.out.println("5. í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
+			System.out.print("ì„ íƒ>> ");
 			
 			Scanner sc=new Scanner(System.in);
 			int choice=sc.nextInt();
@@ -152,7 +152,7 @@ class MyFriendInfoBook2
 				handler.showAllSimpleData();
 				break;
 			case 5:
-				System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 				return;
 			}
 		}

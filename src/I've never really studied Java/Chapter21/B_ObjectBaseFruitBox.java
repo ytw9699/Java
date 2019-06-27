@@ -1,11 +1,11 @@
-package Chapter21;
+ï»¿package Chapter21;
 class Orange2
 {
-	int sugarContent;	// ´çºĞ ÇÔ·®
+	int sugarContent;	// ë‹¹ë¶„ í•¨ëŸ‰
 	public Orange2(int sugar) { sugarContent=sugar; }
 	public void showSugarContent()
 	{ 
-		System.out.println("´çµµ "+sugarContent);
+		System.out.println("ë‹¹ë„ "+sugarContent);
 	}
 }
 
@@ -26,8 +26,8 @@ class B_ObjectBaseFruitBox
 		org1.showSugarContent();
 		
 		FruitBox2 fBox2=new FruitBox2();
-		fBox2.store("¿À·»Áö");//ÀÚ·áÇü¿¡ ¾ÈÀüÇÑ ÇüÅÂ°¡ ¾Æ´Ï´Ù
-		Orange2 org2=(Orange2)fBox2.pullOut();//¿¹¿Ü ¹ß»ıÁöÁ¡	
+		fBox2.store("ì˜¤ë Œì§€");//ìë£Œí˜•ì— ì•ˆì „í•œ í˜•íƒœê°€ ì•„ë‹ˆë‹¤
+		Orange2 org2=(Orange2)fBox2.pullOut();//ì˜ˆì™¸ ë°œìƒì§€ì 	
 		org2.showSugarContent();
 	}
 }

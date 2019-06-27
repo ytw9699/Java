@@ -1,4 +1,4 @@
-package Chapter7;
+ï»¿package Chapter7;
 class Number
 {
 	int num;
@@ -6,7 +6,7 @@ class Number
 	public Number()
 	{
 		num=10;
-		System.out.println("»ı¼ºÀÚ È£Ãâ!");
+		System.out.println("ìƒì„±ì í˜¸ì¶œ!");
 	}
 	public int getNumber()
 	{

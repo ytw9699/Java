@@ -1,4 +1,4 @@
-package Chapter14;
+ï»¿package Chapter14;
 class Accumulator
 {
 	private int val;
@@ -6,7 +6,7 @@ class Accumulator
 	Accumulator(int init){val=init;}	
 	protected void accumulate(int num)
 	{
-		if(num<0)      // À½¼ö´Â ´©Àû ´ë»ó¿¡¼­ Á¦¿Ü!
+		if(num<0)      // ìŒìˆ˜ëŠ” ëˆ„ì  ëŒ€ìƒì—ì„œ ì œì™¸!
 			return;
 		val+=num;
 	}
@@ -17,7 +17,7 @@ class SavingAccount extends Accumulator
 {
 	public SavingAccount(int initDep)
 	{
-		super(initDep);      // ÅëÀå°³¼³ ½Ã Ã¹ ÀÔ±Ý¾×
+		super(initDep);      // í†µìž¥ê°œì„¤ ì‹œ ì²« ìž…ê¸ˆì•¡
 	}
 	public void saveMoney(int money)
 	{
@@ -25,7 +25,7 @@ class SavingAccount extends Accumulator
 	}
 	public void showSavedMoney()
 	{
-		System.out.print("Áö±Ý±îÁöÀÇ ´©Àû±Ý¾×: ");
+		System.out.print("ì§€ê¸ˆê¹Œì§€ì˜ ëˆ„ì ê¸ˆì•¡: ");
 		System.out.println(getAccVal());
 	}
 }

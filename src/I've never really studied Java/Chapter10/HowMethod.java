@@ -1,5 +1,5 @@
-package Chapter10;
-class SimpleMath    // ´Ü¼ø °è»ê Å¬·¡½º
+ï»¿package Chapter10;
+class SimpleMath    // ë‹¨ìˆœ ê³„ì‚° í´ë˜ìŠ¤
 {
 	public static final double PI=3.1415;	
 	public double add(double n1, double n2){ return n1+n2; }
@@ -7,7 +7,7 @@ class SimpleMath    // ´Ü¼ø °è»ê Å¬·¡½º
 	public double mul(double n1, double n2){ return n1*n2; }
 }
 
-class AreaMath    // ³ĞÀÌ °è»ê Å¬·¡½º
+class AreaMath    // ë„“ì´ ê³„ì‚° í´ë˜ìŠ¤
 {	
 	public double calCircleArea(double rad)
 	{
@@ -23,7 +23,7 @@ class AreaMath    // ³ĞÀÌ °è»ê Å¬·¡½º
 	}
 }
 
-class PerimeterMath    // µÑ·¹ °è»ê Å¬·¡½º
+class PerimeterMath    // ë‘˜ë ˆ ê³„ì‚° í´ë˜ìŠ¤
 {	
 	public double calCirclePeri(double rad)
 	{
@@ -46,7 +46,7 @@ class HowMethod
 		AreaMath am=new AreaMath();
 		PerimeterMath pm=new PerimeterMath();
 		
-		System.out.println("¿øÀÇ ³ĞÀÌ: "+am.calCircleArea(2.4));
-		System.out.println("Á÷»ç°¢Çü µÑ·¹: "+pm.calRectanglePeri(2.0, 4.0));
+		System.out.println("ì›ì˜ ë„“ì´: "+am.calCircleArea(2.4));
+		System.out.println("ì§ì‚¬ê°í˜• ë‘˜ë ˆ: "+pm.calRectanglePeri(2.0, 4.0));
 	}
 }

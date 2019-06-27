@@ -1,4 +1,4 @@
-package Chapter5;
+ï»¿package Chapter5;
 class BreakBasic
 {
 	public static void main(String[] args)
@@ -17,8 +17,8 @@ class BreakBasic
 		}
 		
 		if(search)
-			System.out.println("Ã£´Â Á¤¼ö : " + num);
+			System.out.println("ì°¾ëŠ” ì •ìˆ˜ : " + num);
 		else
-			System.out.println("5ÀÇ ¹è¼öÀÌÀÚ 7ÀÇ ¹è¼ö¸¦ Ã£Áö ¸øÇß½À´Ï´Ù.");
+			System.out.println("5ì˜ ë°°ìˆ˜ì´ì 7ì˜ ë°°ìˆ˜ë¥¼ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤.");
 	}
 }

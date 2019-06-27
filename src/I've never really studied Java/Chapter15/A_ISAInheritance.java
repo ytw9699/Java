@@ -1,5 +1,5 @@
-package Chapter15;
-//»ó¼ÓÀÇ °ü°è¸¸ ÆÄ¾ÇÇÏÀÚ
+ï»¿package Chapter15;
+//ìƒì†ì˜ ê´€ê³„ë§Œ íŒŒì•…í•˜ì
 class Computer
 {
 	String owner;
@@ -9,7 +9,7 @@ class Computer
 		}
 	public void calculate()
 	{
-		System.out.println("¿äÃ» ³»¿ëÀ» °è»êÇÕ´Ï´Ù.");
+		System.out.println("ìš”ì²­ ë‚´ìš©ì„ ê³„ì‚°í•©ë‹ˆë‹¤.");
 	}
 }
 
@@ -30,11 +30,11 @@ class NotebookComp extends Computer
 	{
 		if(battary<1)
 		{
-			System.out.println("ÃæÀüÀÌ ÇÊ¿äÇÕ´Ï´Ù.");
+			System.out.println("ì¶©ì „ì´ í•„ìš”í•©ë‹ˆë‹¤.");
 			return;
 		}
 	
-		System.out.print("ÀÌµ¿ÇÏ¸é¼­ ");
+		System.out.print("ì´ë™í•˜ë©´ì„œ ");
 		calculate();
 		battary-=1;		
 	}
@@ -54,17 +54,17 @@ class TabletNotebook extends NotebookComp
 	{
 		if(battary<1)
 		{
-			System.out.println("ÃæÀüÀÌ ÇÊ¿äÇÕ´Ï´Ù.");	
+			System.out.println("ì¶©ì „ì´ í•„ìš”í•©ë‹ˆë‹¤.");	
 			return;
 		}
 		
 		if(regstPenModel.compareTo(penInfo)!=0)
 		{
-			System.out.println("µî·ÏµÈ ÆæÀÌ ¾Æ´Õ´Ï´Ù.");
+			System.out.println("ë“±ë¡ëœ íœì´ ì•„ë‹™ë‹ˆë‹¤.");
 			return;
 		}
 
-		System.out.println("ÇÊ±â ³»¿ëÀ» Ã³¸®ÇÕ´Ï´Ù.");
+		System.out.println("í•„ê¸° ë‚´ìš©ì„ ì²˜ë¦¬í•©ë‹ˆë‹¤.");
 		battary-=1;		
 	}
 }
@@ -73,8 +73,8 @@ class A_ISAInheritance
 {
 	public static void main(String[] args)
 	{
-		NotebookComp nc=new NotebookComp("ÀÌ¼öÁ¾", 5);
-		TabletNotebook tn=new TabletNotebook("Á¤¼ö¿µ", 5, "ISE-241-242");
+		NotebookComp nc=new NotebookComp("ì´ìˆ˜ì¢…", 5);
+		TabletNotebook tn=new TabletNotebook("ì •ìˆ˜ì˜", 5, "ISE-241-242");
 		
 		nc.movingCal();
 		tn.write("ISE-241-242");

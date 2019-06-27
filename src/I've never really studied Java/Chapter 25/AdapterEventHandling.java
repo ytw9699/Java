@@ -1,11 +1,11 @@
-import javax.swing.*;
+ï»¿import javax.swing.*;
 import java.awt.event.*;
 
 class MouseEventHandler extends MouseAdapter
 {
 	public void mouseClicked(MouseEvent e)
 	{
-		System.out.println("¸¶¿ì½º ¹öÆ° ´­·È´Ù Ç®¸²");
+		System.out.println("ë§ˆìš°ìŠ¤ ë²„íŠ¼ ëˆŒë ¸ë‹¤ í’€ë¦¼");
 	}
 }
 

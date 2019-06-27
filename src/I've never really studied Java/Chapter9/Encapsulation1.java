@@ -1,17 +1,17 @@
-package Chapter9;
-class SinivelCap   // Äà¹° Ã³Ä¡¿ë Ä¸½¶
+ï»¿package Chapter9;
+class SinivelCap   // ì½§ë¬¼ ì²˜ì¹˜ìš© ìº¡ìŠ
 {
-	public void take(){System.out.println("Äà¹°ÀÌ ½Ï~ ³³´Ï´Ù.");}
+	public void take(){System.out.println("ì½§ë¬¼ì´ ì‹¹~ ë‚©ë‹ˆë‹¤.");}
 }
 
-class SneezeCap   // ÀçÃ¤±â Ã³Ä¡¿ë Ä¸½¶
+class SneezeCap   // ì¬ì±„ê¸° ì²˜ì¹˜ìš© ìº¡ìŠ
 {
-	public void take() {System.out.println("ÀçÃ¤±â°¡ ¸Ü½À´Ï´Ù.");}
+	public void take() {System.out.println("ì¬ì±„ê¸°ê°€ ë©ìŠµë‹ˆë‹¤.");}
 }
 
-class SnuffleCap   // ÄÚ¸·Èû Ã³Ä¡¿ë Ä¸½¶
+class SnuffleCap   // ì½”ë§‰í˜ ì²˜ì¹˜ìš© ìº¡ìŠ
 {
-	public void take() {System.out.println("ÄÚ°¡ »½ ¶Õ¸³´Ï´Ù.");}
+	public void take() {System.out.println("ì½”ê°€ ë»¥ ëš«ë¦½ë‹ˆë‹¤.");}
 }
 
 class ColdPatient

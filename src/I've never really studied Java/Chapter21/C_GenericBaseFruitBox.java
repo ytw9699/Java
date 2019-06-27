@@ -1,21 +1,21 @@
-package Chapter21;
+ï»¿package Chapter21;
 class Orange
 {
-	int sugarContent;	// ´çºĞ ÇÔ·®
+	int sugarContent;	// ë‹¹ë¶„ í•¨ëŸ‰
 	public Orange(int sugar) { sugarContent=sugar; }
 	public void showSugarContent()
 	{ 
-		System.out.println("´çµµ "+sugarContent);
+		System.out.println("ë‹¹ë„ "+sugarContent);
 	}
 }
 
 class Apple
 {
-	int weight;	// »ç°úÀÇ ¹«°Ô
+	int weight;	// ì‚¬ê³¼ì˜ ë¬´ê²Œ
 	public Apple(int weight) { this.weight=weight; }
 	public void showAppleWeight()
 	{ 
-		System.out.println("¹«°Ô "+weight);
+		System.out.println("ë¬´ê²Œ "+weight);
 	}	
 }
 
@@ -36,7 +36,7 @@ class C_GenericBaseFruitBox
 		org.showSugarContent();
 		
 		FruitBox<Apple> apBox=new FruitBox<Apple>();
-		apBox.store(new Apple(20));//ÀÚ·áÇüÀÇ ¾ÈÁ¤¼º°ú ÆíÀÇ¼ºÀ» µÑ´Ù °®Ãá Á¦³×¸¯±¸Á¶
+		apBox.store(new Apple(20));//ìë£Œí˜•ì˜ ì•ˆì •ì„±ê³¼ í¸ì˜ì„±ì„ ë‘˜ë‹¤ ê°–ì¶˜ ì œë„¤ë¦­êµ¬ì¡°
 		Apple app=apBox.pullOut();
 		app.showAppleWeight();
 	}

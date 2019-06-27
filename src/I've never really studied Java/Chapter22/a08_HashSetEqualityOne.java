@@ -1,4 +1,4 @@
-package Chapter22;
+ï»¿package Chapter22;
 import java.util.Iterator;
 import java.util.HashSet;
 
@@ -11,8 +11,8 @@ class SimpleNumber
 	}
 	public String toString()
 	{
-		return String.valueOf(num);//int¸¦ ½ºÆ®¸µÀ¸·Î
-		//String Å¬·¡½ºÀÇ static ¸Ş¼ÒµåÀÎ valueOf ´Â ±âº» ÀÚ·áÇü µ¥ÀÌÅÍ¸¦ String ÀÎ½ºÅÏ½º·Î º¯È¯ÇØ ÁØ´Ù.
+		return String.valueOf(num);//intë¥¼ ìŠ¤íŠ¸ë§ìœ¼ë¡œ
+		//String í´ë˜ìŠ¤ì˜ static ë©”ì†Œë“œì¸ valueOf ëŠ” ê¸°ë³¸ ìë£Œí˜• ë°ì´í„°ë¥¼ String ì¸ìŠ¤í„´ìŠ¤ë¡œ ë³€í™˜í•´ ì¤€ë‹¤.
 	}
 }
 
@@ -23,11 +23,11 @@ class a08_HashSetEqualityOne
 		HashSet<SimpleNumber> hSet=new HashSet<SimpleNumber>();
 		hSet.add(new SimpleNumber(10));
 		hSet.add(new SimpleNumber(20));
-		hSet.add(new SimpleNumber(20));//ÀÎ½ºÅÍ½º¸¶´Ù ´Ù¸¥ÁÖ¼Ò°ªÀÌ´Ï±î ´Ù¸¥ °É·Î ÀÎ½ÄÇØ¼­ Áßº¹°ªÀÌ Ãâ·Â
-		//HashSetÀº equals¸Ş¼Òµå·Î µ¿µîºñ±³¸¦ ÇÑ´Ù equals¸Ş¼Òµå´Â ÁÖ¼Ò°ªÀ» ºñ±³ÇÑ´Ù.
-		//°°Àº°ªÀ¸·Î ÀÎ½ÄÇÏ±æ ¿øÇÑ´Ù¸é ³»°¡ equals¸Ş¼Òµå¸¦ ¿À¹ö¶óÀÌµùÇØ¾ßÇÑ´Ù
+		hSet.add(new SimpleNumber(20));//ì¸ìŠ¤í„°ìŠ¤ë§ˆë‹¤ ë‹¤ë¥¸ì£¼ì†Œê°’ì´ë‹ˆê¹Œ ë‹¤ë¥¸ ê±¸ë¡œ ì¸ì‹í•´ì„œ ì¤‘ë³µê°’ì´ ì¶œë ¥
+		//HashSetì€ equalsë©”ì†Œë“œë¡œ ë™ë“±ë¹„êµë¥¼ í•œë‹¤ equalsë©”ì†Œë“œëŠ” ì£¼ì†Œê°’ì„ ë¹„êµí•œë‹¤.
+		//ê°™ì€ê°’ìœ¼ë¡œ ì¸ì‹í•˜ê¸¸ ì›í•œë‹¤ë©´ ë‚´ê°€ equalsë©”ì†Œë“œë¥¼ ì˜¤ë²„ë¼ì´ë”©í•´ì•¼í•œë‹¤
 		
-		System.out.println("ÀúÀåµÈ µ¥ÀÌÅÍ ¼ö: "+hSet.size());
+		System.out.println("ì €ì¥ëœ ë°ì´í„° ìˆ˜: "+hSet.size());
 		
 		Iterator<SimpleNumber> itr=hSet.iterator();
 		

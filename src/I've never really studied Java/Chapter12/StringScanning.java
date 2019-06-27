@@ -1,4 +1,4 @@
-package Chapter12;
+ï»¿package Chapter12;
 import java.util.Scanner;
 class StringScanning
 {
@@ -13,7 +13,7 @@ class StringScanning
 		int sum=num1+num2+num3;
 		
 		System.out.printf(
-			"¹®ÀÚ¿­¿¡ ÀúÀåµÈ %d, %d, %dÀÇ ÇÕÀº %d \n", 
+			"ë¬¸ìì—´ì— ì €ì¥ëœ %d, %d, %dì˜ í•©ì€ %d \n", 
 			num1, num2,num3, sum);
 	}
 }

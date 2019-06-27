@@ -1,4 +1,4 @@
-import java.io.*;
+ï»¿import java.io.*;
 
 class Circle implements Serializable
 {
@@ -24,7 +24,7 @@ class ObjectSerializable
 	public static void main(String[] args) 
 					throws IOException, ClassNotFoundException
 	{
-		/* ÀÎ½ºÅÏ½º ÀúÀå */
+		/* ì¸ìŠ¤í„´ìŠ¤ ì €ì¥ */
 		ObjectOutputStream out= 
 			new ObjectOutputStream(new FileOutputStream("Object.ser"));
 		
@@ -33,7 +33,7 @@ class ObjectSerializable
 		out.writeObject(new String("String implements Serializable"));
 		out.close();
 		
-		/* ÀÎ½ºÅÏ½º º¹¿ø */
+		/* ì¸ìŠ¤í„´ìŠ¤ ë³µì› */
 		ObjectInputStream in=
 			new ObjectInputStream(new FileInputStream("Object.ser"));
 		Circle cl1=(Circle)in.readObject();
@@ -41,7 +41,7 @@ class ObjectSerializable
 		String message=(String)in.readObject();
 		in.close();
 		
-		/* º¹¿øµÈ Á¤º¸ Ãâ·Â */
+		/* ë³µì›ëœ ì •ë³´ ì¶œë ¥ */
 		cl1.showCirlceInfo();
 		cl2.showCirlceInfo();
 		System.out.println(message);

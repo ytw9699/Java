@@ -1,4 +1,4 @@
-package chapter19;
+ï»¿package chapter19;
 class IntNumber2
 {
 	int num;
@@ -8,7 +8,7 @@ class IntNumber2
 		this.num=num;
 	}
 	
-	public boolean equals(Object obj)//¿À¹ö¶óÀÌµå·Î ºñ±³ÇÏ´Â°Í
+	public boolean equals(Object obj)//ì˜¤ë²„ë¼ì´ë“œë¡œ ë¹„êµí•˜ëŠ”ê²ƒ
 	{
 		if(this.num==((IntNumber2)obj).num)
 			return true;
@@ -26,13 +26,13 @@ class D_ObjectEquality2
 		IntNumber2 num3=new IntNumber2(10);
 		
 		if(num1.equals(num2))
-			System.out.println("num1°ú num2´Â µ¿ÀÏÇÑ Á¤¼ö");
+			System.out.println("num1ê³¼ num2ëŠ” ë™ì¼í•œ ì •ìˆ˜");
 		else
-			System.out.println("num1°ú num2´Â ´Ù¸¥ Á¤¼ö");
+			System.out.println("num1ê³¼ num2ëŠ” ë‹¤ë¥¸ ì •ìˆ˜");
 		
 		if(num1.equals(num3))
-			System.out.println("num1°ú num3´Â µ¿ÀÏÇÑ Á¤¼ö");
+			System.out.println("num1ê³¼ num3ëŠ” ë™ì¼í•œ ì •ìˆ˜");
 		else
-			System.out.println("num1°ú num3´Â ´Ù¸¥ Á¤¼ö");
+			System.out.println("num1ê³¼ num3ëŠ” ë‹¤ë¥¸ ì •ìˆ˜");
 	}
 }

@@ -1,5 +1,5 @@
-package Chapter15;
-//¿À¹ö¶óÀÌµù°ú ¿À¹ö·ÎµùÀÇ Â÷ÀÌÁ¡
+ï»¿package Chapter15;
+//ì˜¤ë²„ë¼ì´ë”©ê³¼ ì˜¤ë²„ë¡œë”©ì˜ ì°¨ì´ì 
 class AAA
 {
 	public void rideMethod(){System.out.println("AAA's Method");}
@@ -28,7 +28,7 @@ class G_RideAndLoad
 		CCC ref3=new CCC();
 		
 		ref1.rideMethod();//CCC's Method
-		//ref1.rideMethod1();//ÇÏÁö¸¸ ÀÌ°ÍÀº ¿¡·¯¹ß»ıÇÑ´Ù
+		//ref1.rideMethod1();//í•˜ì§€ë§Œ ì´ê²ƒì€ ì—ëŸ¬ë°œìƒí•œë‹¤
 		ref2.rideMethod();//CCC's Method
 		ref3.rideMethod();//CCC's Method
 		

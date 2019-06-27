@@ -1,4 +1,4 @@
-package Chapter18;
+ï»¿package Chapter18;
 import java.util.Scanner;
 
 class ExceptionHandleUseTryCatch
@@ -12,28 +12,28 @@ class ExceptionHandleUseTryCatch
 		{
 			try
 			{
-				System.out.print("ÇÇÁ¦¼ö ÀÔ·Â: ");
+				System.out.print("í”¼ì œìˆ˜ ì…ë ¥: ");
 				int num1=keyboard.nextInt();
 				
-				System.out.print("Á¦¼ö ÀÔ·Â: ");
+				System.out.print("ì œìˆ˜ ì…ë ¥: ");
 				int num2=keyboard.nextInt();
 				
-				System.out.print("¿¬»ê°á°ú¸¦ ÀúÀåÇÒ ¹è¿­ÀÇ ÀÎµ¦½º ÀÔ·Â: ");
+				System.out.print("ì—°ì‚°ê²°ê³¼ë¥¼ ì €ì¥í•  ë°°ì—´ì˜ ì¸ë±ìŠ¤ ì…ë ¥: ");
 				int idx=keyboard.nextInt();
 				
 				arr[idx]=num1/num2;
-				System.out.println("³ª´°¼À °á°ú´Â "+arr[idx]);
-				System.out.println("ÀúÀåµÈ À§Ä¡ÀÇ ÀÎµ¦½º´Â "+idx);	
+				System.out.println("ë‚˜ëˆ—ì…ˆ ê²°ê³¼ëŠ” "+arr[idx]);
+				System.out.println("ì €ì¥ëœ ìœ„ì¹˜ì˜ ì¸ë±ìŠ¤ëŠ” "+idx);	
 			}
 			catch(ArithmeticException e)
 			{
-				System.out.println("Á¦¼ö´Â 0ÀÌ µÉ ¼ö ¾ø½À´Ï´Ù.");
+				System.out.println("ì œìˆ˜ëŠ” 0ì´ ë  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 				i-=1;
 				continue;
 			}
 			catch(ArrayIndexOutOfBoundsException e)
 			{
-				System.out.println("À¯È¿ÇÏÁö ¾ÊÀº ÀÎµ¦½º °ªÀÔ´Ï´Ù.");
+				System.out.println("ìœ íš¨í•˜ì§€ ì•Šì€ ì¸ë±ìŠ¤ ê°’ì…ë‹ˆë‹¤.");
 				i-=1;
 				continue;
 			}

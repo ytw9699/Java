@@ -1,22 +1,22 @@
-package Chapter20;
+ï»¿package Chapter20;
 class H_MathClass
 {	
 	public static void main(String[] args)
 	{
-		System.out.println("¿øÁÖÀ²: " + Math.PI);
-		System.out.println("2ÀÇ Á¦°ö±Ù: " + Math.sqrt(2));
+		System.out.println("ì›ì£¼ìœ¨: " + Math.PI);
+		System.out.println("2ì˜ ì œê³±ê·¼: " + Math.sqrt(2));
 		
 		System.out.println(
-				"ÆÄÀÌ¿¡ ´ëÇÑ Degree: " + Math.toDegrees(Math.PI));
+				"íŒŒì´ì— ëŒ€í•œ Degree: " + Math.toDegrees(Math.PI));
 		System.out.println(
-				"2ÆÄÀÌ¿¡ ´ëÇÑ Degree: " + Math.toDegrees(2.0*Math.PI));	
+				"2íŒŒì´ì— ëŒ€í•œ Degree: " + Math.toDegrees(2.0*Math.PI));	
 		
-		double radian45=Math.toRadians(45);	// ¶óµğ¾ÈÀ¸·ÎÀÇ º¯È¯!
-		System.out.println("½ÎÀÎ 45: " + Math.sin(radian45));
-		System.out.println("ÄÚ½ÎÀÎ 45: " + Math.cos(radian45));
-		System.out.println("ÅºÁ¨Æ® 45: " + Math.tan(radian45));
+		double radian45=Math.toRadians(45);	// ë¼ë””ì•ˆìœ¼ë¡œì˜ ë³€í™˜!
+		System.out.println("ì‹¸ì¸ 45: " + Math.sin(radian45));
+		System.out.println("ì½”ì‹¸ì¸ 45: " + Math.cos(radian45));
+		System.out.println("íƒ„ì  íŠ¸ 45: " + Math.tan(radian45));
 		
-		System.out.println("·Î±× 25: " + Math.log(25));
-		System.out.println("2ÀÇ 4½Â: "+ Math.pow(2, 4));
+		System.out.println("ë¡œê·¸ 25: " + Math.log(25));
+		System.out.println("2ì˜ 4ìŠ¹: "+ Math.pow(2, 4));
 	}
 }

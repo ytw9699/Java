@@ -1,9 +1,9 @@
-package Chapter4;
+ï»¿package Chapter4;
 class AmpOpnd
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Á¤¼öÇü ³ª¸ÓÁö: " + 7%3);
-		System.out.println("½Ç¼öÇü ³ª¸ÓÁö: " + 7.2 % 2.0);//ÀÌ·±°Ç ¼ÖÁ÷È÷ ÀÇ¹Ì¾ø´Â°è»êÀÌ´Ù
+		System.out.println("ì •ìˆ˜í˜• ë‚˜ë¨¸ì§€: " + 7%3);
+		System.out.println("ì‹¤ìˆ˜í˜• ë‚˜ë¨¸ì§€: " + 7.2 % 2.0);//ì´ëŸ°ê±´ ì†”ì§íˆ ì˜ë¯¸ì—†ëŠ”ê³„ì‚°ì´ë‹¤
 	}
 }

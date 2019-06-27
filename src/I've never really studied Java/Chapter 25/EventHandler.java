@@ -1,40 +1,40 @@
-import java.awt.*;
+ï»¿import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
 class MouseEventHandler implements MouseListener
 {
-	/* ¸¶¿ì½º ¹öÆ°ÀÌ Å¬¸¯µÇ¾úÀ» ¶§(´­·È´Ù Ç®·ÈÀ» ¶§) È£ÃâµË´Ï´Ù.  */
+	/* ë§ˆìš°ìŠ¤ ë²„íŠ¼ì´ í´ë¦­ë˜ì—ˆì„ ë•Œ(ëˆŒë ¸ë‹¤ í’€ë ¸ì„ ë•Œ) í˜¸ì¶œë©ë‹ˆë‹¤.  */
 	public void mouseClicked(MouseEvent e)
 	{
 		JButton button=(JButton)e.getComponent();
 		button.setText("Clicked");
 		System.out.println("Clicked Button"+e.getButton());
-		System.out.println("¸¶¿ì½º ¹öÆ° ´­·È´Ù Ç®¸²");
+		System.out.println("ë§ˆìš°ìŠ¤ ë²„íŠ¼ ëˆŒë ¸ë‹¤ í’€ë¦¼");
 	}
 	
-	/* ¸¶¿ì½º Ä¿¼­°¡ ¹öÆ° À§¿¡ ¿Ã¶ó°¡¸é È£ÃâµË´Ï´Ù. */
+	/* ë§ˆìš°ìŠ¤ ì»¤ì„œê°€ ë²„íŠ¼ ìœ„ì— ì˜¬ë¼ê°€ë©´ í˜¸ì¶œë©ë‹ˆë‹¤. */
 	public void mouseEntered(MouseEvent e) 
 	{ 
-		System.out.println("Ä¿¼­ ¹öÆ° À§ ÁøÀÔ");
+		System.out.println("ì»¤ì„œ ë²„íŠ¼ ìœ„ ì§„ì…");
 	}
 	
-	/* ¸¶¿ì½º Ä¿¼­°¡ ¹öÆ°À» ºüÁ®³ª°¡¸é È£ÃâµË´Ï´Ù. */
+	/* ë§ˆìš°ìŠ¤ ì»¤ì„œê°€ ë²„íŠ¼ì„ ë¹ ì ¸ë‚˜ê°€ë©´ í˜¸ì¶œë©ë‹ˆë‹¤. */
 	public void mouseExited(MouseEvent e) 
 	{
-		System.out.println("Ä¿¼­ ¹öÆ° À§ Å»Ãâ");
+		System.out.println("ì»¤ì„œ ë²„íŠ¼ ìœ„ íƒˆì¶œ");
 	}
 	
-	/* ¸¶¿ì½º ¹öÆ°ÀÌ ´­¸®´Â ¼ø°£ È£ÃâµË´Ï´Ù. */
+	/* ë§ˆìš°ìŠ¤ ë²„íŠ¼ì´ ëˆŒë¦¬ëŠ” ìˆœê°„ í˜¸ì¶œë©ë‹ˆë‹¤. */
 	public void mousePressed(MouseEvent e) 
 	{ 
-		System.out.println("¸¶¿ì½º ¹öÆ° ´­¸²");		
+		System.out.println("ë§ˆìš°ìŠ¤ ë²„íŠ¼ ëˆŒë¦¼");		
 	}
 	
-	/* ¸¶¿ì½º ¹öÆ°ÀÌ Ç®¸®´Â ¼ø°£ È£ÃâµË´Ï´Ù. */
+	/* ë§ˆìš°ìŠ¤ ë²„íŠ¼ì´ í’€ë¦¬ëŠ” ìˆœê°„ í˜¸ì¶œë©ë‹ˆë‹¤. */
 	public void mouseReleased(MouseEvent e) 
 	{
-		System.out.println("¸¶¿ì½º ¹öÆ° Ç®¸²");	
+		System.out.println("ë§ˆìš°ìŠ¤ ë²„íŠ¼ í’€ë¦¼");	
 	}	
 }
 

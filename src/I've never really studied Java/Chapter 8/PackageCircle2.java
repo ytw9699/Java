@@ -1,4 +1,4 @@
-import orange.area.Circle;
+ï»¿import orange.area.Circle;
 import orange.perimeter.Circle;
 
 class PackageCircle
@@ -6,9 +6,9 @@ class PackageCircle
 	public static void main(String args[])
 	{
 		Circle c1=new Circle(1.5);
-		System.out.println("¹İÁö¸§ÀÌ 1.5ÀÎ ¿øÀÇ ³ĞÀÌ: "+c1.getArea());
+		System.out.println("ë°˜ì§€ë¦„ì´ 1.5ì¸ ì›ì˜ ë„“ì´: "+c1.getArea());
 
 		Circle c2 = new Circle(2.5);
-		System.out.println("¹İÁö¸§ÀÌ 2.5ÀÎ ¿øÀÇ µÑ·¹: "+c2.getPerimeter());
+		System.out.println("ë°˜ì§€ë¦„ì´ 2.5ì¸ ì›ì˜ ë‘˜ë ˆ: "+c2.getPerimeter());
 	}
 }

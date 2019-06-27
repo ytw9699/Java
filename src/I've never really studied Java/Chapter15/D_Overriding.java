@@ -1,11 +1,11 @@
-package Chapter15;
+ï»¿package Chapter15;
 class Speaker
 {
 	private int volumeRate;
 	
 	public void showCurrentState()
 	{
-		System.out.println("º¼·ı Å©±â: "+ volumeRate);
+		System.out.println("ë³¼ë¥¨ í¬ê¸°: "+ volumeRate);
 	}
 	public void setVolume(int vol)
 	{
@@ -17,10 +17,10 @@ class BaseEnSpeaker extends Speaker
 {
 	private int baseRate;
 	
-	public void showCurrentState()//¿À¹ö¶óÀÌµù 
+	public void showCurrentState()//ì˜¤ë²„ë¼ì´ë”© 
 	{
 		super.showCurrentState();
-		System.out.println("º£ÀÌ½º Å©±â: "+baseRate);
+		System.out.println("ë² ì´ìŠ¤ í¬ê¸°: "+baseRate);
 	}
 	public void setBaseRate(int base)
 	{
@@ -38,6 +38,6 @@ class D_Overriding
 		bs.showCurrentState();
 		
 		Speaker bs2=new BaseEnSpeaker();
-		//bs2.setBaseRate(20);//ÄÄÆÄÀÏ ¿À·ù
+		//bs2.setBaseRate(20);//ì»´íŒŒì¼ ì˜¤ë¥˜
 	}
 }

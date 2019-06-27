@@ -1,4 +1,4 @@
-package Chapter4;
+ï»¿package Chapter4;
 class ArithOp
 {
 	public static void main(String[] args)
@@ -7,12 +7,12 @@ class ArithOp
 		int n2 = 3;
 		
 		int result = n1 + n2;
-		System.out.println("µ¡¼À °á°ú: "+result);
+		System.out.println("ë§ì…ˆ ê²°ê³¼: "+result);
 		
 		result = n1 - n2;
-		System.out.println("»¬¼À °á°ú: " + result);		
-		System.out.println("°ö¼À °á°ú: " + n1*n2);
-		System.out.println("³ª´°¼À °á°ú: " + n1/n2);
-		System.out.println("³ª¸ÓÁö °á°ú: " + n1%n2);
+		System.out.println("ëº„ì…ˆ ê²°ê³¼: " + result);		
+		System.out.println("ê³±ì…ˆ ê²°ê³¼: " + n1*n2);
+		System.out.println("ë‚˜ëˆ—ì…ˆ ê²°ê³¼: " + n1/n2);
+		System.out.println("ë‚˜ë¨¸ì§€ ê²°ê³¼: " + n1%n2);
 	}
 }

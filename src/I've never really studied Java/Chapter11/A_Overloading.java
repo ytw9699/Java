@@ -1,4 +1,4 @@
-package Chapter11;
+ï»¿package Chapter11;
 class Person2
 {
 	private int perID;
@@ -16,11 +16,11 @@ class Person2
 	}
 	public void showInfo()
 	{
-		System.out.println("¹Î¹ø: "+perID);
+		System.out.println("ë¯¼ë²ˆ: "+perID);
 		if(milID!=0)
-			System.out.println("±º¹ø: "+milID+'\n');
+			System.out.println("êµ°ë²ˆ: "+milID+'\n');
 		else
-			System.out.println("±º°ú °ü°è ¾øÀ½ \n");
+			System.out.println("êµ°ê³¼ ê´€ê³„ ì—†ìŒ \n");
 	}
 }
 

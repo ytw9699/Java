@@ -1,7 +1,7 @@
-package Chapter17;
+ï»¿package Chapter17;
 interface UpperCasePrintable
 {
-	// ºñ¾î ÀÖÀ½
+	// ë¹„ì–´ ìˆìŒ
 }
 
 class ClassPrinter 

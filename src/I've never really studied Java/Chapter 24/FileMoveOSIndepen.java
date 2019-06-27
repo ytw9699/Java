@@ -1,4 +1,4 @@
-import java.io.File;
+ï»¿import java.io.File;
 
 class FileMoveOSIndepen
 {
@@ -8,7 +8,7 @@ class FileMoveOSIndepen
 			new File("C:"+File.separator+"MyJava"+File.separator+"my.bin");
 		if(myFile.exists()==false)
 		{
-			System.out.println("¿øº» ÆÄÀÏÀÌ ÁØºñµÇ¾î ÀÖÁö ¾Ê½À´Ï´Ù.");
+			System.out.println("ì›ë³¸ íŒŒì¼ì´ ì¤€ë¹„ë˜ì–´ ìˆì§€ ì•ŠìŠµë‹ˆë‹¤.");
 			return;
 		}
 		
@@ -17,8 +17,8 @@ class FileMoveOSIndepen
 		File reFile=new File(reDir, "my.bin");
 		myFile.renameTo(reFile);
 		if(reFile.exists()==true)
-			System.out.println("ÆÄÀÏ ÀÌµ¿¿¡ ¼º°øÇÏ¿´½À´Ï´Ù.");
+			System.out.println("íŒŒì¼ ì´ë™ì— ì„±ê³µí•˜ì˜€ìŠµë‹ˆë‹¤.");
 		else
-			System.out.println("ÆÄÀÏ ÀÌµ¿¿¡ ½ÇÆĞÇÏ¿´½À´Ï´Ù.");
+			System.out.println("íŒŒì¼ ì´ë™ì— ì‹¤íŒ¨í•˜ì˜€ìŠµë‹ˆë‹¤.");
 	}
 }

@@ -1,4 +1,4 @@
-import java.util.concurrent.locks.ReentrantLock;
+ï»¿import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.Condition;
 import java.util.Scanner;
 
@@ -104,7 +104,7 @@ class ConditionSyncStringReadWrite
 		StringReader sr=new StringReader(strComm);
 		StringWriter sw=new StringWriter(strComm);
 	
-		System.out.println("ÀÔÃâ·Â ¾²·¹µåÀÇ ½ÇÇà...");
+		System.out.println("ì…ì¶œë ¥ ì“°ë ˆë“œì˜ ì‹¤í–‰...");
 		sr.start();
 		sw.start();
 	}

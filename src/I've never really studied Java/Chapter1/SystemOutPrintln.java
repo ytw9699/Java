@@ -1,4 +1,4 @@
-package Chapter1;
+ï»¿package Chapter1;
 class SystemOutPrintln
 {
 	public static void main(String[] args)
@@ -6,8 +6,8 @@ class SystemOutPrintln
 		System.out.println(7);
 		System.out.println(3.15);
 		System.out.println("3+5=" + 8);	
-		System.out.println(3.15 + "´Â ½Ç¼öÀÔ´Ï´Ù.");	
-		System.out.println("3+5" + "ÀÇ ¿¬»ê°á°ú´Â 8ÀÔ´Ï´Ù.");
+		System.out.println(3.15 + "ëŠ” ì‹¤ìˆ˜ì…ë‹ˆë‹¤.");	
+		System.out.println("3+5" + "ì˜ ì—°ì‚°ê²°ê³¼ëŠ” 8ì…ë‹ˆë‹¤.");
 		System.out.println(3+5);
 	}
 }

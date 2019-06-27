@@ -1,4 +1,4 @@
-package Chapter22;
+ï»¿package Chapter22;
 class Box<T>
 {
 	public Box<T> nextBox;
@@ -29,11 +29,11 @@ class a02_SoSimpleLinkedListImpl
 		
 		Box<String> tempRef;
 		
-		/* µÎ ¹øÂ° ¹Ú½º¿¡ ´ã±ä ¹®ÀÚ¿­ Ãâ·Â °úÁ¤ */
+		/* ë‘ ë²ˆì§¸ ë°•ìŠ¤ì— ë‹´ê¸´ ë¬¸ìì—´ ì¶œë ¥ ê³¼ì • */
 		tempRef=boxHead.nextBox;
 		System.out.println(tempRef.pullOut());
 
-		/* ¼¼ ¹øÂ° ¹Ú½º¿¡ ´ã±ä ¹®ÀÚ¿­ Ãâ·Â °úÁ¤ */
+		/* ì„¸ ë²ˆì§¸ ë°•ìŠ¤ì— ë‹´ê¸´ ë¬¸ìì—´ ì¶œë ¥ ê³¼ì • */
 		tempRef=boxHead.nextBox;
 		tempRef=tempRef.nextBox;
 		System.out.println(tempRef.pullOut());

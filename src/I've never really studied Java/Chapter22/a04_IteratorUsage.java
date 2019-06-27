@@ -1,4 +1,4 @@
-package Chapter22;
+ï»¿package Chapter22;
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -14,16 +14,16 @@ class a04_IteratorUsage
 		
 		Iterator<String> itr=list.iterator();
 		
-		System.out.println("¹İº¹ÀÚ¸¦ ÀÌ¿ëÇÑ 1Â÷ Ãâ·Â°ú \"Third\" »èÁ¦");
+		System.out.println("ë°˜ë³µìë¥¼ ì´ìš©í•œ 1ì°¨ ì¶œë ¥ê³¼ \"Third\" ì‚­ì œ");
 		while(itr.hasNext())
 		{
 			String curStr=itr.next();
 			System.out.println(curStr);
-			if(curStr.compareTo("Third")==0)//curStr¿Í Third°¡ °°À¸¸é 0À» ¹İÈ¯
+			if(curStr.compareTo("Third")==0)//curStrì™€ Thirdê°€ ê°™ìœ¼ë©´ 0ì„ ë°˜í™˜
 				itr.remove();
 		}
 		
-		System.out.println("\n\"Third\" »èÁ¦ ÈÄ ¹İº¹ÀÚ¸¦ ÀÌ¿ëÇÑ 2Â÷ Ãâ·Â ");		
+		System.out.println("\n\"Third\" ì‚­ì œ í›„ ë°˜ë³µìë¥¼ ì´ìš©í•œ 2ì°¨ ì¶œë ¥ ");		
 		itr=list.iterator();
 		while(itr.hasNext())
 			System.out.println(itr.next());

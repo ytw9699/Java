@@ -1,4 +1,4 @@
-import java.io.*;
+ï»¿import java.io.*;
 
 class PersonalInfo implements Serializable
 {
@@ -30,7 +30,7 @@ class TransientMembers
 	public static void main(String[] args) 
 		throws IOException, ClassNotFoundException
 	{
-		/* ÀÎ½ºÅÏ½º ÀúÀå */
+		/* ì¸ìŠ¤í„´ìŠ¤ ì €ì¥ */
 		ObjectOutputStream out= 
 			new ObjectOutputStream(new FileOutputStream("Personal.ser"));
 		
@@ -39,14 +39,14 @@ class TransientMembers
 		out.writeObject(info);
 		out.close();
 		
-		/* ÀÎ½ºÅÏ½º º¹¿ø */
+		/* ì¸ìŠ¤í„´ìŠ¤ ë³µì› */
 		ObjectInputStream in=
 			new ObjectInputStream(new FileInputStream("Personal.ser"));
 		
 		PersonalInfo recovInfo=(PersonalInfo)in.readObject();
 		in.close();
 		
-		/* º¹¿øµÈ Á¤º¸ Ãâ·Â */
+		/* ë³µì›ëœ ì •ë³´ ì¶œë ¥ */
 		recovInfo.showCirlceInfo();
 	}
 }

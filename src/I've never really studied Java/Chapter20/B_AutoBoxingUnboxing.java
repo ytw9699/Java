@@ -1,16 +1,16 @@
-package Chapter20;
+ï»¿package Chapter20;
 class B_AutoBoxingUnboxing
 {	
 	public static void main(String[] args)
 	{
-		Integer iValue=10;//¿ÀÅä¹Ú½Ì
-		Double dValue=3.14;//¿ÀÅä¹Ú½Ì
+		Integer iValue=10;//ì˜¤í† ë°•ì‹±
+		Double dValue=3.14;//ì˜¤í† ë°•ì‹±
 		
 		System.out.println(iValue);
 		System.out.println(dValue);
 		
-		int num1=iValue;//¿ÀÅä¾ð¹Ú½Ì
-		double num2=dValue;//¿ÀÅä¾ð¹Ú½Ì
+		int num1=iValue;//ì˜¤í† ì–¸ë°•ì‹±
+		double num2=dValue;//ì˜¤í† ì–¸ë°•ì‹±
 		System.out.println(num1);
 		System.out.println(num2);
 	}

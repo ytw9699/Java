@@ -1,4 +1,4 @@
-package Chapter22;
+ï»¿package Chapter22;
 import java.util.Iterator;
 import java.util.TreeSet;
 
@@ -11,11 +11,11 @@ class a10_SortTreeSet
 		sTree.add(2);
 		sTree.add(4);
 		sTree.add(3);
-		sTree.add(2);//Áßº¹ Çã¿ë¾ÈÇÔ	
+		sTree.add(2);//ì¤‘ë³µ í—ˆìš©ì•ˆí•¨	
 		
-		System.out.println("ÀúÀåµÈ µ¥ÀÌÅÍ ¼ö: "+sTree.size());
+		System.out.println("ì €ì¥ëœ ë°ì´í„° ìˆ˜: "+sTree.size());
 		
-		Iterator<Integer> itr=sTree.iterator();//ÀÌÅÍ·¹ÀÌÅÍ´Â Á¤·ÄµÈ µ¥ÀÌÅÍ¸¦ Ç×»ó ¿À¸§Â÷¼øÀ¸·Î ÂüÁ¶
+		Iterator<Integer> itr=sTree.iterator();//ì´í„°ë ˆì´í„°ëŠ” ì •ë ¬ëœ ë°ì´í„°ë¥¼ í•­ìƒ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì°¸ì¡°
 		while(itr.hasNext())
 			System.out.println(itr.next());
 	}

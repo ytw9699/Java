@@ -1,4 +1,4 @@
-package Chapter9;
+ï»¿package Chapter9;
 class FruitSeller2
 {
 	private int numOfApple;
@@ -21,8 +21,8 @@ class FruitSeller2
 	}
 	public void showSaleResult()
 	{
-		System.out.println("³²Àº »ç°ú: " + numOfApple);
-		System.out.println("ÆÇ¸Å ¼öÀÍ: " + myMoney);
+		System.out.println("ë‚¨ì€ ì‚¬ê³¼: " + numOfApple);
+		System.out.println("íŒë§¤ ìˆ˜ìµ: " + myMoney);
 	}
 } 
 
@@ -44,24 +44,24 @@ class FruitBuyer2
 	}
 	public void showBuyResult()
 	{
-		System.out.println("ÇöÀç ÀÜ¾×: " + myMoney);
-		System.out.println("»ç°ú °³¼ö: " + numOfApple);		
+		System.out.println("í˜„ì¬ ì”ì•¡: " + myMoney);
+		System.out.println("ì‚¬ê³¼ ê°œìˆ˜: " + numOfApple);		
 	}
 }
 
-class FruitSalesMain5_Á¤º¸Àº´Ğ¼º°ø
+class FruitSalesMain5_ì •ë³´ì€ë‹‰ì„±ê³µ
 {
 	public static void main(String[] args)
 	{
 		FruitSeller2 seller = new FruitSeller2(0, 30, 1500);
 		FruitBuyer2 buyer = new FruitBuyer2(10000);
 		
-		buyer.buyApple(seller, 4500);  // À¯ÀÏÇÑ °úÀÏ ±¸¸Å ¹æ¹ı
+		buyer.buyApple(seller, 4500);  // ìœ ì¼í•œ ê³¼ì¼ êµ¬ë§¤ ë°©ë²•
 		
-		System.out.println("°úÀÏ ÆÇ¸ÅÀÚÀÇ ÇöÀç »óÈ²");
+		System.out.println("ê³¼ì¼ íŒë§¤ìì˜ í˜„ì¬ ìƒí™©");
 		seller.showSaleResult();
 		
-		System.out.println("°úÀÏ ±¸¸ÅÀÚÀÇ ÇöÀç »óÈ²");
+		System.out.println("ê³¼ì¼ êµ¬ë§¤ìì˜ í˜„ì¬ ìƒí™©");
 		buyer.showBuyResult();
 	}
 }

@@ -1,4 +1,4 @@
-package Chapter22;
+ï»¿package Chapter22;
 import java.util.TreeSet;
 import java.util.Iterator;
 
@@ -18,14 +18,14 @@ class MyString implements Comparable<MyString>
 	
 	public int compareTo(MyString mStr)
 	{
-		if(getLength()>mStr.getLength())//ÀÎÀÚ·Î Àü´ŞµÈ ¹®ÀÚ¿­ÀÇ ±æÀÌ°¡ ´õÀÛ´Ù¸é 1¹İÈ¯
+		if(getLength()>mStr.getLength())//ì¸ìë¡œ ì „ë‹¬ëœ ë¬¸ìì—´ì˜ ê¸¸ì´ê°€ ë”ì‘ë‹¤ë©´ 1ë°˜í™˜
 			return 1;
 		else if(getLength()<mStr.getLength())
 			return -1;
 		else
 			return 0;
 
-		//return getLength()-mStr.getLength();//À§¸¦ ¿ä·¸°Ô Ç¥ÇöÇØµµµÊ
+		//return getLength()-mStr.getLength();//ìœ„ë¥¼ ìš”ë ‡ê²Œ í‘œí˜„í•´ë„ë¨
 		 
 	}
 	
@@ -45,7 +45,7 @@ class a13_ComparableMyString
 		tSet.add(new MyString("Dog"));
 		tSet.add(new MyString("Individual"));
 		
-		Iterator<MyString> itr=tSet.iterator();//¿À¸§Â÷¼øÁ¤·Ä ±æÀÌ°¡ÂªÀº°ÍºÎÅÍ
+		Iterator<MyString> itr=tSet.iterator();//ì˜¤ë¦„ì°¨ìˆœì •ë ¬ ê¸¸ì´ê°€ì§§ì€ê²ƒë¶€í„°
 		while(itr.hasNext())
 			System.out.println(itr.next());
 	}

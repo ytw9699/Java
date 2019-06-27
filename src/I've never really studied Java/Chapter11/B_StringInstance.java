@@ -1,4 +1,4 @@
-package Chapter11;
+ï»¿package Chapter11;
 class B_StringInstance
 {
 	public static void main(String[] args)
@@ -6,9 +6,9 @@ class B_StringInstance
 		java.lang.String str="My name is Sunny";
 		
 		int strLen1=str.length();
-		System.out.println("±æÀÌ 1: "+strLen1);
+		System.out.println("ê¸¸ì´ 1: "+strLen1);
 		
-		int strLen2="ÇÑ±ÛÀÇ ±æÀÌ´Â ¾î¶»°Ô?".length();
-		System.out.println("±æÀÌ 2: "+strLen2);
+		int strLen2="í•œê¸€ì˜ ê¸¸ì´ëŠ” ì–´ë–»ê²Œ?".length();
+		System.out.println("ê¸¸ì´ 2: "+strLen2);
 	}
 }

@@ -1,4 +1,4 @@
-package Chapter10;
+﻿package Chapter10;
 class AccessWay
 {
 	static int num=0;

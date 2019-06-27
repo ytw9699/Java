@@ -1,9 +1,9 @@
-package Chapter21;
+ï»¿package Chapter21;
 class Fruit4
 {
 	public void showYou()
 	{ 
-		System.out.println("³­ °úÀÏÀÔ´Ï´Ù.");
+		System.out.println("ë‚œ ê³¼ì¼ì…ë‹ˆë‹¤.");
 	}
 }
 
@@ -12,7 +12,7 @@ class Apple4 extends Fruit4
 	public void showYou()
 	{
 		super.showYou();
-		System.out.println("³­ ºÓÀº °úÀÏÀÔ´Ï´Ù.");
+		System.out.println("ë‚œ ë¶‰ì€ ê³¼ì¼ì…ë‹ˆë‹¤.");
 	}	
 }
 
@@ -25,7 +25,7 @@ class FruitBox4<T>
 
 class H_IntroWildCard
 {
-	public static void openAndShowFruitBox(FruitBox4< ? extends Fruit4 > box)//Fruit4»ó¼ÓÇÏ´Â ¸ğµç Å¬·¡½º
+	public static void openAndShowFruitBox(FruitBox4< ? extends Fruit4 > box)//Fruit4ìƒì†í•˜ëŠ” ëª¨ë“  í´ë˜ìŠ¤
 	{
 		Fruit4 fruit=box.pullOut();
 		fruit.showYou();

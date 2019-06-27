@@ -1,4 +1,4 @@
-package Chapter4;
+ï»¿package Chapter4;
 class SCE
 {
 	public static void main(String[] args)
@@ -6,11 +6,11 @@ class SCE
 		int num1=0, num2=0;
 		boolean result;
 		
-		result = (num1+=10)<0 && (num2+=10)>0;//&& ÁÂÇ×ÇÇ¿¬»êÀÚ°¡ Æú½º¸é ¿À¸¥ÂÊÇÇ¿¬»êÀÚ´Â °è»êµµ¾ÈÇÔ °á°ú¹İ¿µ¾ÈµÊ
+		result = (num1+=10)<0 && (num2+=10)>0;//&& ì¢Œí•­í”¼ì—°ì‚°ìê°€ í´ìŠ¤ë©´ ì˜¤ë¥¸ìª½í”¼ì—°ì‚°ìëŠ” ê³„ì‚°ë„ì•ˆí•¨ ê²°ê³¼ë°˜ì˜ì•ˆë¨
 		System.out.println("result="+result);
 		System.out.println("num1="+num1+", num2="+num2);
 		
-		result = (num1+=10)>0 || (num2+=10)>0;//&& ÁÂÇ×ÇÇ¿¬»êÀÚ°¡ Åõ¸£¸é ¿À¸¥ÂÊÇÇ¿¬»êÀÚ´Â °è»êµµ¾ÈÇÔ °á°ú¹İ¿µ¾ÈµÊ
+		result = (num1+=10)>0 || (num2+=10)>0;//&& ì¢Œí•­í”¼ì—°ì‚°ìê°€ íˆ¬ë¥´ë©´ ì˜¤ë¥¸ìª½í”¼ì—°ì‚°ìëŠ” ê³„ì‚°ë„ì•ˆí•¨ ê²°ê³¼ë°˜ì˜ì•ˆë¨
 		System.out.println("result="+result);
 		System.out.println("num1="+num1+", num2="+num2);
 	}

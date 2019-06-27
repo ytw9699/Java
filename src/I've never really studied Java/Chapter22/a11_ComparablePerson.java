@@ -1,8 +1,8 @@
-package Chapter22;
+ï»¿package Chapter22;
 import java.util.Iterator;
 import java.util.TreeSet;
 
-class Person implements Comparable<Person>//ComparableÀ» ±¸ÇöÇØ¾ßÇÔ
+class Person implements Comparable<Person>//Comparableì„ êµ¬í˜„í•´ì•¼í•¨
 {
     String name;
     int age;
@@ -16,15 +16,15 @@ class Person implements Comparable<Person>//ComparableÀ» ±¸ÇöÇØ¾ßÇÔ
     {
     	System.out.printf("%s %d \n", name, age);
     }
-    //Comparable Å¬·¡½ºÀÇ compareTo¸Ş¼Òµå¸¦ ¿À¹ö¶óÀÌµùÇØ¼­ Á¤·ÄÀÇ ±âÁØÀ» Á¤ÇÏÀÚ
-    public int compareTo(Person p) //Á¤·ÄÀÇ ±âÁØÀ» ³ªÀÌ°¡ ¸¹°í ÀûÀ½À¸·Î Ç¥ÇöÇÑ°ÅÁö ¿À¸§Â÷¼øÀÎÁö ³»¸²Â÷¼øÀÎÁö´Â Á¤ÇÏÁö¾ÊÀ½
+    //Comparable í´ë˜ìŠ¤ì˜ compareToë©”ì†Œë“œë¥¼ ì˜¤ë²„ë¼ì´ë”©í•´ì„œ ì •ë ¬ì˜ ê¸°ì¤€ì„ ì •í•˜ì
+    public int compareTo(Person p) //ì •ë ¬ì˜ ê¸°ì¤€ì„ ë‚˜ì´ê°€ ë§ê³  ì ìŒìœ¼ë¡œ í‘œí˜„í•œê±°ì§€ ì˜¤ë¦„ì°¨ìˆœì¸ì§€ ë‚´ë¦¼ì°¨ìˆœì¸ì§€ëŠ” ì •í•˜ì§€ì•ŠìŒ
     {
-        if(age>p.age) //ÀÎÀÚ·Î Àü´ŞµÈ pÀÇ  Å°°¡ ´õ ÀÛ´Ù¸é 1¹İÈ¯
+        if(age>p.age) //ì¸ìë¡œ ì „ë‹¬ëœ pì˜  í‚¤ê°€ ë” ì‘ë‹¤ë©´ 1ë°˜í™˜
             return 1;
-        else if(age<p.age)//Å©´Ù¸é -1
+        else if(age<p.age)//í¬ë‹¤ë©´ -1
             return -1;
         else	
-            return 0;//°°´Ù¸é 0
+            return 0;//ê°™ë‹¤ë©´ 0
     }
 }
 class a11_ComparablePerson 
@@ -36,7 +36,7 @@ class a11_ComparablePerson
 		sTree.add(new Person("Hong", 29));
 		sTree.add(new Person("Choi", 21));
 		
-		Iterator<Person> itr=sTree.iterator();//ÀÌÅÍ·¹ÀÌÅÍ°¡ ¿À¸§Â÷¼øÀ¸·Î ÂüÁ¶ÇÑ´Ù
+		Iterator<Person> itr=sTree.iterator();//ì´í„°ë ˆì´í„°ê°€ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì°¸ì¡°í•œë‹¤
 		
 		while(itr.hasNext())
 			itr.next().showData();

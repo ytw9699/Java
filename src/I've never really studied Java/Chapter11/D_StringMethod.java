@@ -1,4 +1,4 @@
-package Chapter11;
+ï»¿package Chapter11;
 class D_StringMethod
 {
 	public static void main(String[] args)
@@ -9,11 +9,11 @@ class D_StringMethod
 		String str4=str1.concat(str2).concat(str3);
 		
 		System.out.println(str4);	
-		System.out.println("¹®ÀÚ¿­ ±æÀÌ: "+str4.length());
+		System.out.println("ë¬¸ìì—´ ê¸¸ì´: "+str4.length());
 
 		if(str1.compareTo(str3)<0)
-			System.out.println("str1ÀÌ ¾Õ¼±´Ù");
+			System.out.println("str1ì´ ì•ì„ ë‹¤");
 		else
-			System.out.println("str3ÀÌ ¾Õ¼±´Ù");
+			System.out.println("str3ì´ ì•ì„ ë‹¤");
 	}
 }

@@ -1,4 +1,4 @@
-class NewsPaper
+ï»¿class NewsPaper
 {
 	String todayNews;
 	boolean isTodayNews=false;
@@ -45,7 +45,7 @@ class NewsWriter extends Thread
 	}
 	public void run()
 	{
-		paper.setTodayNews("ÀÚ¹ÙÀÇ ¿­±â°¡ ¶ß°Ì½À´Ï´Ù.");
+		paper.setTodayNews("ìë°”ì˜ ì—´ê¸°ê°€ ëœ¨ê²ìŠµë‹ˆë‹¤.");
 	}
 }
 
@@ -59,7 +59,7 @@ class NewsReader extends Thread
 	}
 	public void run()
 	{
-		System.out.println("¿À´ÃÀÇ ´º½º: "+paper.getTodayNews());
+		System.out.println("ì˜¤ëŠ˜ì˜ ë‰´ìŠ¤: "+paper.getTodayNews());
 	}
 }
 

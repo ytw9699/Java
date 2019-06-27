@@ -1,7 +1,7 @@
-package Chapter15;
+ï»¿package Chapter15;
 class Gun1
 {
-	int bullet;    	// ÀåÀüµÈ ÃÑ¾ËÀÇ ¼ö
+	int bullet;    	// ì¥ì „ëœ ì´ì•Œì˜ ìˆ˜
 	
 	public Gun1(int bnum){
 		bullet=bnum;
@@ -13,9 +13,9 @@ class Gun1
 	}
 }
 
-class Police1 extends Gun//°æÂûÀº ¹«Á¶°Ç °ÇÀ» ¼ÒÀ¯ÇÏ°ÔµÈ´Ù
-{							//°­ÇÑ¿¬°á°í¸®
-	int handcuffs;	     // ¼ÒÀ¯ÇÑ ¼ö°©ÀÇ ¼ö
+class Police1 extends Gun//ê²½ì°°ì€ ë¬´ì¡°ê±´ ê±´ì„ ì†Œìœ í•˜ê²Œëœë‹¤
+{							//ê°•í•œì—°ê²°ê³ ë¦¬
+	int handcuffs;	     // ì†Œìœ í•œ ìˆ˜ê°‘ì˜ ìˆ˜
 	
 	public Police1(int bnum, int bcuff)
 	{

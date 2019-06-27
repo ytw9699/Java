@@ -1,4 +1,4 @@
-package chapter19;
+ï»¿package chapter19;
 class B_StringEquals
 {	
 	public static void main(String[] args)
@@ -7,13 +7,13 @@ class B_StringEquals
 		String str2=new String("Hi my string");
 		
 		if(str1==str2)
-			System.out.println("ÂüÁ¶ ´ë»óÀÌ µ¿ÀÏÇÏ´Ù.");
+			System.out.println("ì°¸ì¡° ëŒ€ìƒì´ ë™ì¼í•˜ë‹¤.");
 		else
-			System.out.println("ÂüÁ¶ ´ë»óÀÌ µ¿ÀÏÇÏÁö ¾Ê´Ù.");			
+			System.out.println("ì°¸ì¡° ëŒ€ìƒì´ ë™ì¼í•˜ì§€ ì•Šë‹¤.");			
 		
 		if(str1.equals(str2))
-			System.out.println("ÀÎ½ºÅÏ½º ³»¿ëÀÌ µ¿ÀÏÇÏ´Ù.");
+			System.out.println("ì¸ìŠ¤í„´ìŠ¤ ë‚´ìš©ì´ ë™ì¼í•˜ë‹¤.");
 		else
-			System.out.println("ÀÎ½ºÅÏ½º ³»¿ëÀÌ µ¿ÀÏÇÏÁö ¾Ê´Ù.");		
+			System.out.println("ì¸ìŠ¤í„´ìŠ¤ ë‚´ìš©ì´ ë™ì¼í•˜ì§€ ì•Šë‹¤.");		
 	}
 }

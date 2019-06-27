@@ -1,4 +1,4 @@
-package Chapter22;
+ï»¿package Chapter22;
 import java.util.Iterator;
 import java.util.HashSet;
 
@@ -13,7 +13,7 @@ class a07_SetInterfaceFeature
 		hSet.add("Third");
 		hSet.add("First");
 		
-		System.out.println("ÀúÀåµÈ µ¥ÀÌÅÍ ¼ö: "+hSet.size());
+		System.out.println("ì €ì¥ëœ ë°ì´í„° ìˆ˜: "+hSet.size());
 		
 		Iterator<String> itr=hSet.iterator();
 		while(itr.hasNext())

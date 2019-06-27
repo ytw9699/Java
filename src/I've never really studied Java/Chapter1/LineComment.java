@@ -1,18 +1,18 @@
-package Chapter1;
-// ÆÄÀÏÀÌ¸§: LineComment.java
-// ÀÛ¼ºÀÚ: È«±æµ¿
-// ÀÛ¼ºÀÏ: 2012³â 9¿ù 25ÀÏ
-// ÀÛ¼ºÀÌÀ¯: System.out.println ¸Ş¼Òµå ±â´É Å×½ºÆ®
+ï»¿package Chapter1;
+// íŒŒì¼ì´ë¦„: LineComment.java
+// ì‘ì„±ì: í™ê¸¸ë™
+// ì‘ì„±ì¼: 2012ë…„ 9ì›” 25ì¼
+// ì‘ì„±ì´ìœ : System.out.println ë©”ì†Œë“œ ê¸°ëŠ¥ í…ŒìŠ¤íŠ¸
 
 class LineComment
 {
 	public static void main(String[] args)
 	{
-		System.out.println(7);      // Á¤¼öÀÇ Ãâ·Â
+		System.out.println(7);      // ì •ìˆ˜ì˜ ì¶œë ¥
 		System.out.println(3.15);
 		System.out.println("3+5=" + 8);	
-		System.out.println(3.15 + "´Â ½Ç¼öÀÔ´Ï´Ù.");	
-		System.out.println("3+5" + "ÀÇ ¿¬»ê°á°ú´Â 8ÀÔ´Ï´Ù.");
-		System.out.println(3+5);      // µ¡¼À °á°ú Ãâ·Â
+		System.out.println(3.15 + "ëŠ” ì‹¤ìˆ˜ì…ë‹ˆë‹¤.");	
+		System.out.println("3+5" + "ì˜ ì—°ì‚°ê²°ê³¼ëŠ” 8ì…ë‹ˆë‹¤.");
+		System.out.println(3+5);      // ë§ì…ˆ ê²°ê³¼ ì¶œë ¥
 	}
 }

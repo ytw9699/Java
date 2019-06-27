@@ -1,4 +1,4 @@
-class Circle
+ï»¿class Circle
 {
 	double rad;
 	final double PI;
@@ -19,6 +19,6 @@ class CirclePerimeter
 	public static void main(String args[])
 	{
 		Circle c=new Circle(1.5);
-		System.out.println("¹İÁö¸§ÀÌ 1.5ÀÎ ¿øÀÇ µÑ·¹: "+c.getPerimeter());
+		System.out.println("ë°˜ì§€ë¦„ì´ 1.5ì¸ ì›ì˜ ë‘˜ë ˆ: "+c.getPerimeter());
 	}
 }

@@ -1,4 +1,4 @@
-import java.awt.*;
+ï»¿import java.awt.*;
 import javax.swing.*;
 
 class JLabelView
@@ -15,8 +15,8 @@ class JLabelView
 		frm.setBounds(120, 120, 400, 100);
 		frm.setLayout(new FlowLayout());
 		
-		JLabel label1=new JLabel("Ã¹ ¹øÂ° ¹öÆ° : ");
-		JLabel label2=new JLabel("µÎ ¹øÂ° ¹öÆ° : ");
+		JLabel label1=new JLabel("ì²« ë²ˆì§¸ ë²„íŠ¼ : ");
+		JLabel label2=new JLabel("ë‘ ë²ˆì§¸ ë²„íŠ¼ : ");
 		
 		JButton btm1=new JButton("Button One");
 		JButton btm2=new JButton("Button One");

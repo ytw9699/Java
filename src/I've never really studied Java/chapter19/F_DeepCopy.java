@@ -1,4 +1,4 @@
-package chapter19;
+ï»¿package chapter19;
 class Point1 implements Cloneable
 {
 	private int xPos;
@@ -35,11 +35,11 @@ class Rectangle1 implements Cloneable
 	}
 	public void showPosition()
 	{
-		System.out.println("Á÷»ç°¢Çü À§Ä¡Á¤º¸...");
-		System.out.print("ÁÂ »ó´Ü: ");
+		System.out.println("ì§ì‚¬ê°í˜• ìœ„ì¹˜ì •ë³´...");
+		System.out.print("ì¢Œ ìƒë‹¨: ");
 		upperLeft.showPosition();
 		System.out.println("");	
-		System.out.print("¿ì ÇÏ´Ü: ");
+		System.out.print("ìš° í•˜ë‹¨: ");
 		lowerRight.showPosition();	
 		System.out.println("\n");
 	}
@@ -51,7 +51,7 @@ class Rectangle1 implements Cloneable
 	public Object clone() throws CloneNotSupportedException
 	{
 		Rectangle1 copy=(Rectangle1)super.clone();
-		copy.upperLeft=(Point1)upperLeft.clone();//point ÀÎ½ºÅÏ½º ±îÁö ÅëÀç·Î´Ùº¹»ç
+		copy.upperLeft=(Point1)upperLeft.clone();//point ì¸ìŠ¤í„´ìŠ¤ ê¹Œì§€ í†µì¬ë¡œë‹¤ë³µì‚¬
 		copy.lowerRight=(Point1)lowerRight.clone();		
 		return copy;
 	}

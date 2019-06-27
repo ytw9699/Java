@@ -1,4 +1,4 @@
-package Chapter22;
+ï»¿package Chapter22;
 import java.util.Iterator;
 import java.util.HashSet;
 
@@ -13,14 +13,14 @@ class SimpleNumber2
 	{
 		return String.valueOf(num);
 	}
-	public int hashCode()//ÇØ½ÃÄÚµå´Â ¼º´ÉÀ» °³¼±ÇØÁÖ´Â°ÍÀÌ´Ù num °ªÀ» 3À¸·Î ³ª´²¼­ ºĞ·ùÇØµĞ´Ù
+	public int hashCode()//í•´ì‹œì½”ë“œëŠ” ì„±ëŠ¥ì„ ê°œì„ í•´ì£¼ëŠ”ê²ƒì´ë‹¤ num ê°’ì„ 3ìœ¼ë¡œ ë‚˜ëˆ ì„œ ë¶„ë¥˜í•´ë‘”ë‹¤
 	{
 		return num%3;
 	}
-	public boolean equals(Object obj) // ÀÌ ¸Ş¼ÒµåÀÇ ¸®ÅÏ°ªÀ¸·Î ÇØ½Ã¼ÂÀÇ Áßº¹¿©ºÎ¸¦ °áÁ¤ÇÑ´Ù
+	public boolean equals(Object obj) // ì´ ë©”ì†Œë“œì˜ ë¦¬í„´ê°’ìœ¼ë¡œ í•´ì‹œì…‹ì˜ ì¤‘ë³µì—¬ë¶€ë¥¼ ê²°ì •í•œë‹¤
 	{
 		SimpleNumber2 comp=(SimpleNumber2)obj;
-		if(comp.num==num)//ÀÎ½ºÅÏ½º º¯¼ö numÀÌ °°À»¶§ µ¿ÀÏ ÀÎ½ºÅÏ½º·Î °£ÁÖ
+		if(comp.num==num)//ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ numì´ ê°™ì„ë•Œ ë™ì¼ ì¸ìŠ¤í„´ìŠ¤ë¡œ ê°„ì£¼
 			return true;
 		else
 			return false;		
@@ -36,7 +36,7 @@ class a09_HashSetEqualityTwo
 		hSet.add(new SimpleNumber2(20));
 		hSet.add(new SimpleNumber2(20));
 		
-		System.out.println("ÀúÀåµÈ µ¥ÀÌÅÍ ¼ö: "+hSet.size());
+		System.out.println("ì €ì¥ëœ ë°ì´í„° ìˆ˜: "+hSet.size());
 		
 		Iterator<SimpleNumber2> itr=hSet.iterator();
 		while(itr.hasNext())

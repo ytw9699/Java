@@ -1,4 +1,4 @@
-package Chapter22;
+ï»¿package Chapter22;
 import java.util.TreeMap;
 import java.util.Iterator;
 import java.util.NavigableSet;
@@ -16,17 +16,17 @@ class a16_IntroTreeMap
 		tMap.put(4, "data4");	
 		
 		NavigableSet<Integer> navi=tMap.navigableKeySet();
-		//TreeMap¾ÈÀÇ Å°µéÀ» ¸ğµÎ °¡Á®¿À´Â°Í
-		//NavigableSetÀÚ·áÇüÀº Äİ·º¼Ç ÀÎÅÍÆäÀÌ½º Set<E>¸¦ ±¸ÇöÇÏ°íÀÖ°í Á¤·Ä ÇØÁØ´Ù.
-		//ÀÌ navi¶ó´Â ÀÎ½ºÅÏ½º¾È¿¡ Å°µéÀÌ µé¾îÀÖ´Ù.
+		//TreeMapì•ˆì˜ í‚¤ë“¤ì„ ëª¨ë‘ ê°€ì ¸ì˜¤ëŠ”ê²ƒ
+		//NavigableSetìë£Œí˜•ì€ ì½œë ‰ì…˜ ì¸í„°í˜ì´ìŠ¤ Set<E>ë¥¼ êµ¬í˜„í•˜ê³ ìˆê³  ì •ë ¬ í•´ì¤€ë‹¤.
+		//ì´ navië¼ëŠ” ì¸ìŠ¤í„´ìŠ¤ì•ˆì— í‚¤ë“¤ì´ ë“¤ì–´ìˆë‹¤.
 		
-		System.out.println("¿À¸§Â÷¼ø Ãâ·Â...");
-		Iterator<Integer> itr=navi.iterator();//ÀÌ ÀÌÅÍ·¹ÀÌÅÍ°¡ Á¤·ÄµÈ°ªµéÀ» ¿À¸¥Â÷¼øÀ¸·Î ÂüÁ¶ÇØÁÜ
+		System.out.println("ì˜¤ë¦„ì°¨ìˆœ ì¶œë ¥...");
+		Iterator<Integer> itr=navi.iterator();//ì´ ì´í„°ë ˆì´í„°ê°€ ì •ë ¬ëœê°’ë“¤ì„ ì˜¤ë¥¸ì°¨ìˆœìœ¼ë¡œ ì°¸ì¡°í•´ì¤Œ
 		while(itr.hasNext())
 			System.out.println(tMap.get(itr.next()));
 		
-		System.out.println("³»¸²Â÷¼ø Ãâ·Â...");
-		itr=navi.descendingIterator();//ÀÌ ÀÌÅÍ·¹ÀÌÅÍ°¡ ³»¸²Â÷¼øÀ¸·Î ÂüÁ¶ÇØÁÜ
+		System.out.println("ë‚´ë¦¼ì°¨ìˆœ ì¶œë ¥...");
+		itr=navi.descendingIterator();//ì´ ì´í„°ë ˆì´í„°ê°€ ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œ ì°¸ì¡°í•´ì¤Œ
 		while(itr.hasNext())
 			System.out.println(tMap.get(itr.next()));	
 	}

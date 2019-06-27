@@ -1,9 +1,9 @@
-package Chapter17;
+ï»¿package Chapter17;
 class TV
 {
 	public void onTV()
 	{
-		System.out.println("¿µ»ó Ãâ·Â Áß");
+		System.out.println("ì˜ìƒ ì¶œë ¥ ì¤‘");
 	}
 }
 
@@ -11,7 +11,7 @@ class Computer
 {	
 	public void dataReceive()
 	{
-		System.out.println("¿µ»ó µ¥ÀÌÅÍ ¼ö½Å Áß");
+		System.out.println("ì˜ìƒ ë°ì´í„° ìˆ˜ì‹  ì¤‘");
 	}
 }
 

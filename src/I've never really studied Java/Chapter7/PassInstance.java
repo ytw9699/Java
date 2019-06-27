@@ -1,4 +1,4 @@
-package Chapter7;
+ï»¿package Chapter7;
 class Number4
 {
 	int num=0;
@@ -17,12 +17,12 @@ class PassInstance
 	public static void main(String[] args)
 	{
 		Number4 nInst=new Number4();
-		System.out.println("¸Ş¼Òµå È£Ãâ Àü: "+nInst.getNumber());
+		System.out.println("ë©”ì†Œë“œ í˜¸ì¶œ ì „: "+nInst.getNumber());
 		
 		simpleMethod(nInst);
-		System.out.println("¸Ş¼Òµå È£Ãâ ÈÄ: "+nInst.getNumber());	
+		System.out.println("ë©”ì†Œë“œ í˜¸ì¶œ í›„: "+nInst.getNumber());	
 	}	
-	public static void simpleMethod(Number4 numb)//¿©·¯°÷¿¡¼­ ÂüÁ¶ÇÑ´Ù´Â ÀÇ¹Ì°¡ ¿©±â¼­º¸´Â ÇÙ½É
+	public static void simpleMethod(Number4 numb)//ì—¬ëŸ¬ê³³ì—ì„œ ì°¸ì¡°í•œë‹¤ëŠ” ì˜ë¯¸ê°€ ì—¬ê¸°ì„œë³´ëŠ” í•µì‹¬
 	{
 		numb.addNum(12);
 	}	

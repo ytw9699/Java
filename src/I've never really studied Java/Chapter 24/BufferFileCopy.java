@@ -1,4 +1,4 @@
-import java.io.*;
+Ôªøimport java.io.*;
 
 class BufferFileCopy
 {
@@ -22,6 +22,6 @@ class BufferFileCopy
 
 		in.close();
 		out.close();		
-		System.out.println("∫πªÁµ» πŸ¿Ã∆Æ ≈©±‚ "+ copyByte);
+		System.out.println("Î≥µÏÇ¨Îêú Î∞îÏù¥Ìä∏ ÌÅ¨Í∏∞ "+ copyByte);
 	}
 }

@@ -1,4 +1,4 @@
-package Chapter21;
+ï»¿package Chapter21;
 class AAA1
 {
 	public String toString()
@@ -19,7 +19,7 @@ class InstanceTypeShower
 {
 	int showCnt=0;
 	
-	public <T> void showInstType(T inst)//¸Ş¼Òµå¸¸ ºÎºĞÀûÀ¸·Î Á¦³×¸¯È­
+	public <T> void showInstType(T inst)//ë©”ì†Œë“œë§Œ ë¶€ë¶„ì ìœ¼ë¡œ ì œë„¤ë¦­í™”
 	{
 		System.out.println(inst);
 		showCnt++;
@@ -40,7 +40,7 @@ class D_IntroGenericMethod
 		
 		InstanceTypeShower shower=new InstanceTypeShower();
 		shower.<AAA1>showInstType(aaa);
-		shower.showInstType(aaa);//<AAA1>»ı·«°¡´É
+		shower.showInstType(aaa);//<AAA1>ìƒëµê°€ëŠ¥
 		shower.<BBB1>showInstType(bbb);
 		shower.showPrintCnt();
 	}

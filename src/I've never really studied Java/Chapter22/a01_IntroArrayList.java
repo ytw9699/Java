@@ -1,4 +1,4 @@
-package Chapter22;
+ï»¿package Chapter22;
 
 import java.util.ArrayList;
 
@@ -8,19 +8,19 @@ class a01_IntroArrayList
 	{
 		ArrayList<Integer> list=new ArrayList<Integer>();//
 		
-		/* µ¥ÀÌÅÍÀÇ ÀúÀå */
-		list.add(new Integer(11));//¼ø¼­´ë·Î ÀúÀå
+		/* ë°ì´í„°ì˜ ì €ì¥ */
+		list.add(new Integer(11));//ìˆœì„œëŒ€ë¡œ ì €ì¥
 		list.add(new Integer(22));
 		list.add(new Integer(33));
 		
-		/* µ¥ÀÌÅÍÀÇ ÂüÁ¶ */
-		System.out.println("1Â÷ ÂüÁ¶");
+		/* ë°ì´í„°ì˜ ì°¸ì¡° */
+		System.out.println("1ì°¨ ì°¸ì¡°");
 		for(int i=0; i<list.size(); i++)
-			System.out.println(list.get(i));//0ÀÌ Ã¹¹øÂ°
+			System.out.println(list.get(i));//0ì´ ì²«ë²ˆì§¸
 		
-		/* µ¥ÀÌÅÍÀÇ »èÁ¦ */
-		list.remove(0);//Ã¹¹øÂ° »èÁ¦ ,ÀÎ½ºÅÏ½ºÀÇ ÂüÁ¶°ªÀÌÁö¿öÁö´Â°ÅÁö,ÀÎ½ºÅÏ½º°¡ ¼Ò¸êµÇ´Â°ÍÀº ¾Æ´Ï´Ù
-		System.out.println("2Â÷ ÂüÁ¶");
+		/* ë°ì´í„°ì˜ ì‚­ì œ */
+		list.remove(0);//ì²«ë²ˆì§¸ ì‚­ì œ ,ì¸ìŠ¤í„´ìŠ¤ì˜ ì°¸ì¡°ê°’ì´ì§€ì›Œì§€ëŠ”ê±°ì§€,ì¸ìŠ¤í„´ìŠ¤ê°€ ì†Œë©¸ë˜ëŠ”ê²ƒì€ ì•„ë‹ˆë‹¤
+		System.out.println("2ì°¨ ì°¸ì¡°");
 		for(int i=0; i<list.size(); i++)
 			System.out.println(list.get(i));	
 	}

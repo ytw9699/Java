@@ -1,4 +1,4 @@
-import javax.swing.*;
+ï»¿import javax.swing.*;
 import java.awt.event.*;
 
 class AdapterAnonymousHandling
@@ -12,7 +12,7 @@ class AdapterAnonymousHandling
 				{
 					public void mouseClicked(MouseEvent e)
 					{
-						System.out.println("¸¶¿ì½º ¹öÆ° ´­·È´Ù Ç®¸²");
+						System.out.println("ë§ˆìš°ìŠ¤ ë²„íŠ¼ ëˆŒë ¸ë‹¤ í’€ë¦¼");
 					}				
 				}
 		);

@@ -1,4 +1,4 @@
-package Chapter7;
+ï»¿package Chapter7;
 class FruitSeller
 {
 	int numOfApple=20;
@@ -14,8 +14,8 @@ class FruitSeller
 	}
 	public void showSaleResult()
 	{
-		System.out.println("³²Àº »ç°ú: " + numOfApple);
-		System.out.println("ÆÇ¸Å ¼öÀÍ: " + myMoney);
+		System.out.println("ë‚¨ì€ ì‚¬ê³¼: " + numOfApple);
+		System.out.println("íŒë§¤ ìˆ˜ìµ: " + myMoney);
 	}
 } 
 
@@ -31,8 +31,8 @@ class FruitBuyer
 	}
 	public void showBuyResult()
 	{
-		System.out.println("ÇöÀç ÀÜ¾×: " + myMoney);
-		System.out.println("»ç°ú °³¼ö: " + numOfApple);		
+		System.out.println("í˜„ì¬ ì”ì•¡: " + myMoney);
+		System.out.println("ì‚¬ê³¼ ê°œìˆ˜: " + numOfApple);		
 	}
 }
 
@@ -44,10 +44,10 @@ class FruitSalesMain1
 		FruitBuyer buyer = new FruitBuyer();
 		buyer.buyApple(seller, 2000);
 		
-		System.out.println("°úÀÏ ÆÇ¸ÅÀÚÀÇ ÇöÀç »óÈ²");
+		System.out.println("ê³¼ì¼ íŒë§¤ìì˜ í˜„ì¬ ìƒí™©");
 		seller.showSaleResult();
 		
-		System.out.println("°úÀÏ ±¸¸ÅÀÚÀÇ ÇöÀç »óÈ²");
+		System.out.println("ê³¼ì¼ êµ¬ë§¤ìì˜ í˜„ì¬ ìƒí™©");
 		buyer.showBuyResult();
 	}
 }

@@ -1,17 +1,17 @@
-package Chapter6;
+ï»¿package Chapter6;
 class MethodDefAdd
 {
 	public static void main(String[] args)
 	{
-		System.out.println("ÇÁ·Î±×·¥ÀÇ ½ÃÀÛ");
+		System.out.println("í”„ë¡œê·¸ë¨ì˜ ì‹œì‘");
 		hiEveryone(12);
 		hiEveryone(13);
-		System.out.println("ÇÁ·Î±×·¥ÀÇ ³¡");
+		System.out.println("í”„ë¡œê·¸ë¨ì˜ ë");
 	}
 	
 	public static void hiEveryone(int age)
 	{
-		System.out.println("ÁÁÀº ¾ÆÄ§ÀÔ´Ï´Ù.");
-		System.out.println("Á¦ ³ªÀÌ´Â "+ age+"¼¼ÀÔ´Ï´Ù.");
+		System.out.println("ì¢‹ì€ ì•„ì¹¨ì…ë‹ˆë‹¤.");
+		System.out.println("ì œ ë‚˜ì´ëŠ” "+ age+"ì„¸ì…ë‹ˆë‹¤.");
 	}	
  }

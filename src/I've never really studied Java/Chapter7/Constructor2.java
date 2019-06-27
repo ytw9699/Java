@@ -1,4 +1,4 @@
-package Chapter7;
+ï»¿package Chapter7;
 class Number2
 {
 	int num;
@@ -6,7 +6,7 @@ class Number2
 	public Number2(int n)
 	{
 		num=n;
-		System.out.println("ÀÎÀÚ Àü´Ş: "+n);
+		System.out.println("ì¸ì ì „ë‹¬: "+n);
 	}
 	public int getNumber()
 	{
@@ -19,9 +19,9 @@ class Constructor2
 	public static void main(String[] args)
 	{
 		Number2 num1=new Number2(10);
-		System.out.println("¸Ş¼Òµå ¹İÈ¯ °ª: "+num1.getNumber());
+		System.out.println("ë©”ì†Œë“œ ë°˜í™˜ ê°’: "+num1.getNumber());
 		
 		Number2 num2=new Number2(20);
-		System.out.println("¸Ş¼Òµå ¹İÈ¯ °ª: "+num2.getNumber());
+		System.out.println("ë©”ì†Œë“œ ë°˜í™˜ ê°’: "+num2.getNumber());
 	}	
 }

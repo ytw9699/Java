@@ -1,4 +1,4 @@
-package Chapter6;
+ï»¿package Chapter6;
 class Method2Param
 {
 	public static void main(String[] args)
@@ -11,12 +11,12 @@ class Method2Param
 	
 	public static void hiEveryone(int age, double height)
 	{
-		System.out.println("Á¦ ³ªÀÌ´Â "+ age+"¼¼ ÀÔ´Ï´Ù.");
-		System.out.println("ÀúÀÇ Å°´Â "+ height+"cm ÀÔ´Ï´Ù.");	
+		System.out.println("ì œ ë‚˜ì´ëŠ” "+ age+"ì„¸ ì…ë‹ˆë‹¤.");
+		System.out.println("ì €ì˜ í‚¤ëŠ” "+ height+"cm ì…ë‹ˆë‹¤.");	
 	}
 	
 	public static void byEveryone()
 	{
-		System.out.println("´ÙÀ½¿¡ ºË°Ú½À´Ï´Ù.");
+		System.out.println("ë‹¤ìŒì— ëµ™ê² ìŠµë‹ˆë‹¤.");
 	}
  }

@@ -1,4 +1,4 @@
-package Chapter5;
+ï»¿package Chapter5;
 class IEUsage
 {
 	public static void main(String[] args)
@@ -6,11 +6,11 @@ class IEUsage
 		int num=10;
 		
 		if(num>0)
-			System.out.println("numÀº 0º¸´Ù Å©´Ù.");
+			System.out.println("numì€ 0ë³´ë‹¤ í¬ë‹¤.");
 		
 		if((num%2)==0)
-			System.out.println("numÀº Â¦¼ö");
+			System.out.println("numì€ ì§ìˆ˜");
 		else
-			System.out.println("numÀº È¦¼ö");
+			System.out.println("numì€ í™€ìˆ˜");
 	}
 }

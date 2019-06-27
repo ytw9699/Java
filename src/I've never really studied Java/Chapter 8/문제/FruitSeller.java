@@ -1,5 +1,5 @@
-/*
- *  ÆÄÀÏÀÌ¸§: FruitSeller.java
+ï»¿/*
+ *  íŒŒì¼ì´ë¦„: FruitSeller.java
  */
 
 package orange.seller;
@@ -26,7 +26,7 @@ public class FruitSeller
 		}
 27.		public void showSaleResult()
 28.		{
-29.			System.out.println("³²Àº »ç°ú: " + numOfApple);
-30.			System.out.println("ÆÇ¸Å ¼öÀÍ: " + myMoney);
+29.			System.out.println("ë‚¨ì€ ì‚¬ê³¼: " + numOfApple);
+30.			System.out.println("íŒë§¤ ìˆ˜ìµ: " + myMoney);
 31.		}
 32.	}

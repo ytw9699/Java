@@ -1,4 +1,4 @@
-import java.awt.*;
+ï»¿import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -13,8 +13,8 @@ class ButtonTextHandler implements ActionListener
 	
 	public void actionPerformed(ActionEvent e)
 	{
-		textArea.setText("¸ğµÎ Áö¿ü½À´Ï´Ù. \n");
-		textArea.append("¿øÇÏ´Â ³»¿ë ÀÔ·ÂÇÏ¼¼¿ä. \n");
+		textArea.setText("ëª¨ë‘ ì§€ì› ìŠµë‹ˆë‹¤. \n");
+		textArea.append("ì›í•˜ëŠ” ë‚´ìš© ì…ë ¥í•˜ì„¸ìš”. \n");
 	}
 }
 
@@ -27,7 +27,7 @@ class JTextAreaScrollAdded
 		frm.setLayout(new FlowLayout());
 	
 		JTextArea textArea=new JTextArea(10, 20);
-		textArea.append("¿øÇÏ´Â ³»¿ë ÀÔ·ÂÇÏ¼¼¿ä. \n");
+		textArea.append("ì›í•˜ëŠ” ë‚´ìš© ì…ë ¥í•˜ì„¸ìš”. \n");
 		textArea.setCaretPosition(textArea.getText().length());
 		
 		textArea.setLineWrap(true);

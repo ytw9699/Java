@@ -1,4 +1,4 @@
-package Chapter15;
+ï»¿package Chapter15;
 class AAA1 
 {
 	public int num=2;
@@ -21,7 +21,7 @@ class E_ValReDecle
 		CCC1 ref1=new CCC1();		
 		BBB1 ref2=ref1;
 		AAA1 ref3=ref2;
-		//BBB1 ref4=ref3;//¿¡·¯¹ß»ı
+		//BBB1 ref4=ref3;//ì—ëŸ¬ë°œìƒ
 		
 		System.out.println("CCC's ref: "+ref1.num);		
 		System.out.println("BBB's ref: "+ref2.num);		

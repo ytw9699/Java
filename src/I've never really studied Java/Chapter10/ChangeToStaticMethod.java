@@ -1,6 +1,6 @@
-package Chapter10;
+ï»¿package Chapter10;
 
-class SimpleMath2    // ´Ü¼ø °è»ê Å¬·¡½º
+class SimpleMath2    // ë‹¨ìˆœ ê³„ì‚° í´ë˜ìŠ¤
 {
 	public static final double PI=3.1415;
 	public static double add(double n1, double n2){ return n1+n2; }
@@ -8,7 +8,7 @@ class SimpleMath2    // ´Ü¼ø °è»ê Å¬·¡½º
 	public static double mul(double n1, double n2){ return n1*n2; }
 }
 
-class AreaMath2    // ³ĞÀÌ °è»ê Å¬·¡½º
+class AreaMath2    // ë„“ì´ ê³„ì‚° í´ë˜ìŠ¤
 {	
 	public static double calCircleArea(double rad)
 	{
@@ -22,7 +22,7 @@ class AreaMath2    // ³ĞÀÌ °è»ê Å¬·¡½º
 	}
 }
 
-class PerimeterMath2    // µÑ·¹ °è»ê Å¬·¡½º
+class PerimeterMath2    // ë‘˜ë ˆ ê³„ì‚° í´ë˜ìŠ¤
 {	
 	public static double calCirclePeri(double rad)
 	{
@@ -40,7 +40,7 @@ class ChangeToStaticMethod
 {
 	public static void main(String[] args)
 	{		
-		System.out.println("¿øÀÇ ³ĞÀÌ: "+AreaMath2.calCircleArea(2.4));
-		System.out.println("Á÷»ç°¢Çü µÑ·¹: "+PerimeterMath2.calRectanglePeri(2.0, 4.0));
+		System.out.println("ì›ì˜ ë„“ì´: "+AreaMath2.calCircleArea(2.4));
+		System.out.println("ì§ì‚¬ê°í˜• ë‘˜ë ˆ: "+PerimeterMath2.calRectanglePeri(2.0, 4.0));
 	}
 }

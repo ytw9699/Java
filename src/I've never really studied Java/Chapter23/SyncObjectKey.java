@@ -1,4 +1,4 @@
-class IHaveTwoNum
+﻿class IHaveTwoNum
 {
 	int num1=0;
 	int num2=0;

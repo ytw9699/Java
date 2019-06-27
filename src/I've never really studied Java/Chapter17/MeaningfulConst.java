@@ -1,4 +1,4 @@
-package Chapter17;
+ï»¿package Chapter17;
 import java.util.Scanner;
 
 interface Week
@@ -10,10 +10,10 @@ class MeaningfulConst
 {	
 	public static void main(String[] args)
 	{
-		System.out.println("¿À´ÃÀÇ ¿äÀÏÀ» ¼±ÅÃÇÏ¼¼¿ä. ");
-		System.out.println("1.¿ù¿äÀÏ, 2.È­¿äÀÏ, 3.¼ö¿äÀÏ, 4.¸ñ¿äÀÏ");
-		System.out.println("5.±İ¿äÀÏ, 6.Åä¿äÀÏ, 7.ÀÏ¿äÀÏ");
-		System.out.print("¼±ÅÃ: ");
+		System.out.println("ì˜¤ëŠ˜ì˜ ìš”ì¼ì„ ì„ íƒí•˜ì„¸ìš”. ");
+		System.out.println("1.ì›”ìš”ì¼, 2.í™”ìš”ì¼, 3.ìˆ˜ìš”ì¼, 4.ëª©ìš”ì¼");
+		System.out.println("5.ê¸ˆìš”ì¼, 6.í† ìš”ì¼, 7.ì¼ìš”ì¼");
+		System.out.print("ì„ íƒ: ");
 		
 		Scanner sc=new Scanner(System.in);
 		int sel=sc.nextInt();
@@ -21,25 +21,25 @@ class MeaningfulConst
 		switch(sel)
 		{
 		case Week.MON:
-			System.out.println("ÁÖ°£È¸ÀÇ°¡ ÀÖ½À´Ï´Ù.");
+			System.out.println("ì£¼ê°„íšŒì˜ê°€ ìˆìŠµë‹ˆë‹¤.");
 			break;
 		case Week.TUE:
-			System.out.println("ÇÁ·ÎÁ§Æ® ±âÈ¹ È¸ÀÇ°¡ ÀÖ½À´Ï´Ù.");
+			System.out.println("í”„ë¡œì íŠ¸ ê¸°íš íšŒì˜ê°€ ìˆìŠµë‹ˆë‹¤.");
 			break;
 		case Week.WED:
-			System.out.println("ÁøÇà»çÇ× º¸°íÇÏ´Â ³¯ÀÔ´Ï´Ù.");
+			System.out.println("ì§„í–‰ì‚¬í•­ ë³´ê³ í•˜ëŠ” ë‚ ì…ë‹ˆë‹¤.");
 			break;
 		case Week.THU:
-			System.out.println("»ç³» Ãà±¸½ÃÇÕÀÌ ÀÖ´Â ³¯ÀÔ´Ï´Ù.");
+			System.out.println("ì‚¬ë‚´ ì¶•êµ¬ì‹œí•©ì´ ìˆëŠ” ë‚ ì…ë‹ˆë‹¤.");
 			break;
 		case Week.FRI:
-			System.out.println("ÇÁ·ÎÁ§Æ® ¸¶°¨ÀÏÀÔ´Ï´Ù.");
+			System.out.println("í”„ë¡œì íŠ¸ ë§ˆê°ì¼ì…ë‹ˆë‹¤.");
 			break;
 		case Week.SAT:
-			System.out.println("°¡Á·°ú ÇÔ²² Áñ°Å¿î ½Ã°£À» º¸³»¼¼¿ä");
+			System.out.println("ê°€ì¡±ê³¼ í•¨ê»˜ ì¦ê±°ìš´ ì‹œê°„ì„ ë³´ë‚´ì„¸ìš”");
 			break;
 		case Week.SUN:
-			System.out.println("¿À´ÃÀº ÈŞÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì˜¤ëŠ˜ì€ íœ´ì¼ì…ë‹ˆë‹¤.");
 		}
 	}
 }

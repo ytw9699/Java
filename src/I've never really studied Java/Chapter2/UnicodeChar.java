@@ -1,11 +1,11 @@
-package Chapter2;
+ï»¿package Chapter2;
 
 class UnicodeChar
 {
 	public static void main(String[] args)
 	{
 		char ch1='A';
-		char ch2='ÇÑ';
+		char ch2='à¸§à¸±';
 		char ch3=0x3091;
 		char ch4=0x3092;
 		

@@ -1,4 +1,4 @@
-package Chapter6;
+﻿package Chapter6;
 class RightRecul
 {
 	public static void main(String[] args)

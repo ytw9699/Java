@@ -1,4 +1,4 @@
-package chapter19;
+ï»¿package chapter19;
 class Point implements Cloneable
 {
 	private int xPos;
@@ -35,11 +35,11 @@ class Rectangle implements Cloneable
 	}
 	public void showPosition()
 	{
-		System.out.println("Á÷»ç°¢Çü À§Ä¡Á¤º¸...");
-		System.out.print("ÁÂ »ó´Ü: ");
+		System.out.println("ì§ì‚¬ê°í˜• ìœ„ì¹˜ì •ë³´...");
+		System.out.print("ì¢Œ ìƒë‹¨: ");
 		upperLeft.showPosition();
 		System.out.println("");	
-		System.out.print("¿ì ÇÏ´Ü: ");
+		System.out.print("ìš° í•˜ë‹¨: ");
 		lowerRight.showPosition();	
 		System.out.println("\n");
 	}
@@ -63,7 +63,7 @@ class E_ShallowCopy
 		
 		try
 		{
-			cpy=(Rectangle)org.clone();//¿©±â¼­ Å¬·ĞÀ» ÇÏ¸é PointÀÎ½ºÅÏ½º±îÁö º¹Á¦¸¦ ÇÏ´Â°Ô¾Æ´Ï¶ó ¶È°°Àº ÀÎ½ºÅÏ½º¸¦ ÂüÁ¶ÇÏ´Â°ÍÀÌ´Ù
+			cpy=(Rectangle)org.clone();//ì—¬ê¸°ì„œ í´ë¡ ì„ í•˜ë©´ Pointì¸ìŠ¤í„´ìŠ¤ê¹Œì§€ ë³µì œë¥¼ í•˜ëŠ”ê²Œì•„ë‹ˆë¼ ë˜‘ê°™ì€ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ì°¸ì¡°í•˜ëŠ”ê²ƒì´ë‹¤
 			org.changePos(2, 2, 7, 7);
 			org.showPosition();
 			cpy.showPosition();

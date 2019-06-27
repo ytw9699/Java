@@ -1,19 +1,19 @@
-package Chapter10;
+ï»¿package Chapter10;
 class Circle
 {
 	static final double PI=3.1415;
 	private double radius;
 	
 	public Circle(double rad){ radius=rad; }
-	public void showPerimeter()   // µÑ·¹ Ãâ·Â
+	public void showPerimeter()   // ë‘˜ë ˆ ì¶œë ¥
 	{
 		double peri=(radius*2)*PI;
-		System.out.println("µÑ·¹: "+peri);
+		System.out.println("ë‘˜ë ˆ: "+peri);
 	}
-	public void showArea()    // ³ĞÀÌ Ãâ·Â
+	public void showArea()    // ë„“ì´ ì¶œë ¥
 	{
 		double area=(radius*radius)*PI;
-		System.out.println("³ĞÀÌ: "+area);
+		System.out.println("ë„“ì´: "+area);
 	}
 }
 

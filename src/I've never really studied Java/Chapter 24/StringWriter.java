@@ -1,4 +1,4 @@
-import java.io.*;
+ï»¿import java.io.*;
 
 class StringWriter
 {
@@ -7,19 +7,19 @@ class StringWriter
 		BufferedWriter out=
 			new BufferedWriter(new FileWriter("Strint.txt"));
 		
-		out.write("¹ÚÁö¼º - ¸Ş½Ã ¸ØÃß°Ô ÇÏ´Âµ¥ ÁıÁßÇÏ°Ú´Ù.");
+		out.write("ë°•ì§€ì„± - ë©”ì‹œ ë©ˆì¶”ê²Œ í•˜ëŠ”ë° ì§‘ì¤‘í•˜ê² ë‹¤.");
 		out.newLine();
-		out.write("¿Ã ½ÃÁğÀº ³ª¿¡°Ô ÀÖ¾î ÃÖ°íÀÇ ½ÃÁğÀÌ´Ù.");
+		out.write("ì˜¬ ì‹œì¦Œì€ ë‚˜ì—ê²Œ ìˆì–´ ìµœê³ ì˜ ì‹œì¦Œì´ë‹¤.");
 		out.newLine();
-		out.write("ÆÀÀÌ ½Â¸®ÇÏ´Â °ÍÀ» µ½±â À§ÇØ ÃÖ¼±À» ´ÙÇÏ°Ú´Ù.");
+		out.write("íŒ€ì´ ìŠ¹ë¦¬í•˜ëŠ” ê²ƒì„ ë•ê¸° ìœ„í•´ ìµœì„ ì„ ë‹¤í•˜ê² ë‹¤.");
 		out.newLine();
-		out.write("È¯»óÀûÀÎ °á½ÂÀüÀÌ µÉ °ÍÀÌ´Ù.");
+		out.write("í™˜ìƒì ì¸ ê²°ìŠ¹ì „ì´ ë  ê²ƒì´ë‹¤.");
 		out.newLine();
 		out.newLine();
-		out.write("±â»ç Á¦º¸ ¹× º¸µµÀÚ·á");
+		out.write("ê¸°ì‚¬ ì œë³´ ë° ë³´ë„ìë£Œ");
 		out.newLine();
 		out.write("press@goodnews.co.kr");
 		out.close();
-		System.out.println("±â»ç ÀÔ·Â ¿Ï·á.");		
+		System.out.println("ê¸°ì‚¬ ì…ë ¥ ì™„ë£Œ.");		
 	}
 }

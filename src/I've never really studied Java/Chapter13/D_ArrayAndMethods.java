@@ -1,4 +1,4 @@
-package Chapter13;
+ï»¿package Chapter13;
 class D_ArrayAndMethods
 {
 	public static int[] addAllArray(int[] ar, int addVal)
@@ -17,9 +17,9 @@ class D_ArrayAndMethods
 		ref=addAllArray(arr, 7);
 		
 		if(arr==ref)
-			System.out.println("µ¿ÀÏ ¹è¿­ ÂüÁ¶");
+			System.out.println("ë™ì¼ ë°°ì—´ ì°¸ì¡°");
 		else
-			System.out.println("´Ù¸¥ ¹è¿­ ÂüÁ¶");
+			System.out.println("ë‹¤ë¥¸ ë°°ì—´ ì°¸ì¡°");
 		
 		for(int i=0; i<ref.length; i++)
 			System.out.print(arr[i]+" ");

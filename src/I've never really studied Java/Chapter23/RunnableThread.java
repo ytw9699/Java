@@ -1,4 +1,4 @@
-class Sum
+ï»¿class Sum
 {
 	int num;
 	public Sum() { num=0; }
@@ -43,6 +43,6 @@ class RunnableThread
 			e.printStackTrace();
 		}
 		
-		System.out.println("1~100±îÁöÀÇ ÇÕ: "+(at1.getNum()+at2.getNum()));
+		System.out.println("1~100ê¹Œì§€ì˜ í•©: "+(at1.getNum()+at2.getNum()));
 	}
 }

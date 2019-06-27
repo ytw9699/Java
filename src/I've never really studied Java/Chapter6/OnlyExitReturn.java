@@ -1,4 +1,4 @@
-package Chapter6;
+ï»¿package Chapter6;
 class OnlyExitReturn
 {
 	public static void main(String[] args)
@@ -12,9 +12,9 @@ class OnlyExitReturn
 	{
 		if(num2==0)
 		{
-			System.out.println("0À¸·Î´Â °ªÀ» ³ª´­ ¼ö ¾ø½À´Ï´Ù.");
+			System.out.println("0ìœ¼ë¡œëŠ” ê°’ì„ ë‚˜ëˆŒ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 			return;
 		}
-		System.out.println("³ª´°¼À °á°ú: " + (num1/num2));
+		System.out.println("ë‚˜ëˆ—ì…ˆ ê²°ê³¼: " + (num1/num2));
 	} 
  }

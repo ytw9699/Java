@@ -1,4 +1,4 @@
-package Chapter12;
+ï»¿package Chapter12;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 class PastReadInt
@@ -8,10 +8,10 @@ class PastReadInt
 		try {
 			InputStreamReader isr=new InputStreamReader(System.in);
 			BufferedReader br=new BufferedReader(isr);
-			System.out.print("Á¤¼ö ÀÔ·Â: ");
+			System.out.print("ì •ìˆ˜ ì…ë ¥: ");
 			String str=br.readLine();
 			int num=Integer.parseInt(str);
-			System.out.println("ÀÔ·ÂµÈ Á¤¼ö: "+num);
+			System.out.println("ì…ë ¥ëœ ì •ìˆ˜: "+num);
 		}catch(Exception ex){
 			ex.printStackTrace();
 		}

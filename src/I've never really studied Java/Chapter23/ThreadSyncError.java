@@ -1,4 +1,4 @@
-class Increment
+﻿class Increment
 {
 	int num=0;
 	public synchronized void increment(){ num++; }

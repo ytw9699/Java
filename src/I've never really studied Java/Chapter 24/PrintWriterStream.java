@@ -1,4 +1,4 @@
-import java.io.*;
+ï»¿import java.io.*;
 
 class PrintWriterStream
 {
@@ -7,11 +7,11 @@ class PrintWriterStream
 		PrintWriter out=
 			new PrintWriter(new FileWriter("printf.txt"));
 		
-		out.printf("Á¦ ³ªÀÌ´Â %d»ì ÀÔ´Ï´Ù.", 24);
+		out.printf("ì œ ë‚˜ì´ëŠ” %dì‚´ ì…ë‹ˆë‹¤.", 24);
 		out.println("");
 		
-		out.println("Àú´Â ÀÚ¹Ù°¡ ÁÁ½À´Ï´Ù.");
-		out.print("Æ¯È÷ I/O ºÎºĞ¿¡¼­ ¸¹Àº ¸Å·ÂÀ» ´À³§´Ï´Ù.");
+		out.println("ì €ëŠ” ìë°”ê°€ ì¢‹ìŠµë‹ˆë‹¤.");
+		out.print("íŠ¹íˆ I/O ë¶€ë¶„ì—ì„œ ë§ì€ ë§¤ë ¥ì„ ëŠë‚ë‹ˆë‹¤.");
 		out.close();
 	}
 }

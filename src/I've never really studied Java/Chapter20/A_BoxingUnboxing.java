@@ -1,18 +1,18 @@
-package Chapter20;
+ï»¿package Chapter20;
 class A_BoxingUnboxing
 {	
 	public static void main(String[] args)
 	{
-		Integer iValue=new Integer(10);//¹Ú½Ì
-		Double dValue=new Double(3.14);//¹Ú½Ì
+		Integer iValue=new Integer(10);//ë°•ì‹±
+		Double dValue=new Double(3.14);//ë°•ì‹±
 		
-		System.out.println(iValue);//Åõ½ºÆ®¸µ ¸Ş¼Òµå È£Ãâ
-		System.out.println(dValue);//Åõ½ºÆ®¸µ ¸Ş¼Òµå È£Ãâ
+		System.out.println(iValue);//íˆ¬ìŠ¤íŠ¸ë§ ë©”ì†Œë“œ í˜¸ì¶œ
+		System.out.println(dValue);//íˆ¬ìŠ¤íŠ¸ë§ ë©”ì†Œë“œ í˜¸ì¶œ
 		
-		iValue=new Integer(iValue.intValue()+10);//¾ğ¹Ú½ÌÈÄ ´Ù½Ã ¹Ú½Ì
-		dValue=new Double(dValue.doubleValue()+1.2);//¾ğ¹Ú½ÌÈÄ ´Ù½Ã ¹Ú½Ì
+		iValue=new Integer(iValue.intValue()+10);//ì–¸ë°•ì‹±í›„ ë‹¤ì‹œ ë°•ì‹±
+		dValue=new Double(dValue.doubleValue()+1.2);//ì–¸ë°•ì‹±í›„ ë‹¤ì‹œ ë°•ì‹±
 		
-		System.out.println(iValue);//Åõ½ºÆ®¸µ ¸Ş¼Òµå È£Ãâ
-		System.out.println(dValue);	//Åõ½ºÆ®¸µ ¸Ş¼Òµå È£Ãâ	
+		System.out.println(iValue);//íˆ¬ìŠ¤íŠ¸ë§ ë©”ì†Œë“œ í˜¸ì¶œ
+		System.out.println(dValue);	//íˆ¬ìŠ¤íŠ¸ë§ ë©”ì†Œë“œ í˜¸ì¶œ	
 	}
 }

@@ -1,4 +1,4 @@
-package Chapter9;
+ï»¿package Chapter9;
 
 public class Calculator
 {
@@ -20,8 +20,8 @@ public class Calculator
 	}
 	public void showOperatingTimes()
 	{
-		System.out.println("µ¡¼À È½¼ö: " + adder.getCntAdd());
-		System.out.println("»¬¼À È½¼ö: " + subtractor.getCntSub());
+		System.out.println("ë§ì…ˆ íšŸìˆ˜: " + adder.getCntAdd());
+		System.out.println("ëº„ì…ˆ íšŸìˆ˜: " + subtractor.getCntSub());
 	}
 }
 

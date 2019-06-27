@@ -1,4 +1,4 @@
-package Chapter5;
+ï»¿package Chapter5;
 class IEReit
 {
 	public static void main(String[] args)
@@ -7,17 +7,17 @@ class IEReit
 		
 		if(num<0)
 		{
-			System.out.println("0 ¹Ì¸¸");
+			System.out.println("0 ë¯¸ë§Œ");
 		}
 		else
 		{
 			if(num<100)
 			{
-				System.out.println("0ÀÌ»ó 100 ¹Ì¸¸");
+				System.out.println("0ì´ìƒ 100 ë¯¸ë§Œ");
 			}
 			else
 			{
-				System.out.println("100 ÀÌ»ó");
+				System.out.println("100 ì´ìƒ");
 			}
 		}
 	}

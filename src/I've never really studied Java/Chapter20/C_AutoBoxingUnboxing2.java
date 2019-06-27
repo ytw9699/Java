@@ -1,12 +1,12 @@
-package Chapter20;
+ï»¿package Chapter20;
 class C_AutoBoxingUnboxing2
 {	
 	public static void main(String[] args)
 	{
-		Integer num1=10;//¿ÀÅä¹Ú½Ì
-		Integer num2=20;//¿ÀÅä¹Ú½Ì
+		Integer num1=10;//ì˜¤í† ë°•ì‹±
+		Integer num2=20;//ì˜¤í† ë°•ì‹±
 		
-		num1++;//¿ÀÅä¾ğ¹Ú½ÌÈÄ ´Ù½Ã ¿ÀÅä¹Ú½Ì
+		num1++;//ì˜¤í† ì–¸ë°•ì‹±í›„ ë‹¤ì‹œ ì˜¤í† ë°•ì‹±
 		System.out.println(num1);
 		
 		num2+=3;	

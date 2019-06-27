@@ -1,4 +1,4 @@
-package Chapter20;
+ï»¿package Chapter20;
 import java.util.StringTokenizer;
 
 class L_TokenizeString
@@ -6,7 +6,7 @@ class L_TokenizeString
 	public static void main(String[] args)
 	{
 		String strData="11:M22:33:44M55";
-		StringTokenizer st=new StringTokenizer(strData, ":;M");// :MÀÌ ±¸ºĞÀÚ°¡ µÇ±âµµÇÏ°í :ÀÌ ±¸ºĞÀÚ°¡ µÇ±âµµÇÏ°í MÀÌ ±¸ºĞÀÚ°¡µÇ±âµµÇÔ
+		StringTokenizer st=new StringTokenizer(strData, ":;M");// :Mì´ êµ¬ë¶„ìê°€ ë˜ê¸°ë„í•˜ê³  :ì´ êµ¬ë¶„ìê°€ ë˜ê¸°ë„í•˜ê³  Mì´ êµ¬ë¶„ìê°€ë˜ê¸°ë„í•¨
 		
 		while(st.hasMoreTokens())
 			System.out.println(st.nextToken());

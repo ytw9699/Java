@@ -1,4 +1,4 @@
-package Chapter11;
+ï»¿package Chapter11;
 class C_StringCopy
 {
 	public static void main(String[] args)
@@ -8,13 +8,13 @@ class C_StringCopy
 		String str3=new String(str2);
 		
 		if(str1==str2)
-			System.out.println("str1°ú str2´Â µ¿ÀÏ ÀÎ½ºÅÏ½º ÂüÁ¶");
+			System.out.println("str1ê³¼ str2ëŠ” ë™ì¼ ì¸ìŠ¤í„´ìŠ¤ ì°¸ì¡°");
 		else
-			System.out.println("str1°ú str2´Â ´Ù¸¥  ÀÎ½ºÅÏ½º ÂüÁ¶");			
+			System.out.println("str1ê³¼ str2ëŠ” ë‹¤ë¥¸  ì¸ìŠ¤í„´ìŠ¤ ì°¸ì¡°");			
 		
 		if(str2==str3)
-			System.out.println("str2¿Í str3´Â µ¿ÀÏ ÀÎ½ºÅÏ½º ÂüÁ¶");
+			System.out.println("str2ì™€ str3ëŠ” ë™ì¼ ì¸ìŠ¤í„´ìŠ¤ ì°¸ì¡°");
 		else
-			System.out.println("str2¿Í str3´Â ´Ù¸¥  ÀÎ½ºÅÏ½º ÂüÁ¶");	
+			System.out.println("str2ì™€ str3ëŠ” ë‹¤ë¥¸  ì¸ìŠ¤í„´ìŠ¤ ì°¸ì¡°");	
 	}
 }

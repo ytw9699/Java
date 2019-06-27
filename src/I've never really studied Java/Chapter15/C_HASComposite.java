@@ -1,7 +1,7 @@
-package Chapter15;
+ï»¿package Chapter15;
 class Gun
 {
-	int bullet;		// ÀåÀüµÈ ÃÑ¾ËÀÇ ¼ö
+	int bullet;		// ì¥ì „ëœ ì´ì•Œì˜ ìˆ˜
 	
 	public Gun(int bnum){bullet=bnum;}
 	public void shut()
@@ -13,13 +13,13 @@ class Gun
 
 class Police
 {
-	int handcuffs;	// ¼ÒÀ¯ÇÑ ¼ö°©ÀÇ ¼ö
-	Gun pistol;		// ¼ÒÀ¯ÇÏ°í ÀÖ´Â ±ÇÃÑ//°æÂûÀº ÃÑÀ» ¼ÒÀ¯ÇÒ¼öµµÀÖ°í ¾ÈÇÒ¼öµµ ÀÖ°í
-					//°­ÇÑ¿¬°á°í¸®°¡¾ø´Ù
+	int handcuffs;	// ì†Œìœ í•œ ìˆ˜ê°‘ì˜ ìˆ˜
+	Gun pistol;		// ì†Œìœ í•˜ê³  ìˆëŠ” ê¶Œì´//ê²½ì°°ì€ ì´ì„ ì†Œìœ í• ìˆ˜ë„ìˆê³  ì•ˆí• ìˆ˜ë„ ìˆê³ 
+					//ê°•í•œì—°ê²°ê³ ë¦¬ê°€ì—†ë‹¤
 	public Police(int bnum, int bcuff)
 	{
 		handcuffs=bcuff;
-		if(bnum!=0)//°æÂûÀº ÃÑÀ» ¼ÒÀ¯ÇÒ¼öµµÀÖ°í ¾ÈÇÒ¼öµµ ÀÖ°í
+		if(bnum!=0)//ê²½ì°°ì€ ì´ì„ ì†Œìœ í• ìˆ˜ë„ìˆê³  ì•ˆí• ìˆ˜ë„ ìˆê³ 
 			pistol=new Gun(bnum);
 		else
 			pistol=null;
@@ -42,11 +42,11 @@ class HasComposite
 {
 	public static void main(String[] args)
 	{
-		Police haveGun=new Police(5, 3);	// ÃÑ¾Ë 5, ¼ö°© 3
+		Police haveGun=new Police(5, 3);	// ì´ì•Œ 5, ìˆ˜ê°‘ 3
 		haveGun.shut();
 		haveGun.putHandcuff();
 		
-		Police dontHaveGun=new Police(0, 3);	// ÃÑ¾Ë 0, ¼ö°© 3
+		Police dontHaveGun=new Police(0, 3);	// ì´ì•Œ 0, ìˆ˜ê°‘ 3
 		dontHaveGun.shut();
 	}
 }

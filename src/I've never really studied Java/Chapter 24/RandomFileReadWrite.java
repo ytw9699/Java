@@ -1,4 +1,4 @@
-import java.io.*;
+ï»¿import java.io.*;
 
 class RandomFileReadWrite
 {
@@ -7,27 +7,27 @@ class RandomFileReadWrite
 		RandomAccessFile raf=new RandomAccessFile("data.bin", "rw");
 		
 		System.out.println("Write..............");
-		System.out.printf("ÇöÀç ÀÔÃâ·Â À§Ä¡: %d ¹ÙÀÌÆ® \n", raf.getFilePointer());
+		System.out.printf("í˜„ì¬ ì…ì¶œë ¥ ìœ„ì¹˜: %d ë°”ì´íŠ¸ \n", raf.getFilePointer());
 		
 		raf.writeInt(200);
 		raf.writeInt(500);
-		System.out.printf("ÇöÀç ÀÔÃâ·Â À§Ä¡: %d ¹ÙÀÌÆ® \n", raf.getFilePointer());
+		System.out.printf("í˜„ì¬ ì…ì¶œë ¥ ìœ„ì¹˜: %d ë°”ì´íŠ¸ \n", raf.getFilePointer());
 		
 		raf.writeDouble(48.65);
 		raf.writeDouble(52.24);
-		System.out.printf("ÇöÀç ÀÔÃâ·Â À§Ä¡: %d ¹ÙÀÌÆ® \n\n", raf.getFilePointer());
+		System.out.printf("í˜„ì¬ ì…ì¶œë ¥ ìœ„ì¹˜: %d ë°”ì´íŠ¸ \n\n", raf.getFilePointer());
 		
 		System.out.println("Read..............");
-		raf.seek(0);	// ¸Ç ¾ÕÀ¸·Î ÀÌµ¿
-		System.out.printf("ÇöÀç ÀÔÃâ·Â À§Ä¡: %d ¹ÙÀÌÆ® \n", raf.getFilePointer());
+		raf.seek(0);	// ë§¨ ì•ìœ¼ë¡œ ì´ë™
+		System.out.printf("í˜„ì¬ ì…ì¶œë ¥ ìœ„ì¹˜: %d ë°”ì´íŠ¸ \n", raf.getFilePointer());
 		
 		System.out.println(raf.readInt());
 		System.out.println(raf.readInt());
-		System.out.printf("ÇöÀç ÀÔÃâ·Â À§Ä¡: %d ¹ÙÀÌÆ® \n", raf.getFilePointer());
+		System.out.printf("í˜„ì¬ ì…ì¶œë ¥ ìœ„ì¹˜: %d ë°”ì´íŠ¸ \n", raf.getFilePointer());
 		
 		System.out.println(raf.readDouble());
 		System.out.println(raf.readDouble());
-		System.out.printf("ÇöÀç ÀÔÃâ·Â À§Ä¡: %d ¹ÙÀÌÆ® \n", raf.getFilePointer());
+		System.out.printf("í˜„ì¬ ì…ì¶œë ¥ ìœ„ì¹˜: %d ë°”ì´íŠ¸ \n", raf.getFilePointer());
 		raf.close();
 	}
 }

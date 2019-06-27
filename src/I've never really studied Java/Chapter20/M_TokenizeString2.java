@@ -1,11 +1,11 @@
-package Chapter20;
+ï»¿package Chapter20;
 import java.util.StringTokenizer;
 
 class M_TokenizeString2
 {	
 	public static void main(String[] args)
 	{
-		String phoneNum="TEL 82-02-997-2059"; 	//±¹Á¦ ÀüÈ­¹øÈ£
+		String phoneNum="TEL 82-02-997-2059"; 	//êµ­ì œ ì „í™”ë²ˆí˜¸
 		String javaCode="num+=1";
 		
 		System.out.println("First Result...........");

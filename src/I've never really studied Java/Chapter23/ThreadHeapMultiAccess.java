@@ -1,4 +1,4 @@
-class Sum
+ï»¿class Sum
 {
 	int num;
 	public Sum() { num=0; }
@@ -44,6 +44,6 @@ class ThreadHeapMultiAccess
 			e.printStackTrace();
 		}
 		
-		System.out.println("1~100±îÁöÀÇ ÇÕ: "+s.getNum());
+		System.out.println("1~100ê¹Œì§€ì˜ í•©: "+s.getNum());
 	}
 }

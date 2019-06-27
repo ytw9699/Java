@@ -1,11 +1,11 @@
-class PackageCircle
+ï»¿class PackageCircle
 {
 	public static void main(String[] args)
 	{
 		orange.area.Circle c1=new orange.area.Circle(1.5);
-		System.out.println("¹İÁö¸§ÀÌ 1.5ÀÎ ¿øÀÇ ³ĞÀÌ: "+c1.getArea());
+		System.out.println("ë°˜ì§€ë¦„ì´ 1.5ì¸ ì›ì˜ ë„“ì´: "+c1.getArea());
 
 		orange.perimeter.Circle c2 = new orange.perimeter.Circle(2.5);
-		System.out.println("¹İÁö¸§ÀÌ 2.5ÀÎ ¿øÀÇ µÑ·¹: "+c2.getPerimeter());
+		System.out.println("ë°˜ì§€ë¦„ì´ 2.5ì¸ ì›ì˜ ë‘˜ë ˆ: "+c2.getPerimeter());
 	}
 }

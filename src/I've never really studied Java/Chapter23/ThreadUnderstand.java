@@ -1,4 +1,4 @@
-class ShowThread extends Thread
+ï»¿class ShowThread extends Thread
 {
 	String threadName;
 	
@@ -11,7 +11,7 @@ class ShowThread extends Thread
 	{
 		for(int i=0; i<100; i++)
 		{
-			System.out.println("¾È³çÇÏ¼¼¿ä. "+threadName+"ÀÔ´Ï´Ù.");
+			System.out.println("ì•ˆë…•í•˜ì„¸ìš”. "+threadName+"ìž…ë‹ˆë‹¤.");
 			try
 			{
 				sleep(100);
@@ -28,8 +28,8 @@ class ThreadUnderstand
 {
 	public static void main(String[] args)
 	{
-		ShowThread st1=new ShowThread("¸ÚÁø ¾²·¹µå");
-		ShowThread st2=new ShowThread("¿¹»Û ¾²·¹µå");
+		ShowThread st1=new ShowThread("ë©‹ì§„ ì“°ë ˆë“œ");
+		ShowThread st2=new ShowThread("ì˜ˆìœ ì“°ë ˆë“œ");
 		st1.start();
 		st2.start();
 	}

@@ -1,4 +1,4 @@
-package Chapter22;
+ï»¿package Chapter22;
 import java.util.LinkedList;
 
 class a03_IntroLinkedList
@@ -7,19 +7,19 @@ class a03_IntroLinkedList
 	{
 		LinkedList<Integer> list=new LinkedList<Integer>();
 		
-		/* µ¥ÀÌÅÍÀÇ ÀúÀå */
+		/* ë°ì´í„°ì˜ ì €ì¥ */
 		list.add(new Integer(11));
 		list.add(new Integer(22));
 		list.add(new Integer(33));
 		
-		/* µ¥ÀÌÅÍÀÇ ÂüÁ¶ */
-		System.out.println("1Â÷ ÂüÁ¶");
+		/* ë°ì´í„°ì˜ ì°¸ì¡° */
+		System.out.println("1ì°¨ ì°¸ì¡°");
 		for(int i=0; i<list.size(); i++)
 			System.out.println(list.get(i));
 		
-		/* µ¥ÀÌÅÍÀÇ »èÁ¦ */
+		/* ë°ì´í„°ì˜ ì‚­ì œ */
 		list.remove(0);
-		System.out.println("2Â÷ ÂüÁ¶");
+		System.out.println("2ì°¨ ì°¸ì¡°");
 		for(int i=0; i<list.size(); i++)
 			System.out.println(list.get(i));	
 	}

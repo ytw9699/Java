@@ -1,4 +1,4 @@
-package Chapter12;
+ï»¿package Chapter12;
 import java.util.Scanner;
 class ScanningMethods
 {
@@ -6,24 +6,24 @@ class ScanningMethods
 	{
 		Scanner keyboard=new Scanner(System.in);
 		
-		System.out.print("´ç½ÅÀÇ ÀÌ¸§Àº? ");
+		System.out.print("ë‹¹ì‹ ì˜ ì´ë¦„ì€? ");
 		String str=keyboard.nextLine();
-		System.out.println("¾È³çÇÏ¼¼¿ä "+str+'´Ô');
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš” "+str+'ë‹˜');
 		
-		System.out.print("´ç½ÅÀº ½ºÆÄ°ÔÆ¼¸¦ ÁÁ¾ÆÇÑ´Ù´Âµ¥, Áø½ÇÀÔ´Ï±î? ");
+		System.out.print("ë‹¹ì‹ ì€ ìŠ¤íŒŒê²Œí‹°ë¥¼ ì¢‹ì•„í•œë‹¤ëŠ”ë°, ì§„ì‹¤ì…ë‹ˆê¹Œ? ");
 		boolean isTrue=keyboard.nextBoolean();
 		if(isTrue==true)
-			System.out.println("¿À~ ÁÁ¾ÆÇÏ´Â±º¿ä.");
+			System.out.println("ì˜¤~ ì¢‹ì•„í•˜ëŠ”êµ°ìš”.");
 		else
-			System.out.println("ÀÌ·± ¾Æ´Ï¾ú±º¿ä.");
+			System.out.println("ì´ëŸ° ì•„ë‹ˆì—ˆêµ°ìš”.");
 	
-		System.out.print("´ç½Å°ú µ¿»ıÀÇ Å°´Â ¾î¶»°Ô µÇ³ª¿ä? ");
+		System.out.print("ë‹¹ì‹ ê³¼ ë™ìƒì˜ í‚¤ëŠ” ì–´ë–»ê²Œ ë˜ë‚˜ìš”? ");
 		double num1=keyboard.nextDouble();
 		double num2=keyboard.nextDouble();
 		double diff=num1-num2;
 		if(diff>0)
-			System.out.println("´ç½ÅÀÌ "+diff+"¸¸Å­ Å©±º¿ä.");
+			System.out.println("ë‹¹ì‹ ì´ "+diff+"ë§Œí¼ í¬êµ°ìš”.");
 		else
-			System.out.println("´ç½ÅÀÌ "+(-diff)+"¸¸Å­ ÀÛ±º¿ä.");
+			System.out.println("ë‹¹ì‹ ì´ "+(-diff)+"ë§Œí¼ ì‘êµ°ìš”.");
 	}
 }

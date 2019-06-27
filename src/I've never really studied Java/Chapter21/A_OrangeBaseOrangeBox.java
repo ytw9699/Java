@@ -1,9 +1,9 @@
-package Chapter21;
+ï»¿package Chapter21;
 class Orange1
 {
-	int sugarContent;	// ´çºĞ ÇÔ·®
+	int sugarContent;	// ë‹¹ë¶„ í•¨ëŸ‰
 	public Orange1(int sugar) { sugarContent=sugar; }
-	public void showSugarContent() { System.out.println("´çµµ "+sugarContent); }
+	public void showSugarContent() { System.out.println("ë‹¹ë„ "+sugarContent); }
 }
 
 class OrangeBox1
@@ -30,7 +30,7 @@ class A_OrangeBaseOrangeBox
 		org1.showSugarContent();
 		
 		OrangeBox1 fBox2=new OrangeBox1();
-		fBox2.store("¿À·»Áö");//¿¡·¯¹ß»ıÁöÁ¡//½ºÆ®¸µÅ¸ÀÔÀÌ¶ó ¾ÈµÈ´Ù//ºÒÆíÇÏÁö¸¸ ÀÚ·áÇü¿¡´Â ¾ÈÀüÇÑ ÇüÅÂÀÌ´Ù
+		fBox2.store("ì˜¤ë Œì§€");//ì—ëŸ¬ë°œìƒì§€ì //ìŠ¤íŠ¸ë§íƒ€ì…ì´ë¼ ì•ˆëœë‹¤//ë¶ˆí¸í•˜ì§€ë§Œ ìë£Œí˜•ì—ëŠ” ì•ˆì „í•œ í˜•íƒœì´ë‹¤
 		Orange1 org2=fBox2.pullOut();
 		org2.showSugarContent();	
 	}

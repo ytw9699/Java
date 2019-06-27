@@ -1,12 +1,12 @@
-package Chapter20;
+ï»¿package Chapter20;
 import java.math.*;
 
 class D_SoBigInteger
 {
 	public static void main(String[] args)
 	{
-		System.out.println("ÃÖ´ë Á¤¼ö: " + Long.MAX_VALUE);
-		System.out.println("ÃÖ¼Ò Á¤¼ö: " + Long.MIN_VALUE);
+		System.out.println("ìµœëŒ€ ì •ìˆ˜: " + Long.MAX_VALUE);
+		System.out.println("ìµœì†Œ ì •ìˆ˜: " + Long.MIN_VALUE);
 		
 		BigInteger bigValue1=new BigInteger("100000000000000000000");
 		BigInteger bigValue2=new BigInteger("-99999999999999999999");
@@ -14,7 +14,7 @@ class D_SoBigInteger
 		BigInteger addResult=bigValue1.add(bigValue2);
 		BigInteger mulResult=bigValue1.multiply(bigValue2);
 		
-		System.out.println("Å« ¼öÀÇ µ¡¼À°á°ú: "+addResult);
-		System.out.println("Å« ¼öÀÇ °ö¼À°á°ú: "+mulResult);
+		System.out.println("í° ìˆ˜ì˜ ë§ì…ˆê²°ê³¼: "+addResult);
+		System.out.println("í° ìˆ˜ì˜ ê³±ì…ˆê²°ê³¼: "+mulResult);
 	}
 }

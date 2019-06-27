@@ -1,4 +1,4 @@
-package Chapter15;
+ï»¿package Chapter15;
 class Box
 {
 	public void simpleWrap(){System.out.println("simple wrap");}
@@ -18,7 +18,7 @@ class H_InstanceOf
 {
 	public static void wrapBox(Box box)
 	{
-		if(box instanceof GoldPaperBox)//box°¡ GoldPaperBox·Î Çüº¯È¯°¡´ÉÇÏ´Ù¸é
+		if(box instanceof GoldPaperBox)//boxê°€ GoldPaperBoxë¡œ í˜•ë³€í™˜ê°€ëŠ¥í•˜ë‹¤ë©´
 			((GoldPaperBox)box).goldWrap();
 		else if(box instanceof PaperBox)
 			((PaperBox)box).paperWrap();

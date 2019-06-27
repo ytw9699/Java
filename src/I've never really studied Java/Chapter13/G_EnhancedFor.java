@@ -1,4 +1,4 @@
-package Chapter13;
+ï»¿package Chapter13;
 class G_EnhancedFor
 {
 	public static void main(String[] args)
@@ -9,7 +9,7 @@ class G_EnhancedFor
 		for(int e: arr)
 			sum+=e;
 		
-		System.out.println("¹è¿­ ¿ä¼ÒÀÇ ÇÕ: "+sum);
+		System.out.println("ë°°ì—´ ìš”ì†Œì˜ í•©: "+sum);
 		
 		for(int e: arr)
 		{

@@ -1,11 +1,11 @@
-package Chapter18;
+ï»¿package Chapter18;
 import java.util.Scanner;
 
 class AgeInputException1 extends Exception
 {
 	public AgeInputException1()
 	{
-		super("À¯È¿ÇÏÁö ¾ÊÀº ³ªÀÌ°¡ ÀÔ·ÂµÇ¾ú½À´Ï´Ù.");
+		super("ìœ íš¨í•˜ì§€ ì•Šì€ ë‚˜ì´ê°€ ì…ë ¥ë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 }
 
@@ -13,12 +13,12 @@ class ProgrammerDefineException
 {	
 	public static void main(String[] args)
 	{
-		System.out.print("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.print("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 		
 		try
 		{
 			int age=readAge();
-			System.out.println("´ç½ÅÀº "+age+"¼¼ÀÔ´Ï´Ù.");
+			System.out.println("ë‹¹ì‹ ì€ "+age+"ì„¸ì…ë‹ˆë‹¤.");
 		}
 		catch(AgeInputException1 e)
 		{

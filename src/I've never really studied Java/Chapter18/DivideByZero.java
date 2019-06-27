@@ -1,26 +1,26 @@
-package Chapter18;
+ï»¿package Chapter18;
 import java.util.Scanner;
 
 class DivideByZero
 {	
 	public static void main(String[] args)
 	{
-		System.out.print("µÎ °³ÀÇ  Á¤¼ö ÀÔ·Â: ");
+		System.out.print("ë‘ ê°œì˜  ì •ìˆ˜ ì…ë ¥: ");
 		Scanner keyboard=new Scanner(System.in);
 		int num1=keyboard.nextInt();
 		int num2=keyboard.nextInt();
 			
 		try
 		{
-			System.out.println("³ª´°¼À °á°úÀÇ ¸ò: "+(num1/num2));
-			System.out.println("³ª´°¼À °á°úÀÇ ³ª¸ÓÁö: "+(num1%num2));
+			System.out.println("ë‚˜ëˆ—ì…ˆ ê²°ê³¼ì˜ ëª«: "+(num1/num2));
+			System.out.println("ë‚˜ëˆ—ì…ˆ ê²°ê³¼ì˜ ë‚˜ë¨¸ì§€: "+(num1%num2));
 		}
 		catch(ArithmeticException e)
 		{
-			System.out.println("³ª´°¼À ºÒ°¡´É");
+			System.out.println("ë‚˜ëˆ—ì…ˆ ë¶ˆê°€ëŠ¥");
 			System.out.println(e.getMessage());
 		}
 		
-		System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+		System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 	}
 }

@@ -1,4 +1,4 @@
-package Chapter20;
+ï»¿package Chapter20;
 import java.math.*;
 
 class G_NoErrorBigDecimal
@@ -8,7 +8,7 @@ class G_NoErrorBigDecimal
 		BigDecimal e1=new BigDecimal("1.6");
 		BigDecimal e2=new BigDecimal("0.1");
 		
-		System.out.println("µÎ ½Ç¼öÀÇ µ¡¼À°á°ú: "+ e1.add(e2));
-		System.out.println("µÎ ½Ç¼öÀÇ °ö¼À°á°ú: "+ e1.multiply(e2));
+		System.out.println("ë‘ ì‹¤ìˆ˜ì˜ ë§ì…ˆê²°ê³¼: "+ e1.add(e2));
+		System.out.println("ë‘ ì‹¤ìˆ˜ì˜ ê³±ì…ˆê²°ê³¼: "+ e1.multiply(e2));
 	}
 }

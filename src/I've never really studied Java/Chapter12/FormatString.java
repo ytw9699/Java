@@ -1,4 +1,4 @@
-package Chapter12;
+ï»¿package Chapter12;
 class FormatString
 {
 	public static void main(String[] args)
@@ -7,10 +7,10 @@ class FormatString
 		System.out.print("2");
 		int age=20;
 		double tall=175.7;
-		String name="È«ÀÚ¹Ù";
+		String name="í™ìë°”";
 		
-		System.out.printf("Á¦ ÀÌ¸§Àº %sÀÔ´Ï´Ù. \n", name);//¹®ÀÚ %s
-		System.out.printf("³ªÀÌ´Â %dÀÌ°í, Å°´Â %eÀÔ´Ï´Ù. \n", age, tall);//¼ø¼­´ë·Î age, tail ½áÁà¾ßÇÔ
+		System.out.printf("ì œ ì´ë¦„ì€ %sì…ë‹ˆë‹¤. \n", name);//ë¬¸ì %s
+		System.out.printf("ë‚˜ì´ëŠ” %dì´ê³ , í‚¤ëŠ” %eì…ë‹ˆë‹¤. \n", age, tall);//ìˆœì„œëŒ€ë¡œ age, tail ì¨ì¤˜ì•¼í•¨
 		System.out.printf("%d %o %x \n", 77, 77, 77);
 		System.out.printf("%g %g \n", 0.00014, 0.000014);
 	}

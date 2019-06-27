@@ -1,4 +1,4 @@
-package chapter19;
+ï»¿package chapter19;
 
 class Business implements Cloneable
 {
@@ -12,8 +12,8 @@ class Business implements Cloneable
 	}
 	public void showBusinessInfo()
 	{
-		System.out.println("È¸»ç: " + company);
-		System.out.println("¾÷¹«: " + work);
+		System.out.println("íšŒì‚¬: " + company);
+		System.out.println("ì—…ë¬´: " + work);
 	}
 	public void changeWork(String work)
 	{
@@ -40,8 +40,8 @@ class PersonalInfo implements Cloneable
 	}	
 	public void showPersonalInfo()
 	{
-		System.out.println("ÀÌ¸§: " + name);
-		System.out.println("³ªÀÌ: " + age);
+		System.out.println("ì´ë¦„: " + name);
+		System.out.println("ë‚˜ì´: " + age);
 		bness.showBusinessInfo();
 	}
 	public void changeWork(String work)

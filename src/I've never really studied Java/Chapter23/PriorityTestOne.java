@@ -1,4 +1,4 @@
-class MessageSendingThread extends Thread
+﻿class MessageSendingThread extends Thread
 {
 	String message;
 	int priority;

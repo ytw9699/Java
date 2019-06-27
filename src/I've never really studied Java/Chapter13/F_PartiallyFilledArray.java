@@ -1,4 +1,4 @@
-package Chapter13;
+ï»¿package Chapter13;
 class F_PartiallyFilledArray
 {
 	public static void main(String[] args)
@@ -9,9 +9,9 @@ class F_PartiallyFilledArray
 			{6, 7, 8, 9}
 		};
 		
-		System.out.println("¹è¿­ÀÇ ¼¼·Î±æÀÌ: "+arr.length);
+		System.out.println("ë°°ì—´ì˜ ì„¸ë¡œê¸¸ì´: "+arr.length);
 		
 		for(int i=0; i<arr.length; i++)
-			System.out.printf("%dÇàÀÇ ±æÀÌ: %d \n", i+1, arr[i].length);
+			System.out.printf("%dí–‰ì˜ ê¸¸ì´: %d \n", i+1, arr[i].length);
 	}
 }

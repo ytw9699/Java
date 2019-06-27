@@ -1,10 +1,10 @@
-package Chapter4;
+ï»¿package Chapter4;
 class DivOpnd
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Á¤¼öÇü ³ª´°¼À: " + 7/3);
-		System.out.println("½Ç¼öÇü ³ª´°¼À: " + 7.0f/3.0f);
-		System.out.println("Çü º¯È¯ ³ª´°¼À: " + (float)7/3);//(float)7¸ÕÀú ÇÃ·ÎÆ®·Îº¯È¯ÇÏ°í//3ÀºintÀÎµ¥ ³ª´°¼ÀÇÏ¸é int·Î Çüº¯È¯µÊ
+		System.out.println("ì •ìˆ˜í˜• ë‚˜ëˆ—ì…ˆ: " + 7/3);
+		System.out.println("ì‹¤ìˆ˜í˜• ë‚˜ëˆ—ì…ˆ: " + 7.0f/3.0f);
+		System.out.println("í˜• ë³€í™˜ ë‚˜ëˆ—ì…ˆ: " + (float)7/3);//(float)7ë¨¼ì € í”Œë¡œíŠ¸ë¡œë³€í™˜í•˜ê³ //3ì€intì¸ë° ë‚˜ëˆ—ì…ˆí•˜ë©´ intë¡œ í˜•ë³€í™˜ë¨
 	}
 }

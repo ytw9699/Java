@@ -1,4 +1,4 @@
-package Chapter21;
+ï»¿package Chapter21;
 interface SimpleInterface3
 {
 	public void showYourName();
@@ -29,7 +29,7 @@ class BBB3 extends UpperClass3 implements SimpleInterface3
 }
 
 class BoundedTypeParam3
-{	//T°¡ SimpleInterface3¸¦ »ó¼Ó ¶Ç´Â ±¸ÇöÇÏ´Â Å¬·¡½ºÀÇ ÀÚ·áÇüÀÌ µÇ¾î¾ß ÇÔÀ» ¸í½ÃÇÔ
+{	//Tê°€ SimpleInterface3ë¥¼ ìƒì† ë˜ëŠ” êµ¬í˜„í•˜ëŠ” í´ë˜ìŠ¤ì˜ ìë£Œí˜•ì´ ë˜ì–´ì•¼ í•¨ì„ ëª…ì‹œí•¨
 	public static <T extends SimpleInterface3> void showInstanceAncestor(T param)
 	{
 		param.showYourName();

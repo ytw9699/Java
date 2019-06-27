@@ -1,4 +1,4 @@
-package orange.perimeter;    // ÆĞÅ°Áö ¼±¾ğ
+ï»¿package orange.perimeter;    // íŒ¨í‚¤ì§€ ì„ ì–¸
 
 public class Circle
 {

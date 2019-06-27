@@ -1,4 +1,4 @@
-package Chapter17;
+Ôªøpackage Chapter17;
 interface PersonalNumberStorage
 {
 	void addPersonalInfo(String perNum, String name);
@@ -54,8 +54,8 @@ class AbstractInterface2
 	public static void main(String[] args)
 	{
 		PersonalNumberStorage storage=new PersonalNumberStorageImpl(100);
-		storage.addPersonalInfo("±Ë±‚µø", "950000-1122333");
-		storage.addPersonalInfo("¿ÂªÍ±Ê", "970000-1122334");	
+		storage.addPersonalInfo("ÍπÄÍ∏∞Îèô", "950000-1122333");
+		storage.addPersonalInfo("Ïû•ÏÇ∞Í∏∏", "970000-1122334");	
 		
 		System.out.println(storage.searchName("950000-1122333"));
 		System.out.println(storage.searchName("970000-1122334"));

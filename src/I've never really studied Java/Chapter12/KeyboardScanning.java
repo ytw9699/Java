@@ -1,4 +1,4 @@
-package Chapter12;
+ï»¿package Chapter12;
 import java.util.Scanner;
 class KeyboardScanning
 {
@@ -12,7 +12,7 @@ class KeyboardScanning
 		int sum=num1+num2+num3;
 		
 		System.out.printf(
-			"ÀÔ·ÂµÈ Á¤¼ö %d, %d, %dÀÇ ÇÕÀº %d \n", 
+			"ì…ë ¥ëœ ì •ìˆ˜ %d, %d, %dì˜ í•©ì€ %d \n", 
 			num1, num2,num3, sum);
 	}
 }

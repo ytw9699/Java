@@ -1,4 +1,4 @@
-package Chapter11;
+ï»¿package Chapter11;
 class C_ImmutableString
 {
 	public static void main(String[] args)
@@ -8,14 +8,14 @@ class C_ImmutableString
 		String str3="Your String";
 		
 		if(str1==str2)
-			System.out.println("µ¿ÀÏ ÀÎ½ºÅÏ½º ÂüÁ¶");
+			System.out.println("ë™ì¼ ì¸ìŠ¤í„´ìŠ¤ ì°¸ì¡°");
 		else
-			System.out.println("´Ù¸¥ ÀÎ½ºÅÏ½º ÂüÁ¶");		
+			System.out.println("ë‹¤ë¥¸ ì¸ìŠ¤í„´ìŠ¤ ì°¸ì¡°");		
 		
 		if(str2==str3)
-			System.out.println("µ¿ÀÏ ÀÎ½ºÅÏ½º ÂüÁ¶");
+			System.out.println("ë™ì¼ ì¸ìŠ¤í„´ìŠ¤ ì°¸ì¡°");
 		else
-			System.out.println("´Ù¸¥ ÀÎ½ºÅÏ½º ÂüÁ¶");		
+			System.out.println("ë‹¤ë¥¸ ì¸ìŠ¤í„´ìŠ¤ ì°¸ì¡°");		
 		
 	}
 }

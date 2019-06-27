@@ -1,13 +1,13 @@
-package Chapter22;
+ï»¿package Chapter22;
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.HashSet;//º¯°æºÎºĞ
+import java.util.HashSet;//ë³€ê²½ë¶€ë¶„
 
 class a05_UsefulIterator
 {
 	public static void main(String[] args)
 	{
-		HashSet<String> set=new HashSet<String>();//º¯°æºÎºĞ
+		HashSet<String> set=new HashSet<String>();//ë³€ê²½ë¶€ë¶„
 		//LinkedList<String> list=new LinkedList<String>();
 		set.add("First");
 		set.add("Second");
@@ -17,7 +17,7 @@ class a05_UsefulIterator
 		Iterator<String> itr=set.iterator();
 		//Iterator<String> itr=list.iterator();
 		
-		System.out.println("¹İº¹ÀÚ¸¦ ÀÌ¿ëÇÑ 1Â÷ Ãâ·Â°ú \"Third\" »èÁ¦");
+		System.out.println("ë°˜ë³µìë¥¼ ì´ìš©í•œ 1ì°¨ ì¶œë ¥ê³¼ \"Third\" ì‚­ì œ");
 		while(itr.hasNext())
 		{
 			String curStr=itr.next();
@@ -26,7 +26,7 @@ class a05_UsefulIterator
 				itr.remove();
 		}
 		
-		System.out.println("\n\"Third\" »èÁ¦ ÈÄ ¹İº¹ÀÚ¸¦ ÀÌ¿ëÇÑ 2Â÷ Ãâ·Â ");		
+		System.out.println("\n\"Third\" ì‚­ì œ í›„ ë°˜ë³µìë¥¼ ì´ìš©í•œ 2ì°¨ ì¶œë ¥ ");		
 		itr=set.iterator();
 		while(itr.hasNext())
 			System.out.println(itr.next());

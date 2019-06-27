@@ -1,4 +1,4 @@
-package Chapter22;
+ï»¿package Chapter22;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -8,20 +8,20 @@ class a15_IntroHashMap
 	{
 		HashMap<Integer, String> hMap=new HashMap<Integer, String>();
 
-		hMap.put(new Integer(3), "³ª»ï¹ø");		
-		hMap.put(5, "À±¿À¹ø");	
-		hMap.put(8, "¹ÚÆÈ¹ø");	
+		hMap.put(new Integer(3), "ë‚˜ì‚¼ë²ˆ");		
+		hMap.put(5, "ìœ¤ì˜¤ë²ˆ");	
+		hMap.put(8, "ë°•íŒ”ë²ˆ");	
 		
-		System.out.println("6ÇĞ³â 3¹İ 8¹ø ÇĞ»ı: "+hMap.get(new Integer(8)));
-		System.out.println("6ÇĞ³â 3¹İ 5¹ø ÇĞ»ı: "+hMap.get(5));
-		System.out.println("6ÇĞ³â 3¹İ 3¹ø ÇĞ»ı: "+hMap.get(3));
+		System.out.println("6í•™ë…„ 3ë°˜ 8ë²ˆ í•™ìƒ: "+hMap.get(new Integer(8)));
+		System.out.println("6í•™ë…„ 3ë°˜ 5ë²ˆ í•™ìƒ: "+hMap.get(5));
+		System.out.println("6í•™ë…„ 3ë°˜ 3ë²ˆ í•™ìƒ: "+hMap.get(3));
 		
-		hMap.remove(5);		/* 5¹ø ÇĞ»ı ÀüÇĞ °¨ */
-		System.out.println("6ÇĞ³â 3¹İ 5¹ø ÇĞ»ı: "+hMap.get(5));	
+		hMap.remove(5);		/* 5ë²ˆ í•™ìƒ ì „í•™ ê° */
+		System.out.println("6í•™ë…„ 3ë°˜ 5ë²ˆ í•™ìƒ: "+hMap.get(5));	
 		
 		for (Integer key : hMap.keySet()) {
 
-		    System.out.println(String.format("Å° : %s, °ª : %s", key, hMap.get(key)));
+		    System.out.println(String.format("í‚¤ : %s, ê°’ : %s", key, hMap.get(key)));
 
 		}
 		
@@ -31,7 +31,7 @@ class a15_IntroHashMap
 
 			Integer key = keys.next();
 
-		    System.out.println(String.format("Å° : %s, °ª : %s", key, hMap.get(key)));
+		    System.out.println(String.format("í‚¤ : %s, ê°’ : %s", key, hMap.get(key)));
 
 		}
 		

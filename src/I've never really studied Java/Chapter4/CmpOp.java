@@ -1,4 +1,4 @@
-package Chapter4;
+ï»¿package Chapter4;
 class CmpOp
 {
 	public static void main(String[] args)
@@ -6,18 +6,18 @@ class CmpOp
 		int A=10, B=20;
 		
 		if(true)
-			System.out.println("Âü ÀÔ´Ï´Ù!");
+			System.out.println("ì°¸ ì…ë‹ˆë‹¤!");
 		else
-			System.out.println("°ÅÁş ÀÔ´Ï´Ù!");
+			System.out.println("ê±°ì§“ ì…ë‹ˆë‹¤!");
 		
 		if(A>B)
-			System.out.println("A°¡ ´õ Å©´Ù!");
+			System.out.println("Aê°€ ë” í¬ë‹¤!");
 		else
-			System.out.println("A°¡ ´õ Å©Áö ¾Ê´Ù!");
+			System.out.println("Aê°€ ë” í¬ì§€ ì•Šë‹¤!");
 			
 		if(A!=B)
-			System.out.println("A¿Í B´Â ´Ù¸£´Ù!");
+			System.out.println("Aì™€ BëŠ” ë‹¤ë¥´ë‹¤!");
 		else
-			System.out.println("A¿Í B´Â °°´Ù!");
+			System.out.println("Aì™€ BëŠ” ê°™ë‹¤!");
 	}
 }

@@ -1,11 +1,11 @@
-package Chapter18;
+ï»¿package Chapter18;
 import java.util.Scanner;
 
 class AgeInputException extends Exception
 {
 	public AgeInputException()
 	{
-		super("À¯È¿ÇÏÁö ¾ÊÀº ³ªÀÌ°¡ ÀÔ·ÂµÇ¾ú½À´Ï´Ù.");
+		super("ìœ íš¨í•˜ì§€ ì•Šì€ ë‚˜ì´ê°€ ì…ë ¥ë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 }
 
@@ -15,13 +15,13 @@ class NameLengthException extends Exception
 	
 	public NameLengthException(String name)
 	{
-		super("Àß¸øµÈ ÀÌ¸§ÀÌ »ğÀÔµÇ¾ú½À´Ï´Ù.");
+		super("ì˜ëª»ëœ ì´ë¦„ì´ ì‚½ì…ë˜ì—ˆìŠµë‹ˆë‹¤.");
 		wrongName=name;
 	}
 	
 	public void showWrongName()
 	{
-		System.out.println("Àß¸ø ÀÔ·ÂµÈ ÀÌ¸§: "+ wrongName);
+		System.out.println("ì˜ëª» ì…ë ¥ëœ ì´ë¦„: "+ wrongName);
 	}
 }
 
@@ -37,8 +37,8 @@ class PersonalInfo
 	}
 	public void showPersonalInfo()
 	{
-		System.out.println("ÀÌ¸§: "+name);
-		System.out.println("³ªÀÌ: "+age);
+		System.out.println("ì´ë¦„: "+name);
+		System.out.println("ë‚˜ì´: "+age);
 	}
 }
 
@@ -75,7 +75,7 @@ class PrintStackTrace
 	
 	public static String readName() throws NameLengthException
 	{
-		System.out.print("ÀÌ¸§ ÀÔ·Â: ");
+		System.out.print("ì´ë¦„ ì…ë ¥: ");
 		String name=keyboard.nextLine();
 		if(name.length()<2)
 			throw new NameLengthException(name);
@@ -84,7 +84,7 @@ class PrintStackTrace
 	
 	public static int readAge() throws AgeInputException
 	{	
-		System.out.print("³ªÀÌ ÀÔ·Â: ");
+		System.out.print("ë‚˜ì´ ì…ë ¥: ");
 		int age=keyboard.nextInt();
 		if(age<0)
 			throw new AgeInputException();

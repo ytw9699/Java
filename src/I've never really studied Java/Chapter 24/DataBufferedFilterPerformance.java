@@ -1,4 +1,4 @@
-import java.io.*;
+ï»¿import java.io.*;
 
 class DataBufferedFilterPerformance
 {
@@ -12,7 +12,7 @@ class DataBufferedFilterPerformance
 		
 		dataOut.flush();
 		long endTime=System.currentTimeMillis();	
-		System.out.println("°æ°ú½Ã°£: "+ (endTime-startTime));	
+		System.out.println("ê²½ê³¼ì‹œê°„: "+ (endTime-startTime));	
 	}
 	
 	public static void main(String[] args) throws IOException

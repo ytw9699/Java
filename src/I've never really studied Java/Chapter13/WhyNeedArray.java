@@ -1,16 +1,16 @@
-package Chapter13;
+ï»¿package Chapter13;
 import java.util.Scanner;
 
 class WhyNeedArray
 {
 	public static void main(String[] args)
 	{
-		int fstHighScore=0;		// 1µî Á¡¼ö
-		int sndHighScore=0;		// 2µî Á¡¼ö
+		int fstHighScore=0;		// 1ë“± ì ìˆ˜
+		int sndHighScore=0;		// 2ë“± ì ìˆ˜
 
 		Scanner sc=new Scanner(System.in);
 
-		System.out.print("Á¡¼ö ÀÔ·Â: ");		
+		System.out.print("ì ìˆ˜ ì…ë ¥: ");		
 		int score1=sc.nextInt();
 
 		if(score1>=fstHighScore)
@@ -23,7 +23,7 @@ class WhyNeedArray
 			sndHighScore=score1;
 		}
 
-		System.out.print("Á¡¼ö ÀÔ·Â: ");		
+		System.out.print("ì ìˆ˜ ì…ë ¥: ");		
 		int score2=sc.nextInt();
 
 		if(score2>=fstHighScore)
@@ -36,7 +36,7 @@ class WhyNeedArray
 			sndHighScore=score2;
 		}
 
-		System.out.print("Á¡¼ö ÀÔ·Â: ");		
+		System.out.print("ì ìˆ˜ ì…ë ¥: ");		
 		int score3=sc.nextInt();
 
 		if(score3>=fstHighScore)
@@ -49,6 +49,6 @@ class WhyNeedArray
 			sndHighScore=score3;
 		}
 		
-		System.out.printf("A ÇĞÁ¡Àº %dÁ¡ ÀÌ»óÀÔ´Ï´Ù. \n", sndHighScore);
+		System.out.printf("A í•™ì ì€ %dì  ì´ìƒì…ë‹ˆë‹¤. \n", sndHighScore);
 	}
 }
