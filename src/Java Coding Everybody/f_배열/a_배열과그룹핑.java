@@ -1,20 +1,20 @@
-package f_¹è¿­;
-public class a_¹è¿­°ú±×·ìÇÎ {
+ï»¿package f_ë°°ì—´;
+public class a_ë°°ì—´ê³¼ê·¸ë£¹í•‘ {
     public static void main(String[] args) {
-   //¹è¿­(Array)Àº ¿¬°üµÈ Á¤º¸¸¦ ±×·ìÇÎ ÇÏ´Âµ¥ »ç¿ëÇÑ´Ù
-   //¹è¿­Àº ¿¬°üµÈ µ¥ÀÌÅÍ¸¦ ¸ð¾Æ¼­ °ü¸®ÇÏ±â À§ÇØ¼­ »ç¿ëÇÏ´Â µ¥ÀÌÅÍ Å¸ÀÔÀÌ´Ù.
-   //º¯¼ö°¡ ÇÏ³ªÀÇ µ¥ÀÌÅÍ¸¦ ÀúÀåÇÏ±â À§ÇÑ °ÍÀÌ¶ó¸é 
-   //¹è¿­Àº ¿©·¯ °³ÀÇ µ¥ÀÌÅÍ¸¦ ÀúÀåÇÏ±â À§ÇÑ °ÍÀÌ¶ó°í ÇÒ ¼ö ÀÖ´Ù.
-   String classGroup1 = "ÃÖÁøÇõ";
+   //ë°°ì—´(Array)ì€ ì—°ê´€ëœ ì •ë³´ë¥¼ ê·¸ë£¹í•‘ í•˜ëŠ”ë° ì‚¬ìš©í•œë‹¤
+   //ë°°ì—´ì€ ì—°ê´€ëœ ë°ì´í„°ë¥¼ ëª¨ì•„ì„œ ê´€ë¦¬í•˜ê¸° ìœ„í•´ì„œ ì‚¬ìš©í•˜ëŠ” ë°ì´í„° íƒ€ìž…ì´ë‹¤.
+   //ë³€ìˆ˜ê°€ í•˜ë‚˜ì˜ ë°ì´í„°ë¥¼ ì €ìž¥í•˜ê¸° ìœ„í•œ ê²ƒì´ë¼ë©´ 
+   //ë°°ì—´ì€ ì—¬ëŸ¬ ê°œì˜ ë°ì´í„°ë¥¼ ì €ìž¥í•˜ê¸° ìœ„í•œ ê²ƒì´ë¼ê³  í•  ìˆ˜ ìžˆë‹¤.
+   String classGroup1 = "ìµœì§„í˜";
   
-   String a = new String("ÃÖÁøÇõ2");
+   String a = new String("ìµœì§„í˜2");
    
-   String[] classGroup2 = { "ÃÖÁøÇõ", "ÃÖÀ¯ºó", "ÇÑÀÌ¶÷", "ÀÌ°íÀ×" };
-   //String[]Àº classGroup2¿¡ ´ãÀ» ¹è¿­¿¡ ´ã±æ µ¥ÀÌÅÍÀÇ Å¸ÀÔÀÌ ¹®ÀÚ¿­ÀÇ ¹è¿­ÀÌ¶ó´Â ÀÇ¹Ì´Ù. 
-   //¹è¿­À» ¼±¾ðÇÒ ¶§´Â µ¥ÀÌÅÍ Å¸ÀÔ µÚ¿¡ []¸¦ ºÙ¿©¾ß ÇÑ´Ù.
-   String classGroup3[] = { "ÃÖÁøÇõ", "ÃÖÀ¯ºó", "ÇÑÀÌ¶÷", "ÀÌ°íÀ×" };
+   String[] classGroup2 = { "ìµœì§„í˜", "ìµœìœ ë¹ˆ", "í•œì´ëžŒ", "ì´ê³ ìž‰" };
+   //String[]ì€ classGroup2ì— ë‹´ì„ ë°°ì—´ì— ë‹´ê¸¸ ë°ì´í„°ì˜ íƒ€ìž…ì´ ë¬¸ìžì—´ì˜ ë°°ì—´ì´ë¼ëŠ” ì˜ë¯¸ë‹¤. 
+   //ë°°ì—´ì„ ì„ ì–¸í•  ë•ŒëŠ” ë°ì´í„° íƒ€ìž… ë’¤ì— []ë¥¼ ë¶™ì—¬ì•¼ í•œë‹¤.
+   String classGroup3[] = { "ìµœì§„í˜", "ìµœìœ ë¹ˆ", "í•œì´ëžŒ", "ì´ê³ ìž‰" };
    
-   String[] classGroup4 = new String[] { "ÃÖÁøÇõ", "ÃÖÀ¯ºó", "ÇÑÀÌ¶÷", "ÀÌ°íÀ×" };
+   String[] classGroup4 = new String[] { "ìµœì§„í˜", "ìµœìœ ë¹ˆ", "í•œì´ëžŒ", "ì´ê³ ìž‰" };
    	
    System.out.println(classGroup1);
    System.out.println(a);

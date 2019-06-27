@@ -1,23 +1,23 @@
-package y_Á¦³×¸¯6Á¦ÇÑ1;
+ï»¿package y_ì œë„¤ë¦­6ì œí•œ1;
 
-abstract class Info{//²À Ãß»óÅ¬·¡½ºÀÏ ÇÊ¿ä¾øÁö¸¸ ¸¸µé°í
+abstract class Info{//ê¼­ ì¶”ìƒí´ë˜ìŠ¤ì¼ í•„ìš”ì—†ì§€ë§Œ ë§Œë“¤ê³ 
     public abstract int getLevel();
 }
-class EmployeeInfo extends Info{//»ó¼Ó¹ŞÀ½
+class EmployeeInfo extends Info{//ìƒì†ë°›ìŒ
     public int rank;
     EmployeeInfo(int rank){ this.rank = rank; }
-    public int getLevel(){//¿À¹ö¶óÀÌµå
+    public int getLevel(){//ì˜¤ë²„ë¼ì´ë“œ
         return this.rank;
     }
 }
-class Person<T extends Info>{//TÀÇ µ¥ÀÌÅÍÅ¸ÀÔÀ» InfoÅ¬·¡½ºÀÌ°Å³ª ÀÚ½ÄÀÎ EmployeeInfo·Î Á¦ÇÑ
+class Person<T extends Info>{//Tì˜ ë°ì´í„°íƒ€ì…ì„ Infoí´ë˜ìŠ¤ì´ê±°ë‚˜ ìì‹ì¸ EmployeeInfoë¡œ ì œí•œ
     public T info;
     Person(T info){ this.info = info; }
 }
 public class GenericDemo6 {
     public static void main(String[] args) {
 Person<EmployeeInfo>p1 = new Person<EmployeeInfo>(new EmployeeInfo(1));
-//EmployeeInfo°¡ infoÀÇ ÀÚ½ÄÀÌ¸é ¹®Á¦°¡¾øÀ½
-   // Person<String> p2 = new Person<String>("ºÎÀå");//ÀÚ½ÄÀÌ¾Æ´Ï¶ó ½ºÆ®¸µÀº ¸ø¿À°ÔµÇ´Â°Å
+//EmployeeInfoê°€ infoì˜ ìì‹ì´ë©´ ë¬¸ì œê°€ì—†ìŒ
+   // Person<String> p2 = new Person<String>("ë¶€ì¥");//ìì‹ì´ì•„ë‹ˆë¼ ìŠ¤íŠ¸ë§ì€ ëª»ì˜¤ê²Œë˜ëŠ”ê±°
 }
 }

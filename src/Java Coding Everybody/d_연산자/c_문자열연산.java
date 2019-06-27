@@ -1,5 +1,5 @@
-package d_¿¬»êÀÚ;
-public class c_¹®ÀÚ¿­¿¬»ê {
+ï»¿package d_ì—°ì‚°ì;
+public class c_ë¬¸ìì—´ì—°ì‚° {
 public static void main(String[] args) {
     int a = 10;
     int b = 3;
@@ -7,10 +7,10 @@ public static void main(String[] args) {
     float c = 10.0F;
     float d = 3.0F;
       
-    System.out.println(a/b);//¼Õ½ÇÀÌÀÏ¾î³²  //3 
+    System.out.println(a/b);//ì†ì‹¤ì´ì¼ì–´ë‚¨  //3 
     System.out.println(c/d);// 3.3333333
-    System.out.println(a/d);//a°¡ 10.0À¸·Î ÀÚµ¿Çüº¯È¯µÇ¾î ¿¬»êµÊ 3.3333333
-    System.out.println(d/a);//0.3//ÀÚµ¿Çüº¯È¯
-    System.out.println(b/a);//0 ¼Õ½ÇÀÎµí
+    System.out.println(a/d);//aê°€ 10.0ìœ¼ë¡œ ìë™í˜•ë³€í™˜ë˜ì–´ ì—°ì‚°ë¨ 3.3333333
+    System.out.println(d/a);//0.3//ìë™í˜•ë³€í™˜
+    System.out.println(b/a);//0 ì†ì‹¤ì¸ë“¯
     }
 }

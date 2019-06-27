@@ -1,29 +1,29 @@
-package e_ºñ±³¿ÍBoolean;//¹®ÀÚ¿­À» ºñ±³ÇÒ¶§!!
-public class d_equalsºñ±³¿¬»êÀÚ {
-//¿©±â¼­ equals´Â ½ºÆ®¸µ Å¬·¡½ºÀÇ equals¸Ş¼Òµå ÀÌ´Ù
+ï»¿package e_ë¹„êµì™€Boolean;//ë¬¸ìì—´ì„ ë¹„êµí• ë•Œ!!
+public class d_equalsë¹„êµì—°ì‚°ì {
+//ì—¬ê¸°ì„œ equalsëŠ” ìŠ¤íŠ¸ë§ í´ë˜ìŠ¤ì˜ equalsë©”ì†Œë“œ ì´ë‹¤
 	public static void main(String[] args) {
 		String a = "Hello world";
         String b = new String("Hello world");
-        //º¯¼ö a¿Í b¿¡ °¢°¢ ¹®ÀÚ¿­À» »ı¼ºÇØ¼­ ÀúÀåÇß´Ù. 
-        //º¯¼ö b¿¡ ¹®ÀÚ¿­À» ¸¸µå´Â ¹æ¹ıÀº »ı¼ºÀÚ¸¦ ÀÌ¿ë
+        //ë³€ìˆ˜ aì™€ bì— ê°ê° ë¬¸ìì—´ì„ ìƒì„±í•´ì„œ ì €ì¥í–ˆë‹¤. 
+        //ë³€ìˆ˜ bì— ë¬¸ìì—´ì„ ë§Œë“œëŠ” ë°©ë²•ì€ ìƒì„±ìë¥¼ ì´ìš©
         System.out.println(a == b);//false
-        //==Àº µÎ°³ÀÇ µ¥ÀÌÅÍ Å¸ÀÔÀÌ µ¿ÀÏÇÑ °´Ã¼ÀÎÁö¸¦ ¾Ë¾Æ³»±â À§ÇØ¼­ »ç¿ëÇÏ´Â ¿¬»êÀÚÀÌ±â ¶§¹®¿¡
-        //b¿¡ ´ã±ä °´Ã¼¿Í ÀÏÄ¡ÇÏÁö ¾Ê´Â °ÍÀÌ´Ù.ÀÌ¸¦ º¸¿ÏÇÏ´Â ºñ±³ ¹æ¹ıÀÌ equals
+        //==ì€ ë‘ê°œì˜ ë°ì´í„° íƒ€ì…ì´ ë™ì¼í•œ ê°ì²´ì¸ì§€ë¥¼ ì•Œì•„ë‚´ê¸° ìœ„í•´ì„œ ì‚¬ìš©í•˜ëŠ” ì—°ì‚°ìì´ê¸° ë•Œë¬¸ì—
+        //bì— ë‹´ê¸´ ê°ì²´ì™€ ì¼ì¹˜í•˜ì§€ ì•ŠëŠ” ê²ƒì´ë‹¤.ì´ë¥¼ ë³´ì™„í•˜ëŠ” ë¹„êµ ë°©ë²•ì´ equals
         System.out.println(a.equals(b));//true
-        //.equals´Â ¹®ÀÚ¿­À» ºñ±³ÇÒ ¶§ »ç¿ëÇÏ´Â ¸Ş¼Òµå´Ù. 
+        //.equalsëŠ” ë¬¸ìì—´ì„ ë¹„êµí•  ë•Œ ì‚¬ìš©í•˜ëŠ” ë©”ì†Œë“œë‹¤. 
         System.out.println(b.equals(a));//true
         String c = "Hello world";
         String d = "Hello world";
-        System.out.println(c == d);//true// ÀÌ·¸°ÔÇÏ¸é Åõ¸£³×..
+        System.out.println(c == d);//true// ì´ë ‡ê²Œí•˜ë©´ íˆ¬ë¥´ë„¤..
         System.out.println(c.equals(d));//true
         String e = new String("Hello world");
         String f = new String("Hello world");
         System.out.println(e == f);//false!!!
-        //flase e°ú f°¡ ¼­·Î ´Ù¸¥ °´Ã¼ÀÌ±â ¶§¹®ÀÌ´Ù
-        System.out.println(e.equals(f));}//true//¿ÀºêÁ§Æ®¿¡¼­´Â ÀÌ°Ô Æú½º°¡³ª¿È
-  // q_¿ÀºêÁ§Æ®equals1\ObjectDemo.java  Âü°í 
-/* ºñ±³ ¿¬»êÀÚ == Àº ¿ø½Ã µ¥ÀÌÅÍÇüÀ» ºñ±³ÇÒ ¶§¸¸ »ç¿ëÇÏÀÚ.
- ¿ø½Ã µ¥ÀÌÅÍ Çü(Primitive Data Type)ÀÌ¶õ ÀÚ¹Ù¿¡¼­ ±âº»ÀûÀ¸·Î Á¦°øÇÏ´Â µ¥ÀÌÅÍ Å¸ÀÔÀ¸·Î
- byte, short, int, long, float, double, boolean, char°¡ ÀÖ´Ù. 
- ÀÌ·¯ÇÑ µ¥ÀÌÅÍ Å¸ÀÔµéÀº new ¿¬»êÀÚ¸¦ ÀÌ¿ëÇØ¼­ »ı¼ºÇÏÁö ¾Ê¾Æµµ »ç¿ëµÉ ¼ö ÀÖ´Ù´Â Æ¯Â¡ÀÌ ÀÖ´Ù.*/
+        //flase eê³¼ fê°€ ì„œë¡œ ë‹¤ë¥¸ ê°ì²´ì´ê¸° ë•Œë¬¸ì´ë‹¤
+        System.out.println(e.equals(f));}//true//ì˜¤ë¸Œì íŠ¸ì—ì„œëŠ” ì´ê²Œ í´ìŠ¤ê°€ë‚˜ì˜´
+  // q_ì˜¤ë¸Œì íŠ¸equals1\ObjectDemo.java  ì°¸ê³  
+/* ë¹„êµ ì—°ì‚°ì == ì€ ì›ì‹œ ë°ì´í„°í˜•ì„ ë¹„êµí•  ë•Œë§Œ ì‚¬ìš©í•˜ì.
+ ì›ì‹œ ë°ì´í„° í˜•(Primitive Data Type)ì´ë€ ìë°”ì—ì„œ ê¸°ë³¸ì ìœ¼ë¡œ ì œê³µí•˜ëŠ” ë°ì´í„° íƒ€ì…ìœ¼ë¡œ
+ byte, short, int, long, float, double, boolean, charê°€ ìˆë‹¤. 
+ ì´ëŸ¬í•œ ë°ì´í„° íƒ€ì…ë“¤ì€ new ì—°ì‚°ìë¥¼ ì´ìš©í•´ì„œ ìƒì„±í•˜ì§€ ì•Šì•„ë„ ì‚¬ìš©ë  ìˆ˜ ìˆë‹¤ëŠ” íŠ¹ì§•ì´ ìˆë‹¤.*/
 }

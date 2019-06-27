@@ -1,17 +1,17 @@
-package n_finalÆÄÀÌ³Î;
-//Ãß»óÀÌ »ó¼ÓÀ» °­Á¦ÇÏ´Â °ÍÀÌ¶ó¸é finalÀº »ó¼Ó/º¯°æÀ» ±ÝÁöÇÏ´Â ±ÔÁ¦´Ù. 
-//ÇÊµå¿Í º¯¼ö´Â °°Àº ÀÇ¹ÌÀÌ´Ù
-//ÆÄÀÌ³ÎÀº ½ÇÇàµÇ´Â °úÁ¤¿¡¼­ ÇÑ¹ø °ªÀÌ Á¤ÇØÁø ÀÌÈÄ¿¡´Â º¯¼ö ³»ÀÇ °ªÀÌ ¹Ù²îÁö ¾Êµµ·Ï ÇÏ´Â ±ÔÁ¦´Ù.
+ï»¿package n_finalíŒŒì´ë„;
+//ì¶”ìƒì´ ìƒì†ì„ ê°•ì œí•˜ëŠ” ê²ƒì´ë¼ë©´ finalì€ ìƒì†/ë³€ê²½ì„ ê¸ˆì§€í•˜ëŠ” ê·œì œë‹¤. 
+//í•„ë“œì™€ ë³€ìˆ˜ëŠ” ê°™ì€ ì˜ë¯¸ì´ë‹¤
+//íŒŒì´ë„ì€ ì‹¤í–‰ë˜ëŠ” ê³¼ì •ì—ì„œ í•œë²ˆ ê°’ì´ ì •í•´ì§„ ì´í›„ì—ëŠ” ë³€ìˆ˜ ë‚´ì˜ ê°’ì´ ë°”ë€Œì§€ ì•Šë„ë¡ í•˜ëŠ” ê·œì œë‹¤.
 class Calculator {
-    static final double PI = 3.14;//ÁÖ¸ñÇÒ Á¡Àº º¯¼ö ¾Õ¿¡ finalÀÌ ºÙ¾îÀÖ´Ù´Â Á¡ÀÌ´Ù
-    //final·Î ÁöÁ¤µÈ º¯¼ö¿¡´Â ÇÑ¹ø °ªÀÌ ÇÒ´çµÇ¸é ±× °ªÀ» ¹Ù²Ü ¼ö ¾ø±â ¶§¹®ÀÌ´Ù.
-    //ÀÌ·¯ÇÑ Æ¯Â¡Àº Å¬·¡½º º¯¼öÀÇ ¿¹¸¦ µé¾úÁö¸¸ ÀÎ½ºÅÏ½º º¯¼ö¿¡µµ Àû¿ëµÈ´Ù.
+    static final double PI = 3.14;//ì£¼ëª©í•  ì ì€ ë³€ìˆ˜ ì•žì— finalì´ ë¶™ì–´ìžˆë‹¤ëŠ” ì ì´ë‹¤
+    //finalë¡œ ì§€ì •ëœ ë³€ìˆ˜ì—ëŠ” í•œë²ˆ ê°’ì´ í• ë‹¹ë˜ë©´ ê·¸ ê°’ì„ ë°”ê¿€ ìˆ˜ ì—†ê¸° ë•Œë¬¸ì´ë‹¤.
+    //ì´ëŸ¬í•œ íŠ¹ì§•ì€ í´ëž˜ìŠ¤ ë³€ìˆ˜ì˜ ì˜ˆë¥¼ ë“¤ì—ˆì§€ë§Œ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì—ë„ ì ìš©ëœë‹¤.
     int left, right;
  
     public void setOprands(int left, int right) {
         this.left = left;
         this.right = right;
-        //Calculator.PI = 6;//¸ø¹Ù²Þ
+        //Calculator.PI = 6;//ëª»ë°”ê¿ˆ
     }
     public void sum() {
         System.out.println(this.left + this.right);
@@ -26,6 +26,6 @@ public class CalculatorDemo1 {
  
         Calculator c1 = new Calculator();
         System.out.println(c1.PI);
-        //Calculator.PI = 10;//¸ø¹Ù²Þ
+        //Calculator.PI = 10;//ëª»ë°”ê¿ˆ
     }
  }

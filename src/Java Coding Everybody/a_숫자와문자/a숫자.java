@@ -1,22 +1,22 @@
-package a_¼ýÀÚ¿Í¹®ÀÚ;
+ï»¿package a_ìˆ«ìžì™€ë¬¸ìž;
 
-/*°¡Àå ÀÍ¼÷ÇÑ µ¥ÀÌÅÍ Å¸ÀÔ(data type)Àº ¼ýÀÚ¿Í ¹®ÀÚÀÏ °ÍÀÌ´Ù.
- ÄÄÇ»ÅÍµµ °è»ê±â¿Í ¿¬°üÀÌ Å©±â¶§¹®¿¡ ¼ýÀÚ¸¦ ¸ÕÀú ¹è¿öº¸ÀÚ
-¹®ÀÚ¿Í ¼ýÀÚ¸¦ ÇÁ·Î±×·¡¹Ö¿¡¼­´Â ¾î¶»°Ô Ç¥ÇöÇÏ°í ¿¬»êÇÏ´ÂÁö ¾Ë¾Æº¸ÀÚ.
-µ¥ÀÌÅÍ Å¸ÀÔÀº ÀÚ·áÇü ¶Ç´Â µ¥ÀÌÅÍÇü,µ¥ÀÌÅÍ Çü½Ä ÀÌ¶ó°íµµ ÇÑ´Ù.*/
-public class a¼ýÀÚ extends Object{
-	public a¼ýÀÚ() {
+/*ê°€ìž¥ ìµìˆ™í•œ ë°ì´í„° íƒ€ìž…(data type)ì€ ìˆ«ìžì™€ ë¬¸ìžì¼ ê²ƒì´ë‹¤.
+ ì»´í“¨í„°ë„ ê³„ì‚°ê¸°ì™€ ì—°ê´€ì´ í¬ê¸°ë•Œë¬¸ì— ìˆ«ìžë¥¼ ë¨¼ì € ë°°ì›Œë³´ìž
+ë¬¸ìžì™€ ìˆ«ìžë¥¼ í”„ë¡œê·¸ëž˜ë°ì—ì„œëŠ” ì–´ë–»ê²Œ í‘œí˜„í•˜ê³  ì—°ì‚°í•˜ëŠ”ì§€ ì•Œì•„ë³´ìž.
+ë°ì´í„° íƒ€ìž…ì€ ìžë£Œí˜• ë˜ëŠ” ë°ì´í„°í˜•,ë°ì´í„° í˜•ì‹ ì´ë¼ê³ ë„ í•œë‹¤.*/
+public class aìˆ«ìž extends Object{
+	public aìˆ«ìž() {
 	}
 public static void main(String[] args) {
-	//ÀÚ¹Ù¿¡¼­´Â µû¿ÈÇ¥°¡ ¾ø´Â ¼ýÀÚ´Â ¼ýÀÚ·Î ÀÎ½ÄÇÑ´Ù.
-	System.out.println(1+2);//Á¤¼ö
-	System.out.println(1.2+1.3);//½Ç¼ö(¼Ò¼öÁ¡(ÀÚ¸®¼ö°¡ÀÖ´Â°Í)ÀÌ ºÙ´Â°Í)
-	//Á¤¼ö¿Í ½Ç¼ö´Â »ó¼ö¶ó°í ÇÑ´Ù
-	//À§ µÎ°¡Áö Á¤¼ö¿Í ½Ç¼ö´Â ÀüÇô ´Ù¸¥ µ¥ÀÌÅÍ Çü½ÄÀ¸·Î ÀÚ¹Ù¿¡¼­ Ã³¸®
+	//ìžë°”ì—ì„œëŠ” ë”°ì˜´í‘œê°€ ì—†ëŠ” ìˆ«ìžëŠ” ìˆ«ìžë¡œ ì¸ì‹í•œë‹¤.
+	System.out.println(1+2);//ì •ìˆ˜
+	System.out.println(1.2+1.3);//ì‹¤ìˆ˜(ì†Œìˆ˜ì (ìžë¦¬ìˆ˜ê°€ìžˆëŠ”ê²ƒ)ì´ ë¶™ëŠ”ê²ƒ)
+	//ì •ìˆ˜ì™€ ì‹¤ìˆ˜ëŠ” ìƒìˆ˜ë¼ê³  í•œë‹¤
+	//ìœ„ ë‘ê°€ì§€ ì •ìˆ˜ì™€ ì‹¤ìˆ˜ëŠ” ì „í˜€ ë‹¤ë¥¸ ë°ì´í„° í˜•ì‹ìœ¼ë¡œ ìžë°”ì—ì„œ ì²˜ë¦¬
 	System.out.println(2*5);
 	System.out.println(6/2);
-	System.out.println(6/1.3);//ÀÌ°Å´Â ½Ç¼ö µ¥ÀÌÅÍ Å¸ÀÔÀÌ µÇ´Âµí
-	System.out.println(1.3/6);//ÀÌ°Å´Â ½Ç¼ö µ¥ÀÌÅÍ Å¸ÀÔÀÌ µÇ´Âµí
-	System.out.println(6/4);//¼Ò¼öÁ¡À» ¹ö¸°´Ù
+	System.out.println(6/1.3);//ì´ê±°ëŠ” ì‹¤ìˆ˜ ë°ì´í„° íƒ€ìž…ì´ ë˜ëŠ”ë“¯
+	System.out.println(1.3/6);//ì´ê±°ëŠ” ì‹¤ìˆ˜ ë°ì´í„° íƒ€ìž…ì´ ë˜ëŠ”ë“¯
+	System.out.println(6/4);//ì†Œìˆ˜ì ì„ ë²„ë¦°ë‹¤
 	}
 }

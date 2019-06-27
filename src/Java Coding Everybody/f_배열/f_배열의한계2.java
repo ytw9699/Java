@@ -1,15 +1,15 @@
-package f_¹è¿­;
-//¹è¿­ÀÇ ÇÑ°è
+ï»¿package f_ë°°ì—´;
+//ë°°ì—´ì˜ í•œê³„
 
-public class f_¹è¿­ÀÇÇÑ°è2 {
+public class f_ë°°ì—´ì˜í•œê³„2 {
  
     public static void main(String[] args) {
 
     	String[] members = new String[3];
-    	members[0] = "ÃÖÁøÇõ";
-    	members[1] = "ÃÖÀ¯ºó";
-    	members[2] = "ÇÑÀÌ¶÷";
-    	//members[3] = "ÀÌ°íÀ×";
+    	members[0] = "ìµœì§„í˜";
+    	members[1] = "ìµœìœ ë¹ˆ";
+    	members[2] = "í•œì´ëŒ";
+    	//members[3] = "ì´ê³ ì‰";
     	//ArrayIndexOutOfBoundsException
     }
 }

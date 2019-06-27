@@ -1,5 +1,5 @@
-package q_1¿¹¿Ü¹®¹ı1;
-//¿À·ù¸¦ Ã³¸®ÇÏ´Â°ÍÀÌ ¿¹¿Ü¶ó°í ÀÏ´Ü »ı°¢
+ï»¿package q_1ì˜ˆì™¸ë¬¸ë²•1;
+//ì˜¤ë¥˜ë¥¼ ì²˜ë¦¬í•˜ëŠ”ê²ƒì´ ì˜ˆì™¸ë¼ê³  ì¼ë‹¨ ìƒê°
 class Calculator2{
     int left, right;
     public void setOprands(int left, int right){
@@ -7,17 +7,17 @@ class Calculator2{
         this.right = right;
     } 
     public void divide(){
-    	try {//°è»ê°á°ú´Â ¿À·ù°¡ ¹ß»ıÇß½À´Ï´Ù : / by zero
-    		//try¾È¿¡´Â ¿¹¿ÜÀÇ ¹ß»ıÀÌ ¿¹»óµÇ´Â ·ÎÁ÷À» ¹èÄ¡
-        System.out.print("°è»ê°á°ú´Â ");
+    	try {//ê³„ì‚°ê²°ê³¼ëŠ” ì˜¤ë¥˜ê°€ ë°œìƒí–ˆìŠµë‹ˆë‹¤ : / by zero
+    		//tryì•ˆì—ëŠ” ì˜ˆì™¸ì˜ ë°œìƒì´ ì˜ˆìƒë˜ëŠ” ë¡œì§ì„ ë°°ì¹˜
+        System.out.print("ê³„ì‚°ê²°ê³¼ëŠ” ");
         System.out.print(this.left/this.right);
-        System.out.print(" ÀÔ´Ï´Ù.");
-    	}catch(Exception e){//¿¹¿Ü°¡ try¾È¿¡¼­ ÀâÈ÷¸é ±× ¿¡·¯¿¡ ´ëÇÑÁ¤º¸¸¦ ´ã°íÀÖ´Â °´Ã¼¸¦ ¸Å°³º¯¼ö e·ÎÀü´ŞÇÔ! 
-    		//±× °´Ã¼ÀÇ µ¥ÀÌÅÍÅ¸ÀÔÀº exceptionÀÌ¶ó´Â Å¬·¡½º
-    		//catch¾È¿¡´Â ¿¹¿Ü°¡¹ß»ıÇßÀ»¶§ ½ÇÇàµÇ´Â ·ÎÁ÷ÀÌ µé¾î¿È
-    		System.out.println("¿À·ù°¡ ¹ß»ıÇß½À´Ï´Ù : "+e.getMessage());//ÀÌ¼Á¼Ç ¾È¿¡ °Ù¸Ş¼Òµå È£ÃâÇÏ¸é
-    		//¿¡·¯¿¡ ´ëÇÑ Á¤º¸ ¸®ÅÏ : /by zero
-    	}// ExceptionÀº ÀÚ¹Ù¿¡¼­ ±âº»ÀûÀ¸·Î Á¦°øÇÏ´Â Å¬·¡½º·Î java.lang¿¡ ¼Ò¼Ó
+        System.out.print(" ì…ë‹ˆë‹¤.");
+    	}catch(Exception e){//ì˜ˆì™¸ê°€ tryì•ˆì—ì„œ ì¡íˆë©´ ê·¸ ì—ëŸ¬ì— ëŒ€í•œì •ë³´ë¥¼ ë‹´ê³ ìˆëŠ” ê°ì²´ë¥¼ ë§¤ê°œë³€ìˆ˜ eë¡œì „ë‹¬í•¨! 
+    		//ê·¸ ê°ì²´ì˜ ë°ì´í„°íƒ€ì…ì€ exceptionì´ë¼ëŠ” í´ë˜ìŠ¤
+    		//catchì•ˆì—ëŠ” ì˜ˆì™¸ê°€ë°œìƒí–ˆì„ë•Œ ì‹¤í–‰ë˜ëŠ” ë¡œì§ì´ ë“¤ì–´ì˜´
+    		System.out.println("ì˜¤ë¥˜ê°€ ë°œìƒí–ˆìŠµë‹ˆë‹¤ : "+e.getMessage());//ì´ì…‰ì…˜ ì•ˆì— ê²Ÿë©”ì†Œë“œ í˜¸ì¶œí•˜ë©´
+    		//ì—ëŸ¬ì— ëŒ€í•œ ì •ë³´ ë¦¬í„´ : /by zero
+    	}// Exceptionì€ ìë°”ì—ì„œ ê¸°ë³¸ì ìœ¼ë¡œ ì œê³µí•˜ëŠ” í´ë˜ìŠ¤ë¡œ java.langì— ì†Œì†
     }
 } 
 public class CalculatorDemo2 {
@@ -27,5 +27,5 @@ public class CalculatorDemo2 {
         c1.divide();
     }
 }
-//°è»ê°á°ú´Â Exception in thread "main" java.lang.ArithmeticException: / by zero
-												//¼öÇĞÀûÀÎ ¿¹¿Ü¹ß»ı
+//ê³„ì‚°ê²°ê³¼ëŠ” Exception in thread "main" java.lang.ArithmeticException: / by zero
+												//ìˆ˜í•™ì ì¸ ì˜ˆì™¸ë°œìƒ

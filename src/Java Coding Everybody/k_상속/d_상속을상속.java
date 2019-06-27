@@ -1,10 +1,10 @@
-package k_»ó¼Ó;
+ï»¿package k_ìƒì†;
 class DivisionableCalculator extends MultiplicationableCalculator {
     public void division() {
         System.out.println(this.left / this.right);
     }
 }
-public class d_»ó¼ÓÀ»»ó¼Ó {
+public class d_ìƒì†ì„ìƒì† {
  
     public static void main(String[] args) {
  

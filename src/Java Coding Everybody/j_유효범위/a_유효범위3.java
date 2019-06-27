@@ -1,12 +1,12 @@
-package j_À¯È¿¹üÀ§;
+ï»¿package j_ìœ íš¨ë²”ìœ„;
 
 
-public class a_À¯È¿¹üÀ§3 {
+public class a_ìœ íš¨ë²”ìœ„3 {
 	 public static void main(String[] args) {
 	        for (int i = 0; i < 5; i++) {
 	            System.out.println(i);
 	        }
-	        // System.out.println(i);//¿À·ù
+	        // System.out.println(i);//ì˜¤ë¥˜
 	    }
  
 }

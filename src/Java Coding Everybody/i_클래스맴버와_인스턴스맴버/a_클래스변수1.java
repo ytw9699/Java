@@ -1,12 +1,12 @@
-package i_Å¬·¡½º¸É¹ö¿Í_ÀÎ½ºÅÏ½º¸É¹ö;
-//¸É¹ö(member)´Â ¿µ¾î·Î ±¸¼º¿øÀÌ¶ó´Â ¶æÀÌ´Ù. °´Ã¼µµ ±¸¼º¿øÀÌ ÀÖ´Âµ¥ ¾Æ·¡¿Í °°´Ù.
-//ÇÊµå´Â º¯¼ö¶ó´Â¸»
-//°´Ã¼ÀÇ ±¸¼º¿ø: º¯¼ö, ¸Þ¼Òµå
-//Å¬·¡½ºÀÇ ±¸¼º¿ø : º¯¼ö, ¸Þ¼Òµå
+ï»¿package i_í´ëž˜ìŠ¤ë§´ë²„ì™€_ì¸ìŠ¤í„´ìŠ¤ë§´ë²„;
+//ë§´ë²„(member)ëŠ” ì˜ì–´ë¡œ êµ¬ì„±ì›ì´ë¼ëŠ” ëœ»ì´ë‹¤. ê°ì²´ë„ êµ¬ì„±ì›ì´ ìžˆëŠ”ë° ì•„ëž˜ì™€ ê°™ë‹¤.
+//í•„ë“œëŠ” ë³€ìˆ˜ë¼ëŠ”ë§
+//ê°ì²´ì˜ êµ¬ì„±ì›: ë³€ìˆ˜, ë©”ì†Œë“œ
+//í´ëž˜ìŠ¤ì˜ êµ¬ì„±ì› : ë³€ìˆ˜, ë©”ì†Œë“œ
 class Calculator {
-    static double PI = 3.14;//¿øÁÖÀ²Àº ¸ðµç°´Ã¼(ÀÎ½ºÅÏ½º)°¡ ¶È°°Àº °ªÀ»°¡Áö¸éµÊ
-    //Å¬·¡½ºÀÇ º¯¼ö´Â ¸ðµç ÀÎ½ºÅÏ½º°¡ °øÅëÀûÀ¸·Î °°Àº °ªÀ» °¡Áú¼ö ÀÖ°Ô ÇÑ´Ù
-    //staticÀÌºÙÀ¸¸é ½ºÅ×ÀÌÆ½º¯¼ö´Â Å¬·¡½ºÀÇ ¼Ò¼ÓÀÌµÈ´Ù ±×·¯¸é ¸ðµç ÀÎ½ºÅÏ½º¿¡¼­ µ¿ÀÏÇÑ°ªÀÌµÊ
+    static double PI = 3.14;//ì›ì£¼ìœ¨ì€ ëª¨ë“ ê°ì²´(ì¸ìŠ¤í„´ìŠ¤)ê°€ ë˜‘ê°™ì€ ê°’ì„ê°€ì§€ë©´ë¨
+    //í´ëž˜ìŠ¤ì˜ ë³€ìˆ˜ëŠ” ëª¨ë“  ì¸ìŠ¤í„´ìŠ¤ê°€ ê³µí†µì ìœ¼ë¡œ ê°™ì€ ê°’ì„ ê°€ì§ˆìˆ˜ ìžˆê²Œ í•œë‹¤
+    //staticì´ë¶™ìœ¼ë©´ ìŠ¤í…Œì´í‹±ë³€ìˆ˜ëŠ” í´ëž˜ìŠ¤ì˜ ì†Œì†ì´ëœë‹¤ ê·¸ëŸ¬ë©´ ëª¨ë“  ì¸ìŠ¤í„´ìŠ¤ì—ì„œ ë™ì¼í•œê°’ì´ë¨
     int left, right;
  
     public void setOprands(int left, int right) {
@@ -20,17 +20,17 @@ class Calculator {
         System.out.println((this.left + this.right) / 2);
     }
 }
-public class a_Å¬·¡½ºº¯¼ö1 {
+public class a_í´ëž˜ìŠ¤ë³€ìˆ˜1 {
 	 
     public static void main(String[] args) {
  
         Calculator c1 = new Calculator();
-        System.out.println(c1.PI); //ÀÎ½ºÅÏ½º¸¦ ÅëÇØ Å¬·¡½º º¯¼ö¿¡´ëÇÑ Á¢±Ù 1
+        System.out.println(c1.PI); //ì¸ìŠ¤í„´ìŠ¤ë¥¼ í†µí•´ í´ëž˜ìŠ¤ ë³€ìˆ˜ì—ëŒ€í•œ ì ‘ê·¼ 1
  
         Calculator c2 = new Calculator();
-        System.out.println(c2.PI); //ÀÎ½ºÅÏ½º¸¦ ÅëÇØ Å¬·¡½º º¯¼ö¿¡´ëÇÑ Á¢±Ù 2
+        System.out.println(c2.PI); //ì¸ìŠ¤í„´ìŠ¤ë¥¼ í†µí•´ í´ëž˜ìŠ¤ ë³€ìˆ˜ì—ëŒ€í•œ ì ‘ê·¼ 2
  
-        System.out.println(Calculator.PI); //Å¬·¡½º¸¦ ÅëÇØ Å¬·¡½º º¯¼ö¿¡ ´ëÇÑ Á¢±Ù 3
-   //¿øÁÖÀ²¸¸ ÇÊ¿äÇÒ ¶§ Å¬·¡½º¿¡ Á÷Á¢ Á¢±ÙÇÏ±â ¶§¹®¿¡ ÀÎ½ºÅÏ½º¸¦ »ý¼ºÇÒ ÇÊ¿ä°¡ ¾ø¾îÁø´Ù.
+        System.out.println(Calculator.PI); //í´ëž˜ìŠ¤ë¥¼ í†µí•´ í´ëž˜ìŠ¤ ë³€ìˆ˜ì— ëŒ€í•œ ì ‘ê·¼ 3
+   //ì›ì£¼ìœ¨ë§Œ í•„ìš”í•  ë•Œ í´ëž˜ìŠ¤ì— ì§ì ‘ ì ‘ê·¼í•˜ê¸° ë•Œë¬¸ì— ì¸ìŠ¤í„´ìŠ¤ë¥¼ ìƒì„±í•  í•„ìš”ê°€ ì—†ì–´ì§„ë‹¤.
    }
 }

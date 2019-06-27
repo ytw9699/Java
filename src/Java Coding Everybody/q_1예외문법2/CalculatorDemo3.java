@@ -1,4 +1,4 @@
-package q_1¿¹¿Ü¹®¹ı2;
+ï»¿package q_1ì˜ˆì™¸ë¬¸ë²•2;
 
 class Calculator{
     int left, right;
@@ -8,23 +8,23 @@ class Calculator{
     }
     public void divide(){
         try {
-            System.out.print("°è»ê°á°ú´Â ");
+            System.out.print("ê³„ì‚°ê²°ê³¼ëŠ” ");
             System.out.print(this.left/this.right);
-            System.out.print(" ÀÔ´Ï´Ù.");
+            System.out.print(" ì…ë‹ˆë‹¤.");
         } catch(Exception e){
             System.out.println("\ne.getMessage()\n"+e.getMessage());
-            //¿À·ù¿¡´ëÇÑ °¡Àå °£´ÜÇÑ ±âº»Àû ¿øÀÎ Á¤º¸by zero
+            //ì˜¤ë¥˜ì—ëŒ€í•œ ê°€ì¥ ê°„ë‹¨í•œ ê¸°ë³¸ì  ì›ì¸ ì •ë³´by zero
             System.out.println("\ne.toString()\n"+e.toString());
-            //¾î¶² ¿¹¿ÜÀÎÁö: java.lang.ArithmeticException: / by zero
+            //ì–´ë–¤ ì˜ˆì™¸ì¸ì§€: java.lang.ArithmeticException: / by zero
             System.out.println("\ne.printStackTrace()");
-            e.printStackTrace();//¸Ş¼Òµå getMessage, toString°ú´Â ´Ù¸£°Ô printStackTrace´Â ¸®ÅÏ°ªÀÌ ¾ø´Ù.
-            //ÀÌ ¸Ş¼Òµå¸¦ È£ÃâÇÏ¸é ¸Ş¼Òµå°¡ ³»ºÎÀûÀ¸·Î ¿¹¿Ü °á°ú¸¦ È­¸é¿¡ Ãâ·ÂÇÑ´Ù.
-            //printStackTrace´Â °¡Àå ÀÚ¼¼ÇÑ ¿¹¿Ü Á¤º¸¸¦ Á¦°øÇÑ´Ù.
+            e.printStackTrace();//ë©”ì†Œë“œ getMessage, toStringê³¼ëŠ” ë‹¤ë¥´ê²Œ printStackTraceëŠ” ë¦¬í„´ê°’ì´ ì—†ë‹¤.
+            //ì´ ë©”ì†Œë“œë¥¼ í˜¸ì¶œí•˜ë©´ ë©”ì†Œë“œê°€ ë‚´ë¶€ì ìœ¼ë¡œ ì˜ˆì™¸ ê²°ê³¼ë¥¼ í™”ë©´ì— ì¶œë ¥í•œë‹¤.
+            //printStackTraceëŠ” ê°€ì¥ ìì„¸í•œ ì˜ˆì™¸ ì •ë³´ë¥¼ ì œê³µí•œë‹¤.
           /*  java.lang.ArithmeticException: / by zero
-        	at q_¿¹¿Ü2.Calculator.divide(CalculatorDemo3.java:12)
-        	at q_¿¹¿Ü2.CalculatorDemo3.main(CalculatorDemo3.java:26)*/
+        	at q_ì˜ˆì™¸2.Calculator.divide(CalculatorDemo3.java:12)
+        	at q_ì˜ˆì™¸2.CalculatorDemo3.main(CalculatorDemo3.java:26)*/
         }
-        System.out.println("ÀÌ·¸°Ô ¸Ş¼Òµå¾È³¡°¡Áö ½ÇÇàµÈ´Ù ÁÖÀÇ!");
+        System.out.println("ì´ë ‡ê²Œ ë©”ì†Œë“œì•ˆëê°€ì§€ ì‹¤í–‰ëœë‹¤ ì£¼ì˜!");
     }
 } 
 public class CalculatorDemo3 {

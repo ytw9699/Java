@@ -1,52 +1,52 @@
-package i_Å¬·¡½º¸É¹ö¿Í_ÀÎ½ºÅÏ½º¸É¹ö;
+ï»¿package i_í´ëž˜ìŠ¤ë§´ë²„ì™€_ì¸ìŠ¤í„´ìŠ¤ë§´ë²„;
 
-class C1{//¿©±â ÀÇ¹®ÀÌ´Ù »ýÄÚ°¡ ¼³¸íÀß¸øÇÑµí? ¹Ø¿¡ ·ÎÁ÷Àº ¸Â´Âµ¥ ¼³¸íÀº..?Á» ÀÌ»ó?
-    static int static_variable = 1;//½ºÅ×ÀÌÆ½ÀÌ ºÙ¾î¼­ ½ºÅ×ÀÌÆ½º¯¼ö!Å¬·¡½º º¯¼ö!
-    int instance_variable = 2;//ÀÎ½ºÅÏ½º º¯¼ö! 
-    static void static_static(){//Å¬·¡½º ¸Þ¼Òµå¿¡¼­
-        System.out.println(static_variable);//Å¬·¡½º º¯¼ö¿¡ Á¢±Ù!1ÀÌÃâ·Â
+class C1{//ì—¬ê¸° ì˜ë¬¸ì´ë‹¤ ìƒì½”ê°€ ì„¤ëª…ìž˜ëª»í•œë“¯? ë°‘ì— ë¡œì§ì€ ë§žëŠ”ë° ì„¤ëª…ì€..?ì¢€ ì´ìƒ?
+    static int static_variable = 1;//ìŠ¤í…Œì´í‹±ì´ ë¶™ì–´ì„œ ìŠ¤í…Œì´í‹±ë³€ìˆ˜!í´ëž˜ìŠ¤ ë³€ìˆ˜!
+    int instance_variable = 2;//ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜! 
+    static void static_static(){//í´ëž˜ìŠ¤ ë©”ì†Œë“œì—ì„œ
+        System.out.println(static_variable);//í´ëž˜ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼!1ì´ì¶œë ¥
     }
-    static void static_instance(){//Å¬·¡½º ¸Þ¼Òµå¿¡¼­´Â ÀÎ½ºÅÏ½º º¯¼ö¿¡ Á¢±Ù ÇÒ ¼ö ¾ø´Ù.¡Ú¡Ú
-         // System.out.println(instance_variable);//¡Ú¡Ú
+    static void static_instance(){//í´ëž˜ìŠ¤ ë©”ì†Œë“œì—ì„œëŠ” ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼ í•  ìˆ˜ ì—†ë‹¤.â˜…â˜…
+         // System.out.println(instance_variable);//â˜…â˜…
     }
     void instance_static(){
-        // ÀÎ½ºÅÏ½º ¸Þ¼Òµå¿¡¼­´Â Å¬·¡½º º¯¼ö¿¡ Á¢±Ù ÇÒ ¼ö ÀÖ´Ù.
+        // ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œì—ì„œëŠ” í´ëž˜ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼ í•  ìˆ˜ ìžˆë‹¤.
         System.out.println(static_variable);
     }
-    void instance_instance(){//ÀÎ½ºÅÏ½º ¸Þ¼Òµå¿¡¼­ ÀÎ½ºÅÏ½º º¯¼ö¿¡ Á¢±Ù  
+    void instance_instance(){//ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œì—ì„œ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼  
         System.out.println(instance_variable);
     }
 }
-public class d_Å¬·¡½º¸É¹ö¿ÍÀÎ½ºÅÍ¸É¹öÀÇ°ü°è {  
+public class d_í´ëž˜ìŠ¤ë§´ë²„ì™€ì¸ìŠ¤í„°ë§´ë²„ì˜ê´€ê³„ {  
     public static void main(String[] args) {
         C1 a = new C1();
 
-        a.static_static();//ÀÎ½ºÅÏ½º¸¦ ÅëÇØ Å¬·¡½º ¸Þ¼Òµå¿¡ Á¢±Ù °¡´É ÇÏ°í ´Ù½Ã Å¬·¡½º º¯¼ö¿¡ Á¢±Ù °¡´É
+        a.static_static();//ì¸ìŠ¤í„´ìŠ¤ë¥¼ í†µí•´ í´ëž˜ìŠ¤ ë©”ì†Œë“œì— ì ‘ê·¼ ê°€ëŠ¥ í•˜ê³  ë‹¤ì‹œ í´ëž˜ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼ ê°€ëŠ¥
         
-        a.static_instance();//¡Ú¡ÚÀÎ½ºÅÏ½º¸¦ ÅëÇØ Å¬·¡½º ¸Þ¼Òµå¿¡´Â Á¢±Ù °¡´É ÇÏÁö¸¸ ÀÎ½ºÅÏ½º º¯¼ö¿¡ Á¢±Ù ºÒ°¡
+        a.static_instance();//â˜…â˜…ì¸ìŠ¤í„´ìŠ¤ë¥¼ í†µí•´ í´ëž˜ìŠ¤ ë©”ì†Œë“œì—ëŠ” ì ‘ê·¼ ê°€ëŠ¥ í•˜ì§€ë§Œ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼ ë¶ˆê°€
         
-        a.instance_static();//ÀÎ½ºÅÏ½º¸¦ ÅëÇØ ÀÎ½ºÅÏ½º ¸Þ¼Òµå¿¡ Á¢±Ù °¡´É ÇÏ°í ´Ù½Ã Å¬·¡½º º¯¼ö¿¡ Á¢±Ù °¡´É
+        a.instance_static();//ì¸ìŠ¤í„´ìŠ¤ë¥¼ í†µí•´ ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œì— ì ‘ê·¼ ê°€ëŠ¥ í•˜ê³  ë‹¤ì‹œ í´ëž˜ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼ ê°€ëŠ¥
     
-        a.instance_instance();//ÀÎ½ºÅÏ½º¸¦ ÅëÇØ ÀÎ½ºÅÏ½º ¸Þ¼Òµå Á¢±Ù°¡´É ÇÏ°í ´Ù½Ã ÀÎ½ºÅÏ½º º¯¼ö¿¡ Á¢±Ù  °¡´É
+        a.instance_instance();//ì¸ìŠ¤í„´ìŠ¤ë¥¼ í†µí•´ ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œ ì ‘ê·¼ê°€ëŠ¥ í•˜ê³  ë‹¤ì‹œ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼  ê°€ëŠ¥
         
        /////////////////////////////////////////////////////////////////////////////////////
         
-        C1.static_static();//Å¬·¡½º¸¦ ÅëÇØ¼­ Å¬·¡½º ¸Þ¼Òµå¿¡ Á¢±Ù °¡´É ÇÏ°í ´Ù½Ã Å¬·¡½º º¯¼ö¿¡ Á¢±Ù °¡´É
+        C1.static_static();//í´ëž˜ìŠ¤ë¥¼ í†µí•´ì„œ í´ëž˜ìŠ¤ ë©”ì†Œë“œì— ì ‘ê·¼ ê°€ëŠ¥ í•˜ê³  ë‹¤ì‹œ í´ëž˜ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼ ê°€ëŠ¥
      
-        C1.static_instance();//¡Ú¡ÚÅ¬·¡½º¸¦ ÅëÇØ¼­ Å¬·¡½º ¸Þ¼Òµå¿¡  Á¢±Ù °¡´É ÇÏÁö¸¸ ÀÎ½ºÅÏ½º º¯¼ö¿¡ Á¢±Ù ÇÒ ¼ö ¾ø´Ù.
+        C1.static_instance();//â˜…â˜…í´ëž˜ìŠ¤ë¥¼ í†µí•´ì„œ í´ëž˜ìŠ¤ ë©”ì†Œë“œì—  ì ‘ê·¼ ê°€ëŠ¥ í•˜ì§€ë§Œ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼ í•  ìˆ˜ ì—†ë‹¤.
         
-        //C1.instance_static();//¡Ú¡ÚÅ¬·¡½º¸¦ ÅëÇØ¼­ ÀÎ½ºÅÏ½º ¸Þ¼Òµå¿¡ Á¢±Ù ºÒ°¡
+        //C1.instance_static();//â˜…â˜…í´ëž˜ìŠ¤ë¥¼ í†µí•´ì„œ ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œì— ì ‘ê·¼ ë¶ˆê°€
       
-        //C1.instance_instance();//¡ÚÅ¬·¡½º¸¦ ÅëÇØ¼­ ÀÎ½ºÅÏ½º ¸Þ¼Òµå¿¡ Á¢±Ù ºÒ°¡ÇÏ±â¶§¹®¿¡ 
-        						//´ç¿¬È÷ ±×µÚ¿¡ ÀÎ½ºÅÏ½º º¯¼ö¿¡µµ Á¢±Ù ºÒ°¡
+        //C1.instance_instance();//â˜…í´ëž˜ìŠ¤ë¥¼ í†µí•´ì„œ ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œì— ì ‘ê·¼ ë¶ˆê°€í•˜ê¸°ë•Œë¬¸ì— 
+        						//ë‹¹ì—°ížˆ ê·¸ë’¤ì— ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì—ë„ ì ‘ê·¼ ë¶ˆê°€
         
-        //ÀÎ½ºÅÏ½º º¯¼ö´Â ÀÎ½ºÅÏ½º°¡ ¸¸µé¾îÁö¸é¼­ »ý¼ºµÇ´Âµ¥, 
-        //Å¬·¡½º ¸Þ¼Òµå´Â ÀÎ½ºÅÏ½º°¡ »ý¼ºµÇ±â Àü¿¡ ¸¸µé¾îÁö±â ¶§¹®¿¡ Å¬·¡½º ¸Þ¼Òµå°¡ ÀÎ½ºÅÏ½º ¸É¹ö¿¡ 
-        //Á¢±ÙÇÏ´Â °ÍÀº Á¸ÀçÇÏÁö ¾Ê´Â ÀÎ½ºÅÏ½º º¯¼ö¿¡ Á¢±ÙÇÏ´Â °Í°ú °°´Ù.
+        //ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ëŠ” ì¸ìŠ¤í„´ìŠ¤ê°€ ë§Œë“¤ì–´ì§€ë©´ì„œ ìƒì„±ë˜ëŠ”ë°, 
+        //í´ëž˜ìŠ¤ ë©”ì†Œë“œëŠ” ì¸ìŠ¤í„´ìŠ¤ê°€ ìƒì„±ë˜ê¸° ì „ì— ë§Œë“¤ì–´ì§€ê¸° ë•Œë¬¸ì— í´ëž˜ìŠ¤ ë©”ì†Œë“œê°€ ì¸ìŠ¤í„´ìŠ¤ ë§´ë²„ì— 
+        //ì ‘ê·¼í•˜ëŠ” ê²ƒì€ ì¡´ìž¬í•˜ì§€ ì•ŠëŠ” ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼í•˜ëŠ” ê²ƒê³¼ ê°™ë‹¤.
         
-        //ÀÎ½ºÅÏ½º º¯¼ö¿Í Å¬·¡½º º¯¼ö´Â ¾Æ·¡¿Í °°ÀÌ ºÎ¸£±âµµ ÇÑ´Ù.
-        //ÀÎ½ºÅÏ½º º¯¼ö -> Non-Static Field > ³í ½ºÅ×ÀÌÆ½ º¯¼ö
-        //Å¬·¡½º º¯¼ö -> Static Field > ½ºÅ×ÀÌÆ½ º¯¼ö
+        //ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì™€ í´ëž˜ìŠ¤ ë³€ìˆ˜ëŠ” ì•„ëž˜ì™€ ê°™ì´ ë¶€ë¥´ê¸°ë„ í•œë‹¤.
+        //ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ -> Non-Static Field > ë…¼ ìŠ¤í…Œì´í‹± ë³€ìˆ˜
+        //í´ëž˜ìŠ¤ ë³€ìˆ˜ -> Static Field > ìŠ¤í…Œì´í‹± ë³€ìˆ˜
     }
  
 }

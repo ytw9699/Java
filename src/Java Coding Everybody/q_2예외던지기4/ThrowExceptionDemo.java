@@ -1,4 +1,4 @@
-package q_2¿¹¿Ü´øÁö±â4;
+ï»¿package q_2ì˜ˆì™¸ë˜ì§€ê¸°4;
 import java.io.*;
 class B{
     void run(){
@@ -20,12 +20,12 @@ class B{
 class C{
     void run(){
         B b = new B();
-        b.run();//¿©±â¼­ ¿¹¿ÜÃ³¸®ÇÏ°Ô ³Ñ±æ¼öÀÖÀ½
+        b.run();//ì—¬ê¸°ì„œ ì˜ˆì™¸ì²˜ë¦¬í•˜ê²Œ ë„˜ê¸¸ìˆ˜ìˆìŒ
     }
 }
 public class ThrowExceptionDemo {
     public static void main(String[] args) {
          C c = new C();
-         c.run();//¿©±â¼­µµ ¿¹¿ÜÃ³¸®ÇÏ°Ô ³Ñ±æ¼öÀÖÀ½
+         c.run();//ì—¬ê¸°ì„œë„ ì˜ˆì™¸ì²˜ë¦¬í•˜ê²Œ ë„˜ê¸¸ìˆ˜ìˆìŒ
     }   
 }

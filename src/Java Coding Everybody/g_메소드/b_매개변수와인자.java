@@ -1,5 +1,5 @@
-package g_¸Ş¼Òµå;
-public class b_¸Å°³º¯¼ö¿ÍÀÎÀÚ {
+ï»¿package g_ë©”ì†Œë“œ;
+public class b_ë§¤ê°œë³€ìˆ˜ì™€ì¸ì {
     public static void numbering(int limit) {
         int i = 0;
         while (i < limit) {
@@ -11,7 +11,7 @@ public class b_¸Å°³º¯¼ö¿ÍÀÎÀÚ {
         numbering(5);
     }
 }
-/* µ¿ÀÏÇÑ ÀÇ¹Ì
+/* ë™ì¼í•œ ì˜ë¯¸
   public static void numbering() {
     int limit = 5;
     int i = 0;

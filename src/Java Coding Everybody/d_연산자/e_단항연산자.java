@@ -1,16 +1,16 @@
-package d_¿¬»êÀÚ;
+ï»¿package d_ì—°ì‚°ì;
 
-public class e_´ÜÇ×¿¬»êÀÚ {
+public class e_ë‹¨í•­ì—°ì‚°ì {
 
 public static void main(String[] args) {
 		int i = 3;
         i++;
-        System.out.println(i); // 4 Ãâ·Â
+        System.out.println(i); // 4 ì¶œë ¥
         ++i;
-        System.out.println(i); // 5 Ãâ·Â
-        System.out.println(++i); // 6 Ãâ·Â
-        System.out.println(i++); // 6 Ãâ·Â,¿©±â¼­ ÀÌ ¹®ÀåÀÌ ³¡³­Áï½Ã! i´Â 7ÀÌ µÈ´Ù
-        System.out.println(i); // 7 Ãâ·Â
+        System.out.println(i); // 5 ì¶œë ¥
+        System.out.println(++i); // 6 ì¶œë ¥
+        System.out.println(i++); // 6 ì¶œë ¥,ì—¬ê¸°ì„œ ì´ ë¬¸ì¥ì´ ëë‚œì¦‰ì‹œ! iëŠ” 7ì´ ëœë‹¤
+        System.out.println(i); // 7 ì¶œë ¥
 }
 }
 

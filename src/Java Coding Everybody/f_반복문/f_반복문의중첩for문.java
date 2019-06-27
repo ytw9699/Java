@@ -1,5 +1,5 @@
-package f_¹İº¹¹®;
-public class f_¹İº¹¹®ÀÇÁßÃ¸for¹® {
+ï»¿package f_ë°˜ë³µë¬¸;
+public class f_ë°˜ë³µë¬¸ì˜ì¤‘ì²©forë¬¸ {
  public static void main(String[] args) {
     for (int a = 0; a < 10; a++) {
         for (int b = 0; b < 10; b++) {

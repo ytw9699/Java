@@ -1,4 +1,4 @@
-package p_´ÙÇü¼º6;
+ï»¿package p_ë‹¤í˜•ì„±6;
 
 abstract class Calculator{
     int left, right;
@@ -33,13 +33,13 @@ class CalculatorDecoMinus extends Calculator {
     }
 } 
 public class CalculatorDemo {
-    public static void execute(CalculatorDecoPlus cal){//ÀÌ¹æ½ÄÀº ¿À¹ö·ÎµùÀ¸·Î ÇØ°áÇØ¼­ ºñÈ¿À²Àû
-    	//´ÙÀ½¿¹Á¦¿¡¼­ ÀÌ ·ÎÁ÷¿¡ °°Àº ºÎ¸ğÀÌ´Ù´Â°É ÀÌ¿ëÇØ¼­ ´ÙÇü¼º °³³äÀ» ³Ö¾îº¸ÀÚ
-        System.out.println("½ÇÇà°á°ú1");
+    public static void execute(CalculatorDecoPlus cal){//ì´ë°©ì‹ì€ ì˜¤ë²„ë¡œë”©ìœ¼ë¡œ í•´ê²°í•´ì„œ ë¹„íš¨ìœ¨ì 
+    	//ë‹¤ìŒì˜ˆì œì—ì„œ ì´ ë¡œì§ì— ê°™ì€ ë¶€ëª¨ì´ë‹¤ëŠ”ê±¸ ì´ìš©í•´ì„œ ë‹¤í˜•ì„± ê°œë…ì„ ë„£ì–´ë³´ì
+        System.out.println("ì‹¤í–‰ê²°ê³¼1");
         cal.run();
     }
-    public static void execute(CalculatorDecoMinus cal){//¿À¹ö·ÎµùÀ¸·ÎÇØ°á
-        System.out.println("½ÇÇà°á°ú2");
+    public static void execute(CalculatorDecoMinus cal){//ì˜¤ë²„ë¡œë”©ìœ¼ë¡œí•´ê²°
+        System.out.println("ì‹¤í–‰ê²°ê³¼2");
         cal.run();
     }
     public static void main(String[] args) { 

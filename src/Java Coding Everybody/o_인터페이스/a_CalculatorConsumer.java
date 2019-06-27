@@ -1,8 +1,8 @@
-package o_ÀÎÅÍÆäÀÌ½º;
+ï»¿package o_ì¸í„°í˜ì´ìŠ¤;
 
 class CalculatorDummy{
     public void setOprands(int first, int second, int third){}
-    //»ç¿ëÀÚ°¡ ÀÎÀÚ°ªÀ» 3°³¸¸µé¾ú´Âµ¥
+    //ì‚¬ìš©ìê°€ ì¸ìê°’ì„ 3ê°œë§Œë“¤ì—ˆëŠ”ë°
     public int sum(){
         return 60;
     }

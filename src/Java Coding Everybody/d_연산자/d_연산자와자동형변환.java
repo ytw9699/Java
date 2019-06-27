@@ -1,6 +1,6 @@
-package d_¿¬»êÀÚ;
+ï»¿package d_ì—°ì‚°ì;
 
-public class d_¿¬»êÀÚ¿ÍÀÚµ¿Çüº¯È¯ {
+public class d_ì—°ì‚°ìì™€ìë™í˜•ë³€í™˜ {
 	 public static void main(String[] args){
 	        String firstString = "This is";
 	        String secondString = " a concatenated string.";

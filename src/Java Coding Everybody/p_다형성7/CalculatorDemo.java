@@ -1,4 +1,4 @@
-package p_´ÙÇü¼º7;
+ï»¿package p_ë‹¤í˜•ì„±7;
 
 abstract class Calculator{
     int left, right;
@@ -33,18 +33,18 @@ class CalculatorDecoMinus extends Calculator {
     }
 } 
 public class CalculatorDemo {
-    public static void execute(Calculator cal){//´ÙÇü¼º°³³äÀ¸·Î ¹ŞÀ½ //¹Ù²ïºÎºĞ ÄÚµå¸¦ ÁÙÀÓ
-        System.out.println("½ÇÇà°á°ú");
+    public static void execute(Calculator cal){//ë‹¤í˜•ì„±ê°œë…ìœ¼ë¡œ ë°›ìŒ //ë°”ë€ë¶€ë¶„ ì½”ë“œë¥¼ ì¤„ì„
+        System.out.println("ì‹¤í–‰ê²°ê³¼");
         cal.run();
     }
     public static void main(String[] args) { 
-        Calculator c1 = new CalculatorDecoPlus();//´ÙÇü¼º
+        Calculator c1 = new CalculatorDecoPlus();//ë‹¤í˜•ì„±
         c1.setOprands(10, 20);
          
-        Calculator c2 = new CalculatorDecoMinus();//´ÙÇü¼º
+        Calculator c2 = new CalculatorDecoMinus();//ë‹¤í˜•ì„±
         c2.setOprands(10, 20);
          
-        execute(c1);//´ÙÇü¼º
-        execute(c2);//´ÙÇü¼º
+        execute(c1);//ë‹¤í˜•ì„±
+        execute(c2);//ë‹¤í˜•ì„±
     }
 }

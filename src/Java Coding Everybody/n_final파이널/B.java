@@ -1,4 +1,4 @@
-package n_finalÆÄÀÌ³Î;
+ï»¿package n_finalíŒŒì´ë„;
 
 class A{
     final void b(){}
@@ -7,7 +7,7 @@ void aa() {}
 }
 
 class B extends A{
-    //void b(){}  //final ¸Ş¼Òµå b¸¦ ¿À¹ö¶óÀÌµå ÇÏ·ÁÇÏ±â ¶§¹®¿¡ ¿À·ù°¡ ¹ß»ıÇÑ´Ù.
+    //void b(){}  //final ë©”ì†Œë“œ bë¥¼ ì˜¤ë²„ë¼ì´ë“œ í•˜ë ¤í•˜ê¸° ë•Œë¬¸ì— ì˜¤ë¥˜ê°€ ë°œìƒí•œë‹¤.
 	void aa() {}
 }
 
@@ -15,4 +15,4 @@ final class C{
     final void b(){
     }
 }
-//class D extends C{ }  //final Å¬·¡½º¸¦ »ó¼ÓÇÏ·ÁÇÏ°í ÀÖ´Ù. µû¶ó¼­ ¿À·ù°¡ ¹ß»ıÇÑ´Ù.
+//class D extends C{ }  //final í´ë˜ìŠ¤ë¥¼ ìƒì†í•˜ë ¤í•˜ê³  ìˆë‹¤. ë”°ë¼ì„œ ì˜¤ë¥˜ê°€ ë°œìƒí•œë‹¤.

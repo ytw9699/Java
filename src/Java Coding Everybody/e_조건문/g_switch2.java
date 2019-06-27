@@ -1,4 +1,4 @@
- package e_Á¶°Ç¹®;
+ï»¿ package e_ì¡°ê±´ë¬¸;
 public class g_switch2 {
 	public static void main(String[] args) {
 		System.out.println("switch(1)");
@@ -14,7 +14,7 @@ public class g_switch2 {
             break;
         }
     	System.out.println("val");
-        //À§¾Æ·¡ °°´Ù°íº¼¼öÀÖ´Ù
+        //ìœ„ì•„ë˜ ê°™ë‹¤ê³ ë³¼ìˆ˜ìˆë‹¤
         int val = 1;
         if(val == 1){
             System.out.println("one");
@@ -48,7 +48,7 @@ public class g_switch2 {
             break;
         }
         System.out.println("switch(4)");
-        switch(4){//¾îµğ¿¡µµ ¼ÓÇÏÁö¾Ê´Â´Ù 4´Â ±×·¡¼­ µğÆúÆ®°¡½ÇÇà
+        switch(4){//ì–´ë””ì—ë„ ì†í•˜ì§€ì•ŠëŠ”ë‹¤ 4ëŠ” ê·¸ë˜ì„œ ë””í´íŠ¸ê°€ì‹¤í–‰
         case 1:
             System.out.println("one");
             break;
@@ -58,12 +58,12 @@ public class g_switch2 {
         case 3:
             System.out.println("three");
             break;
-        default://°á±¹ if¹®ÀÇ else¶û ¶È°°Àºµí!
+        default://ê²°êµ­ ifë¬¸ì˜ elseë‘ ë˜‘ê°™ì€ë“¯!
             System.out.println("default");
             break;
         }
         System.out.println("switch(5)");
-        switch(5){//¾îµğ¿¡µµ ¼ÓÇÏÁö¾Ê´Â´Ù
+        switch(5){//ì–´ë””ì—ë„ ì†í•˜ì§€ì•ŠëŠ”ë‹¤
         case 1:
             System.out.println("one");
             break;
@@ -99,8 +99,8 @@ public class g_switch2 {
             System.out.println("f");
             break;
         }
-        /*switch ¹®À» »ç¿ëÇÒ ¶§ ÇÑ°¡Áö ÁÖÀÇ ÇÒ °ÍÀº switchÀÇ Á¶°ÇÀ¸·Î´Â 
-		¸î°¡Áö Á¦ÇÑµÈ µ¥ÀÌÅÍ Å¸ÀÔ¸¸À» »ç¿ëÇÒ ¼ö ÀÖ´Ù. ·¡ÆÛÅ¬·¡½ºÀÎ
+        /*switch ë¬¸ì„ ì‚¬ìš©í•  ë•Œ í•œê°€ì§€ ì£¼ì˜ í•  ê²ƒì€ switchì˜ ì¡°ê±´ìœ¼ë¡œëŠ” 
+		ëª‡ê°€ì§€ ì œí•œëœ ë°ì´í„° íƒ€ì…ë§Œì„ ì‚¬ìš©í•  ìˆ˜ ìˆë‹¤. ë˜í¼í´ë˜ìŠ¤ì¸
 		byte, short, char, int, enum, String, Character, Byte, Short, Integer*/
   }
 }

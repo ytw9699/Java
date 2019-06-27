@@ -1,16 +1,16 @@
-package b_º¯¼ö;
+ï»¿package b_ë³€ìˆ˜;
 
-public class bÁ¤¼ö¿Í½Ç¼ö {//Á¤¼ö¿Í ½Ç¼ö´Â »ó¼öÀÌ´Ù
+public class bì •ìˆ˜ì™€ì‹¤ìˆ˜ {//ì •ìˆ˜ì™€ ì‹¤ìˆ˜ëŠ” ìƒìˆ˜ì´ë‹¤
 	public static void main(String[] args) {
-//Á¤¼ö : -3 -2 -1 0 1 2 3...¼Ò¼öÁ¡ÀÌ¾øÀÌ ¶³¾îÁö¸é Á¤¼ö
-//½Ç¼ö : 0.01, 0.1 ¼Ò¼öÁ¡ÀÌÀÖ´Ù¸é ½Ç¼ö!
-//½Ç¼ö´Â Çö½Ç¿¡¼­ÀÇ ¼ýÀÚÀÓ ½ÇÁ¦·Î ÇÚµåÆù±æÀÌ¸¦ Àçº¸¸é Á¤±³ÇÔÀÌ ÇÊ¿äÇÔ 
-		double a;//doubleÀº aÀÇ º¯¼ö¿¡ ´à±æ¼öÀÖ´Â°ÍÀÌ
-		//½Ç¼öÀÎ µ¥ÀÌÅÍ Çü½ÄÀÌ´Ù 
-		a = 1.1;//1.1Àº ½Ç¼ö
+//ì •ìˆ˜ : -3 -2 -1 0 1 2 3...ì†Œìˆ˜ì ì´ì—†ì´ ë–¨ì–´ì§€ë©´ ì •ìˆ˜
+//ì‹¤ìˆ˜ : 0.01, 0.1 ì†Œìˆ˜ì ì´ìžˆë‹¤ë©´ ì‹¤ìˆ˜!
+//ì‹¤ìˆ˜ëŠ” í˜„ì‹¤ì—ì„œì˜ ìˆ«ìžìž„ ì‹¤ì œë¡œ í•¸ë“œí°ê¸¸ì´ë¥¼ ìž¬ë³´ë©´ ì •êµí•¨ì´ í•„ìš”í•¨ 
+		double a;//doubleì€ aì˜ ë³€ìˆ˜ì— ë‹®ê¸¸ìˆ˜ìžˆëŠ”ê²ƒì´
+		//ì‹¤ìˆ˜ì¸ ë°ì´í„° í˜•ì‹ì´ë‹¤ 
+		a = 1.1;//1.1ì€ ì‹¤ìˆ˜
 		System.out.println(a+1.1);
 		
-		//int a = 1.1; // ´ãÁö¸¦ ¸øÇÔ 
+		//int a = 1.1; // ë‹´ì§€ë¥¼ ëª»í•¨ 
 		//System.out.println(a+1.1);
 		
 	}

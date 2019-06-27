@@ -1,12 +1,12 @@
-package z_Collection_Framework2;
+ï»¿package z_Collection_Framework2;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class b_ListSetÀÇÂ÷ÀÌÁ¡1 {
+public class b_ListSetì˜ì°¨ì´ì 1 {
    public static void main(String[] args) {
-	   ArrayList<Integer> A = new ArrayList<Integer>();//Áßº¹µÈ°ªÀ» Çã¿ëÇÑ´Ù
+	   ArrayList<Integer> A = new ArrayList<Integer>();//ì¤‘ë³µëœê°’ì„ í—ˆìš©í•œë‹¤
        A.add(1);
        A.add(2);
        A.add(2);
@@ -20,7 +20,7 @@ public class b_ListSetÀÇÂ÷ÀÌÁ¡1 {
        }
        System.out.println();
        
-   HashSet<Integer> B = new HashSet<Integer>();//Áßº¹µÈ °ªÀ» Çã¿ëÇÏÁö ¾Ê´Â´Ù
+   HashSet<Integer> B = new HashSet<Integer>();//ì¤‘ë³µëœ ê°’ì„ í—ˆìš©í•˜ì§€ ì•ŠëŠ”ë‹¤
    B.add(1);
    B.add(2);
    B.add(2);

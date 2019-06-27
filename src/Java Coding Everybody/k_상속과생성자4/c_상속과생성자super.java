@@ -1,4 +1,4 @@
-package k_»ó¼Ó°ú»ı¼ºÀÚ4;
+ï»¿package k_ìƒì†ê³¼ìƒì„±ì4;
 
 class Calculator {
    int left, right;
@@ -7,7 +7,7 @@ class Calculator {
    this.right = right;
 }*/
     
-   //public Calculator(){}//ÀÌÁ¦´Â ¾ø¾îµµ »ó°ü¾ø´Ù//»õ·Ó°Ô ¹Ù²ïºÎºĞ 
+   //public Calculator(){}//ì´ì œëŠ” ì—†ì–´ë„ ìƒê´€ì—†ë‹¤//ìƒˆë¡­ê²Œ ë°”ë€ë¶€ë¶„ 
   
    public Calculator(int left, int right){
        this.left = left;
@@ -22,21 +22,21 @@ class Calculator {
    }
 }
 class SubstractionableCalculator extends Calculator {
-	public SubstractionableCalculator(int left, int right) {//2¹øÂ°¹æ¹ıÀº
-		//ÀÌ »ı¼ºÀÚ ·ÎÁ÷ÀÌ À§¿Í Áßº¹µÈ´Ù¸é ÀÌ°É ÅëÇØ¼­ ÇØ°áÇÏ´Â 2¹øÂ°¹æ¹ıÀº ´ÙÀ½Àå super ºÎ¸ğ Å¬·¡½ºÀÇ »ı¼ºÀÚ¸¦ ÀÇ¹Ì
-		//super Å°¿öµå´Â ºÎ¸ğ Å¬·¡½º¸¦ ÀÇ¹ÌÇÑ´Ù
-		// ¿©±â¿¡ ()ºÙÀÌ¸é ºÎ¸ğ Å¬·¡½ºÀÇ »ı¼ºÀÚ¸¦ ÀÇ¹ÌÇÏ°Ô µÈ´Ù
-	    super(left , right);//ºÎ¸ğÅ¬·¡½º »ı¼ºÀÚ¿¡°Ô ¿©±â¼­ ¸Å°³º¯¼ö·Î left°ª°ú right°ªÀ» ¹Ş¾Æ¼­
-	    //public Calculator(int left, int right) ÀÌÂÊÀ¸·Î Àü´ŞÇÏ´Â°Í
-	    //±×·¯¸é ±»ÀÌ ºÎ¸ğÅ¬·¡½ºÀÇ ±âº»»ı¼ºÀÚ ¾È¸¸µé¾îÁàµµ µÇÀÚ³ª ¸Å°³º¯¼ö¿¡ °ªÀÌµé¾î°¡¸é ±âº»»ı¼ºÀÚ ¾È¸¸µé¾îÁàµµµÊ
-	    //±×¸®°í ÇÏÀ§Å¬·¡½º¿¡ ÃÊ±âÈ­ÀÛ¾÷À» ÇÏ°í½ÍÀ¸¸é 
-	    //¸ÕÀú ºÎ¸ğÅ¬·¡½ºÀÇ ÃÊ±âÈ­ÀÛ¾÷À» ¸ÕÀúÇÏ°í¼­ ÇØ¾ßÇÑ´Ù
+	public SubstractionableCalculator(int left, int right) {//2ë²ˆì§¸ë°©ë²•ì€
+		//ì´ ìƒì„±ì ë¡œì§ì´ ìœ„ì™€ ì¤‘ë³µëœë‹¤ë©´ ì´ê±¸ í†µí•´ì„œ í•´ê²°í•˜ëŠ” 2ë²ˆì§¸ë°©ë²•ì€ ë‹¤ìŒì¥ super ë¶€ëª¨ í´ë˜ìŠ¤ì˜ ìƒì„±ìë¥¼ ì˜ë¯¸
+		//super í‚¤ì›Œë“œëŠ” ë¶€ëª¨ í´ë˜ìŠ¤ë¥¼ ì˜ë¯¸í•œë‹¤
+		// ì—¬ê¸°ì— ()ë¶™ì´ë©´ ë¶€ëª¨ í´ë˜ìŠ¤ì˜ ìƒì„±ìë¥¼ ì˜ë¯¸í•˜ê²Œ ëœë‹¤
+	    super(left , right);//ë¶€ëª¨í´ë˜ìŠ¤ ìƒì„±ìì—ê²Œ ì—¬ê¸°ì„œ ë§¤ê°œë³€ìˆ˜ë¡œ leftê°’ê³¼ rightê°’ì„ ë°›ì•„ì„œ
+	    //public Calculator(int left, int right) ì´ìª½ìœ¼ë¡œ ì „ë‹¬í•˜ëŠ”ê²ƒ
+	    //ê·¸ëŸ¬ë©´ êµ³ì´ ë¶€ëª¨í´ë˜ìŠ¤ì˜ ê¸°ë³¸ìƒì„±ì ì•ˆë§Œë“¤ì–´ì¤˜ë„ ë˜ìë‚˜ ë§¤ê°œë³€ìˆ˜ì— ê°’ì´ë“¤ì–´ê°€ë©´ ê¸°ë³¸ìƒì„±ì ì•ˆë§Œë“¤ì–´ì¤˜ë„ë¨
+	    //ê·¸ë¦¬ê³  í•˜ìœ„í´ë˜ìŠ¤ì— ì´ˆê¸°í™”ì‘ì—…ì„ í•˜ê³ ì‹¶ìœ¼ë©´ 
+	    //ë¨¼ì € ë¶€ëª¨í´ë˜ìŠ¤ì˜ ì´ˆê¸°í™”ì‘ì—…ì„ ë¨¼ì €í•˜ê³ ì„œ í•´ì•¼í•œë‹¤
 	}
    public void substract() {
        System.out.println(this.left - this.right);
    }
 }
-public class c_»ó¼Ó°ú»ı¼ºÀÚsuper {
+public class c_ìƒì†ê³¼ìƒì„±ìsuper {
    public static void main(String[] args) {
        SubstractionableCalculator c1 = new SubstractionableCalculator(10, 20);
        c1.sum();

@@ -1,11 +1,11 @@
-package h_Å¬·¡½º¿Í_ÀÎ½ºÅÏ½º_°´Ã¼;
+ï»¿package h_í´ëž˜ìŠ¤ì™€_ì¸ìŠ¤í„´ìŠ¤_ê°ì²´;
 class Calculator{
-	//Å¬·¡½º´Â ¿¬°üµÇ¾î ÀÖ´Â º¯¼ö¿Í ¸Þ¼ÒµåÀÇ ÁýÇÕÀÌ´Ù
-	//ÀÌ Å¬·¡½º ÀüÃ¼°¡ °´Ã¼ÀÇ ¼³°èµµ -º¯¼ö,¸Þ¼Òµå
-    int left, right;//ÀÎ½ºÅÏ½º º¯¼ö
+	//í´ëž˜ìŠ¤ëŠ” ì—°ê´€ë˜ì–´ ìžˆëŠ” ë³€ìˆ˜ì™€ ë©”ì†Œë“œì˜ ì§‘í•©ì´ë‹¤
+	//ì´ í´ëž˜ìŠ¤ ì „ì²´ê°€ ê°ì²´ì˜ ì„¤ê³„ë„ -ë³€ìˆ˜,ë©”ì†Œë“œ
+    int left, right;//ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜
       
     public void setOprands(int left, int right){
-        this.left = left; //this´Â c1ÀÇ ÀÎ½ºÅÏ½º¸¦ °¡¸®Å°´Â°Å,ÀÎ½ºÅÏ½º ÀÚ½Å
+        this.left = left; //thisëŠ” c1ì˜ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ê°€ë¦¬í‚¤ëŠ”ê±°,ì¸ìŠ¤í„´ìŠ¤ ìžì‹ 
         this.right = right;
     }
     public void sum(){
@@ -15,18 +15,18 @@ class Calculator{
         System.out.println((this.left+this.right)/2);
     }
 }
-public class c_°´Ã¼È­ {
+public class c_ê°ì²´í™” {
     public static void main(String[] args) {
-         //Å¬·¡½º : ¼³°èµµ
-    	//ÀÎ½ºÅÏ½º : Á¦Ç°
-        Calculator c1 = new Calculator();//c1ÀÌ¶ó´Â º¯¼ö¿¡ new Calculator()°´Ã¼¸¦ »ý¼ºÇØ¼­ ´ãÀ½
-        //c1¿¡ ´ã±ä ½ÇÁ¦ °´Ã¼ÀÇ ³»¿ëÀ» ÀÎ½ºÅÏ½º(±¸Ã¼ÀûÀÎ °´Ã¼)¶óÇÔ
-        //Å¬·¡½º¸¦ ¸¸µç´Ù´Â °ÍÀº »ç¿ëÀÚ Á¤ÀÇ µ¥ÀÌÅÍ Å¸ÀÔÀ» ¸¸µå´Â °Í°ú °°Àº ÀÇ¹Ì´Ù c1Àº µ¥ÀÌÅÍÅ¸ÀÔÀÌ calculatorÀÓ
+         //í´ëž˜ìŠ¤ : ì„¤ê³„ë„
+    	//ì¸ìŠ¤í„´ìŠ¤ : ì œí’ˆ
+        Calculator c1 = new Calculator();//c1ì´ë¼ëŠ” ë³€ìˆ˜ì— new Calculator()ê°ì²´ë¥¼ ìƒì„±í•´ì„œ ë‹´ìŒ
+        //c1ì— ë‹´ê¸´ ì‹¤ì œ ê°ì²´ì˜ ë‚´ìš©ì„ ì¸ìŠ¤í„´ìŠ¤(êµ¬ì²´ì ì¸ ê°ì²´)ë¼í•¨
+        //í´ëž˜ìŠ¤ë¥¼ ë§Œë“ ë‹¤ëŠ” ê²ƒì€ ì‚¬ìš©ìž ì •ì˜ ë°ì´í„° íƒ€ìž…ì„ ë§Œë“œëŠ” ê²ƒê³¼ ê°™ì€ ì˜ë¯¸ë‹¤ c1ì€ ë°ì´í„°íƒ€ìž…ì´ calculatorìž„
         c1.setOprands(10, 20);
         c1.sum();       
         c1.avg();       
           
-        Calculator c2 = new Calculator();//ÀçÈ°¿ë
+        Calculator c2 = new Calculator();//ìž¬í™œìš©
         c2.setOprands(20, 40);
         c2.sum();       
         c2.avg();
@@ -35,14 +35,14 @@ public class c_°´Ã¼È­ {
         c1.avg(); 
     }
 }
-/*º¯¼ö¸¦ ´Ù¸¥ ¸»·Î´Â »óÅÂ(state)¶ó°íµµ Ç¥ÇöÇÑ´Ù. 
-c1.sumÀÇ °á°ú´Â 30, c2.sumÀÇ °á°ú´Â 60ÀÎ °ÍÀ» ÅëÇØ¼­ ¾Ë ¼ö ÀÖµíÀÌ 
-»óÅÂ°¡ ´Ù¸¥ °´Ã¼¸¦ ´ë»óÀ¸·Î ¸Þ¼Ò½º¸¦ ½ÇÇà½ÃÅ°¸é ´Ù¸¥ °á°ú¸¦ ³ªÅ¸³»°Ô µÈ´Ù.
-¸Þ¼Òµå¸¦ ´Ù¸¥ ¸»·Î´Â Çàµ¿(behave)¶ó°íµµ Ç¥ÇöÇÑ´Ù.
+/*ë³€ìˆ˜ë¥¼ ë‹¤ë¥¸ ë§ë¡œëŠ” ìƒíƒœ(state)ë¼ê³ ë„ í‘œí˜„í•œë‹¤. 
+c1.sumì˜ ê²°ê³¼ëŠ” 30, c2.sumì˜ ê²°ê³¼ëŠ” 60ì¸ ê²ƒì„ í†µí•´ì„œ ì•Œ ìˆ˜ ìžˆë“¯ì´ 
+ìƒíƒœê°€ ë‹¤ë¥¸ ê°ì²´ë¥¼ ëŒ€ìƒìœ¼ë¡œ ë©”ì†ŒìŠ¤ë¥¼ ì‹¤í–‰ì‹œí‚¤ë©´ ë‹¤ë¥¸ ê²°ê³¼ë¥¼ ë‚˜íƒ€ë‚´ê²Œ ëœë‹¤.
+ë©”ì†Œë“œë¥¼ ë‹¤ë¥¸ ë§ë¡œëŠ” í–‰ë™(behave)ë¼ê³ ë„ í‘œí˜„í•œë‹¤.
 
-º¯¼ö : »óÅÂ
-¸Þ¼Òµå : Çàµ¿
-Áï ÇÏ³ªÀÇ Å¬·¡½º¸¦ ¹ÙÅÁÀ¸·Î ¼­·Î ´Ù¸¥ »óÅÂ¸¦ °¡Áø ÀÎ½ºÅÏ½º¸¦ ¸¸µé¸é 
-¼­·Î ´Ù¸¥ Çàµ¿À» ÇÏ°Ô µÈ´Ù´Â °ÍÀ» ¾Ë ¼ö ÀÖ´Ù. ÇÏ³ªÀÇ Å¬·¡½º°¡ ¿©·¯°³ÀÇ 
-ÀÎ½ºÅÏ½º°¡ µÉ ¼ö ÀÖ´Ù´Â Á¡ÀÌ °´Ã¼ ÁöÇâÀÌ Á¦°øÇÏ´Â °¡Àå ±âº»ÀûÀÎ ÀçÈ°¿ë¼ºÀÌ¶ó°í ÇÒ ¼ö ÀÖ´Ù.*/
+ë³€ìˆ˜ : ìƒíƒœ
+ë©”ì†Œë“œ : í–‰ë™
+ì¦‰ í•˜ë‚˜ì˜ í´ëž˜ìŠ¤ë¥¼ ë°”íƒ•ìœ¼ë¡œ ì„œë¡œ ë‹¤ë¥¸ ìƒíƒœë¥¼ ê°€ì§„ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ë§Œë“¤ë©´ 
+ì„œë¡œ ë‹¤ë¥¸ í–‰ë™ì„ í•˜ê²Œ ëœë‹¤ëŠ” ê²ƒì„ ì•Œ ìˆ˜ ìžˆë‹¤. í•˜ë‚˜ì˜ í´ëž˜ìŠ¤ê°€ ì—¬ëŸ¬ê°œì˜ 
+ì¸ìŠ¤í„´ìŠ¤ê°€ ë  ìˆ˜ ìžˆë‹¤ëŠ” ì ì´ ê°ì²´ ì§€í–¥ì´ ì œê³µí•˜ëŠ” ê°€ìž¥ ê¸°ë³¸ì ì¸ ìž¬í™œìš©ì„±ì´ë¼ê³  í•  ìˆ˜ ìžˆë‹¤.*/
 

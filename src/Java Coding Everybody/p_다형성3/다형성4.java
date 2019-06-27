@@ -1,4 +1,4 @@
-package p_´ÙÇü¼º3;
+ï»¿package p_ë‹¤í˜•ì„±3;
 
 class A{
     public String x(){return "A.x";}
@@ -7,11 +7,11 @@ class B extends A{
     public String x(){return "B.x";}
     public String y(){return "y";}
 }
-public class ´ÙÇü¼º4 {
+public class ë‹¤í˜•ì„±4 {
     public static void main(String[] args) {
         A obj = new B();
-        System.out.println(obj.x());//½ÇÇà°á°ú°¡ "B.x" °¡µÈ´Ù!!
-        //¿À¹ö¶óÀÌµù Çß±â¶§¹®¿¡! ÀÌ°Ô Àû¿ëµÈ´Ù´Â°Å
+        System.out.println(obj.x());//ì‹¤í–‰ê²°ê³¼ê°€ "B.x" ê°€ëœë‹¤!!
+        //ì˜¤ë²„ë¼ì´ë”© í–ˆê¸°ë•Œë¬¸ì—! ì´ê²Œ ì ìš©ëœë‹¤ëŠ”ê±°
         B obj2 = new B();
         System.out.println(obj2.x());
     }

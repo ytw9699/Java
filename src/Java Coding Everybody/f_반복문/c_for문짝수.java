@@ -1,6 +1,6 @@
-package f_¹İº¹¹®;
+ï»¿package f_ë°˜ë³µë¬¸;
 
-public class c_for¹®Â¦¼ö {
+public class c_forë¬¸ì§ìˆ˜ {
 	public static void main(String[] args) {
 		for (int a = 0; a < 10; a=a+2) {
 	        System.out.println("Coding Everybody " + a);

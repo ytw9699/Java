@@ -1,35 +1,35 @@
-package n_abstractÃß»óÈ­;
-/*Ãß»ó Å¬·¡½º´Â »ó¼ÓÀ» °­Á¦ÇÏ±â À§ÇÑ °ÍÀÌ´Ù. Áï ºÎ¸ğ Å¬·¡½º¿¡´Â ¸Ş¼ÒµåÀÇ ½Ã±×´ÏÃ³¸¸ Á¤ÀÇÇØ³õ°í
-±× ¸Ş¼ÒµåÀÇ ½ÇÁ¦ µ¿ÀÛ ¹æ¹ıÀº ÀÌ ¸Ş¼Òµå¸¦ »ó¼Ó ¹ŞÀº ÇÏÀ§ Å¬·¡½ºÀÇ Ã¥ÀÓÀ¸·Î À§ÀÓÇÏ°í ÀÖ´Ù*/
-abstract class Calculator{//Ãß»óÅ¬·¡½º
+ï»¿package n_abstractì¶”ìƒí™”;
+/*ì¶”ìƒ í´ë˜ìŠ¤ëŠ” ìƒì†ì„ ê°•ì œí•˜ê¸° ìœ„í•œ ê²ƒì´ë‹¤. ì¦‰ ë¶€ëª¨ í´ë˜ìŠ¤ì—ëŠ” ë©”ì†Œë“œì˜ ì‹œê·¸ë‹ˆì²˜ë§Œ ì •ì˜í•´ë†“ê³ 
+ê·¸ ë©”ì†Œë“œì˜ ì‹¤ì œ ë™ì‘ ë°©ë²•ì€ ì´ ë©”ì†Œë“œë¥¼ ìƒì† ë°›ì€ í•˜ìœ„ í´ë˜ìŠ¤ì˜ ì±…ì„ìœ¼ë¡œ ìœ„ì„í•˜ê³  ìˆë‹¤*/
+abstract class Calculator{//ì¶”ìƒí´ë˜ìŠ¤
     int left, right;
     public void setOprands(int left, int right){
         this.left = left;
         this.right = right;
     } 
-    public abstract void sum();//Ãß»ó¸Ş¼Òµå 
-    public abstract void avg();//Ãß»ó¸Ş¼Òµå 
-    public void run(){//Ãß»ó¸Ş¼Òµå°¡ ¾Æ´Ô
+    public abstract void sum();//ì¶”ìƒë©”ì†Œë“œ 
+    public abstract void avg();//ì¶”ìƒë©”ì†Œë“œ 
+    public void run(){//ì¶”ìƒë©”ì†Œë“œê°€ ì•„ë‹˜
         sum();
         avg();
     }
-    int _sum() {//Á¢±ÙÁ¦¾îÀÚ°¡ Á¸Àç¾ÈÇÔ default Á¢±ÙÁ¦¾îÀÚÀÓ °°ÀºÆĞÅ°Áö¿¡¼­¸¸ »ç¿ë°¡´É
+    int _sum() {//ì ‘ê·¼ì œì–´ìê°€ ì¡´ì¬ì•ˆí•¨ default ì ‘ê·¼ì œì–´ìì„ ê°™ì€íŒ¨í‚¤ì§€ì—ì„œë§Œ ì‚¬ìš©ê°€ëŠ¥
     	return this.left + this.right;
     }
 }
 class CalculatorDecoPlus extends Calculator {
-    public void sum(){//¿À¹ö¶óÀÌµù
-        System.out.println("+ sum :"+ _sum());//Áßº¹ÀÇÁ¦°Å
+    public void sum(){//ì˜¤ë²„ë¼ì´ë”©
+        System.out.println("+ sum :"+ _sum());//ì¤‘ë³µì˜ì œê±°
     }
-    public void avg(){//¿À¹ö¶óÀÌµù
+    public void avg(){//ì˜¤ë²„ë¼ì´ë”©
         System.out.println("+ avg :"+(this.left+this.right)/2);
     }
 } 
 class CalculatorDecoMinus extends Calculator {
-    public void sum(){//¿À¹ö¶óÀÌµù
-        System.out.println("- sum :"+(this.left+this.right));//Áßº¹Á¦°Å¾ÈÇÔ
+    public void sum(){//ì˜¤ë²„ë¼ì´ë”©
+        System.out.println("- sum :"+(this.left+this.right));//ì¤‘ë³µì œê±°ì•ˆí•¨
     }
-    public void avg(){//¿À¹ö¶óÀÌµù
+    public void avg(){//ì˜¤ë²„ë¼ì´ë”©
         System.out.println("- avg :"+(this.left+this.right)/2);
     }
 } 

@@ -1,20 +1,20 @@
-package g_¸Ş¼Òµå;
-public class i_º¹¼öÀÇ¸®ÅÏ {
+ï»¿package g_ë©”ì†Œë“œ;
+public class i_ë³µìˆ˜ì˜ë¦¬í„´ {
  
-    public static String[] getMembers() {//¸®ÅÏ°ªÀÌ String[] ¹è¿­
-        String[] members = { "ÃÖÁøÇõ", "ÃÖÀ¯ºó", "ÇÑÀÌ¶÷" };
-        //membersº¯¼ö´Â ¹®ÀÚ¿­À» ´ãÀ»¼öÀÖ´Â ¹è¿­
-        return members;//¸®ÅÏÇÑ¹øÇÏÁö¸¸ ¹è¿­¾È¿¡ ¿©·¯°³ÀÇ °ªÀÌ µé¾î°¨
+    public static String[] getMembers() {//ë¦¬í„´ê°’ì´ String[] ë°°ì—´
+        String[] members = { "ìµœì§„í˜", "ìµœìœ ë¹ˆ", "í•œì´ëŒ" };
+        //membersë³€ìˆ˜ëŠ” ë¬¸ìì—´ì„ ë‹´ì„ìˆ˜ìˆëŠ” ë°°ì—´
+        return members;//ë¦¬í„´í•œë²ˆí•˜ì§€ë§Œ ë°°ì—´ì•ˆì— ì—¬ëŸ¬ê°œì˜ ê°’ì´ ë“¤ì–´ê°
     }
-  //¸Ş¼Òµå getMembers°¡ ¸®ÅÏÇÑ ¹è¿­À» members º¯¼ö¿¡ ´ã¾Ò´Ù. 
-    //ÀÌ º¯¼ö¸¦ ÀÌ¿ëÇØ¼­ ¿©·¯ °³ÀÇ µ¥ÀÌÅÍ¸¦ Ã³¸® ÇÒ ¼ö ÀÖ°Ô µÈ´Ù.
+  //ë©”ì†Œë“œ getMembersê°€ ë¦¬í„´í•œ ë°°ì—´ì„ members ë³€ìˆ˜ì— ë‹´ì•˜ë‹¤. 
+    //ì´ ë³€ìˆ˜ë¥¼ ì´ìš©í•´ì„œ ì—¬ëŸ¬ ê°œì˜ ë°ì´í„°ë¥¼ ì²˜ë¦¬ í•  ìˆ˜ ìˆê²Œ ëœë‹¤.
  
     public static void main(String[] args) {
         String[] members2 = getMembers();//
-        //String[]¹è¿­ÀÇ µ¥ÀÌÅÍÅ¸ÀÔÀ» °¡Áö°í ÀÖ´Â members2¶ó´Â º¯¼ö¿¡
-        //¹İÈ¯ÇÑ members¶ó´Â °ªÀÌ ´ã±ä´Ù
+        //String[]ë°°ì—´ì˜ ë°ì´í„°íƒ€ì…ì„ ê°€ì§€ê³  ìˆëŠ” members2ë¼ëŠ” ë³€ìˆ˜ì—
+        //ë°˜í™˜í•œ membersë¼ëŠ” ê°’ì´ ë‹´ê¸´ë‹¤
         
-        for(int i=0; i<members2.length; i++ ) {//length´Â 3
+        for(int i=0; i<members2.length; i++ ) {//lengthëŠ” 3
         	String member = members2[i];// 0 1 2
         System.out.println(member);
         }

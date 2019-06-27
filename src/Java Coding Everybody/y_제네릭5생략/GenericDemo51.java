@@ -1,4 +1,4 @@
-package y_Á¦³×¸¯5»ı·«;
+ï»¿package y_ì œë„¤ë¦­5ìƒëµ;
 
 class EmployeeInfo{
     public int rank;
@@ -11,8 +11,8 @@ class Person<T, S>{
         this.info = info;
         this.id = id;
     }
-    public <U> void printInfo(U info){//¸Ş¼Òµå¿¡µµ Á¦³×¸¯
-    	//ÀÌ·¸°Ô µÎ°¡Áö¿¡ u¸¦ Àû¾îÁÖ¸é info¸Å°³º¯¼öÀÇ µ¥ÀÌÅÍÅ¸ÀÔÀ¸·Î u°¡µé¾î¿À´Â°Å´Ù
+    public <U> void printInfo(U info){//ë©”ì†Œë“œì—ë„ ì œë„¤ë¦­
+    	//ì´ë ‡ê²Œ ë‘ê°€ì§€ì— uë¥¼ ì ì–´ì£¼ë©´ infoë§¤ê°œë³€ìˆ˜ì˜ ë°ì´í„°íƒ€ì…ìœ¼ë¡œ uê°€ë“¤ì–´ì˜¤ëŠ”ê±°ë‹¤
         System.out.println(info);  
     }
 }
@@ -21,10 +21,10 @@ class Person<T, S>{
  EmployeeInfo e = new EmployeeInfo(1);
  Integer i = new Integer(10);
  //Person<EmployeeInfo, Integer> p1 = new Person<EmployeeInfo, Integer>(e, i);
- //¹Ø¿¡Ã³·³ »ı·«°¡´É 
+ //ë°‘ì—ì²˜ëŸ¼ ìƒëµê°€ëŠ¥ 
  Person p1 = new Person(e, i);
 
-p1.<Integer>printInfo(i);//µ¥ÀÌÅÍÅ¸ÀÔÀº Integer,¸Å°³º¯¼ö´Â new Integer(10);
-p1.printInfo(i);//¶È°°ÀÌ »ı·«°¡´É
+p1.<Integer>printInfo(i);//ë°ì´í„°íƒ€ì…ì€ Integer,ë§¤ê°œë³€ìˆ˜ëŠ” new Integer(10);
+p1.printInfo(i);//ë˜‘ê°™ì´ ìƒëµê°€ëŠ¥
  	}
  	}

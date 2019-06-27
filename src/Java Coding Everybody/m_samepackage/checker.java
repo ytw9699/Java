@@ -1,11 +1,11 @@
-package m_samepackage;
+ï»¿package m_samepackage;
 import m_otherpackage.*;
 public class checker {}
 
-class SameClassChecker{//1.°°Àº Å¬·¡½ºÀÇ °æ¿ì
-	public SameClassChecker() {//»ı¼ºÀÚ°¡Áü
-		//°°Àº Å¬·¡½º¿¡ Á¸ÀçÇÏ´Â ¸ğµç ¸Ş¼Òµå,º¯¼ö  Á¢±Ù °¡´É
-		this._public();//ÀÚ±âÀÚ½Å¿¡°Ô Á¤ÀÇµÈ ¸Ş¼Òµå È£Ãâ
+class SameClassChecker{//1.ê°™ì€ í´ë˜ìŠ¤ì˜ ê²½ìš°
+	public SameClassChecker() {//ìƒì„±ìê°€ì§
+		//ê°™ì€ í´ë˜ìŠ¤ì— ì¡´ì¬í•˜ëŠ” ëª¨ë“  ë©”ì†Œë“œ,ë³€ìˆ˜  ì ‘ê·¼ ê°€ëŠ¥
+		this._public();//ìê¸°ìì‹ ì—ê²Œ ì •ì˜ëœ ë©”ì†Œë“œ í˜¸ì¶œ
 		this._protected();
 		this._default();
 		this._private();
@@ -13,7 +13,7 @@ class SameClassChecker{//1.°°Àº Å¬·¡½ºÀÇ °æ¿ì
 	private void _private() {
 		System.out.println("private");
 	}
-	void _default() {//Á¢±ÙÁ¦¾îÀÚ ¸í½Ã¾ÈÇÏ¸é default Á¢±ÙÁ¦¾î°¡µÊ
+	void _default() {//ì ‘ê·¼ì œì–´ì ëª…ì‹œì•ˆí•˜ë©´ default ì ‘ê·¼ì œì–´ê°€ë¨
 		System.out.println("default");
 	}
 	protected void _protected() {
@@ -23,46 +23,46 @@ class SameClassChecker{//1.°°Àº Å¬·¡½ºÀÇ °æ¿ì
 		System.out.println("public");
 	}
 }
-class SamePackageChecker{//2.°°Àº ÆĞÅ°ÁöÀÎ°æ¿ì
+class SamePackageChecker{//2.ê°™ì€ íŒ¨í‚¤ì§€ì¸ê²½ìš°
 	public SamePackageChecker() {
 	
 		Same same = new Same();	
-		//°°Àº ÆĞÅ°ÁöÀÇ Å¬·¡½º¸¦ °´Ã¼»ı¼ºÇØ¼­ ¸Ş¼Òµå¿¡ Á¢±Ù°¡´É
+		//ê°™ì€ íŒ¨í‚¤ì§€ì˜ í´ë˜ìŠ¤ë¥¼ ê°ì²´ìƒì„±í•´ì„œ ë©”ì†Œë“œì— ì ‘ê·¼ê°€ëŠ¥
 		same._public();
 		same._protected(); 
 		same._default();
-		//same._private();//ÇÁ¶óÀÌ º£ÀÕ Á¢±ÙÀÚ°¡ºÙÀº ¸Ş¼Òµå¸¸ Á¢±Ù ºÒ°¡
+		//same._private();//í”„ë¼ì´ ë² ì‡ ì ‘ê·¼ìê°€ë¶™ì€ ë©”ì†Œë“œë§Œ ì ‘ê·¼ ë¶ˆê°€
 	}
 }
-class SamePackageChecker2 extends Same{//2.°°Àº ÆĞÅ°ÁöÀÇ »ó¼Ó¹Ş´Â Å¬·¡½º¿¡ Á¢±ÙÇÒ¶§
+class SamePackageChecker2 extends Same{//2.ê°™ì€ íŒ¨í‚¤ì§€ì˜ ìƒì†ë°›ëŠ” í´ë˜ìŠ¤ì— ì ‘ê·¼í• ë•Œ
 	public SamePackageChecker2() {
-		//°°Àº ÆĞÅ°Áö »ó¼Ó°ü°èÀÏ¶§ Same Å¬·¡½ºÀÇ ¸Ş¼Òµå¿¡ Á¢±ÙÇÏ¸é °°Àº°á°ú
-		this._public();//this´Â 1Â÷ÀûÀ¸·Î Å¬·¡½º ÀÚ½ÅÀÎ
-		//SamePackageCheckerÀ» ÀÇ¹ÌÇÏÁö¸¸
-		//»ó¼Ó¹ŞÀº°æ¿ìÀÌ°í ÀÚÃ¼ÀûÀ¸·Î °¡Áø ¸Ş¼Òµå³ª ÇÊµå°¡ Á¸Àç¾ÈÇÏ¸é ºÎ¸ğÅ¬·¡½º¿¡¼­ 
-		//¸Ş¼Òµå¸¦ Á¶È¸ÇÔ
+		//ê°™ì€ íŒ¨í‚¤ì§€ ìƒì†ê´€ê³„ì¼ë•Œ Same í´ë˜ìŠ¤ì˜ ë©”ì†Œë“œì— ì ‘ê·¼í•˜ë©´ ê°™ì€ê²°ê³¼
+		this._public();//thisëŠ” 1ì°¨ì ìœ¼ë¡œ í´ë˜ìŠ¤ ìì‹ ì¸
+		//SamePackageCheckerì„ ì˜ë¯¸í•˜ì§€ë§Œ
+		//ìƒì†ë°›ì€ê²½ìš°ì´ê³  ìì²´ì ìœ¼ë¡œ ê°€ì§„ ë©”ì†Œë“œë‚˜ í•„ë“œê°€ ì¡´ì¬ì•ˆí•˜ë©´ ë¶€ëª¨í´ë˜ìŠ¤ì—ì„œ 
+		//ë©”ì†Œë“œë¥¼ ì¡°íšŒí•¨
 		this._protected();
 		this._default();
 		//this._prviate();
 	}
 }
-class otherpackagechecker extends other{//3.´Ù¸¥ÆĞÅ°Áö
+class otherpackagechecker extends other{//3.ë‹¤ë¥¸íŒ¨í‚¤ì§€
 	public otherpackagechecker() {
-		nothing nothing = new nothing();//3-3´Ù¸¥ÆĞÅ°Áö  Å¬·¡½º °´Ã¼»ı¼ºÇØ¼­
+		nothing nothing = new nothing();//3-3ë‹¤ë¥¸íŒ¨í‚¤ì§€  í´ë˜ìŠ¤ ê°ì²´ìƒì„±í•´ì„œ
 		nothing._public();
 		//nothing._protected();
 		//nothing._default();
 		//nothing._private();
 		
-		other other = new other();//3-1 ´Ù¸¥ÆĞÅ°ÁöÀÌ°í »ó¼Ó°ü°èÀÌ´õ¶óµµ
-		//°´Ã¼¸¦ »ı¼ºÇØ Á¢±ÙÇÒ¶§
-		other._public();//Á¢±ÙÁ¦¾îÀÚ°¡ ÆÛºí¸¯ÀÎ¸Ş¼Òµå¸¸ Á¢±Ù°¡´É
-		//other._protected();//»ó¼Ó°ü°è ¿©µµ °´Ã¼»ı¼ºÇÏ¸é Á¢±ÙºÒ°¡ÇÏÁö¸¸
+		other other = new other();//3-1 ë‹¤ë¥¸íŒ¨í‚¤ì§€ì´ê³  ìƒì†ê´€ê³„ì´ë”ë¼ë„
+		//ê°ì²´ë¥¼ ìƒì„±í•´ ì ‘ê·¼í• ë•Œ
+		other._public();//ì ‘ê·¼ì œì–´ìê°€ í¼ë¸”ë¦­ì¸ë©”ì†Œë“œë§Œ ì ‘ê·¼ê°€ëŠ¥
+		//other._protected();//ìƒì†ê´€ê³„ ì—¬ë„ ê°ì²´ìƒì„±í•˜ë©´ ì ‘ê·¼ë¶ˆê°€í•˜ì§€ë§Œ
 		//other._default();
 		//other._private();
 		
-		this._public();//3-2´Ù¸¥ÆĞÅ°ÁöÀÌÁö¸¸ »ó¼Ó°ü°èÀÎ ºÎ¸ğÅ¬·¡½º¿¡ this¸¦ÅëÇØ Á¢±ÙÇÒ¶§
-		this._protected();	//ÇÏÁö¸¸ other¶ó´Â Å¬·¡½º¸¦ »ó¼ÓÇÏ¸é°¡´É
+		this._public();//3-2ë‹¤ë¥¸íŒ¨í‚¤ì§€ì´ì§€ë§Œ ìƒì†ê´€ê³„ì¸ ë¶€ëª¨í´ë˜ìŠ¤ì— thisë¥¼í†µí•´ ì ‘ê·¼í• ë•Œ
+		this._protected();	//í•˜ì§€ë§Œ otherë¼ëŠ” í´ë˜ìŠ¤ë¥¼ ìƒì†í•˜ë©´ê°€ëŠ¥
 		//this._default();
 		//this._private();	
 	}

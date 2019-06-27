@@ -1,11 +1,11 @@
-package z_Collection_Framework2;
+ï»¿package z_Collection_Framework2;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
-public class d_SetÀÇ´Ù¾çÇÑ¸Ş¼Òµå {
+public class d_Setì˜ë‹¤ì–‘í•œë©”ì†Œë“œ {
 public static void main(String[] args) {
-	//¼öÇĞ¿¡¼­ÀÇ ÁıÇÕ(¹ê´ÙÀÌ¾î±×·¥)°ú ÀÌ setÀÇ ÀÇ¹Ì´Â °°´Ù ÇÁ·Î±×·¡¹ÖÈ­ÇÑ°Í
-	//ÁıÇÕ¾È¿¡µé¾î°¡´Â °ªÀº Áßº¹À» Çã¿ë¾ÈÇÔ
+	//ìˆ˜í•™ì—ì„œì˜ ì§‘í•©(ë°´ë‹¤ì´ì–´ê·¸ë¨)ê³¼ ì´ setì˜ ì˜ë¯¸ëŠ” ê°™ë‹¤ í”„ë¡œê·¸ë˜ë°í™”í•œê²ƒ
+	//ì§‘í•©ì•ˆì—ë“¤ì–´ê°€ëŠ” ê°’ì€ ì¤‘ë³µì„ í—ˆìš©ì•ˆí•¨
     HashSet<Integer> A = new HashSet<Integer>();
     A.add(1);
     A.add(2);
@@ -21,15 +21,15 @@ public static void main(String[] args) {
     C.add(2);
      
     System.out.println(A.containsAll(B));
-    // false//B´ÂAÀÇ ºÎºĞÁıÇÕ(SUBSET)ÀÌ¾Æ´Ï´Ù//A¾È¿¡ BÀüÃ¼°¡ µé¾îÀÖÁö¾Ê¾Æ¼­ FALSE
-    //AÀÇ ¸Ş¼Òµå containsAll
-    //A¶ó´Â ÁıÇÕ¿¡ B¶ó´Â ÁıÇÕÀÇ ÀüÃ¼ ¿ø¼Ò°¡ ´ã°ÜÀÖ´Â°¡
+    // false//BëŠ”Aì˜ ë¶€ë¶„ì§‘í•©(SUBSET)ì´ì•„ë‹ˆë‹¤//Aì•ˆì— Bì „ì²´ê°€ ë“¤ì–´ìˆì§€ì•Šì•„ì„œ FALSE
+    //Aì˜ ë©”ì†Œë“œ containsAll
+    //Aë¼ëŠ” ì§‘í•©ì— Bë¼ëŠ” ì§‘í•©ì˜ ì „ì²´ ì›ì†Œê°€ ë‹´ê²¨ìˆëŠ”ê°€
     System.out.println(A.containsAll(C));
-    // true//C´Â AÀÇ ºÎºĞÁıÇÕÀÌ´Ù//A¾È¿¡CÀüÃ¼°¡ µé¾îÀÖ¾î¼­ TRUE
+    // true//CëŠ” Aì˜ ë¶€ë¶„ì§‘í•©ì´ë‹¤//Aì•ˆì—Cì „ì²´ê°€ ë“¤ì–´ìˆì–´ì„œ TRUE
      
-    A.addAll(B);//BÀüÃ¼¸¦ A¿¡ ÇÕÇÑ´Ù ÇÕÁıÇÕ
-    //A.retainAll(B);//retainÀº °£Á÷ÇÏ´Ù¶ó´Â¶æ A¿¡µµ ÀÖ°í B¿¡µµÀÖ´Â°Å¸¦ A¿¡ ´ã°Ú´Ù ±³ÁıÇÕ
-    //A.removeAll(B);//Â÷ÁıÇÕ//AÁıÇÕ¿¡ÀÖ´Â°ªÁß¿¡ B¿¡ ÀÖ´Â°Å¸¦ »©°Ú´Ù
+    A.addAll(B);//Bì „ì²´ë¥¼ Aì— í•©í•œë‹¤ í•©ì§‘í•©
+    //A.retainAll(B);//retainì€ ê°„ì§í•˜ë‹¤ë¼ëŠ”ëœ» Aì—ë„ ìˆê³  Bì—ë„ìˆëŠ”ê±°ë¥¼ Aì— ë‹´ê² ë‹¤ êµì§‘í•©
+    //A.removeAll(B);//ì°¨ì§‘í•©//Aì§‘í•©ì—ìˆëŠ”ê°’ì¤‘ì— Bì— ìˆëŠ”ê±°ë¥¼ ë¹¼ê² ë‹¤
     Iterator hi = A.iterator();
     while(hi.hasNext()){
         System.out.println(hi.next());

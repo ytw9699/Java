@@ -1,9 +1,9 @@
-package e_Á¶°Ç¹®;
+ï»¿package e_ì¡°ê±´ë¬¸;
 
-public class d_Á¶°Ç¹®ÀÇÀÀ¿ë {
+public class d_ì¡°ê±´ë¬¸ì˜ì‘ìš© {
 
 	public static void main(String[] args) {
-		//String id =args[0];//ÀÎÀÚ°ªÀ» Áà¾ßÇÔ ±×·¡¾ßµ¿ÀÛ
+		//String id =args[0];//ì¸ìê°’ì„ ì¤˜ì•¼í•¨ ê·¸ë˜ì•¼ë™ì‘
         //if(id.equals("egoing")){
         if(args[0].equals("egoing")){
             System.out.println("right");

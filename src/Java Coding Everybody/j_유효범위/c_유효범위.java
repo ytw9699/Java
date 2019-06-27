@@ -1,20 +1,20 @@
-package j_À¯È¿¹üÀ§;
+ï»¿package j_ìœ íš¨ë²”ìœ„;
 
-public class c_À¯È¿¹üÀ§ {
-	static int i = 5;//Àü¿ªº¯¼ö
+public class c_ìœ íš¨ë²”ìœ„ {
+	static int i = 5;//ì „ì—­ë³€ìˆ˜
 	 
     static void a() {
-        int i = 10;//Áö¿ªº¯¼ö
+        int i = 10;//ì§€ì—­ë³€ìˆ˜
         b();
     }
  
     static void b() {
-        System.out.println(i);//ÀÌ i´Â Àü¿ªº¯¼ö°¡ Ãâ·ÂµÇ´Â°ÍÀÌÁö ´Ù¸¥ ¸Ş¼Òµå¿¡ÀÖ´Â i°¡
-        //Ãâ·ÂµÉ¼ö ¾ø´Ù
+        System.out.println(i);//ì´ iëŠ” ì „ì—­ë³€ìˆ˜ê°€ ì¶œë ¥ë˜ëŠ”ê²ƒì´ì§€ ë‹¤ë¥¸ ë©”ì†Œë“œì—ìˆëŠ” iê°€
+        //ì¶œë ¥ë ìˆ˜ ì—†ë‹¤
     }
  
     public static void main(String[] args) {
-         int i=1;//Áö¿ªº¯¼ö
+         int i=1;//ì§€ì—­ë³€ìˆ˜
     	a();
     }
  

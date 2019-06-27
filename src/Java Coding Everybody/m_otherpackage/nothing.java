@@ -1,4 +1,4 @@
-package m_otherpackage;
+﻿package m_otherpackage;
 
 public class nothing {
 	private void _private() {

@@ -1,6 +1,6 @@
-package m_Å¬·¡½ºÀÇÁ¢±ÙÁ¦¾îÀÚ1;
+ï»¿package m_í´ë˜ìŠ¤ì˜ì ‘ê·¼ì œì–´ì1;
 
 public class ClassAccessModifierInnerPackage {
-    PublicClass publicClass = new PublicClass();//¸ğµÎ »ç¿ë°¡´É
-    DefaultClass defaultClass = new DefaultClass();//°°Àº ÆĞÅ°Áö¶ó
+    PublicClass publicClass = new PublicClass();//ëª¨ë‘ ì‚¬ìš©ê°€ëŠ¥
+    DefaultClass defaultClass = new DefaultClass();//ê°™ì€ íŒ¨í‚¤ì§€ë¼
 }

@@ -1,23 +1,23 @@
-package m_Á¢±ÙÁ¦¾îÀÚ;
+ï»¿package m_ì ‘ê·¼ì œì–´ì;
 
 class A {
-    public String y(){//ÀºÇà°í°´Ã¢±¸
+    public String y(){//ì€í–‰ê³ ê°ì°½êµ¬
         return "public void y()";
     }
-    private String z(){//±İ°íÀÓ, privateÀÌ ºÙÀº°Å´Â °°Àº Å¬·¡½º¾È¿¡¼­¸¸ Á¢±Ù °¡´ÉÇÏ°í
-    	//´Ù¸¥ Å¬·¡½º¿¡¼­´Â Á÷Á¢ÀûÀ¸·Î Á¢±Ù ºÒ°¡
+    private String z(){//ê¸ˆê³ ì„, privateì´ ë¶™ì€ê±°ëŠ” ê°™ì€ í´ë˜ìŠ¤ì•ˆì—ì„œë§Œ ì ‘ê·¼ ê°€ëŠ¥í•˜ê³ 
+    	//ë‹¤ë¥¸ í´ë˜ìŠ¤ì—ì„œëŠ” ì§ì ‘ì ìœ¼ë¡œ ì ‘ê·¼ ë¶ˆê°€
         return "public void z()";
     }
-    public String x(){//ÀºÇà°í°´Ã¢±¸
+    public String x(){//ì€í–‰ê³ ê°ì°½êµ¬
         return z();
     }
 }
-public class b_AccessDemo1 {//ÀÌÅ¬·¡½º°¡ aÅ¬·¡½º¿¡ ´ëÇÑ °í°´
+public class b_AccessDemo1 {//ì´í´ë˜ìŠ¤ê°€ aí´ë˜ìŠ¤ì— ëŒ€í•œ ê³ ê°
     public static void main(String[] args) {
         A a = new A();
         System.out.println(a.y());
-        // ¾Æ·¡ ÄÚµå´Â ¿À·ù°¡ ¹ß»ıÇÑ´Ù.
-        //System.out.println(a.z());//privateÀÌ¶ó Á¢±ÙºÒ°¡ 
-        System.out.println(a.x());//ÇÏÁö¸¸ µ¹·Á¼­ Á¢±Ù °¡´É 
+        // ì•„ë˜ ì½”ë“œëŠ” ì˜¤ë¥˜ê°€ ë°œìƒí•œë‹¤.
+        //System.out.println(a.z());//privateì´ë¼ ì ‘ê·¼ë¶ˆê°€ 
+        System.out.println(a.x());//í•˜ì§€ë§Œ ëŒë ¤ì„œ ì ‘ê·¼ ê°€ëŠ¥ 
     }
 }

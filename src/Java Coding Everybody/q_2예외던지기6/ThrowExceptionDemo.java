@@ -1,7 +1,7 @@
-package q_2¿¹¿Ü´øÁö±â6;
+ï»¿package q_2ì˜ˆì™¸ë˜ì§€ê¸°6;
 import java.io.*;
 class B{
-    void run() throws IOException, FileNotFoundException{//´øÁö±â
+    void run() throws IOException, FileNotFoundException{//ë˜ì§€ê¸°
         BufferedReader bReader = null;
         String input = null;
         bReader = new BufferedReader(new FileReader("out.txt"));
@@ -10,7 +10,7 @@ class B{
     }
 }
 class C{
-    void run() throws IOException, FileNotFoundException{//´øÁö±â
+    void run() throws IOException, FileNotFoundException{//ë˜ì§€ê¸°
         B b = new B();
         b.run();
     }
@@ -21,8 +21,8 @@ public class ThrowExceptionDemo {
          try {
             c.run();
         } catch (FileNotFoundException e) {
-            System.out.println("out.txt ÆÄÀÏÀº ¼³Á¤ ÆÄÀÏ ÀÔ´Ï´Ù. "
-            		+ "ÀÌ ÆÄÀÏÀÌ ÇÁ·ÎÁ§Æ® ·çÆ® µğ·ºÅä¸®¿¡ Á¸ÀçÇØ¾ß ÇÕ´Ï´Ù.");
+            System.out.println("out.txt íŒŒì¼ì€ ì„¤ì • íŒŒì¼ ì…ë‹ˆë‹¤. "
+            		+ "ì´ íŒŒì¼ì´ í”„ë¡œì íŠ¸ ë£¨íŠ¸ ë””ë ‰í† ë¦¬ì— ì¡´ì¬í•´ì•¼ í•©ë‹ˆë‹¤.");
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -1,23 +1,23 @@
-package z_Collection_Framework;
+ï»¿package z_Collection_Framework;
 
-import java.util.ArrayList;//ÀÓÆ÷Æ®ÇØ¾ßÇÔ
+import java.util.ArrayList;//ì„í¬íŠ¸í•´ì•¼í•¨
 
-public class a_¹è¿­ÀÇÇÑ°è_arraylist·Î {
+public class a_ë°°ì—´ì˜í•œê³„_arraylistë¡œ {
 	
 public static void main(String[] args) {
 	
-    String[] arrayObj = new String[2];//2°³ÀÇ °ª¸¸ µé¾î°£´Ù
+    String[] arrayObj = new String[2];//2ê°œì˜ ê°’ë§Œ ë“¤ì–´ê°„ë‹¤
     arrayObj[0] = "one";
     arrayObj[1] = "two";
-    // arrayObj[2] = "three"; ¿À·ù°¡ ¹ß»ıÇÑ´Ù. ¹è¿­ÀÇ ÇÑ°è
+    // arrayObj[2] = "three"; ì˜¤ë¥˜ê°€ ë°œìƒí•œë‹¤. ë°°ì—´ì˜ í•œê³„
     
     for(int i=0; i<arrayObj.length; i++){
         System.out.println(arrayObj[i]);
     }
     System.out.println();
     
-    ArrayList al = new ArrayList();//¸î°³ÀÇ °ªÀÌ µé¾î°¡µµ »ó°ü¾ø´Ù
-    //¾î·¹ÀÌ¸®½ºÆ® Å¬·¡½º¸¦ ÀÌ¿ë
+    ArrayList al = new ArrayList();//ëª‡ê°œì˜ ê°’ì´ ë“¤ì–´ê°€ë„ ìƒê´€ì—†ë‹¤
+    //ì–´ë ˆì´ë¦¬ìŠ¤íŠ¸ í´ë˜ìŠ¤ë¥¼ ì´ìš©
     al.add("one");
     al.add("two");
     al.add("three");
@@ -25,14 +25,14 @@ public static void main(String[] args) {
     System.out.println(al.get(1));
     System.out.println(al.get(2));
     System.out.println();
-    //¾î·¹ÀÌ¸®½ºÆ® Å¬·¡½º¾ÈÀÇ add¸Ş¼Òµå
-    /* public void add(Object element){//"one"À» objectÅ¸ÀÔÀ¸·Î ÀúÀå
-    //ÀÌ ÀÎÀÚÀÇ µ¥ÀÌÅÍÅ¸ÀÔÀº ¿ÀºêÁ§Æ®¿©¾ßÇÔ ¿ÀºêÁ§Æ®´Â ¸ğµç µ¥ÀÌÅÍ
-	//Å¸ÀÔÀÇ Á¶»óÀÌ±â¶§¹®¿¡ ¾î¶² µ¥ÀÌÅÍÅ¸ÀÔµµ ¼ö¿ëÇÏ·Á¸é ÀÌ·¸°Ô ÇØ¾ßÇÔ
+    //ì–´ë ˆì´ë¦¬ìŠ¤íŠ¸ í´ë˜ìŠ¤ì•ˆì˜ addë©”ì†Œë“œ
+    /* public void add(Object element){//"one"ì„ objectíƒ€ì…ìœ¼ë¡œ ì €ì¥
+    //ì´ ì¸ìì˜ ë°ì´í„°íƒ€ì…ì€ ì˜¤ë¸Œì íŠ¸ì—¬ì•¼í•¨ ì˜¤ë¸Œì íŠ¸ëŠ” ëª¨ë“  ë°ì´í„°
+	//íƒ€ì…ì˜ ì¡°ìƒì´ê¸°ë•Œë¬¸ì— ì–´ë–¤ ë°ì´í„°íƒ€ì…ë„ ìˆ˜ìš©í•˜ë ¤ë©´ ì´ë ‡ê²Œ í•´ì•¼í•¨
 	}*/
     
     for(int i=0; i<al.size(); i++){
-        String value = (String)al.get(i);//¿ÀºêÁ§Æ®¸¦ ½ºÆ®¸µÀ¸·Î Çüº¯È¯>>>
+        String value = (String)al.get(i);//ì˜¤ë¸Œì íŠ¸ë¥¼ ìŠ¤íŠ¸ë§ìœ¼ë¡œ í˜•ë³€í™˜>>>
         System.out.println(value);
         }
     

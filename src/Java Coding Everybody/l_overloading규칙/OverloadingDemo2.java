@@ -1,10 +1,10 @@
-package l_overloading±ÔÄ¢;
-//»ó¼Ó¹ŞÀ»¶§!! ¿À¹ö·Îµù°ú ¿À¹ö¶óÀÌµùÀÇ Â÷ÀÌ
+ï»¿package l_overloadingê·œì¹™;
+//ìƒì†ë°›ì„ë•Œ!! ì˜¤ë²„ë¡œë”©ê³¼ ì˜¤ë²„ë¼ì´ë”©ì˜ ì°¨ì´
 public class OverloadingDemo2 extends OverloadingDemo{
-    void A (String arg1, String arg2){//¿À¹ö·Îµù!//ÀÌ·¯ÇÑ ¸Å°³º¯¼ö Çü½ÄÀ» °¡Áø°Ô »óÀ§Å¬·¡½º¿¡¾øÀ½
+    void A (String arg1, String arg2){//ì˜¤ë²„ë¡œë”©!//ì´ëŸ¬í•œ ë§¤ê°œë³€ìˆ˜ í˜•ì‹ì„ ê°€ì§„ê²Œ ìƒìœ„í´ë˜ìŠ¤ì—ì—†ìŒ
     System.out.println("sub class : void A (String arg1, String arg2)");
     }
-    void A (){//½Ã±×´ÏÃ³°¡ °°Àº°ÍÀ» ¿À¹ö¶óÀÌµù! ÀçÁ¤ÀÇ!»ó¼Ó¹ŞÀº°Å ÀçÁ¤ÀÇ
+    void A (){//ì‹œê·¸ë‹ˆì²˜ê°€ ê°™ì€ê²ƒì„ ì˜¤ë²„ë¼ì´ë”©! ì¬ì •ì˜!ìƒì†ë°›ì€ê±° ì¬ì •ì˜
     System.out.println("sub class : void A ()");
     }
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class OverloadingDemo2 extends OverloadingDemo{
         od.A(1);
         od.A("coding everybody");
         od.A("coding everybody", "coding everybody");
-        //riding(¿Ã¶óÅº´Ù)À» ÀÌ¿ëÇØ¼­ ºÎ¸ğ Å¬·¡½ºÀÇ ¸Ş¼ÒµåÀÇ µ¿ÀÛ¹æ¹ıÀ» º¯°æÇÏ°í,
-        //loadingÀ» ÀÌ¿ëÇØ¼­ °°Àº ÀÌ¸§, ´Ù¸¥ ¸Å°³º¯¼öÀÇ ¸Ş¼ÒµåµéÀ» ¿©·¯°³ ¸¸µé ¼ö ÀÖ´Ù´Â »ç½ÇÀ» ¾Æ´Â °ÍÀÌ Áß¿äÇÏ´Ù. 
+        //riding(ì˜¬ë¼íƒ„ë‹¤)ì„ ì´ìš©í•´ì„œ ë¶€ëª¨ í´ë˜ìŠ¤ì˜ ë©”ì†Œë“œì˜ ë™ì‘ë°©ë²•ì„ ë³€ê²½í•˜ê³ ,
+        //loadingì„ ì´ìš©í•´ì„œ ê°™ì€ ì´ë¦„, ë‹¤ë¥¸ ë§¤ê°œë³€ìˆ˜ì˜ ë©”ì†Œë“œë“¤ì„ ì—¬ëŸ¬ê°œ ë§Œë“¤ ìˆ˜ ìˆë‹¤ëŠ” ì‚¬ì‹¤ì„ ì•„ëŠ” ê²ƒì´ ì¤‘ìš”í•˜ë‹¤. 
     }
 }

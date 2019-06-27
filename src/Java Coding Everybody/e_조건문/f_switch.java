@@ -1,4 +1,4 @@
-package e_Á¶°Ç¹®;
+ï»¿package e_ì¡°ê±´ë¬¸;
 
 public class f_switch {
 	public static void main(String[] args) {

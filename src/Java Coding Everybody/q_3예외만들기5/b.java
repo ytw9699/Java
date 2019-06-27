@@ -1,37 +1,37 @@
-package q_3¿¹¿Ü¸¸µé±â5;
+ï»¿package q_3ì˜ˆì™¸ë§Œë“¤ê¸°5;
 //https://docs.oracle.com/javase/7/docs/api/java/lang/ArithmeticException.html
 public class b {
-	//Class ArithmeticExceptionÀÇ  »ó¼Ó°ü°è¸¦ º¸¿©ÁÜ
-/*	java.lang.Object //¸ğµç Å¬·¡½ºÀÇ ºÎ¸ğ
-	java.lang.Throwable//±× À§ ºÎ¸ğ
-	java.lang.Exception//±× À§ ºÎ¸ğ
-	java.lang.RuntimeException//ArithmeticExceptionÀÇ ºÎ¸ğ
-	java.lang.ArithmeticException,IllegalArgumentException,IndexOutOfBoundsExceptionÀÌ·¸°Ô
-	java.lang.ArrayIndexOutOfBoundsExceptionÀº IndexOutOfBoundsExceptionÀÇ ÀÚ½Ä
+	//Class ArithmeticExceptionì˜  ìƒì†ê´€ê³„ë¥¼ ë³´ì—¬ì¤Œ
+/*	java.lang.Object //ëª¨ë“  í´ë˜ìŠ¤ì˜ ë¶€ëª¨
+	java.lang.Throwable//ê·¸ ìœ„ ë¶€ëª¨
+	java.lang.Exception//ê·¸ ìœ„ ë¶€ëª¨
+	java.lang.RuntimeException//ArithmeticExceptionì˜ ë¶€ëª¨
+	java.lang.ArithmeticException,IllegalArgumentException,IndexOutOfBoundsExceptionì´ë ‡ê²Œ
+	java.lang.ArrayIndexOutOfBoundsExceptionì€ IndexOutOfBoundsExceptionì˜ ìì‹
  
 	================================================================
-	//ThrowableÀº ´øÁö´Â°ÍÀÌ °¡´ÉÇÑÀÌ¶õ¶æ!
-	ÀÌ ThrowableÅ¬·¡½º¿¡ getmessage¸Ş¼Òµå, printstacktrace¸Ş¼Òµå
-	//tostring ¸Ş¼Òµå°¡ ÀÖ´Ù  ±×·¡¼­ ±×¾Æ·¡ Å¬·¡½º¿¡¼­ ¾µ¼öÀÖ´Â°Å
-	 * ±×¸®°í ´øÁú¼öµµÀÖ´Â°ÅÀÓ ºÎ¸ğÅ¬·¡½º¸¦ »ó¼Ó¹ŞÀ¸´Ï±î 
-	 * ºÎ¸ğÁß¿¡ RuntimeExceptionÀÌ ÀÖÀ¸¸é uncheckedÀÌ¼Á¼ÇÀÌ¶óÇÔ-
-	 *  trycatch³ª throws¸¦ »ç¿ëÇØ¼­ ¿¹¿Ü¸¦ Ã³¸® ¾ÈÇØµµµÊ
+	//Throwableì€ ë˜ì§€ëŠ”ê²ƒì´ ê°€ëŠ¥í•œì´ë€ëœ»!
+	ì´ Throwableí´ë˜ìŠ¤ì— getmessageë©”ì†Œë“œ, printstacktraceë©”ì†Œë“œ
+	//tostring ë©”ì†Œë“œê°€ ìˆë‹¤  ê·¸ë˜ì„œ ê·¸ì•„ë˜ í´ë˜ìŠ¤ì—ì„œ ì“¸ìˆ˜ìˆëŠ”ê±°
+	 * ê·¸ë¦¬ê³  ë˜ì§ˆìˆ˜ë„ìˆëŠ”ê±°ì„ ë¶€ëª¨í´ë˜ìŠ¤ë¥¼ ìƒì†ë°›ìœ¼ë‹ˆê¹Œ 
+	 * ë¶€ëª¨ì¤‘ì— RuntimeExceptionì´ ìˆìœ¼ë©´ uncheckedì´ì…‰ì…˜ì´ë¼í•¨-
+	 *  trycatchë‚˜ throwsë¥¼ ì‚¬ìš©í•´ì„œ ì˜ˆì™¸ë¥¼ ì²˜ë¦¬ ì•ˆí•´ë„ë¨
 	*/
 	//https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html
-}//¿ì¸®°¡ Áö±İ±îÁö »ç¿ëÇß´ø getMessage, printStackTrace, 
-///toStringÀÌ Throwable Å¬·¡½º¿¡¼­ Á¤ÀÇ µÇ¾î ÀÖ¾ú´ø °ÍÀÌ´Ù! ¶Ç ÀÌ Å¬·¡½ºÀÇ ÀÌ¸§ÀÌ ThrowableÀÌ´Ù.
-//'´øÁú ¼ö ÀÖ´Â'ÀÌ¶ó´Â ¶æÀÌ´Ù. Áï ¿¹¿Ü·Î '´øÁú ¼ö ÀÖ´Â'
-//Å¬·¡½º´Â ¹İµå½Ã Throwable Å¬·¡½º¸¦ »ó¼Ó ¹Ş¾Æ¾ß ÇÑ´Ù.
+}//ìš°ë¦¬ê°€ ì§€ê¸ˆê¹Œì§€ ì‚¬ìš©í–ˆë˜ getMessage, printStackTrace, 
+///toStringì´ Throwable í´ë˜ìŠ¤ì—ì„œ ì •ì˜ ë˜ì–´ ìˆì—ˆë˜ ê²ƒì´ë‹¤! ë˜ ì´ í´ë˜ìŠ¤ì˜ ì´ë¦„ì´ Throwableì´ë‹¤.
+//'ë˜ì§ˆ ìˆ˜ ìˆëŠ”'ì´ë¼ëŠ” ëœ»ì´ë‹¤. ì¦‰ ì˜ˆì™¸ë¡œ 'ë˜ì§ˆ ìˆ˜ ìˆëŠ”'
+//í´ë˜ìŠ¤ëŠ” ë°˜ë“œì‹œ Throwable í´ë˜ìŠ¤ë¥¼ ìƒì† ë°›ì•„ì•¼ í•œë‹¤.
 //================================================================================================================================
 /*
- * //Class IOExceptionÀÇ  »ó¼Ó°ü°è¸¦ º¸¿©ÁÜ
-java.lang.Object //¸ğµç Å¬·¡½ºÀÇ ºÎ¸ğ
-java.lang.Throwable//±× À§ ºÎ¸ğ
-java.lang.Exception//IOException ÀÇ ºÎ¸ğ
-java.lang.IOException//FileNotFoundExceptionÀÇ ºÎ¸ğ
+ * //Class IOExceptionì˜  ìƒì†ê´€ê³„ë¥¼ ë³´ì—¬ì¤Œ
+java.lang.Object //ëª¨ë“  í´ë˜ìŠ¤ì˜ ë¶€ëª¨
+java.lang.Throwable//ê·¸ ìœ„ ë¶€ëª¨
+java.lang.Exception//IOException ì˜ ë¶€ëª¨
+java.lang.IOException//FileNotFoundExceptionì˜ ë¶€ëª¨
 java.io.FileNotFoundException
  
-ºÎ¸ğÁß¿¡ RuntimeExceptionÀÌ ¾øÀ¸¸é checkedÀÌ¼Á¼ÇÀÌ¶óÇÔ!!!!!!!!!!!!ÀÌ°Ô ³Ê¹«Áß¿ä 
-ºÎ¸ğÁß¿¡ RuntimeExceptionÀÌ ÀÖ³Ä¾ø³ÄÀÌÂ÷ÀÌ
- checked´Â ¹İµå½Ã  trycatch³ª throws¸¦ »ç¿ëÇØ¼­ ¿¹¿Ü¸¦ Ã³¸®ÇØ¾ßÇÔ,¾Æ´Ï¸é ´øÁö±â
+ë¶€ëª¨ì¤‘ì— RuntimeExceptionì´ ì—†ìœ¼ë©´ checkedì´ì…‰ì…˜ì´ë¼í•¨!!!!!!!!!!!!ì´ê²Œ ë„ˆë¬´ì¤‘ìš” 
+ë¶€ëª¨ì¤‘ì— RuntimeExceptionì´ ìˆëƒì—†ëƒì´ì°¨ì´
+ checkedëŠ” ë°˜ë“œì‹œ  trycatchë‚˜ throwsë¥¼ ì‚¬ìš©í•´ì„œ ì˜ˆì™¸ë¥¼ ì²˜ë¦¬í•´ì•¼í•¨,ì•„ë‹ˆë©´ ë˜ì§€ê¸°
 */

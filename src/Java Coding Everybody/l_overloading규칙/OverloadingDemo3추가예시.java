@@ -1,4 +1,4 @@
-package l_overloading±ÔÄ¢;
+ï»¿package l_overloadingê·œì¹™;
 class Calculator{
 	
     int[] oprands;
@@ -21,7 +21,7 @@ class Calculator{
     System.out.println(total/this.oprands.length);
     }
 }
-public class OverloadingDemo3Ãß°¡¿¹½Ã {
+public class OverloadingDemo3ì¶”ê°€ì˜ˆì‹œ {
     public static void main(String[] args) {
         Calculator c1 = new Calculator();
         c1.setOprands(new int[]{10,20});

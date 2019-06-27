@@ -1,14 +1,14 @@
-package b_º¯¼ö;
+ï»¿package b_ë³€ìˆ˜;
 
-public class dº¯¼öÀÇÈ¿¿ë {
+public class dë³€ìˆ˜ì˜íš¨ìš© {
 	public static void main(String[] args) {
 		System.out.println(100 + 10);
 		System.out.println((100 + 10) / 10);
 		System.out.println(((100 + 10) / 10) - 10);
 		System.out.println((((100 + 10) / 10) - 10) * 10);
 		
-		int a = 100; //Áßº¹ÀÇÁ¦°Å, °¡µ¶¼º , À¯Áöº¸¼ö 
-		//°íÁ¤ÀûÀÎ ºÎºĞ°ú º¯°æµÉ¼öÀÖ´Â ºÎºĞ³ª´©±â
+		int a = 100; //ì¤‘ë³µì˜ì œê±°, ê°€ë…ì„± , ìœ ì§€ë³´ìˆ˜ 
+		//ê³ ì •ì ì¸ ë¶€ë¶„ê³¼ ë³€ê²½ë ìˆ˜ìˆëŠ” ë¶€ë¶„ë‚˜ëˆ„ê¸°
 		System.out.println(a + 10);
 		System.out.println((a+ 10) / 10);
 		System.out.println(((a + 10) / 10) - 10);

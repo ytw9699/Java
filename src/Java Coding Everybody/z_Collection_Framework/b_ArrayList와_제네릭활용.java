@@ -1,13 +1,13 @@
-package z_Collection_Framework;
+ï»¿package z_Collection_Framework;
 
 import java.util.ArrayList;
  
-public class b_ArrayList¿Í_Á¦³×¸¯È°¿ë {
+public class b_ArrayListì™€_ì œë„¤ë¦­í™œìš© {
  
     public static void main(String[] args) {
         
-        ArrayList<String> al = new ArrayList<String>();//Á¦³×¸¯È°¿ë
-        //Å¸ÀÔÀÇ ¾ÈÁ¤¼ºÀ» °¡Á®¿È
+        ArrayList<String> al = new ArrayList<String>();//ì œë„¤ë¦­í™œìš©
+        //íƒ€ì…ì˜ ì•ˆì •ì„±ì„ ê°€ì ¸ì˜´
        /* public void add(String element){
         ArrayList.this.add(nextIndex++, element);
         }*/
@@ -17,8 +17,8 @@ public class b_ArrayList¿Í_Á¦³×¸¯È°¿ë {
         al.add("three");
         
         for(int i=0; i<al.size(); i++){
-            String value = al.get(i);//(String)Çüº¯È¯ ÇÊ¿ä¾øÀ½
-            //getÀ» ÅëÇØ °¡Á®¿À´Â°Ô stringÅ¸ÀÔÀÌ±â¶§¹®
+            String value = al.get(i);//(String)í˜•ë³€í™˜ í•„ìš”ì—†ìŒ
+            //getì„ í†µí•´ ê°€ì ¸ì˜¤ëŠ”ê²Œ stringíƒ€ì…ì´ê¸°ë•Œë¬¸
             /*public String get(int index) {
             	return elementData[index];
             	}*/

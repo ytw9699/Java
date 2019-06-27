@@ -1,12 +1,12 @@
-package x_ÂüÁ¶2;
-public class d_¸Ş¼ÒµåÀÇ¸Å°³º¯¼ö¿ÍÂüÁ¶¿ÍÀÇ°ü°è {
+ï»¿package x_ì°¸ì¡°2;
+public class d_ë©”ì†Œë“œì˜ë§¤ê°œë³€ìˆ˜ì™€ì°¸ì¡°ì™€ì˜ê´€ê³„ {
    static void _value(int b){
        b = 2;
    }
    public static void runValue(){
-       int a = 1;//±âº»µ¥ÀÌÅÍÅ¸ÀÔÀÌ¶óÀÌ°ÍÀº ¹Ù²îÁö¾Ê´Â´Ù
+       int a = 1;//ê¸°ë³¸ë°ì´í„°íƒ€ì…ì´ë¼ì´ê²ƒì€ ë°”ë€Œì§€ì•ŠëŠ”ë‹¤
        _value(a);
-       System.out.println("runValue, "+a);//1Ãâ·Â
+       System.out.println("runValue, "+a);//1ì¶œë ¥
    }
    static void _reference1(A b){
        b = new A(2);
@@ -14,17 +14,17 @@ public class d_¸Ş¼ÒµåÀÇ¸Å°³º¯¼ö¿ÍÂüÁ¶¿ÍÀÇ°ü°è {
    public static void runReference1(){
        A a = new A(1);
        _reference1(a);
-       //A b=a;     //bº¯¼ö¿¡ a¸¦ ÁÖ°í¼­
-       //b=new A(2);  //´Ù½Ã bº¯¼ö¿¡ new A(2)¸¦ ÁÖ´Ï±î//ÀÌ°Ç »õ·Î¿î ÀÎ½ºÅÍ½º¸¦ ÂüÁ¶ÇÏ´Â°Í
-       System.out.println("runReference1, "+a.id);//1Ãâ·Â      
+       //A b=a;     //bë³€ìˆ˜ì— aë¥¼ ì£¼ê³ ì„œ
+       //b=new A(2);  //ë‹¤ì‹œ bë³€ìˆ˜ì— new A(2)ë¥¼ ì£¼ë‹ˆê¹Œ//ì´ê±´ ìƒˆë¡œìš´ ì¸ìŠ¤í„°ìŠ¤ë¥¼ ì°¸ì¡°í•˜ëŠ”ê²ƒ
+       System.out.println("runReference1, "+a.id);//1ì¶œë ¥      
    }
    static void _reference2(A b){
-       b.id = 2;//b´Â a¿Í °°Àº°Å¶ó°í ºÁ¾ßÇÔ
+       b.id = 2;//bëŠ” aì™€ ê°™ì€ê±°ë¼ê³  ë´ì•¼í•¨
    }
    public static void runReference2(){
        A a = new A(1);
-       _reference2(a);//A b=a;     //bº¯¼ö¿¡ a¸¦ ÁÖ°í¼­
-       System.out.println("runReference2, "+a.id);//2Ãâ·Â     
+       _reference2(a);//A b=a;     //bë³€ìˆ˜ì— aë¥¼ ì£¼ê³ ì„œ
+       System.out.println("runReference2, "+a.id);//2ì¶œë ¥     
    }
    public static void main(String[] args) {
        runValue(); // runValue, 1

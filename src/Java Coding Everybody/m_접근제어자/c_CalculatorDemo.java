@@ -1,27 +1,27 @@
-package m_Á¢±ÙÁ¦¾îÀÚ;
+ï»¿package m_ì ‘ê·¼ì œì–´ì;
 
 class Calculator{
-    private int left, right;//±âÁ¸°ú Â÷ÀÌÁ¡  privateÀ» ºÙÀÓ
+    private int left, right;//ê¸°ì¡´ê³¼ ì°¨ì´ì   privateì„ ë¶™ì„
      
     public void setOprands(int left, int right){
         this.left = left;
         this.right = right;
     }
-    private int _sum(){//±âÁ¸°ú Â÷ÀÌÁ¡ privateÀ» ºÙÀÓ
+    private int _sum(){//ê¸°ì¡´ê³¼ ì°¨ì´ì  privateì„ ë¶™ì„
         return this.left+this.right;
     }
     public void sumDecoPlus(){
-        System.out.println("++++"+_sum()+"++++"); //±âÁ¸°ú Â÷ÀÌÁ¡
+        System.out.println("++++"+_sum()+"++++"); //ê¸°ì¡´ê³¼ ì°¨ì´ì 
     }
     public void sumDecoMinus(){
-        System.out.println("----"+_sum()+"----");//±âÁ¸°ú Â÷ÀÌÁ¡
+        System.out.println("----"+_sum()+"----");//ê¸°ì¡´ê³¼ ì°¨ì´ì 
     }
 }
 public class c_CalculatorDemo {
     public static void main(String[] args) {        
         Calculator c1 = new Calculator();
         c1.setOprands(10, 20);
-        c1.sumDecoPlus();//±âÁ¸°ú Â÷ÀÌÁ¡ sum¸Ş¼Òµå¸¦ ¹Ù·ÎÁ¢±Ù¸øÇÔ
-        c1.sumDecoMinus();//±âÁ¸°ú Â÷ÀÌÁ¡ sum¸Ş¼Òµå¸¦ ¹Ù·ÎÁ¢±Ù¸øÇÔ
+        c1.sumDecoPlus();//ê¸°ì¡´ê³¼ ì°¨ì´ì  sumë©”ì†Œë“œë¥¼ ë°”ë¡œì ‘ê·¼ëª»í•¨
+        c1.sumDecoMinus();//ê¸°ì¡´ê³¼ ì°¨ì´ì  sumë©”ì†Œë“œë¥¼ ë°”ë¡œì ‘ê·¼ëª»í•¨
     }
 }

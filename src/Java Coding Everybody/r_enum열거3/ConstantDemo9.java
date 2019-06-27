@@ -1,4 +1,4 @@
-package r_enum¿­°Å3;
+ï»¿package r_enumì—´ê±°3;
 /*class Fruit{
 public static final Fruit APPLE  = new Fruit();
 public static final Fruit PEACH  = new Fruit();
@@ -7,8 +7,8 @@ public static final Fruit BANANA = new Fruit();
 
 enum Fruit{
     APPLE("red"), PEACH("orange"), BANANA("yellow");
-	//ÇÊµå°ªµµ °¡Áú¼öÀÖ´Ù 
-	//»ó¼ö°¡ ¾î¶°ÇÑ °ªÀ» °¡Áö°Ô ÇÒ¼öÀÖ´Â°Ô ÀÌ³ÑÇüÀÇ ÀåÁ¡
+	//í•„ë“œê°’ë„ ê°€ì§ˆìˆ˜ìˆë‹¤ 
+	//ìƒìˆ˜ê°€ ì–´ë– í•œ ê°’ì„ ê°€ì§€ê²Œ í• ìˆ˜ìˆëŠ”ê²Œ ì´ë„˜í˜•ì˜ ì¥ì 
 	public String color;
 	
     Fruit(String color){
@@ -23,7 +23,7 @@ public class ConstantDemo9 {
     public static void main(String[] args) {
         /*
         if(Fruit.APPLE == Company.APPLE){
-            System.out.println("°úÀÏ ¾ÖÇÃ°ú È¸»ç ¾ÖÇÃÀÌ °°´Ù.");
+            System.out.println("ê³¼ì¼ ì• í”Œê³¼ íšŒì‚¬ ì• í”Œì´ ê°™ë‹¤.");
         }
         */
         Fruit type = Fruit.APPLE;

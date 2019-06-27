@@ -1,4 +1,4 @@
-package l_overloading;
+ï»¿package l_overloading;
 class Calculator{
     int left, right;
     int third = 0;
@@ -7,11 +7,11 @@ class Calculator{
         this.left = left;
         this.right = right;
     }
-// ÀÌ¸§°ú ¸®ÅÏ°ªÀº °°Áö¸¸ ¸Å°³º¯¼öÀÇ °¹¼ö³ª ½Ã±×´ÏÃ³´Â ´Ù¸¥ ¸Ş¼Òµå¸¦ Áßº¹À¸·Î
-    //¼±¾ğ ÇÒ ¼ö ÀÖ´Â ¹æ¹ıÀ» ¸Ş¼Òµå ¿À¹ö·Îµù(overloading)ÀÌ¶ó°í ÇÑ´Ù.
+// ì´ë¦„ê³¼ ë¦¬í„´ê°’ì€ ê°™ì§€ë§Œ ë§¤ê°œë³€ìˆ˜ì˜ ê°¯ìˆ˜ë‚˜ ì‹œê·¸ë‹ˆì²˜ëŠ” ë‹¤ë¥¸ ë©”ì†Œë“œë¥¼ ì¤‘ë³µìœ¼ë¡œ
+    //ì„ ì–¸ í•  ìˆ˜ ìˆëŠ” ë°©ë²•ì„ ë©”ì†Œë“œ ì˜¤ë²„ë¡œë”©(overloading)ì´ë¼ê³  í•œë‹¤.
 
     public void setOprands(int left, int right, int third){
-      this.setOprands(left, right);//Áßº¹ÀÇÁ¦°Å
+      this.setOprands(left, right);//ì¤‘ë³µì˜ì œê±°
     /*    this.left = left;
         this.right = right;*/
         this.third = third;
@@ -23,7 +23,7 @@ class Calculator{
         System.out.println((this.left+this.right+this.third)/3);
     }
 }
-public class a_¿À¹ö·Îµù {
+public class a_ì˜¤ë²„ë¡œë”© {
       
     public static void main(String[] args) {
         Calculator c1 = new Calculator();

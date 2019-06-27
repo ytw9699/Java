@@ -1,6 +1,6 @@
-package q_3¿¹¿Ü¸¸µé±â4;
+ï»¿package q_3ì˜ˆì™¸ë§Œë“¤ê¸°4;
 import java.io.IOException;
-//¿¹¿Ü¸¦ ½º½º·Î ¸¸µé¾îº¸´Â°ÍÀÌ´Ù ÀÚ¹Ù°¡ Àâ¾ÆÁÖ±âÀü¿¡
+//ì˜ˆì™¸ë¥¼ ìŠ¤ìŠ¤ë¡œ ë§Œë“¤ì–´ë³´ëŠ”ê²ƒì´ë‹¤ ìë°”ê°€ ì¡ì•„ì£¼ê¸°ì „ì—
 class Calculator{
     int left, right;
     public void setOprands(int left, int right){
@@ -10,12 +10,12 @@ class Calculator{
     }
     public void divide(){
     	if(this.right == 0){
-            throw new ArithmeticException("0À¸·Î ³ª´©´Â °ÍÀº Çã¿ëµÇÁö ¾Ê½À´Ï´Ù..");
+            throw new ArithmeticException("0ìœ¼ë¡œ ë‚˜ëˆ„ëŠ” ê²ƒì€ í—ˆìš©ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤..");
         }
         try {
-            System.out.print("°è»ê°á°ú´Â ");
+            System.out.print("ê³„ì‚°ê²°ê³¼ëŠ” ");
             System.out.print(this.left/this.right);
-            System.out.print(" ÀÔ´Ï´Ù.");
+            System.out.print(" ì…ë‹ˆë‹¤.");
         } catch(Exception e){
             e.printStackTrace();
         }
@@ -25,7 +25,7 @@ public class CalculatorDemo4 {
     public static void main(String[] args) {
         Calculator c1 = new Calculator();
         c1.setOprands(10, 0);
-        try{  c1.divide();//¿©±â¼­ ½ÇÇàÇÒ¶§ Àâ¾ÆÁÖ´Â°Å¶ó µÎ¹øÂ°¿¹¿Ü´Â ¹ß»ı¾ÈÇÔ
+        try{  c1.divide();//ì—¬ê¸°ì„œ ì‹¤í–‰í• ë•Œ ì¡ì•„ì£¼ëŠ”ê±°ë¼ ë‘ë²ˆì§¸ì˜ˆì™¸ëŠ” ë°œìƒì•ˆí•¨
         }
         catch(ArithmeticException e){
         	   e.printStackTrace();
@@ -35,9 +35,9 @@ public class CalculatorDemo4 {
      } 
     }
 }
-/*¿¹¿Ü	»ç¿ëÇØ¾ß ÇÒ »óÈ²
-IllegalArgumentException ÀûÇÕÇÏÁö ¾ÊÀº ÀÎÀÚ ¸Å°³º¯¼ö°¡ ÀÇµµÇÏÁö ¾ÊÀº »óÈ²À» À¯¹ß½ÃÅ³ ¶§
-IllegalStateException	¸Ş¼Òµå¸¦ È£ÃâÇÏ±â À§ÇÑ »óÅÂ°¡ ¾Æ´Ò ¶§,¸Ş¼Òµå°¡ µ¿ÀÛÇÒ¼öÀÖ´Â »óÈ²ÀÌ ÃæÁ·¾È‰çÀ»¶§
-NullPointerException	¸Å°³ º¯¼ö °ªÀÌ null ÀÏ ¶§
-IndexOutOfBoundsException	ÀÎµ¦½º ¸Å°³ º¯¼ö °ªÀÌ ¹üÀ§¸¦ ¹ş¾î³¯ ¶§
-ArithmeticException	»ê¼úÀûÀÎ ¿¬»ê¿¡ ¿À·ù°¡ ÀÖÀ» ¶§*/
+/*ì˜ˆì™¸	ì‚¬ìš©í•´ì•¼ í•  ìƒí™©
+IllegalArgumentException ì í•©í•˜ì§€ ì•Šì€ ì¸ì ë§¤ê°œë³€ìˆ˜ê°€ ì˜ë„í•˜ì§€ ì•Šì€ ìƒí™©ì„ ìœ ë°œì‹œí‚¬ ë•Œ
+IllegalStateException	ë©”ì†Œë“œë¥¼ í˜¸ì¶œí•˜ê¸° ìœ„í•œ ìƒíƒœê°€ ì•„ë‹ ë•Œ,ë©”ì†Œë“œê°€ ë™ì‘í• ìˆ˜ìˆëŠ” ìƒí™©ì´ ì¶©ì¡±ì•ˆÂ‰ç‘›ë»‘?
+NullPointerException	ë§¤ê°œ ë³€ìˆ˜ ê°’ì´ null ì¼ ë•Œ
+IndexOutOfBoundsException	ì¸ë±ìŠ¤ ë§¤ê°œ ë³€ìˆ˜ ê°’ì´ ë²”ìœ„ë¥¼ ë²—ì–´ë‚  ë•Œ
+ArithmeticException	ì‚°ìˆ ì ì¸ ì—°ì‚°ì— ì˜¤ë¥˜ê°€ ìˆì„ ë•Œ*/

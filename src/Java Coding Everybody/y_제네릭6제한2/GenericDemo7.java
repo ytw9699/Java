@@ -1,29 +1,29 @@
-package y_Á¦³×¸¯6Á¦ÇÑ2;
+ï»¿package y_ì œë„¤ë¦­6ì œí•œ2;
 
 interface Info{
     public abstract int getLevel();
 }
-class EmployeeInfo implements Info{//»ó¼Ó¹ŞÀ½
+class EmployeeInfo implements Info{//ìƒì†ë°›ìŒ
     public int rank;
     EmployeeInfo(int rank){ this.rank = rank; }
-    public int getLevel(){//¿À¹ö¶óÀÌµå
+    public int getLevel(){//ì˜¤ë²„ë¼ì´ë“œ
         return this.rank;
     }
 }
-class Person<T extends Info>{//TÀÇ µ¥ÀÌÅÍÅ¸ÀÔÀ» InfoÅ¬·¡½ºÀÌ°Å³ª ÀÚ½ÄÀÎ EmployeeInfo·Î
-	//Á¦ÇÑÀ» ÇØ¹ö·Á¼­ Å¸ÀÔÀÇ ¾ÈÁ¤¼ºÀ» °¡Á®¿À°í,Áßº¹À» Á¦°ÅÇÑ´Ù
-    //¿©±â¼­ implements¸¦ ¾È¾²°íextends¸¦ ¾´°ÍÀº
-	//extendsÀº ¿©±â¼­ »ó¼ÓÇÑ´Ù´Â°Ô ¾Æ´Ï¶ó ºÎ¸ğ´Â ´©±¸³Ä¶ó´Â°Í
-	//superµµÀÖ´Âµ¥ ÀÌ°Ç ³ªÁß¿¡¾Ë¾ÆºÁ ÀÌ°Ç ºÎ¸ğ¸¦ Á¦ÇÑÇÏ´Â°Å
+class Person<T extends Info>{//Tì˜ ë°ì´í„°íƒ€ì…ì„ Infoí´ë˜ìŠ¤ì´ê±°ë‚˜ ìì‹ì¸ EmployeeInfoë¡œ
+	//ì œí•œì„ í•´ë²„ë ¤ì„œ íƒ€ì…ì˜ ì•ˆì •ì„±ì„ ê°€ì ¸ì˜¤ê³ ,ì¤‘ë³µì„ ì œê±°í•œë‹¤
+    //ì—¬ê¸°ì„œ implementsë¥¼ ì•ˆì“°ê³ extendsë¥¼ ì“´ê²ƒì€
+	//extendsì€ ì—¬ê¸°ì„œ ìƒì†í•œë‹¤ëŠ”ê²Œ ì•„ë‹ˆë¼ ë¶€ëª¨ëŠ” ëˆ„êµ¬ëƒë¼ëŠ”ê²ƒ
+	//superë„ìˆëŠ”ë° ì´ê±´ ë‚˜ì¤‘ì—ì•Œì•„ë´ ì´ê±´ ë¶€ëª¨ë¥¼ ì œí•œí•˜ëŠ”ê±°
 	public T info;
     Person(T info){ 
     	this.info = info;
-    	System.out.println(info.getLevel());//ÀÌ°Ô °¡´É!
+    	System.out.println(info.getLevel());//ì´ê²Œ ê°€ëŠ¥!
     }
 }
 public class GenericDemo7 {
     public static void main(String[] args) {
 Person<EmployeeInfo>p1 = new Person<EmployeeInfo>(new EmployeeInfo(1));
-   // Person<String> p2 = new Person<String>("ºÎÀå");//½ºÆ®¸µÀº ¸ø¿À°ÔµÇ´Â°Å
+   // Person<String> p2 = new Person<String>("ë¶€ì¥");//ìŠ¤íŠ¸ë§ì€ ëª»ì˜¤ê²Œë˜ëŠ”ê±°
 }
 }

@@ -1,5 +1,5 @@
-package o_ÀÎÅÍÆäÀÌ½º;
-//´ÙÀ½Àº ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ °¡Â¥ Å¬·¡½º¸¦ ÀÓ½Ã·Î »ç¿ëÇØ¼­ ¸¸µç ¿¡ÇÃ¸®ÄÉÀÌ¼ÇÀÌ´Ù.
+ï»¿package o_ì¸í„°í˜ì´ìŠ¤;
+//ë‹¤ìŒì€ ì¸í„°í˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•œ ê°€ì§œ í´ë˜ìŠ¤ë¥¼ ì„ì‹œë¡œ ì‚¬ìš©í•´ì„œ ë§Œë“  ì—í”Œë¦¬ì¼€ì´ì…˜ì´ë‹¤.
 class CalculatorDummy2 implements c_Calculatable{
     public void setOprands(int first, int second, int third){
     }

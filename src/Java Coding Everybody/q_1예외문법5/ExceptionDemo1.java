@@ -1,4 +1,4 @@
-package q_1¿¹¿Ü¹®¹ı5;
+ï»¿package q_1ì˜ˆì™¸ë¬¸ë²•5;
 class A{
     private int[] arr = new int[3];
     A(){
@@ -7,14 +7,14 @@ class A{
         arr[2]=20;
     }
     public void z(int first, int second){
-        try {//´ÙÁß catch
-            System.out.println(arr[first] / arr[second]);//¿©±â¼­ ÀâÈù ¿¹¿Ü¿¡µû¶ó¼­
+        try {//ë‹¤ì¤‘ catch
+            System.out.println(arr[first] / arr[second]);//ì—¬ê¸°ì„œ ì¡íŒ ì˜ˆì™¸ì—ë”°ë¼ì„œ
         } catch(ArrayIndexOutOfBoundsException e){//if else
             System.out.println("ArrayIndexOutOfBoundsException");
         } catch(ArithmeticException e){//if else
             System.out.println("ArithmeticException");
-        } catch(Exception e){//else¿Í °°´Ù°íº¸ÀÚ//À§¿¡ ´ÙÇØ´çµÇÁö¾Ê´Â´Ù¸é
-        	//ÀÌ°ÍÀ» ±×·¡¼­ Á¦ÀÏÀ§·Î¿Ã¸®¸é¾ÈµÊ//¸ğµç¿¹¿Ü¸¦ Æ÷ÇÔÇÏ´Ï±î
+        } catch(Exception e){//elseì™€ ê°™ë‹¤ê³ ë³´ì//ìœ„ì— ë‹¤í•´ë‹¹ë˜ì§€ì•ŠëŠ”ë‹¤ë©´
+        	//ì´ê²ƒì„ ê·¸ë˜ì„œ ì œì¼ìœ„ë¡œì˜¬ë¦¬ë©´ì•ˆë¨//ëª¨ë“ ì˜ˆì™¸ë¥¼ í¬í•¨í•˜ë‹ˆê¹Œ
             System.out.println("Exception");
         }
     }

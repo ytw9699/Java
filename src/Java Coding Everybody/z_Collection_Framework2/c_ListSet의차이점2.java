@@ -1,10 +1,10 @@
-package z_Collection_Framework2;
+ï»¿package z_Collection_Framework2;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class c_ListSetÀÇÂ÷ÀÌÁ¡2 {
+public class c_ListSetì˜ì°¨ì´ì 2 {
    public static void main(String[] args) {
        ArrayList<String> al = new ArrayList<String>();
        al.add("one");
@@ -30,10 +30,10 @@ public class c_ListSetÀÇÂ÷ÀÌÁ¡2 {
        System.out.println("\nhashset");
        while(hi.hasNext()){
            System.out.println(hi.next());
-/*   À§ÀÇ °á°ú¸¦ ÅëÇØ¼­ ¾Ë ¼ö ÀÖ´Â °ÍÃ³·³ Set´Â Áßº¹À» Çã¿ëÇÏÁö ¾Ê°í ¼ø¼­°¡ ¾øÁö¸¸!
- * ±×·¡¼­ ÀÎµ¦½º¸¦ È°¿ëÇÑ get¸Ş¼Òµå°¡¾ø´Ù, 
-   List´Â Áßº¹À» Çã¿ëÇÏ°í ÀúÀåµÇ´Â ¼ø¼­°¡ À¯ÁöµÈ´Ù´Â °ÍÀ» ¾Ë ¼ö ÀÖ´Ù.get¸Ş¼ÒµåÀÖÀ½ 
-   ÀÌ·¯ÇÑ Æ¯Â¡À» °í·ÁÇØ¼­ ÄÃ·º¼ÇÀ» ¼±ÅÃÇØ¾ß ÇÑ´Ù*/
+/*   ìœ„ì˜ ê²°ê³¼ë¥¼ í†µí•´ì„œ ì•Œ ìˆ˜ ìˆëŠ” ê²ƒì²˜ëŸ¼ SetëŠ” ì¤‘ë³µì„ í—ˆìš©í•˜ì§€ ì•Šê³  ìˆœì„œê°€ ì—†ì§€ë§Œ!
+ * ê·¸ë˜ì„œ ì¸ë±ìŠ¤ë¥¼ í™œìš©í•œ getë©”ì†Œë“œê°€ì—†ë‹¤, 
+   ListëŠ” ì¤‘ë³µì„ í—ˆìš©í•˜ê³  ì €ì¥ë˜ëŠ” ìˆœì„œê°€ ìœ ì§€ëœë‹¤ëŠ” ê²ƒì„ ì•Œ ìˆ˜ ìˆë‹¤.getë©”ì†Œë“œìˆìŒ 
+   ì´ëŸ¬í•œ íŠ¹ì§•ì„ ê³ ë ¤í•´ì„œ ì»¬ë ‰ì…˜ì„ ì„ íƒí•´ì•¼ í•œë‹¤*/
        }
    }
 }

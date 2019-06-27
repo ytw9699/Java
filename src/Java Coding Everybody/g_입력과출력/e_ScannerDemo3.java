@@ -1,4 +1,4 @@
-package g_ÀÔ·Â°úÃâ·Â;
+ï»¿package g_ì…ë ¥ê³¼ì¶œë ¥;
 
 import java.util.Scanner;
 import java.io.*;
@@ -8,8 +8,8 @@ public class e_ScannerDemo3 {
     public static void main(String[] args) {
         try {
             File file = new File("out.txt");
-            Scanner sc = new Scanner(file);//file°´Ã¼¸¦ ÁÖ¸é
-            //out.txt°¡ °¡Áö°íÀÖ´Â °ªÀ» ÀÔ·Â°ªÀ¸·Î °¡Á®¿À¶ó´Â°Í
+            Scanner sc = new Scanner(file);//fileê°ì²´ë¥¼ ì£¼ë©´
+            //out.txtê°€ ê°€ì§€ê³ ìˆëŠ” ê°’ì„ ì…ë ¥ê°’ìœ¼ë¡œ ê°€ì ¸ì˜¤ë¼ëŠ”ê²ƒ
             while(sc.hasNextInt()) {
                 System.out.println(sc.nextInt()*1000); 
             }

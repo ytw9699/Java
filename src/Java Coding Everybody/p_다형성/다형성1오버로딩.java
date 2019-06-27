@@ -1,22 +1,22 @@
-package p_´ÙÇü¼º;
-/*´ÙÇü¼º °³³ä 1. ´ÙÇü¼ºÀº ´Ù¾çÇÏ´Ù¶ó°í »ý°¢ÇØ¾ßÇØ ´Ù¾çÇÏ°Ô¾²ÀÏ¼öÀÖ´Ù¶ó´Â°³³äÀÌ¾ß 
- * ¿À¹ö·Îµù : ¸Å°³º¯¼ö¿¡µû¶ó ´Ù¸¥ ¸Þ¼Òµå°¡ È£Ãâ ¸Þ¼Òµå¿¡¼­ÀÇ ´ÙÇü¼º*/
+ï»¿package p_ë‹¤í˜•ì„±;
+/*ë‹¤í˜•ì„± ê°œë… 1. ë‹¤í˜•ì„±ì€ ë‹¤ì–‘í•˜ë‹¤ë¼ê³  ìƒê°í•´ì•¼í•´ ë‹¤ì–‘í•˜ê²Œì“°ì¼ìˆ˜ìžˆë‹¤ë¼ëŠ”ê°œë…ì´ì•¼ 
+ * ì˜¤ë²„ë¡œë”© : ë§¤ê°œë³€ìˆ˜ì—ë”°ë¼ ë‹¤ë¥¸ ë©”ì†Œë“œê°€ í˜¸ì¶œ ë©”ì†Œë“œì—ì„œì˜ ë‹¤í˜•ì„±*/
 class O{
     public void a(int param){
-        System.out.println("¼ýÀÚÃâ·Â");
+        System.out.println("ìˆ«ìžì¶œë ¥");
         System.out.println(param);
     }
     public void a(String param){
-        System.out.println("¹®ÀÚÃâ·Â");
+        System.out.println("ë¬¸ìžì¶œë ¥");
         System.out.println(param);
     }
 }
-public class ´ÙÇü¼º1¿À¹ö·Îµù {
+public class ë‹¤í˜•ì„±1ì˜¤ë²„ë¡œë”© {
     public static void main(String[] args) {
         O o = new O();
         o.a(1);
         o.a("one");
     }
 }
-/*Å¬·¡½º OÀÇ ¸Þ¼Òµå a´Â µÎ°³ÀÇ º»Ã¼¸¦ °¡Áö°í ÀÖ´Ù. µ¿½Ã¿¡ µÎ°³ÀÇ º»Ã¼´Â ÇÏ³ªÀÇ ÀÌ¸§ÀÎ a¸¦ °øÀ¯ÇÏ°í ÀÖ´Ù. 
-°°Àº ÀÌ¸§ÀÌÁö¸¸ ¼­·Î ´Ù¸¥ µ¿ÀÛ ¹æ¹ýÀ» °¡Áö°í ÀÖ±â ¶§¹®¿¡ ¿À¹ö·ÎµùÀº ´ÙÇü¼ºÀÇ ÇÑ ¿¹¶ó°í ÇÒ ¼ö ÀÖ´Ù.*/
+/*í´ëž˜ìŠ¤ Oì˜ ë©”ì†Œë“œ aëŠ” ë‘ê°œì˜ ë³¸ì²´ë¥¼ ê°€ì§€ê³  ìžˆë‹¤. ë™ì‹œì— ë‘ê°œì˜ ë³¸ì²´ëŠ” í•˜ë‚˜ì˜ ì´ë¦„ì¸ aë¥¼ ê³µìœ í•˜ê³  ìžˆë‹¤. 
+ê°™ì€ ì´ë¦„ì´ì§€ë§Œ ì„œë¡œ ë‹¤ë¥¸ ë™ìž‘ ë°©ë²•ì„ ê°€ì§€ê³  ìžˆê¸° ë•Œë¬¸ì— ì˜¤ë²„ë¡œë”©ì€ ë‹¤í˜•ì„±ì˜ í•œ ì˜ˆë¼ê³  í•  ìˆ˜ ìžˆë‹¤.*/

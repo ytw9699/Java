@@ -1,4 +1,4 @@
-package l_overloading±ÔÄ¢;
+ï»¿package l_overloadingê·œì¹™;
 
 public class OverloadingDemo {
 	
@@ -10,13 +10,13 @@ public class OverloadingDemo {
     }
    /* void A (int param1){
     System.out.println("void A (int arg1)");
-    }ÀÎÀÚ°ª ÀÌ¸§¸¸ ´Ù¸¥°Ç ¾ÈµÈ´Ù*/
+    }ì¸ìê°’ ì´ë¦„ë§Œ ë‹¤ë¥¸ê±´ ì•ˆëœë‹¤*/
     void A (String arg1){
     	System.out.println("void A (String arg1)");
     	}
 /*  int A (){
     System.out.println("void A()");
-    } ¿À¹ö·ÎµùÀº ¸®ÅÏÅ¸ÀÔÀÌ °°¾Æ¾ß ÇÑ´Ù 
+    } ì˜¤ë²„ë¡œë”©ì€ ë¦¬í„´íƒ€ì…ì´ ê°™ì•„ì•¼ í•œë‹¤ 
     
     */
     public static void main(String[] args) {
@@ -26,5 +26,5 @@ public class OverloadingDemo {
         od.A("coding everybody");
     }
 }
-//°á·ĞÀûÀ¸·Î ¸»ÇÏ¸é ¸Ş¼Òµå ¿À¹ö·ÎµùÀº ¸Å°³º¯¼ö°¡ ´Ù¸£¸é ÀÌ¸§ÀÌ °°¾Æµµ ¼­·Î ´Ù¸¥ ¸Ş¼Òµå°¡ µÇ´Â °ÍÀÌ´Ù.
-//¹İ¸é¿¡ ¸Å°³º¯¼ö´Â °°Áö¸¸ ¸®ÅÏÅ¸ÀÔÀÌ ´Ù¸£¸é ¿À·ù°¡ ¹ß»ıÇÑ´Ù.
+//ê²°ë¡ ì ìœ¼ë¡œ ë§í•˜ë©´ ë©”ì†Œë“œ ì˜¤ë²„ë¡œë”©ì€ ë§¤ê°œë³€ìˆ˜ê°€ ë‹¤ë¥´ë©´ ì´ë¦„ì´ ê°™ì•„ë„ ì„œë¡œ ë‹¤ë¥¸ ë©”ì†Œë“œê°€ ë˜ëŠ” ê²ƒì´ë‹¤.
+//ë°˜ë©´ì— ë§¤ê°œë³€ìˆ˜ëŠ” ê°™ì§€ë§Œ ë¦¬í„´íƒ€ì…ì´ ë‹¤ë¥´ë©´ ì˜¤ë¥˜ê°€ ë°œìƒí•œë‹¤.

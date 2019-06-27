@@ -1,12 +1,12 @@
-package q_6»ç¿ëÀÚÁ¤ÀÇ¿¹¿Ü3;
-//Á÷Á¢ DivideExceptionÀÌ¶ó°í ÀÌ¸§Áö¾î¼­ ¸¸µé¾îº¸ÀÚ
+ï»¿package q_6ì‚¬ìš©ìì •ì˜ì˜ˆì™¸3;
+//ì§ì ‘ DivideExceptionì´ë¼ê³  ì´ë¦„ì§€ì–´ì„œ ë§Œë“¤ì–´ë³´ì
 class DivideException extends Exception {
 	public int left;
 	public int right;
     DivideException(String message){
         super(message);
     }
-    DivideException(String message, int left, int right){//ÀÌ·¸°Ô Ãß°¡ÀûÀÎ Á¤º¸¸¦ ÁØ´Ù
+    DivideException(String message, int left, int right){//ì´ë ‡ê²Œ ì¶”ê°€ì ì¸ ì •ë³´ë¥¼ ì¤€ë‹¤
     	super(message);
     	this.left= left;
     	this.right= right;
@@ -18,12 +18,12 @@ class Calculator{
         this.left = left;
         this.right = right;
     }
-    public void divide()throws DivideException{//2.¿©±â¼­ ¹ß»ıÇÑ ¿¹¿Ü¸¦ ´øÁ®¼­
+    public void divide()throws DivideException{//2.ì—¬ê¸°ì„œ ë°œìƒí•œ ì˜ˆì™¸ë¥¼ ë˜ì ¸ì„œ
         if(this.right == 0){
-        throw new DivideException("0À¸·Î ³ª´­¼ö¾ø½À´Ï´Ù.",this.left,this.right);//1.
-        //ÀÌ·¸°Ô Ãß°¡ÀûÀÎ Á¤º¸¸¦ ÁØ´Ù
+        throw new DivideException("0ìœ¼ë¡œ ë‚˜ëˆŒìˆ˜ì—†ìŠµë‹ˆë‹¤.",this.left,this.right);//1.
+        //ì´ë ‡ê²Œ ì¶”ê°€ì ì¸ ì •ë³´ë¥¼ ì¤€ë‹¤
         }
-        System.out.print(this.left/this.right);//¹ß»ı¾ÈÇÏ¸é ÀÌ°Ô½ÇÇàµÇ´Âµí
+        System.out.print(this.left/this.right);//ë°œìƒì•ˆí•˜ë©´ ì´ê²Œì‹¤í–‰ë˜ëŠ”ë“¯
     }
 }
 public class CalculatorDemo3 {
@@ -31,12 +31,12 @@ public class CalculatorDemo3 {
         Calculator c1 = new Calculator();
         c1.setOprands(10, 0);
         try {
-			c1.divide();//3.¿©±â¼­ÀâÈ÷´Â°ÅÀÓ
+			c1.divide();//3.ì—¬ê¸°ì„œì¡íˆëŠ”ê±°ì„
 		} catch (DivideException e) {
 			e.printStackTrace();
-			 System.out.print(e.left);//ÀÌ·¸°Ô Ãß°¡ÀûÀÎ Á¤º¸¸¦ ÁØ´Ù
-			 System.out.print("/");//ÀÌ·¸°Ô Ãß°¡ÀûÀÎ Á¤º¸¸¦ ÁØ´Ù
-			 System.out.print(e.right);//ÀÌ·¸°Ô Ãß°¡ÀûÀÎ Á¤º¸¸¦ ÁØ´Ù
+			 System.out.print(e.left);//ì´ë ‡ê²Œ ì¶”ê°€ì ì¸ ì •ë³´ë¥¼ ì¤€ë‹¤
+			 System.out.print("/");//ì´ë ‡ê²Œ ì¶”ê°€ì ì¸ ì •ë³´ë¥¼ ì¤€ë‹¤
+			 System.out.print(e.right);//ì´ë ‡ê²Œ ì¶”ê°€ì ì¸ ì •ë³´ë¥¼ ì¤€ë‹¤
 		}
     }
 }

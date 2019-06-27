@@ -1,11 +1,11 @@
-package p_´ÙÇü¼º8ÀÎÅÍÆäÀÌ½º;
+ï»¿package p_ë‹¤í˜•ì„±8ì¸í„°í˜ì´ìŠ¤;
 
 interface I{}
 
 class C implements I{}
 
-public class ÀÎÅÍÆäÀÌ½ºµµ´ÙÇü¼º {
+public class ì¸í„°í˜ì´ìŠ¤ë„ë‹¤í˜•ì„± {
     public static void main(String[] args) {
-        I obj = new C();//°°Àº°³³ä
+        I obj = new C();//ê°™ì€ê°œë…
     }
 }

@@ -1,4 +1,4 @@
-package p_´ÙÇü¼º8ÀÎÅÍÆäÀÌ½º;
+ï»¿package p_ë‹¤í˜•ì„±8ì¸í„°í˜ì´ìŠ¤;
 
 interface father{}
 interface mother{}
@@ -10,12 +10,12 @@ interface programmer{
 
 class Steve implements father, programmer, believer{
     public void coding(){
-        System.out.println("fast");//ºü¸£°Ô
+        System.out.println("fast");//ë¹ ë¥´ê²Œ
     }
 }
 class Rachel implements mother, programmer{
     public void coding(){
-        System.out.println("elegance");//¿ì¾ÆÇÏ°Ô
+        System.out.println("elegance");//ìš°ì•„í•˜ê²Œ
     }
 }
 public class Workspace{
@@ -26,4 +26,4 @@ public class Workspace{
         employee1.coding();
         employee2.coding();
     }
-}//°°Àº¹æ½ÄÀ¸·Î ¿äÃ»ÇÏÁö¸¸ ´Ù¸¥°á°ú¹° ¸¸µé¾î³½´Ù ´ÙÇü¼º
+}//ê°™ì€ë°©ì‹ìœ¼ë¡œ ìš”ì²­í•˜ì§€ë§Œ ë‹¤ë¥¸ê²°ê³¼ë¬¼ ë§Œë“¤ì–´ë‚¸ë‹¤ ë‹¤í˜•ì„±

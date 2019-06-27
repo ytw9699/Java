@@ -1,18 +1,18 @@
-package b_º¯¼ö;
+ï»¿package b_ë³€ìˆ˜;
 
-public class aº¯¼öÀÇ¼±¾ð°úÇÒ´ç {
+public class aë³€ìˆ˜ì˜ì„ ì–¸ê³¼í• ë‹¹ {
 	public static void main(String[] args) {
-//º¯¼ö-º¯ÇÒ¼öÀÖ´Â ¸ðµç µ¥ÀÌÅ¸(¼ýÀÚ¸¸ÀÌ¾Æ´Ô)
-//¿µ¾î·Î´Â Variable·Î (¹®ÀÚ³ª ¼ýÀÚ °°Àº) µ¥ÀÌÅÍ¸¦ ´ã´Â ÄÁÅ×ÀÌ³Ê´Ù
-//¿©±â¿¡ ´ã°ÜÁø µ¥ÀÌÅÍ´Â ´Ù¸¥ µ¥ÀÌÅÍ·Î ¹Ù²Ü ¼ö ÀÖ´Ù.
-//º¯¼ö´Â ¸¶Ä¡ (»ç¶÷ÀÌ ¾²´Â ¾ð¾îÀÎ) ÀÚ¿¬¾î¿¡¼­ ´ë¸í»ç¿Í ºñ½ÁÇÑ ¿ªÇÒÀ» ÇÑ´Ù.	he,she,they
-	int a;//int´Â µ¥ÀÌÅÍÇü½ÄÀÌ ¼ýÀÚÁß Á¤¼öÇü(+,-,0) ÀÎ°ÍÀ¸·Î Ã³À½ºÎÅÍ °­Á¦ÇÔ
-	//a´Â º¯¼öÀÇ ÀÌ¸§ 
-	//º¯¼öÀÇ ¼±¾ð
-	a = 1;//a¶ó´Â º¯¼ö¿¡ 1ÀÌ¶ó´Â °ªÀ» ´ëÀÔ
+//ë³€ìˆ˜-ë³€í• ìˆ˜ìžˆëŠ” ëª¨ë“  ë°ì´íƒ€(ìˆ«ìžë§Œì´ì•„ë‹˜)
+//ì˜ì–´ë¡œëŠ” Variableë¡œ (ë¬¸ìžë‚˜ ìˆ«ìž ê°™ì€) ë°ì´í„°ë¥¼ ë‹´ëŠ” ì»¨í…Œì´ë„ˆë‹¤
+//ì—¬ê¸°ì— ë‹´ê²¨ì§„ ë°ì´í„°ëŠ” ë‹¤ë¥¸ ë°ì´í„°ë¡œ ë°”ê¿€ ìˆ˜ ìžˆë‹¤.
+//ë³€ìˆ˜ëŠ” ë§ˆì¹˜ (ì‚¬ëžŒì´ ì“°ëŠ” ì–¸ì–´ì¸) ìžì—°ì–´ì—ì„œ ëŒ€ëª…ì‚¬ì™€ ë¹„ìŠ·í•œ ì—­í• ì„ í•œë‹¤.	he,she,they
+	int a;//intëŠ” ë°ì´í„°í˜•ì‹ì´ ìˆ«ìžì¤‘ ì •ìˆ˜í˜•(+,-,0) ì¸ê²ƒìœ¼ë¡œ ì²˜ìŒë¶€í„° ê°•ì œí•¨
+	//aëŠ” ë³€ìˆ˜ì˜ ì´ë¦„ 
+	//ë³€ìˆ˜ì˜ ì„ ì–¸
+	a = 1;//aë¼ëŠ” ë³€ìˆ˜ì— 1ì´ë¼ëŠ” ê°’ì„ ëŒ€ìž…
 	System.out.println(a+1); //2
 	 
-	a = 2;//ÀçÇÒ´ç
+	a = 2;//ìž¬í• ë‹¹
 	System.out.println(a+1); //3
 	}
 }

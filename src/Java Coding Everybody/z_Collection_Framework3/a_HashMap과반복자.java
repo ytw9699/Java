@@ -1,15 +1,15 @@
-package z_Collection_Framework3;
+ï»¿package z_Collection_Framework3;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
-public class a_HashMap°ú¹İº¹ÀÚ {
+public class a_HashMapê³¼ë°˜ë³µì {
     public static void main(String[] args) {
     	
         HashMap<String, Integer> a = new HashMap<String, Integer>();
-        //key ¿Í value·Î ¾î¶°ÇÑ °ªÀ»¾µ°ÍÀÎÁö Á¦³×¸¯À¸·Î ÁöÁ¤
-        a.put("one", 1);//put¸Ş¼Òµå´Â  ¸Ê ÀÎÅÍÆäÀÌ½º¿¡¸¸ Á¸Àç
-        a.put("two", 2);//Ã¹¹øÂ° ÀÎÀÚ´Â key,µÎ¹øÂ°´Â value
+        //key ì™€ valueë¡œ ì–´ë– í•œ ê°’ì„ì“¸ê²ƒì¸ì§€ ì œë„¤ë¦­ìœ¼ë¡œ ì§€ì •
+        a.put("one", 1);//putë©”ì†Œë“œëŠ”  ë§µ ì¸í„°í˜ì´ìŠ¤ì—ë§Œ ì¡´ì¬
+        a.put("two", 2);//ì²«ë²ˆì§¸ ì¸ìëŠ” key,ë‘ë²ˆì§¸ëŠ” value
         a.put("three", 3);
         a.put("four", 4);
         System.out.println(a.get("one"));
@@ -27,31 +27,31 @@ public class a_HashMap°ú¹İº¹ÀÚ {
         a.remove("two");
         System.out.println(a);
         
-        //¸Ê¿¡ ÀúÀåµÈ °ªµéÀ» ÇÏ³ª½Ä ¿­°ÅÇØ¼­ ²¨³»´Â ¹İº¹Ã³¸®¹æ¹ı¿¡ ´ëÇØ ¾Ë¾Æº¸ÀÚ
-        iteratorUsingForEach(a);//2°¡Áö ¹æ½ÄÀÇ ¹İº¹ Ã³¸® ¹æ¹ı
+        //ë§µì— ì €ì¥ëœ ê°’ë“¤ì„ í•˜ë‚˜ì‹ ì—´ê±°í•´ì„œ êº¼ë‚´ëŠ” ë°˜ë³µì²˜ë¦¬ë°©ë²•ì— ëŒ€í•´ ì•Œì•„ë³´ì
+        iteratorUsingForEach(a);//2ê°€ì§€ ë°©ì‹ì˜ ë°˜ë³µ ì²˜ë¦¬ ë°©ë²•
         iteratorUsingIterator(a);
     }
-    //¸ÊÀÚÃ¼¿¡´Â interation±â´ÉÀÌ ¾ø¾î¼­ ÀÌ·¸°Ô ¿ìÈ¸ÀûÀ¸·ÎÇÏ´Â°Å
+    //ë§µìì²´ì—ëŠ” interationê¸°ëŠ¥ì´ ì—†ì–´ì„œ ì´ë ‡ê²Œ ìš°íšŒì ìœ¼ë¡œí•˜ëŠ”ê±°
     static void iteratorUsingForEach(HashMap map){
         Set<Map.Entry<String, Integer>> entries = map.entrySet();
-        							//¸ÊÀÎÅÍÆäÀÌ½º¿¡  entrySet()ÀÌ¶ó´Â ¸Ş¼Òµå°¡ ÀÖÀ½
-        //entrySet()Àº setµ¥ÀÌÅÍÅ¸ÀÔÀÇ °´Ã¼¸¦ ¸®ÅÏÇØ¼­ entrise¶ó´Â º¯¼ö¿¡ ´ã´Â´Ù
-        //±× º¯¼ö¿¡ ´ã±ä°ÍµéÀº Map.Entryµ¥ÀÌÅÍÅ¸ÀÔÀÇ °´Ã¼µéÀÌ´ã°ÜÀÖ´Â°Å //°á±¹ ¸Ê¾ÈÀÇ °´Ã¼µéÀ» ¼ÂÀ¸·Î ¿Å°Ü´ãÀº°Å
-        //MapÀÎÅÍÆäÀÌ½º°¡ °¡Áö°íÀÖ´Â Entry¶ó´Â ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÏ°íÀÖ´Â ¾î¶°ÇÑ °´Ã¼µéÀÌ ¼ÂÄÁÅ×ÀÌ³Ê¾È¿¡µé¾î°£´Ù´Â°Å
-        for (Map.Entry<String, Integer> entry : entries) {// entries´Â ¼Â ÄÁÅ×ÀÌ³ÊÀÓ ±×°É ÇÏ³ªÇÏ³ª²¨³»¼­ entry¿¡´ã´Â°Å
+        							//ë§µì¸í„°í˜ì´ìŠ¤ì—  entrySet()ì´ë¼ëŠ” ë©”ì†Œë“œê°€ ìˆìŒ
+        //entrySet()ì€ setë°ì´í„°íƒ€ì…ì˜ ê°ì²´ë¥¼ ë¦¬í„´í•´ì„œ entriseë¼ëŠ” ë³€ìˆ˜ì— ë‹´ëŠ”ë‹¤
+        //ê·¸ ë³€ìˆ˜ì— ë‹´ê¸´ê²ƒë“¤ì€ Map.Entryë°ì´í„°íƒ€ì…ì˜ ê°ì²´ë“¤ì´ë‹´ê²¨ìˆëŠ”ê±° //ê²°êµ­ ë§µì•ˆì˜ ê°ì²´ë“¤ì„ ì…‹ìœ¼ë¡œ ì˜®ê²¨ë‹´ì€ê±°
+        //Mapì¸í„°í˜ì´ìŠ¤ê°€ ê°€ì§€ê³ ìˆëŠ” Entryë¼ëŠ” ì¸í„°í˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•˜ê³ ìˆëŠ” ì–´ë– í•œ ê°ì²´ë“¤ì´ ì…‹ì»¨í…Œì´ë„ˆì•ˆì—ë“¤ì–´ê°„ë‹¤ëŠ”ê±°
+        for (Map.Entry<String, Integer> entry : entries) {// entriesëŠ” ì…‹ ì»¨í…Œì´ë„ˆì„ ê·¸ê±¸ í•˜ë‚˜í•˜ë‚˜êº¼ë‚´ì„œ entryì—ë‹´ëŠ”ê±°
             System.out.println(entry.getKey() + " : " + entry.getValue());
-            //Map.Entry(¸ÊÀÎÅÍÆäÀÌ½º¾ÈÀÇ entryÀÎÅÍÆäÀÌ½º)¶ó´Â ÀÎÅÍÆäÀÌ½º¿¡´Â ¸Ş¼Òµå 2°¡Áö°¡ÀÖ´Ù getKey(), getValue()
-            //StringÀº getKey()ÀÇ µ¥ÀÌÅÍÅ¸ÀÔ ,Integer´Â getValue()ÀÇ µ¥ÀÌÅÍÅ¸ÀÔÀ¸·Î Á¦³×¸¯À¸·Î ÁöÁ¤
-            //EntryÀÎÅÍÆäÀÌ½º°¡ °á±¹ ¸Ê°ú °°Àº ¿ªÇÒÀ» ÇÏ´Â°ÍÀÌ´Ù
+            //Map.Entry(ë§µì¸í„°í˜ì´ìŠ¤ì•ˆì˜ entryì¸í„°í˜ì´ìŠ¤)ë¼ëŠ” ì¸í„°í˜ì´ìŠ¤ì—ëŠ” ë©”ì†Œë“œ 2ê°€ì§€ê°€ìˆë‹¤ getKey(), getValue()
+            //Stringì€ getKey()ì˜ ë°ì´í„°íƒ€ì… ,IntegerëŠ” getValue()ì˜ ë°ì´í„°íƒ€ì…ìœ¼ë¡œ ì œë„¤ë¦­ìœ¼ë¡œ ì§€ì •
+            //Entryì¸í„°í˜ì´ìŠ¤ê°€ ê²°êµ­ ë§µê³¼ ê°™ì€ ì—­í• ì„ í•˜ëŠ”ê²ƒì´ë‹¤
         }
     }
-    static void iteratorUsingIterator(HashMap map){//¸ÊÀº ÀÌÅÍ·¹ÀÌÅÍ°¡¾ø¾î¼­ setÀ» ¾ò°í ÀÌÅÍ·¹ÀÌÅÍ¸¦ ¾òÀÚ
+    static void iteratorUsingIterator(HashMap map){//ë§µì€ ì´í„°ë ˆì´í„°ê°€ì—†ì–´ì„œ setì„ ì–»ê³  ì´í„°ë ˆì´í„°ë¥¼ ì–»ì
         /*Set entries = map.entrySet();*/
         Set<Map.Entry<String, Integer>> entries = map.entrySet();
-        Iterator<Map.Entry<String, Integer>> i = entries.iterator();//¼ÂÀº iterator¸¦ °¡Áö°íÀÖÀ½
+        Iterator<Map.Entry<String, Integer>> i = entries.iterator();//ì…‹ì€ iteratorë¥¼ ê°€ì§€ê³ ìˆìŒ
         while(i.hasNext()){
-            Map.Entry<String, Integer> entry = i.next();//Iterator i¶ó´Â °¡»óÄÁÅ×ÀÌ³Ê¿¡¼­ ÇÏ³ªÇÏ³ª²¨³»¼­ 
-            //Map.Entryµ¥¾ÆÅÍÅ¸ÀÔÀÇ entry¶ó´Â ÀÎ½ºÅÏ½º¿¡´ãÀ½ 
+            Map.Entry<String, Integer> entry = i.next();//Iterator ië¼ëŠ” ê°€ìƒì»¨í…Œì´ë„ˆì—ì„œ í•˜ë‚˜í•˜ë‚˜êº¼ë‚´ì„œ 
+            //Map.Entryë°ì•„í„°íƒ€ì…ì˜ entryë¼ëŠ” ì¸ìŠ¤í„´ìŠ¤ì—ë‹´ìŒ 
             System.out.println(entry.getKey()+" : "+entry.getValue());
         }
     }

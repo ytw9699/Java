@@ -1,7 +1,7 @@
-package j_À¯È¿¹üÀ§;
+ï»¿package j_ìœ íš¨ë²”ìœ„;
 
 
-public class b_À¯È¿¹üÀ§ {
+public class b_ìœ íš¨ë²”ìœ„ {
 	 
     static void a() {
     		String title = "coding everybody";
@@ -9,8 +9,8 @@ public class b_À¯È¿¹üÀ§ {
 
     public static void main(String[] args) {
       a();
-      //System.out.println(title);//¸ŞÀÎ¸Ş¼Òµå¾È¿¡¼­´Â Å¸ÀÌÆ²ÀÌ ¼±¾ğµÇÁö¾ÊÀº°Å´Ù 
-      //À¯È¿¹üÀ§¾È¿¡ ¾Èµé¾îÀÖ´Â°Å
+      //System.out.println(title);//ë©”ì¸ë©”ì†Œë“œì•ˆì—ì„œëŠ” íƒ€ì´í‹€ì´ ì„ ì–¸ë˜ì§€ì•Šì€ê±°ë‹¤ 
+      //ìœ íš¨ë²”ìœ„ì•ˆì— ì•ˆë“¤ì–´ìˆëŠ”ê±°
     }
  
 }

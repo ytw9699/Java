@@ -1,8 +1,8 @@
-package f_¹Ýº¹¹®;
+ï»¿package f_ë°˜ë³µë¬¸;
 
 public class a_while {
 	public static void main(String[] args) {
-        while (true) {//ÇÏµåÄÚµù..
+        while (true) {//í•˜ë“œì½”ë”©..
             System.out.println("Coding Everybody");
         }
 }

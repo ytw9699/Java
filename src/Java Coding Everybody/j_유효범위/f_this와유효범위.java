@@ -1,17 +1,17 @@
-package j_À¯È¿¹üÀ§;
+ï»¿package j_ìœ íš¨ë²”ìœ„;
 
 class Calculator{
     int left, right;
    /* public void setOprands(int left, int right){
-        this.left = left; //this´Â c1ÀÇ ÀÎ½ºÅÏ½º¸¦ °¡¸®Å°´Â°Å,ÀÎ½ºÅÏ½º ÀÚ½Å//°á±¹ Àü¿ªº¯¼öÀÎ°Çµ¥
+        this.left = left; //thisëŠ” c1ì˜ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ê°€ë¦¬í‚¤ëŠ”ê±°,ì¸ìŠ¤í„´ìŠ¤ ìì‹ //ê²°êµ­ ì „ì—­ë³€ìˆ˜ì¸ê±´ë°
         this.right = right;
     }*/
     public void setOprands(int _left, int _right){
-        left = _left; //¿©±â¼­ leftµµ Àü¿ªº¯¼öÀÎ°Å´Ù!¿Ö³Ä¸é ¸Ş¼Òµå¾È¿¡ Áö¿ªº¯¼ö°¡ ¼±¾ğµÇÁö¾Ê¾Ò±â¶§¹®¿¡!
+        left = _left; //ì—¬ê¸°ì„œ leftë„ ì „ì—­ë³€ìˆ˜ì¸ê±°ë‹¤!ì™œëƒë©´ ë©”ì†Œë“œì•ˆì— ì§€ì—­ë³€ìˆ˜ê°€ ì„ ì–¸ë˜ì§€ì•Šì•˜ê¸°ë•Œë¬¸ì—!
         right = _right;
-        //ÀÌ·¯ÇÑ ¹üÀ§¿¡´ëÇÑ ´«À» Å°¿ìÀÚ¶ó´Â ÀÇ¹Ì¿¡¼­ Á¢±Ù
+        //ì´ëŸ¬í•œ ë²”ìœ„ì—ëŒ€í•œ ëˆˆì„ í‚¤ìš°ìë¼ëŠ” ì˜ë¯¸ì—ì„œ ì ‘ê·¼
     }
-    //À§ µÎ°¡Áö ¸Ş¼Òµå Ã³·³ µÎ°¡Áö·Î ¸¸µé¼öÀÖ´Â°Å´Ù
+    //ìœ„ ë‘ê°€ì§€ ë©”ì†Œë“œ ì²˜ëŸ¼ ë‘ê°€ì§€ë¡œ ë§Œë“¤ìˆ˜ìˆëŠ”ê±°ë‹¤
     public void sum(){
         System.out.println(this.left+this.right);
     }
@@ -19,7 +19,7 @@ class Calculator{
         System.out.println((this.left+this.right)/2);
     }
 }
-public class f_this¿ÍÀ¯È¿¹üÀ§ {
+public class f_thisì™€ìœ íš¨ë²”ìœ„ {
     public static void main(String[] args) {
      
         Calculator c1 = new Calculator();

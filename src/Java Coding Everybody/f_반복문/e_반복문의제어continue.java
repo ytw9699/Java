@@ -1,11 +1,11 @@
-package f_¹İº¹¹®;
+ï»¿package f_ë°˜ë³µë¬¸;
 
-public class e_¹İº¹¹®ÀÇÁ¦¾îcontinue {
+public class e_ë°˜ë³µë¬¸ì˜ì œì–´continue {
 
 	public static void main(String[] args) {
 		for (int i = 0; i < 10; i++) {
             if (i == 5)
-                continue;//¹Ø¿¡ ÇÑÁÙÀº ¸ØÃß°í i++Àº °è¼Ó ½ÇÇàµÇ¼­ ´ÙÀ½ ÁøÇà
+                continue;//ë°‘ì— í•œì¤„ì€ ë©ˆì¶”ê³  i++ì€ ê³„ì† ì‹¤í–‰ë˜ì„œ ë‹¤ìŒ ì§„í–‰
             System.out.println("Coding Everybody " + i);
         }
 

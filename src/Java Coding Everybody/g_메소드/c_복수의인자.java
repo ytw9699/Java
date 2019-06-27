@@ -1,6 +1,6 @@
-package g_¸Ş¼Òµå;
+ï»¿package g_ë©”ì†Œë“œ;
 
-public class c_º¹¼öÀÇÀÎÀÚ {
+public class c_ë³µìˆ˜ì˜ì¸ì {
  
     public static void numbering(int init, int limit) {
         int i = init;

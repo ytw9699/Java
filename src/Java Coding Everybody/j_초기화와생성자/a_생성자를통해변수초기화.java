@@ -1,31 +1,31 @@
-package j_ÃÊ±âÈ­¿Í»ý¼ºÀÚ;
-/*¾Æ·¡´Â ÃÊ±âÈ­ÀÛ¾÷À» ÇÑ¹ø´õ ÇØÁà¾ßÇÏ´Â°ÍÀÎµ¥ ÀÌ°É ´õ ÁÁ°Ô¹Ù²Û°ÅÀÓ
+ï»¿package j_ì´ˆê¸°í™”ì™€ìƒì„±ìž;
+/*ì•„ëž˜ëŠ” ì´ˆê¸°í™”ìž‘ì—…ì„ í•œë²ˆë” í•´ì¤˜ì•¼í•˜ëŠ”ê²ƒì¸ë° ì´ê±¸ ë” ì¢‹ê²Œë°”ê¾¼ê±°ìž„
  public void setOprands(int left, int right){
     this.left = left; 
     this.right = right;
 }*/
 class Calculator {
-int left, right;//Àü¿ªº¯¼ö
+int left, right;//ì „ì—­ë³€ìˆ˜
  
     public Calculator(int left, int right){
-    //»ý¼ºÀÚ´Â ÀÌ·¸°Ô ÃÊ±âÈ­ÀÛ¾÷À» ÇØÁÜÀ¸·Î½á »ç¿ëÀÚ°¡ ¼öµ¿ÀûÀ¸·Î ÃÊ±âÈ­ÀÛ¾÷À» ¾ÈÇØÁÖµµ·ÏÇÔ
-	//ÀÌ·¯ÇÑ ÀýÂ÷¸¦ ±â¾ïÇØ¾ß ÇÑ´Ù´Â °ÍÀº »ç¿ëÀÚ ÀÔÀå¿¡¼­´Â ºÒÆíÇÒ »Ó ¾Æ´Ï¶ó Àß¸øµÈ »ç¿ëÀ¸·Î 
-    //¿À·ù°¡ ¹ß»ýÇÒ È®·üÀ» ³ôÀÌ´Â °á°ú¸¦ ÃÊ·¡ ÇÒ ¼ö ÀÖ´Ù.
-	//»ç¿ëÀÚ°¡ ÃÊ±âÈ­ÀÛ¾÷À» »©¸Ô´Â °æ¿ì¸¦ ¾ø¾Ö¹ö¸² ÀÌ·¸°Ô api¸¦ ¸¸µå´Â°ÍÀÌ´Ù// 
-	//Calculator°´Ã¼ ÀÎ½ºÅÏ½º°¡ »ý¼ºµÉ¶§ ÀÚµ¿À¸·Î  »ý¼ºÀÚ°¡ Á¦ÀÏ ¸ÕÀú ½ÇÇàµÇµµ·Ï ¾à¼ÓµÊ
-	//°´Ã¼ »ý¼ºÀ» ÇÒ¶§ »ý¼ºÀÚ°¡ ¾øÀ¸¸é ±âº»»ý¼ºÀÚ¸¦ ¸¸µé¾î¼­ 
-    //±×°ÍÀ» ¿ø·¡ ¸ÕÀú½ÇÇàÇÔ ÇÏÁö¸¸ »ý¼ºÀÚ°¡ ÀÖÀ¸¸é ÀÖ´Â°É Á¦ÀÏ ¸ÕÀú ½ÇÇàÇÔ
-    this.left = left;//this´Â Àü¿ªº¯¼öÀÇ °ªÀ» ¼¼ÆÃ
+    //ìƒì„±ìžëŠ” ì´ë ‡ê²Œ ì´ˆê¸°í™”ìž‘ì—…ì„ í•´ì¤Œìœ¼ë¡œì¨ ì‚¬ìš©ìžê°€ ìˆ˜ë™ì ìœ¼ë¡œ ì´ˆê¸°í™”ìž‘ì—…ì„ ì•ˆí•´ì£¼ë„ë¡í•¨
+	//ì´ëŸ¬í•œ ì ˆì°¨ë¥¼ ê¸°ì–µí•´ì•¼ í•œë‹¤ëŠ” ê²ƒì€ ì‚¬ìš©ìž ìž…ìž¥ì—ì„œëŠ” ë¶ˆíŽ¸í•  ë¿ ì•„ë‹ˆë¼ ìž˜ëª»ëœ ì‚¬ìš©ìœ¼ë¡œ 
+    //ì˜¤ë¥˜ê°€ ë°œìƒí•  í™•ë¥ ì„ ë†’ì´ëŠ” ê²°ê³¼ë¥¼ ì´ˆëž˜ í•  ìˆ˜ ìžˆë‹¤.
+	//ì‚¬ìš©ìžê°€ ì´ˆê¸°í™”ìž‘ì—…ì„ ë¹¼ë¨¹ëŠ” ê²½ìš°ë¥¼ ì—†ì• ë²„ë¦¼ ì´ë ‡ê²Œ apië¥¼ ë§Œë“œëŠ”ê²ƒì´ë‹¤// 
+	//Calculatorê°ì²´ ì¸ìŠ¤í„´ìŠ¤ê°€ ìƒì„±ë ë•Œ ìžë™ìœ¼ë¡œ  ìƒì„±ìžê°€ ì œì¼ ë¨¼ì € ì‹¤í–‰ë˜ë„ë¡ ì•½ì†ë¨
+	//ê°ì²´ ìƒì„±ì„ í• ë•Œ ìƒì„±ìžê°€ ì—†ìœ¼ë©´ ê¸°ë³¸ìƒì„±ìžë¥¼ ë§Œë“¤ì–´ì„œ 
+    //ê·¸ê²ƒì„ ì›ëž˜ ë¨¼ì €ì‹¤í–‰í•¨ í•˜ì§€ë§Œ ìƒì„±ìžê°€ ìžˆìœ¼ë©´ ìžˆëŠ”ê±¸ ì œì¼ ë¨¼ì € ì‹¤í–‰í•¨
+    this.left = left;//thisëŠ” ì „ì—­ë³€ìˆ˜ì˜ ê°’ì„ ì„¸íŒ…
     this.right = right;
 }
-/*»ý¼ºÀÚÀÇ Æ¯Â¡
-»ý¼ºÀÚÀÇ Æ¯Â¡Àº ¾Æ·¡¿Í °°ÀÌ Á¤¸®ÇÒ ¼ö ÀÖ´Ù.
-°ªÀ» ¹ÝÈ¯ÇÏÁö ¾Ê´Â´Ù. 
-»ý¼ºÀÚ´Â ÀÎ½ºÅÏ½º¸¦ »ý¼ºÇØÁÖ´Â ¿ªÇÒÀ» ÇÏ´Â Æ¯¼öÇÑ ¸Þ¼Òµå¶ó°í ÇÒ ¼ö ÀÖ´Ù. 
-±×·±µ¥ ¹ÝÈ¯ °ªÀÌ ÀÖ´Ù¸é ¾û¶×ÇÑ °´Ã¼°¡ »ý¼ºµÉ °ÍÀÌ´Ù. µû¶ó¼­ ¹ÝÈ¯ °ªÀ» ÇÊ¿ä·ÎÇÏ´Â ÀÛ¾÷¿¡¼­´Â »ý¼ºÀÚ¸¦ »ç¿ëÇÏÁö ¾Ê´Â´Ù.
- ¹ÝÈ¯ °ªÀÌ ¾ø±â ¶§¹®¿¡ returnµµ »ç¿ëÇÏÁö ¾Ê°í, ¹ÝÈ¯ °ªÀ» ¸Þ¼Òµå Á¤ÀÇ¿¡ Æ÷ÇÔ½ÃÅ°Áöµµ ¾Ê´Â´Ù.
-»ý¼ºÀÚÀÇ ÀÌ¸§Àº Å¬·¡½ºÀÇ ÀÌ¸§°ú µ¿ÀÏÇÏ´Ù.
-ÀÚ¹Ù¿¡¼­ Å¬·¡½ºÀÇ ÀÌ¸§°ú µ¿ÀÏÇÑ ¸Þ¼Òµå´Â »ý¼ºÀÚ·Î »ç¿ëÇÏ±â·Î ¾à¼ÓµÇ¾î ÀÖ´Ù.*/
+/*ìƒì„±ìžì˜ íŠ¹ì§•
+ìƒì„±ìžì˜ íŠ¹ì§•ì€ ì•„ëž˜ì™€ ê°™ì´ ì •ë¦¬í•  ìˆ˜ ìžˆë‹¤.
+ê°’ì„ ë°˜í™˜í•˜ì§€ ì•ŠëŠ”ë‹¤. 
+ìƒì„±ìžëŠ” ì¸ìŠ¤í„´ìŠ¤ë¥¼ ìƒì„±í•´ì£¼ëŠ” ì—­í• ì„ í•˜ëŠ” íŠ¹ìˆ˜í•œ ë©”ì†Œë“œë¼ê³  í•  ìˆ˜ ìžˆë‹¤. 
+ê·¸ëŸ°ë° ë°˜í™˜ ê°’ì´ ìžˆë‹¤ë©´ ì—‰ëš±í•œ ê°ì²´ê°€ ìƒì„±ë  ê²ƒì´ë‹¤. ë”°ë¼ì„œ ë°˜í™˜ ê°’ì„ í•„ìš”ë¡œí•˜ëŠ” ìž‘ì—…ì—ì„œëŠ” ìƒì„±ìžë¥¼ ì‚¬ìš©í•˜ì§€ ì•ŠëŠ”ë‹¤.
+ ë°˜í™˜ ê°’ì´ ì—†ê¸° ë•Œë¬¸ì— returnë„ ì‚¬ìš©í•˜ì§€ ì•Šê³ , ë°˜í™˜ ê°’ì„ ë©”ì†Œë“œ ì •ì˜ì— í¬í•¨ì‹œí‚¤ì§€ë„ ì•ŠëŠ”ë‹¤.
+ìƒì„±ìžì˜ ì´ë¦„ì€ í´ëž˜ìŠ¤ì˜ ì´ë¦„ê³¼ ë™ì¼í•˜ë‹¤.
+ìžë°”ì—ì„œ í´ëž˜ìŠ¤ì˜ ì´ë¦„ê³¼ ë™ì¼í•œ ë©”ì†Œë“œëŠ” ìƒì„±ìžë¡œ ì‚¬ìš©í•˜ê¸°ë¡œ ì•½ì†ë˜ì–´ ìžˆë‹¤.*/
 public void sum() {
     System.out.println(this.left + this.right);
 }
@@ -33,11 +33,11 @@ public void avg() {
     System.out.println((this.left + this.right) / 2);
 }
 }
-public class a_»ý¼ºÀÚ¸¦ÅëÇØº¯¼öÃÊ±âÈ­ {
+public class a_ìƒì„±ìžë¥¼í†µí•´ë³€ìˆ˜ì´ˆê¸°í™” {
 public static void main(String[] args) {
-    Calculator c1 = new Calculator(10, 20);//¸Å°³º¯¼ö¿¡ °ªÀ» ³Ö¾î¼­ °´Ã¼»ý¼ºÇÏ±â¶§¹®¿¡ ±âº»»ý¼ºÀÚ ¾È¸¸µé¾îÁàµµµÊ
-    //Áï " calculator(10, 20);" ÀÌ°ÍÀÌ »ý¼ºÀÚ¶ó°í ºÁ¾ßÇÔ-ÀÎ½ºÅÏ½º,°´Ã¼ c1À» »ý¼ºÇÏ´Â ÀÚ »ý¼ºÀÚ¶ó´Â ¸»ÀÌ´Ù!
-    //°á±¹ new Calculator(10, 20);ÀÌ ¸Þ¼Òµå¸¦ ½ÇÇàÇÏ´Â °ÍÀÌ´Ù ±×·¯ÇÑ ½ÇÇàÀ» ÅëÇØ °´Ã¼ÀÎ ÀÎ½ºÅÍ¸¦ »ý¼ºÇØÁÖ±â ¶§¹®¿¡ »ý¼ºÀÚ¶óÇÑ´Ù
+    Calculator c1 = new Calculator(10, 20);//ë§¤ê°œë³€ìˆ˜ì— ê°’ì„ ë„£ì–´ì„œ ê°ì²´ìƒì„±í•˜ê¸°ë•Œë¬¸ì— ê¸°ë³¸ìƒì„±ìž ì•ˆë§Œë“¤ì–´ì¤˜ë„ë¨
+    //ì¦‰ " calculator(10, 20);" ì´ê²ƒì´ ìƒì„±ìžë¼ê³  ë´ì•¼í•¨-ì¸ìŠ¤í„´ìŠ¤,ê°ì²´ c1ì„ ìƒì„±í•˜ëŠ” ìž ìƒì„±ìžë¼ëŠ” ë§ì´ë‹¤!
+    //ê²°êµ­ new Calculator(10, 20);ì´ ë©”ì†Œë“œë¥¼ ì‹¤í–‰í•˜ëŠ” ê²ƒì´ë‹¤ ê·¸ëŸ¬í•œ ì‹¤í–‰ì„ í†µí•´ ê°ì²´ì¸ ì¸ìŠ¤í„°ë¥¼ ìƒì„±í•´ì£¼ê¸° ë•Œë¬¸ì— ìƒì„±ìžë¼í•œë‹¤
     c1.sum();
     c1.avg();
     Calculator c2 = new Calculator(20, 40);

@@ -1,9 +1,9 @@
-package m_Å¬·¡½ºÀÇÁ¢±ÙÁ¦¾îÀÚ2;
+ï»¿package m_í´ë˜ìŠ¤ì˜ì ‘ê·¼ì œì–´ì2;
 
-import m_Å¬·¡½ºÀÇÁ¢±ÙÁ¦¾îÀÚ1.*;
+import m_í´ë˜ìŠ¤ì˜ì ‘ê·¼ì œì–´ì1.*;
 
 public class ClassAccessModifierInnerPackage {
-    PublicClass publicClass = new PublicClass();//ÀÓÆ÷Æ®ÇÏ°í
+    PublicClass publicClass = new PublicClass();//ì„í¬íŠ¸í•˜ê³ 
     //DefaultClass defaultClass = new DefaultClass();
-    //µğÆúÆ® Á¢±ÙÁ¦¾î°¡ ºÙÀº Å¬·¡½º´Â °°ÀºÆĞÅ°ÁöÀÇ Å¬·¡½º¸¸ °¡´É
+    //ë””í´íŠ¸ ì ‘ê·¼ì œì–´ê°€ ë¶™ì€ í´ë˜ìŠ¤ëŠ” ê°™ì€íŒ¨í‚¤ì§€ì˜ í´ë˜ìŠ¤ë§Œ ê°€ëŠ¥
 }

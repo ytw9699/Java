@@ -1,6 +1,6 @@
-package o_ÀÎÅÍÆäÀÌ½º;
-//¾Æ·¡´Â ¾à¼ÓÀ» Á¤ÀÇÇÏ°í ÀÖ´Â ÀÎÅÍÆäÀÌ½ºÀÌ´Ù.
-public interface c_Calculatable {//ÀÌ·¸°Ô ¾à¼ÓÀ» Ã³À½ºÎÅÍ ÇØµÎÀÚ È¥¶õÀÌ ÀÏ¾î³ªÁö¾Ê°Ô
+ï»¿package o_ì¸í„°í˜ì´ìŠ¤;
+//ì•„ë˜ëŠ” ì•½ì†ì„ ì •ì˜í•˜ê³  ìˆëŠ” ì¸í„°í˜ì´ìŠ¤ì´ë‹¤.
+public interface c_Calculatable {//ì´ë ‡ê²Œ ì•½ì†ì„ ì²˜ìŒë¶€í„° í•´ë‘ì í˜¼ë€ì´ ì¼ì–´ë‚˜ì§€ì•Šê²Œ
     public void setOprands(int first, int second, int third) ;
     public int sum(); 
     public int avg();

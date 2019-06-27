@@ -1,9 +1,9 @@
-package o_ÀÎÅÍÆäÀÌ½º;
+ï»¿package o_ì¸í„°í˜ì´ìŠ¤;
 
 class b_Calculator {
     int left, right;
     public void setOprands(int left, int right) {
-    	//»ç¿ëÀÚ¶û ´Ş¸® 2°³¸¸ ¸¸µé¾î¼­ ºÒÀÏÄ¡µÈ´Ù..
+    	//ì‚¬ìš©ìë‘ ë‹¬ë¦¬ 2ê°œë§Œ ë§Œë“¤ì–´ì„œ ë¶ˆì¼ì¹˜ëœë‹¤..
         this.left = left;
         this.right = right;
     }

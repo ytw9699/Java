@@ -1,14 +1,14 @@
-package b_º¯¼ö;
-public class c¹®ÀÚ¿­ {
+ï»¿package b_ë³€ìˆ˜;
+public class cë¬¸ìì—´ {
 	public static void main(String[] args) {
 		String first;
 		first = "coding";
-		String first2 = "coding"; //ÇÑ¹ø¿¡
-		String a, b;//ÇÑ¹ø¿¡
+		String first2 = "coding"; //í•œë²ˆì—
+		String a, b;//í•œë²ˆì—
 		System.out.println(first);
 		System.out.println(first2);
 		a = "coding";
-		b = " everybody";//ÇÑÄ­¶ç¿ò
+		b = " everybody";//í•œì¹¸ë„ì›€
 		System.out.println(a+b);
 		String aa= new String("aaa");
 		System.out.println(aa);

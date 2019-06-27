@@ -1,37 +1,37 @@
-package z_Collection_Framework2;
+ï»¿package z_Collection_Framework2;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Iterator;
-public class a_iteratorÁ¤ÀÇ {
+public class a_iteratorì •ì˜ {
    public static void main(String[] args) {
 	   //ArrayList<Integer> A = new ArrayList<Integer>();
 	   //HashSet<Integer> A = new HashSet<Integer>();
 	   //Collection<Integer> A = new ArrayList<Integer>();
 	   Collection<Integer> A = new HashSet<Integer>();
-	   //Collection ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ°ÍÀÌ¶ó ´ÙÇü¼º °¡´É
+	   //Collection ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•œê²ƒì´ë¼ ë‹¤í˜•ì„± ê°€ëŠ¥
        A.add(1);
        A.add(2);
        A.add(3); 
        Iterator hi = A.iterator();
-       while(hi.hasNext()){//hiÄÁÅ×ÀÌ³Ê¿¡ °ªµéÀÌ Á¸ÀçÇÏ´ÂÁö È®ÀÎ
-           System.out.println(hi.next());//°¡»óÄÁÅ×ÀÌ³Ê °ªÁß¿¡ ÇÏ³ª¸¦ ¸®ÅÏÇÏ°í »èÁ¦
+       while(hi.hasNext()){//hiì»¨í…Œì´ë„ˆì— ê°’ë“¤ì´ ì¡´ìž¬í•˜ëŠ”ì§€ í™•ì¸
+           System.out.println(hi.next());//ê°€ìƒì»¨í…Œì´ë„ˆ ê°’ì¤‘ì— í•˜ë‚˜ë¥¼ ë¦¬í„´í•˜ê³  ì‚­ì œ
        }
-     //A=1,2,3À» °¡Áø ÄÁÅ×ÀÌ³Ê°í 
-     //hi´Â ÀÌ°Í°ú ¶È°°ÀÌ 1,2,3À» °¡Áø °¡»óÀÇ ÄÁÅ×ÀÌ³Ê¸¦ »ý¼ºÇÑ°ÍÀÌ¶ó°í ºÁº¸ÀÚ
+     //A=1,2,3ì„ ê°€ì§„ ì»¨í…Œì´ë„ˆê³  
+     //hiëŠ” ì´ê²ƒê³¼ ë˜‘ê°™ì´ 1,2,3ì„ ê°€ì§„ ê°€ìƒì˜ ì»¨í…Œì´ë„ˆë¥¼ ìƒì„±í•œê²ƒì´ë¼ê³  ë´ë³´ìž
        
-   /* iterator´Â ¹Ýº¹ÀÚ
-   	iterationÀº ¹Ýº¹
-    java.util.iterator//iterator´Â ÀÎÅÍÆäÀÌ½º!
-   	ÄÁÅ×ÀÌ³Ê¿¡ ´ã±ä°ªµéÀ» ÇÏ³ªÇÏ³ª²¨³»¼­ ÇÏ³ªÇÏ³ª ¾î¶²Ã³¸®¸¦ ÇØÁÖµµ·ÏÇÏ´Â ¿ªÇÒ
-     ¸Þ¼Òµå iterator´Â ÀÎÅÍÆäÀÌ½º Collection¿¡ Á¤ÀÇµÇ¾î ÀÖ´Ù. 
-    µû¶ó¼­ CollectionÀ» ±¸ÇöÇÏ°í ÀÖ´Â ¸ðµç ÄÃ·º¼ÇÁî ÇÁ·¹ÀÓ¿÷Å©´Â ÀÌ ¸Þ¼Òµå¸¦ ±¸ÇöÇÏ°í ÀÖÀ½À» º¸ÁõÇÑ´Ù.
-     ¸Þ¼Òµå iteratorÀÇ È£Ãâ °á°ú´Â ÀÎÅÍÆäÀÌ½º iterator¸¦ ±¸ÇöÇÑ °´Ã¼¸¦ ¸®ÅÏÇÑ´Ù.
-      ÀÎÅÍÆäÀÌ½º iterator´Â ¾Æ·¡ 3°³ÀÇ ¸Þ¼Òµå¸¦ ±¸ÇöÇÏµµ·Ï °­Á¦ÇÏ°í ÀÖ´Âµ¥ °¢°¢ÀÇ ¿ªÇÒÀº ¾Æ·¡¿Í °°´Ù.
-   hasNext: ¹Ýº¹ÇÒ µ¥ÀÌÅÍ°¡ ´õ ÀÖÀ¸¸é true, ´õ ÀÌ»ó ¹Ýº¹ÇÒ µ¥ÀÌÅÍ°¡ ¾ø´Ù¸é false¸¦ ¸®ÅÏÇÑ´Ù.
-   next: hasNext°¡ true¶ó´Â °ÍÀº next°¡ ¸®ÅÏÇÒ µ¥ÀÌÅÍ°¡ Á¸ÀçÇÑ´Ù´Â ÀÇ¹Ì´Ù. 
-   ÀÌ·¯ÇÑ ±â´ÉÀ» Á¶ÇÕÇÏ¸é for ¹®À» ÀÌ¿ëÇÏ´Â °Í°ú µ¿ÀÏÇÏ°Ô µ¥ÀÌÅÍ¸¦ ¼øÂ÷ÀûÀ¸·Î Ã³¸®ÇÒ ¼ö ÀÖ´Ù.
+   /* iteratorëŠ” ë°˜ë³µìž
+   	iterationì€ ë°˜ë³µ
+    java.util.iterator//iteratorëŠ” ì¸í„°íŽ˜ì´ìŠ¤!
+   	ì»¨í…Œì´ë„ˆì— ë‹´ê¸´ê°’ë“¤ì„ í•˜ë‚˜í•˜ë‚˜êº¼ë‚´ì„œ í•˜ë‚˜í•˜ë‚˜ ì–´ë–¤ì²˜ë¦¬ë¥¼ í•´ì£¼ë„ë¡í•˜ëŠ” ì—­í• 
+     ë©”ì†Œë“œ iteratorëŠ” ì¸í„°íŽ˜ì´ìŠ¤ Collectionì— ì •ì˜ë˜ì–´ ìžˆë‹¤. 
+    ë”°ë¼ì„œ Collectionì„ êµ¬í˜„í•˜ê³  ìžˆëŠ” ëª¨ë“  ì»¬ë ‰ì…˜ì¦ˆ í”„ë ˆìž„ì›í¬ëŠ” ì´ ë©”ì†Œë“œë¥¼ êµ¬í˜„í•˜ê³  ìžˆìŒì„ ë³´ì¦í•œë‹¤.
+     ë©”ì†Œë“œ iteratorì˜ í˜¸ì¶œ ê²°ê³¼ëŠ” ì¸í„°íŽ˜ì´ìŠ¤ iteratorë¥¼ êµ¬í˜„í•œ ê°ì²´ë¥¼ ë¦¬í„´í•œë‹¤.
+      ì¸í„°íŽ˜ì´ìŠ¤ iteratorëŠ” ì•„ëž˜ 3ê°œì˜ ë©”ì†Œë“œë¥¼ êµ¬í˜„í•˜ë„ë¡ ê°•ì œí•˜ê³  ìžˆëŠ”ë° ê°ê°ì˜ ì—­í• ì€ ì•„ëž˜ì™€ ê°™ë‹¤.
+   hasNext: ë°˜ë³µí•  ë°ì´í„°ê°€ ë” ìžˆìœ¼ë©´ true, ë” ì´ìƒ ë°˜ë³µí•  ë°ì´í„°ê°€ ì—†ë‹¤ë©´ falseë¥¼ ë¦¬í„´í•œë‹¤.
+   next: hasNextê°€ trueë¼ëŠ” ê²ƒì€ nextê°€ ë¦¬í„´í•  ë°ì´í„°ê°€ ì¡´ìž¬í•œë‹¤ëŠ” ì˜ë¯¸ë‹¤. 
+   ì´ëŸ¬í•œ ê¸°ëŠ¥ì„ ì¡°í•©í•˜ë©´ for ë¬¸ì„ ì´ìš©í•˜ëŠ” ê²ƒê³¼ ë™ì¼í•˜ê²Œ ë°ì´í„°ë¥¼ ìˆœì°¨ì ìœ¼ë¡œ ì²˜ë¦¬í•  ìˆ˜ ìžˆë‹¤.
    */
    }
 }

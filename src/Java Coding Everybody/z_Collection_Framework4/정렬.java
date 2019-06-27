@@ -1,35 +1,35 @@
-package z_Collection_Framework4;//¿©±â´Â ´Ù½ÃÇØº¸ÀÚ..¾Ë°í¸®Áò,ÀÚ·á±¸Á¶¿Í ¿¬°üµµµÈµí..
-import java.util.*;//Äİ·º¼Ç ÇÁ·¹ÀÓ¿öÅ©¿¡¼­ Á¤·ÄÇÏ´Â¹ı
+ï»¿package z_Collection_Framework4;//ì—¬ê¸°ëŠ” ë‹¤ì‹œí•´ë³´ì..ì•Œê³ ë¦¬ì¦˜,ìë£Œêµ¬ì¡°ì™€ ì—°ê´€ë„ëœë“¯..
+import java.util.*;//ì½œë ‰ì…˜ í”„ë ˆì„ì›Œí¬ì—ì„œ ì •ë ¬í•˜ëŠ”ë²•
 class Computer implements Comparable{
-    int serial;//ÀÎ½ºÅÏ½º º¯¼ö
-    String owner;//ÀÎ½ºÅÏ½º º¯¼ö
-    Computer(int serial, String owner){//»ı¼ºÀÚ
+    int serial;//ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜
+    String owner;//ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜
+    Computer(int serial, String owner){//ìƒì„±ì
         this.serial = serial;
         this.owner = owner;
     }
-    public int compareTo(Object test) {//ComparableÀÎÅÍÆäÀÌ½º´Â compareTo¸¦ ±¸ÇöÇÏµµ·Ï °­Á¦
+    public int compareTo(Object test) {//Comparableì¸í„°í˜ì´ìŠ¤ëŠ” compareToë¥¼ êµ¬í˜„í•˜ë„ë¡ ê°•ì œ
         return this.serial - ((Computer)test).serial;
-    }//¸Ş¼Òµå sort¸¦ ½ÇÇàÇÏ¸é ³»ºÎÀûÀ¸·Î compareTo¸¦ ½ÇÇàÇÏ°í ±× °á°ú¿¡ µû¶ó¼­ °´Ã¼ÀÇ ¼±ÈÄ °ü°è¸¦ ÆÇº°ÇÏ°Ô µÈ´Ù.
-    public String toString(){//½ºÆ®¸µ ¸®ÅÏ
-        return serial+" "+owner;//½Ã¸®¾ó°ú ¿À³ÊÀÇ°ª ¸®ÅÏ
+    }//ë©”ì†Œë“œ sortë¥¼ ì‹¤í–‰í•˜ë©´ ë‚´ë¶€ì ìœ¼ë¡œ compareToë¥¼ ì‹¤í–‰í•˜ê³  ê·¸ ê²°ê³¼ì— ë”°ë¼ì„œ ê°ì²´ì˜ ì„ í›„ ê´€ê³„ë¥¼ íŒë³„í•˜ê²Œ ëœë‹¤.
+    public String toString(){//ìŠ¤íŠ¸ë§ ë¦¬í„´
+        return serial+" "+owner;//ì‹œë¦¬ì–¼ê³¼ ì˜¤ë„ˆì˜ê°’ ë¦¬í„´
     }
 }
-public class Á¤·Ä {
+public class ì •ë ¬ {
     public static void main(String[] args) {
         List<Computer> computers2 = new ArrayList<Computer>();
-        computers2.add(new Computer(500, "egoing"));//3°³ÀÇ °´Ã¼¸¦ ¾î·¹ÀÌ¸®½ºÆ® ÄÁÅ×ÀÌ³Ê¿¡´ãÀ½
+        computers2.add(new Computer(500, "egoing"));//3ê°œì˜ ê°ì²´ë¥¼ ì–´ë ˆì´ë¦¬ìŠ¤íŠ¸ ì»¨í…Œì´ë„ˆì—ë‹´ìŒ
         computers2.add(new Computer(200, "leezche"));
         computers2.add(new Computer(3233, "graphittie"));
         Iterator i = computers2.iterator();
         System.out.println("before");
         while(i.hasNext()){
-            System.out.println(i.next());//¾î·¹ÀÌ¸®½ºÆ®´Â ¼ø¼­°¡ÀÖ¾î¼­ ¼ø¼­´ë·ÎÃâ·Â
-        }//³·Àº¼ıÀÚ°¡ ¸ÕÀú¿À°Ô Á¤·ÄÇØº¸ÀÚ ±×·²·Á¸é ComparableÇÏ´Â ÀÎÅÍÆäÀÌ½º¸¦ »ç¿ëÇØ¾ßÇÔ
-        Collections.sort(computers2);//Collections¶ó´Â Å¬·¡½º Á¤·ÄÀÌ³ª µ¥ÀÌÅÍ¿Í°ü·ÃµÈ ÀÛ¾÷À»µµ¿ÍÁÖ´Â Å¬·¡½º ±×¾È¿¡ ¸Ş¼Òµå´Â
-        //°ÅÀÇ staticÀÌ¶ó °´Ã¼»ı¼º¾øÀÌ ¹Ù·ÎÁ¢±Ù//sort¶ó´Â ¸Ş¼Òµå¿¡ ¸®½ºÆ®Å¸ÀÔÀ» Àü´ŞÇÏ¸é Á¤·ÄÇØÁÜ//¸®½ºÆ®¸¸ÇØÁÜ
-        //public static <T extends Comparable<? super T>> void sort(List<T> list) {//¸®½ºÆ®¶ó´Â ¸Å°³º¯¼ö
-        //Á¦³×¸¯ÀÌ TÀÎµ¥ ±× T¶ó´Â computers2°¡ ComparableÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇØÇÑ´Ù´Â°Í
-        //°á±¹  ComparableÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÏ´Â ¸®½ºÆ®¸¸ Á¤·ÄÇØÁØ´Ù´Â°Å
+            System.out.println(i.next());//ì–´ë ˆì´ë¦¬ìŠ¤íŠ¸ëŠ” ìˆœì„œê°€ìˆì–´ì„œ ìˆœì„œëŒ€ë¡œì¶œë ¥
+        }//ë‚®ì€ìˆ«ìê°€ ë¨¼ì €ì˜¤ê²Œ ì •ë ¬í•´ë³´ì ê·¸ëŸ´ë ¤ë©´ Comparableí•˜ëŠ” ì¸í„°í˜ì´ìŠ¤ë¥¼ ì‚¬ìš©í•´ì•¼í•¨
+        Collections.sort(computers2);//Collectionsë¼ëŠ” í´ë˜ìŠ¤ ì •ë ¬ì´ë‚˜ ë°ì´í„°ì™€ê´€ë ¨ëœ ì‘ì—…ì„ë„ì™€ì£¼ëŠ” í´ë˜ìŠ¤ ê·¸ì•ˆì— ë©”ì†Œë“œëŠ”
+        //ê±°ì˜ staticì´ë¼ ê°ì²´ìƒì„±ì—†ì´ ë°”ë¡œì ‘ê·¼//sortë¼ëŠ” ë©”ì†Œë“œì— ë¦¬ìŠ¤íŠ¸íƒ€ì…ì„ ì „ë‹¬í•˜ë©´ ì •ë ¬í•´ì¤Œ//ë¦¬ìŠ¤íŠ¸ë§Œí•´ì¤Œ
+        //public static <T extends Comparable<? super T>> void sort(List<T> list) {//ë¦¬ìŠ¤íŠ¸ë¼ëŠ” ë§¤ê°œë³€ìˆ˜
+        //ì œë„¤ë¦­ì´ Tì¸ë° ê·¸ Të¼ëŠ” computers2ê°€ Comparableì¸í„°í˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•´í•œë‹¤ëŠ”ê²ƒ
+        //ê²°êµ­  Comparableì¸í„°í˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•˜ëŠ” ë¦¬ìŠ¤íŠ¸ë§Œ ì •ë ¬í•´ì¤€ë‹¤ëŠ”ê±°
         System.out.println("\nafter");
         i = computers2.iterator();
         while(i.hasNext()){

@@ -1,26 +1,26 @@
-package r_enum»ó¼ö2;
-class Fruit{//ÀÎÅÍÆäÀÌ½º¿¡¼­ Å¬·¡½º·Î ¹Ù²å±â¶§¹®¿¡ ¾Æ·¡Ã³·³½áÁØ´Ù
-    public static final Fruit APPLE  = new Fruit();//ÀÚ±âÀÚ½ÅÀÇ ÀÎ½ºÅÏ½º¸¦ »ó¼ö·ÎÁöÁ¤
+ï»¿package r_enumìƒìˆ˜2;
+class Fruit{//ì¸í„°í˜ì´ìŠ¤ì—ì„œ í´ë˜ìŠ¤ë¡œ ë°”ê¿¨ê¸°ë•Œë¬¸ì— ì•„ë˜ì²˜ëŸ¼ì¨ì¤€ë‹¤
+    public static final Fruit APPLE  = new Fruit();//ìê¸°ìì‹ ì˜ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ìƒìˆ˜ë¡œì§€ì •
     public static final Fruit PEACH  = new Fruit();
     public static final Fruit BANANA = new Fruit();
-//°¢°¢ÀÇ ÀÎ½ºÅÏ½º¸£ ³ÖÀ½ ±×¾ê±â´Â apple,peach,BANANA°¡ ¸ğµÎ ´Ù¸¥°ªÀÎ µ¥ÀÌÅÍÀÌ´Ù ´Ù¸¥ÀÎ½ºÅÏ½º´Ï±î 
-  //ÇÏÁö¸¸ °°Àº Fruit¶ó´Â µ¥ÀÌÅÍÅ¸ÀÔÀ» °¡Áü
+//ê°ê°ì˜ ì¸ìŠ¤í„´ìŠ¤ë¥´ ë„£ìŒ ê·¸ì–˜ê¸°ëŠ” apple,peach,BANANAê°€ ëª¨ë‘ ë‹¤ë¥¸ê°’ì¸ ë°ì´í„°ì´ë‹¤ ë‹¤ë¥¸ì¸ìŠ¤í„´ìŠ¤ë‹ˆê¹Œ 
+  //í•˜ì§€ë§Œ ê°™ì€ Fruitë¼ëŠ” ë°ì´í„°íƒ€ì…ì„ ê°€ì§
 }
 class Company{
     public static final Company GOOGLE = new Company();
     public static final Company APPLE = new Company();
     public static final Company ORACLE = new Company();
-    //private Company() {}//´Ù¸¥°÷¿¡¼­ ÀÌ Å¬·¡½º °´ Ã¼»ı¼ºÀ» ¸øÇÏ°ÔÇÔ
+    //private Company() {}//ë‹¤ë¥¸ê³³ì—ì„œ ì´ í´ë˜ìŠ¤ ê° ì²´ìƒì„±ì„ ëª»í•˜ê²Œí•¨
 }
 public class ConstantDemo6 {
      
 public static void main(String[] args) {
 	
-   /* if(Fruit.APPLE == Company.APPLE){//µ¥ÀÌÅÍÅ¸ÀÔÀÌ ´Ù¸£±â¶§¹®¿¡ ºñ±³ÀÚÃ¼°¡ºÒ°¡´É!
-    System.out.println("°úÀÏ ¾ÖÇÃ°ú È¸»ç ¾ÖÇÃÀÌ °°´Ù.");
+   /* if(Fruit.APPLE == Company.APPLE){//ë°ì´í„°íƒ€ì…ì´ ë‹¤ë¥´ê¸°ë•Œë¬¸ì— ë¹„êµìì²´ê°€ë¶ˆê°€ëŠ¥!
+    System.out.println("ê³¼ì¼ ì• í”Œê³¼ íšŒì‚¬ ì• í”Œì´ ê°™ë‹¤.");
     }*/
 /*int type = FRUIT.APPLE;
-switch(type){//½ºÀ§Ä¡¹® Á¶°Ç¿¡ µé¾î°¡´Â °ªÀº ³»°¡¸¸µç Å¬·¡½º ¸øÁı¾î³Ö´Â´Ù if¹®Àº °¡´É
+switch(type){//ìŠ¤ìœ„ì¹˜ë¬¸ ì¡°ê±´ì— ë“¤ì–´ê°€ëŠ” ê°’ì€ ë‚´ê°€ë§Œë“  í´ë˜ìŠ¤ ëª»ì§‘ì–´ë„£ëŠ”ë‹¤ ifë¬¸ì€ ê°€ëŠ¥
     case FRUIT.APPLE:
         System.out.println(57+" kcal");
         break;
@@ -31,8 +31,8 @@ switch(type){//½ºÀ§Ä¡¹® Á¶°Ç¿¡ µé¾î°¡´Â °ªÀº ³»°¡¸¸µç Å¬·¡½º ¸øÁı¾î³Ö´Â´Ù if¹®Àº
         System.out.println(93+" kcal");
         break;*/
             
-/*switch ¹®À» »ç¿ëÇÒ ¶§ ÇÑ°¡Áö ÁÖÀÇ ÇÒ °ÍÀº switchÀÇ Á¶°ÇÀ¸·Î´Â 
-¸î°¡Áö Á¦ÇÑµÈ µ¥ÀÌÅÍ Å¸ÀÔ¸¸À» »ç¿ëÇÒ ¼ö ÀÖ´Ù. ·¡ÆÛÅ¬·¡½ºÀÎ
+/*switch ë¬¸ì„ ì‚¬ìš©í•  ë•Œ í•œê°€ì§€ ì£¼ì˜ í•  ê²ƒì€ switchì˜ ì¡°ê±´ìœ¼ë¡œëŠ” 
+ëª‡ê°€ì§€ ì œí•œëœ ë°ì´í„° íƒ€ì…ë§Œì„ ì‚¬ìš©í•  ìˆ˜ ìˆë‹¤. ë˜í¼í´ë˜ìŠ¤ì¸
 byte, short, char, int, enum, String, Character, Byte, Short, Integer*/
     }
 }

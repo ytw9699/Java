@@ -1,4 +1,4 @@
-package k_overriding2;
+ï»¿package k_overriding2;
 class Calculator2 {
     int left, right;
     public void setOprands(int left, int right) {
@@ -14,31 +14,31 @@ class Calculator2 {
     /*public void avg() {
         System.out.println((this.left + this.right) / 2);
     }
- overridingÀ» ÇÏ±â À§ÇØ¼­´Â ¸Ş¼ÒµåÀÇ ¸®ÅÏ Çü½ÄÀÌ °°¾Æ¾ß ÇÑ´Ù. 
-Áï Å¬·¡½º CalculatorÀÇ ¸Ş¼Òµå avg´Â ¸®ÅÏ Å¸ÀÔÀÌ voidÀÌ´Ù. 
-±×·±µ¥ ÀÌ°ÍÀ» »ó¼ÓÇÑ Å¬·¡½º SubstractionableCalculatorÀÇ avg¸Ş¼ÒµåÀÇ ¸®ÅÏ Å¸ÀÔÀº intÀÌ´Ù.
- ¿À¹ö¶óÀÌµùÀ» ÇÏ±â À§ÇØ¼­´Â ¾Æ·¡ÀÇ Á¶°ÇÀ» ÃæÁ·½ÃÄÑ¾ß ÇÑ´Ù.
-1.¸Ş¼ÒµåÀÇ ÀÌ¸§
-2.¸Ş¼Òµå ¸Å°³º¯¼öÀÇ °¹¼ö¿Í µ¥ÀÌÅÍ Å¸ÀÔ ±×¸®°í 3.¼ø¼­
-4.¸Ş¼ÒµåÀÇ ¸®ÅÏ Å¸ÀÔ
-ÇÏÁö¸¸ Á¢±ÙÁ¦¾îÀÚ´Â ºÎ¸ğ°¡ ÇÁ·ÎÅØÆ¼µå¸é ÀÚ½ÄÀº ÆÛºí¸¯À¸·Î ¹Ù²Ü¼öÀÖÀ½ ÇÏÁö¸¸ ¹İ´ë´Â ¾ÈµÊ
-À§¿Í °°ÀÌ ¸Ş¼ÒµåÀÇ ÇüÅÂ¸¦ Á¤ÀÇÇÏ´Â »çÇ×µéÀ» ÅëÅĞ¾î¼­ ¸Ş¼ÒµåÀÇ ¼­¸í(signature)¶ó°í ÇÑ´Ù.*/
+ overridingì„ í•˜ê¸° ìœ„í•´ì„œëŠ” ë©”ì†Œë“œì˜ ë¦¬í„´ í˜•ì‹ì´ ê°™ì•„ì•¼ í•œë‹¤. 
+ì¦‰ í´ë˜ìŠ¤ Calculatorì˜ ë©”ì†Œë“œ avgëŠ” ë¦¬í„´ íƒ€ì…ì´ voidì´ë‹¤. 
+ê·¸ëŸ°ë° ì´ê²ƒì„ ìƒì†í•œ í´ë˜ìŠ¤ SubstractionableCalculatorì˜ avgë©”ì†Œë“œì˜ ë¦¬í„´ íƒ€ì…ì€ intì´ë‹¤.
+ ì˜¤ë²„ë¼ì´ë”©ì„ í•˜ê¸° ìœ„í•´ì„œëŠ” ì•„ë˜ì˜ ì¡°ê±´ì„ ì¶©ì¡±ì‹œì¼œì•¼ í•œë‹¤.
+1.ë©”ì†Œë“œì˜ ì´ë¦„
+2.ë©”ì†Œë“œ ë§¤ê°œë³€ìˆ˜ì˜ ê°¯ìˆ˜ì™€ ë°ì´í„° íƒ€ì… ê·¸ë¦¬ê³  3.ìˆœì„œ
+4.ë©”ì†Œë“œì˜ ë¦¬í„´ íƒ€ì…
+í•˜ì§€ë§Œ ì ‘ê·¼ì œì–´ìëŠ” ë¶€ëª¨ê°€ í”„ë¡œí…í‹°ë“œë©´ ìì‹ì€ í¼ë¸”ë¦­ìœ¼ë¡œ ë°”ê¿€ìˆ˜ìˆìŒ í•˜ì§€ë§Œ ë°˜ëŒ€ëŠ” ì•ˆë¨
+ìœ„ì™€ ê°™ì´ ë©”ì†Œë“œì˜ í˜•íƒœë¥¼ ì •ì˜í•˜ëŠ” ì‚¬í•­ë“¤ì„ í†µí„¸ì–´ì„œ ë©”ì†Œë“œì˜ ì„œëª…(signature)ë¼ê³  í•œë‹¤.*/
 }
 class SubstractionableCalculator2 extends Calculator2 {
      
     public void sum() {
-        System.out.println("½ÇÇà °á°ú´Â " +(this.left + this.right)+"ÀÔ´Ï´Ù.");
+        System.out.println("ì‹¤í–‰ ê²°ê³¼ëŠ” " +(this.left + this.right)+"ì…ë‹ˆë‹¤.");
     }
      
     public int avg() {
-        return (this.left + this.right)/2;//·ÎÁ÷ Áßº¹
+        return (this.left + this.right)/2;//ë¡œì§ ì¤‘ë³µ
     }
      
     public void substract() {
         System.out.println(this.left - this.right);
     }
 }
- public class b_¿À¹ö¶óÀÌµù {
+ public class b_ì˜¤ë²„ë¼ì´ë”© {
     public static void main(String[] args) {
         SubstractionableCalculator2 c1 = new SubstractionableCalculator2();
         c1.setOprands(10, 20);

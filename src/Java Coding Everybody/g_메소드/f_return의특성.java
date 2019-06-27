@@ -1,13 +1,13 @@
-package g_¸Ş¼Òµå;
+ï»¿package g_ë©”ì†Œë“œ;
 
-public class f_returnÀÇÆ¯¼º {
+public class f_returnì˜íŠ¹ì„± {
     public static int one() {
-        return 1;  //1À» ¸Ş¼Òµå ¹ÛÀ¸·Î ¹İÈ¯ÇÏ¸é¼­ ¸Ş¼Òµå ¿ÏÀüÈ÷ Á¾·á
-       // return 2;  //¸®ÅÏÀ» ÇÏ°ÔµÇ¸é Á¾·á°¡ µÇ¹ö¸®´Ï µÚ¿¡´Â ½ÇÇà¾ÈµÊ!¿À·ù³²!
+        return 1;  //1ì„ ë©”ì†Œë“œ ë°–ìœ¼ë¡œ ë°˜í™˜í•˜ë©´ì„œ ë©”ì†Œë“œ ì™„ì „íˆ ì¢…ë£Œ
+       // return 2;  //ë¦¬í„´ì„ í•˜ê²Œë˜ë©´ ì¢…ë£Œê°€ ë˜ë²„ë¦¬ë‹ˆ ë’¤ì—ëŠ” ì‹¤í–‰ì•ˆë¨!ì˜¤ë¥˜ë‚¨!
         //return 3;
     }
     public static void main(String[] args) {
-    	one();//ÀÌ°Ç °Á ¾Æ¹«·±°á°ú¾øÀ½
+    	one();//ì´ê±´ ê± ì•„ë¬´ëŸ°ê²°ê³¼ì—†ìŒ
         System.out.println(one());
          int result = one();
          System.out.println(result);

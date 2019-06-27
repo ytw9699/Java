@@ -1,23 +1,23 @@
-package y_Á¦³×¸¯6Á¦ÇÑ3;
+ï»¿package y_ì œë„¤ë¦­6ì œí•œ3;
 
-abstract class Info{//²À Ãß»óÅ¬·¡½ºÀÏ ÇÊ¿ä¾øÁö¸¸ ¸¸µé°í
+abstract class Info{//ê¼­ ì¶”ìƒí´ë˜ìŠ¤ì¼ í•„ìš”ì—†ì§€ë§Œ ë§Œë“¤ê³ 
     public abstract int getLevel();
 }
-class EmployeeInfo extends Info{//»ó¼Ó¹ŞÀ½
+class EmployeeInfo extends Info{//ìƒì†ë°›ìŒ
     public int rank;
     EmployeeInfo(int rank){ this.rank = rank; }
-    public int getLevel(){//¿À¹ö¶óÀÌµå
+    public int getLevel(){//ì˜¤ë²„ë¼ì´ë“œ
         return this.rank;
     }
 }
-class Person<T>{//class Person<T extends Object>¿Í °°Àº¶æ
+class Person<T>{//class Person<T extends Object>ì™€ ê°™ì€ëœ»
     public T info;
     Person(T info){ this.info = info; }
-	//info.getLevel();//ÀÌ°ÇºÒ°¡//¿ÀºêÁ§Æ® Å¬·¡½º¿¡´Â  getlevel¸Ş¼Òµå°¡ ¾øÀÚ³ª
+	//info.getLevel();//ì´ê±´ë¶ˆê°€//ì˜¤ë¸Œì íŠ¸ í´ë˜ìŠ¤ì—ëŠ”  getlevelë©”ì†Œë“œê°€ ì—†ìë‚˜
 }
 public class GenericDemo8 {
     public static void main(String[] args) {
 Person<EmployeeInfo>p1 = new Person<EmployeeInfo>(new EmployeeInfo(1));
-   Person<String> p2 = new Person<String>("ºÎÀå");//½ºÆ®¸µÀº ¿Ã¼ö°¡ÀÖ´Âµí
+   Person<String> p2 = new Person<String>("ë¶€ì¥");//ìŠ¤íŠ¸ë§ì€ ì˜¬ìˆ˜ê°€ìˆëŠ”ë“¯
 }
 }

@@ -1,8 +1,8 @@
-package q_1¿¹¿Ü¹®¹ı3;
+ï»¿package q_1ì˜ˆì™¸ë¬¸ë²•3;
 
 class A{
     private int[] arr = new int[3];
-    A(){//»ı¼ºÀÚ°¡È£ÃâµÉ¶§ ¹è¿­ÀÇ °ªÀ» ÁöÁ¤
+    A(){//ìƒì„±ìê°€í˜¸ì¶œë ë•Œ ë°°ì—´ì˜ ê°’ì„ ì§€ì •
         arr[0]=0;
         arr[1]=10;
         arr[2]=20;
@@ -14,9 +14,9 @@ class A{
 public class ExceptionDemo1 {
     public static void main(String[] args) {
         A a = new A();
-        a.z(10, 1);//10Àº Á¸ÀçÇÏÁö¾Ê´Â ¹è¿­ÀÇ ÀÎµ¦½ºÀÇ°ªÀ» È£ÃâÇÏ´Â°Í
+        a.z(10, 1);//10ì€ ì¡´ì¬í•˜ì§€ì•ŠëŠ” ë°°ì—´ì˜ ì¸ë±ìŠ¤ì˜ê°’ì„ í˜¸ì¶œí•˜ëŠ”ê²ƒ
     }
 }
 /*Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
-at q_¿¹¿Ü3.A.z(ExceptionDemo1.java:11)
-at q_¿¹¿Ü3.ExceptionDemo1.main(ExceptionDemo1.java:18)*/
+at q_ì˜ˆì™¸3.A.z(ExceptionDemo1.java:11)
+at q_ì˜ˆì™¸3.ExceptionDemo1.main(ExceptionDemo1.java:18)*/

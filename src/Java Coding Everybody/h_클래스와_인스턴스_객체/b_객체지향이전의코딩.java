@@ -1,6 +1,6 @@
-package h_Å¬·¡½º¿Í_ÀÎ½ºÅÏ½º_°´Ã¼;
+ï»¿package h_í´ë˜ìŠ¤ì™€_ì¸ìŠ¤í„´ìŠ¤_ê°ì²´;
 
-public class b_°´Ã¼ÁöÇâÀÌÀüÀÇÄÚµù {
+public class b_ê°ì²´ì§€í–¥ì´ì „ì˜ì½”ë”© {
 	public static void avg(int left, int right) {
         System.out.println((left + right) / 2);
     }

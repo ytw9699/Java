@@ -1,4 +1,4 @@
-package q_8_2¿ÀºêÁ§Æ®toString2;
+ï»¿package q_8_2ì˜¤ë¸Œì íŠ¸toString2;
 
 class Calculator{
    int left, right;
@@ -7,7 +7,7 @@ class Calculator{
        this.left = left;
        this.right = right;
    }
-   public String toString(){//¿ÀºêÁ§Æ® Å¬·¡½º¸¦ »ó¼Ó¹ŞÀ¸´Ï ¿À¹ö¶óÀÌµå
+   public String toString(){//ì˜¤ë¸Œì íŠ¸ í´ë˜ìŠ¤ë¥¼ ìƒì†ë°›ìœ¼ë‹ˆ ì˜¤ë²„ë¼ì´ë“œ
        return super.toString()+"left : " + this.left + ", right : "+ this.right;
    }
 }

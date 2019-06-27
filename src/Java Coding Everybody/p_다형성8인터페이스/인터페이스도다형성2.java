@@ -1,4 +1,4 @@
-package p_´ÙÇü¼º8ÀÎÅÍÆäÀÌ½º;
+ï»¿package p_ë‹¤í˜•ì„±8ì¸í„°í˜ì´ìŠ¤;
 interface I2{
     public String A();
 }
@@ -13,7 +13,7 @@ class D implements I2, I3{
         return "B";
     }
 }
-public class ÀÎÅÍÆäÀÌ½ºµµ´ÙÇü¼º2{
+public class ì¸í„°í˜ì´ìŠ¤ë„ë‹¤í˜•ì„±2{
     public static void main(String[] args) {
         D obj = new D();
         I2 objI2 = new D();
@@ -23,7 +23,7 @@ public class ÀÎÅÍÆäÀÌ½ºµµ´ÙÇü¼º2{
         System.out.println(obj.B());
          
         System.out.println(objI2.A());// return "A";
-        //objI2.B();//I3¿¡ÀÖ´Â°Å´Ï±î ¿À·ù
+        //objI2.B();//I3ì—ìˆëŠ”ê±°ë‹ˆê¹Œ ì˜¤ë¥˜
          
         //objI3.A();
         System.out.println(objI3.B());// return "B";

@@ -1,24 +1,24 @@
-package d_¿¬»êÀÚ;
+ï»¿package d_ì—°ì‚°ì;
 
-public class a_¿¬»êÀÚ {
+public class a_ì—°ì‚°ì {
 
 	public static void main(String[] args) {
-		// result ÀÇ °ªÀº 3
+		// result ì˜ ê°’ì€ 3
         int result = 1 + 2;
         System.out.println(result);
-        // result ÀÇ °ªÀº 2
+        // result ì˜ ê°’ì€ 2
         result = result - 1;
         System.out.println(result);
-        // result ÀÇ °ªÀº 4
+        // result ì˜ ê°’ì€ 4
         result = result * 2;
         System.out.println(result);
-        // result ÀÇ °ªÀº 2
+        // result ì˜ ê°’ì€ 2
         result = result / 2;
         System.out.println(result);
-        // result ÀÇ °ªÀº 10
+        // result ì˜ ê°’ì€ 10
         result = result + 8;
-        // result ÀÇ °ªÀº 3
-        result = result % 7;//7·Î ³ª´­¶§ ³ª¸ÓÁö
+        // result ì˜ ê°’ì€ 3
+        result = result % 7;//7ë¡œ ë‚˜ëˆŒë•Œ ë‚˜ë¨¸ì§€
         System.out.println(result);
     }
 }

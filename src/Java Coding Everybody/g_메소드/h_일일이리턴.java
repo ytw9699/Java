@@ -1,16 +1,16 @@
-package g_¸Ş¼Òµå;
+ï»¿package g_ë©”ì†Œë“œ;
 
-public class h_ÀÏÀÏÀÌ¸®ÅÏ {
+public class h_ì¼ì¼ì´ë¦¬í„´ {
     public static String getMember1() {
-        return "ÃÖÁøÇõ";
+        return "ìµœì§„í˜";
     }
  
     public static String getMember2() {
-        return "ÃÖÀ¯ºó";
+        return "ìµœìœ ë¹ˆ";
     }
  
     public static String getMember3() {
-        return "ÇÑÀÌ¶÷";
+        return "í•œì´ëŒ";
     }
  
     public static void main(String[] args) {

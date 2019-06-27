@@ -1,17 +1,17 @@
-package r_enum»ó¼ö;
+ï»¿package r_enumìƒìˆ˜;
 
 public class ConstantDemo4 {
     // fruit
-    private final static int FRUIT_APPLE = 1;//Á¢µÎ»ç·Î ÀÌ¸§ÀÌÃæµ¹À»ÇØ°á
+    private final static int FRUIT_APPLE = 1;//ì ‘ë‘ì‚¬ë¡œ ì´ë¦„ì´ì¶©ëŒì„í•´ê²°
     private final static int FRUIT_PEACH = 2;
     private final static int FRUIT_BANANA = 3;
     // company
     private final static int COMPANY_GOOGLE = 1;
     private final static int COMPANY_APPLE = 2;
     private final static int COMPANY_ORACLE = 3;
-/*   ÀÌ¸§ÀÌ Áßº¹µÉ È®·üÀ» ³·Ãâ ¼ö ÀÖ´Ù. ÀÌ·¯ÇÑ ±â¹ıÀ» ³×ÀÓ½ºÆäÀÌ½º¶ó°í ÇÑ´Ù. 
-          ±×·±µ¥ »ó¼ö°¡ ³Ê¹« ÁöÀúºĞÇÏ´Ù
-          Á» ±ò²ûÇÏ°Ô ¹Ù²Ü ¼ö ¾øÀ»±î? ÀÌ·² ¶§ ÀÎÅÍÆäÀÌ½º¸¦ »ç¿ëÇÒ ¼ö ÀÖ´Ù.*/
+/*   ì´ë¦„ì´ ì¤‘ë³µë  í™•ë¥ ì„ ë‚®ì¶œ ìˆ˜ ìˆë‹¤. ì´ëŸ¬í•œ ê¸°ë²•ì„ ë„¤ì„ìŠ¤í˜ì´ìŠ¤ë¼ê³  í•œë‹¤. 
+          ê·¸ëŸ°ë° ìƒìˆ˜ê°€ ë„ˆë¬´ ì§€ì €ë¶„í•˜ë‹¤
+          ì¢€ ê¹”ë”í•˜ê²Œ ë°”ê¿€ ìˆ˜ ì—†ì„ê¹Œ? ì´ëŸ´ ë•Œ ì¸í„°í˜ì´ìŠ¤ë¥¼ ì‚¬ìš©í•  ìˆ˜ ìˆë‹¤.*/
     public static void main(String[] args) {
         int type = FRUIT_APPLE;
         switch(type){

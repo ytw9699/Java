@@ -1,4 +1,4 @@
-package k_»ó¼Ó°ú»ı¼ºÀÚ2;
+ï»¿package k_ìƒì†ê³¼ìƒì„±ì2;
 class Calculator {
     int left, right;
   /*  public void setOprands(int left, int right) {
@@ -14,9 +14,9 @@ class Calculator {
 }
 class SubstractionableCalculator extends Calculator {
     public SubstractionableCalculator(int left, int right) {
-    	//ÀÌ°Ô »ı¼ºµÉ¶§ ºÎ¸ğÅ¬·¡½ºÀÇ ±âº»»ı¼ºÀÚ°¡ ÀÚµ¿À¸·Î ¸¸µé¾îÁö°í È£ÃâµÈ´Ù
-    	//»ı¼ºÀÚ
-    	//ÀÌÀü°ú ºñ±³ÇØ ¹Ù²ïºÎºĞ
+    	//ì´ê²Œ ìƒì„±ë ë•Œ ë¶€ëª¨í´ë˜ìŠ¤ì˜ ê¸°ë³¸ìƒì„±ìê°€ ìë™ìœ¼ë¡œ ë§Œë“¤ì–´ì§€ê³  í˜¸ì¶œëœë‹¤
+    	//ìƒì„±ì
+    	//ì´ì „ê³¼ ë¹„êµí•´ ë°”ë€ë¶€ë¶„
         this.left = left;
         this.right = right;
     }
@@ -24,11 +24,11 @@ class SubstractionableCalculator extends Calculator {
         System.out.println(this.left - this.right);
     }
 }
-public class c_¹Ù²ï¿¹Á¦ {
+public class c_ë°”ë€ì˜ˆì œ {
     public static void main(String[] args) {
         SubstractionableCalculator c1 = 
-       new SubstractionableCalculator(10, 20);//ÀÌÀü°ú ºñ±³ÇØ ¹Ù²ïºÎºĞ
-        //c1.setOprands(10, 20);//»ç¶óÁü//ÀÌÀü°ú ºñ±³ÇØ ¹Ù²ïºÎºĞ
+       new SubstractionableCalculator(10, 20);//ì´ì „ê³¼ ë¹„êµí•´ ë°”ë€ë¶€ë¶„
+        //c1.setOprands(10, 20);//ì‚¬ë¼ì§//ì´ì „ê³¼ ë¹„êµí•´ ë°”ë€ë¶€ë¶„
         c1.sum();
         c1.avg();
         c1.substract();

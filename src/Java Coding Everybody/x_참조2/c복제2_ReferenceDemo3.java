@@ -1,18 +1,18 @@
-package x_ÂüÁ¶2;
+ï»¿package x_ì°¸ì¡°2;
 class A{
     public int id;
     A(int id){
         this.id = id;
     }
 }
-public class cº¹Á¦2_ReferenceDemo3 {
+public class cë³µì œ2_ReferenceDemo3 {
   
     public static void runReference(){
         A a = new A(1);
         A b = a;
-        b = new A(2);//»õ·Î¿î ÀÎ½ºÅÏ½º¸¦ ÂüÁ¶ÇÏ´Â°Í
+        b = new A(2);//ìƒˆë¡œìš´ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ì°¸ì¡°í•˜ëŠ”ê²ƒ
         System.out.println("runReference, "+a.id);
-        //±×·¡¼­ °ªÀÌ 2°¡¾Æ´Ñ 1Ãâ·Â     
+        //ê·¸ë˜ì„œ ê°’ì´ 2ê°€ì•„ë‹Œ 1ì¶œë ¥     
         System.out.println("runReference, "+b.id);
     }
     public static void main(String[] args) {

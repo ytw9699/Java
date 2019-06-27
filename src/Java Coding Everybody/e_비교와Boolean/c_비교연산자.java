@@ -1,6 +1,6 @@
-package e_ºñ±³¿ÍBoolean;
+ï»¿package e_ë¹„êµì™€Boolean;
 
-public class c_ºñ±³¿¬»êÀÚ {
+public class c_ë¹„êµì—°ì‚°ì {
 
 	public static void main(String[] args) {
 		 System.out.println(10 > 20);       //false

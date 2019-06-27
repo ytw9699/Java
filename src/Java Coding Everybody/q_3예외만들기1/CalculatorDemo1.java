@@ -1,20 +1,20 @@
-package q_3¿¹¿Ü¸¸µé±â1;
-//¿¹¿Ü¸¦ ½º½º·Î ¸¸µé¾îº¸´Â°ÍÀÌ´Ù ÀÚ¹Ù°¡ Àâ¾ÆÁÖ±âÀü¿¡
+ï»¿package q_3ì˜ˆì™¸ë§Œë“¤ê¸°1;
+//ì˜ˆì™¸ë¥¼ ìŠ¤ìŠ¤ë¡œ ë§Œë“¤ì–´ë³´ëŠ”ê²ƒì´ë‹¤ ìë°”ê°€ ì¡ì•„ì£¼ê¸°ì „ì—
 class Calculator{
     int left, right;
     public void setOprands(int left, int right){
         if(right == 0){
-            throw new IllegalArgumentException("µÎ¹øÂ° ÀÎÀÚÀÇ °ªÀº 0ÀÌ µÉ ¼ö ¾ø½À´Ï´Ù.");
-            //IllegalArgumentExceptionÀûÇÕÇÏÁö¾ÊÀº ÀÎÀÚ°¡µé¾î¿Ã¶§ ¿¹¿Ü
-            //ÀÌ°Å´Â ±×³É ¿¹¿Ü¸¸ ¹ß»ı½ÃÅ°°í ÀâÀº°Ç ¾Æ´Ï¾ß ¿©±â¼­ ¹ß»ı½ÃÅ°°í ¸ØÃã//´ÙÀ½¿¹Á¦¿¡¼­ Àâ¾ÆÁÖÀÚ
+            throw new IllegalArgumentException("ë‘ë²ˆì§¸ ì¸ìì˜ ê°’ì€ 0ì´ ë  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
+            //IllegalArgumentExceptionì í•©í•˜ì§€ì•Šì€ ì¸ìê°€ë“¤ì–´ì˜¬ë•Œ ì˜ˆì™¸
+            //ì´ê±°ëŠ” ê·¸ëƒ¥ ì˜ˆì™¸ë§Œ ë°œìƒì‹œí‚¤ê³  ì¡ì€ê±´ ì•„ë‹ˆì•¼ ì—¬ê¸°ì„œ ë°œìƒì‹œí‚¤ê³  ë©ˆì¶¤//ë‹¤ìŒì˜ˆì œì—ì„œ ì¡ì•„ì£¼ì
         }
         this.left = left;
         this.right = right;
     }
     public void divide(){
-            System.out.print("°è»ê°á°ú´Â ");
+            System.out.print("ê³„ì‚°ê²°ê³¼ëŠ” ");
             System.out.print(this.left/this.right);
-            System.out.print(" ÀÔ´Ï´Ù.");
+            System.out.print(" ì…ë‹ˆë‹¤.");
     }
 } 
 public class CalculatorDemo1 {

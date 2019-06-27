@@ -1,4 +1,4 @@
-package f_¹è¿­;
+ï»¿package f_ë°°ì—´;
 //https://opentutorials.org/module/1335/8810
 public class g_arrray03 {
     public static void main(String[] args) {
@@ -18,8 +18,8 @@ public class g_arrray03 {
         System.out.println(numbers1[0]);//10
          
         System.out.println("System.out.println(numbers1[3]);");
-        System.out.println(numbers1[3]);//°á°ú´Â 0ÀÌ µË´Ï´Ù. ¼ıÀÚ Çü½ÄÀÇ ¹è¿­¿¡´Â °ªÀÌ ÁöÁ¤µÇÁö ¾ÊÀº ¿¤¸®¸ÕÆ®ÀÇ °ªÀº 0 ÀÔ´Ï´Ù. 
-                         //	¸¸¾à ¹è¿­ÀÇ µ¥ÀÌÅÍ Å¸ÀÔÀÌ ¹®ÀÚ¿­°ú °°Àº °´Ã¼¶ó¸é nullÀÌ µË´Ï´Ù
+        System.out.println(numbers1[3]);//ê²°ê³¼ëŠ” 0ì´ ë©ë‹ˆë‹¤. ìˆ«ì í˜•ì‹ì˜ ë°°ì—´ì—ëŠ” ê°’ì´ ì§€ì •ë˜ì§€ ì•Šì€ ì—˜ë¦¬ë¨¼íŠ¸ì˜ ê°’ì€ 0 ì…ë‹ˆë‹¤. 
+                         //	ë§Œì•½ ë°°ì—´ì˜ ë°ì´í„° íƒ€ì…ì´ ë¬¸ìì—´ê³¼ ê°™ì€ ê°ì²´ë¼ë©´ nullì´ ë©ë‹ˆë‹¤
          
         System.out.println("System.out.println(numbers1.length);");
         System.out.println(numbers1.length);//4

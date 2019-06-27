@@ -1,29 +1,29 @@
-package a_apiº¸´Â¹ý;
+ï»¿package a_apië³´ëŠ”ë²•;
 public class a {
 public static void main(String[] args) {
 	System.out.println(1);}}//}
 	//https://docs.oracle.com/javase/8/docs/api/
-	//¿©±â¼­ SystemÀº Å¬·¡½º
-	// out Àº ½Ã½ºÅÛ Å¬·¡½ºÀÇ º¯¼öÁß ÇÏ³ªÀÎ °´Ã¼ÀÎµ¥ static º¯¼öÀÌ´Ù!±×·¯´Ï
-	//½Ã½ºÅÛ Å¬·¡½º °´Ã¼»ý¼º¾ÈÇÏ°í °¡Á®´Ù ¾²´Â°ÅÁö
-	//println()Àº °´Ã¼¾È¿¡´ã°ÜÁø ¸Þ¼Òµå
-	//±×·±µ¥ ÀÌ·¯ÇÑ ½Ã½ºÅÛ Å¬·¡½º¸¦ ÀÓÆ÷Æ®ÇÑ°Íµµ ¾Æ´Ï°í ¸¸µç°Íµµ ¾Æ´Ñµ¥ ¾î¶»°Ô¾µ¼öÀÖ³ª?
-	//import java.lang.*; // ÀÚµ¿À¸·Î ÀÓÆ÷Æ® ÇÑ´Ù,,½Ã½ºÅÛÀº ÀÚ¹Ù·©ÆÐÅ°ÁöÀÇ ¼Ò¼Ó
-	//ÀÚµ¿À¸·Î ÀÚ¹Ù·©ÆÐÅ°ÁöÀÇ Å¬·¡½º´Â ¸ðµÎ ÀÓÆ÷Æ®ÇÑ´Ù
-	/*Áö±Ý±îÁö ¹«¼öÈ÷ ¸¹Àº ¿¹Á¦¿¡¼­ »ç¿ëÇß´ø ÄÚµå´Ù. 
-	ÀÌ°ÍÀÌ È­¸é¿¡ ¾î¶² ³»¿ëÀ» Ãâ·ÂÇÏ´Â °ÍÀÌ¶ó´Â °Ç ÀÌ¹Ì ¾Ë°í ÀÖ´Ù. 
-	ÇÏÁö¸¸ µµ´ëÃ¼ ¿ì¸®°¡ Á¤ÀÇÇÑ ÀûÀÌ ¾ø´Â ÀÌ ¸í·ÉÀº ¹«¾ùÀÏ±î?¸¦ »ý°¢ÇØº¼ ¶§°¡ ¿Ô´Ù.
-	¹®¹ýÀûÀ¸·Î ºÃÀ» ¶§ printlnÀº ¸Þ¼Òµå°¡ Æ²¸²¾ø´Ù. 
-	±×·±µ¥ ¸Þ¼Òµå ¾Õ¿¡ Sytem.outÀÌ ÀÖ´Ù. SystemÀº Å¬·¡½ºÀÌ°í outÀº
-	±× Å¬·¡½ºÀÇ ÇÊµå(º¯¼ö)ÀÌ´Ù. ÀÌ ÇÊµå°¡ ¸Þ¼Òµå¸¦ °¡Áö°í ÀÖ´Â °ÍÀº
-	ÀÌ ÇÊµå ¿ª½Ã °´Ã¼¶ó´Â °ÍÀ» ¾Ë ¼ö ÀÖ´Ù. 
-	±×¸®°í SystemÀ» ÀÎ½ºÅÏ½ºÈ­ ÇÑÀûÀÌ ¾øÀ½¿¡µµ ºÒ±¸ÇÏ°í ÇÊµå out¿¡ 
-	Á¢±ÙÇÒ ¼ö ÀÖ´Â °ÍÀº outÀÌ staticÀÌ¶ó´Â °ÍÀ» ¾Ï½ÃÇÑ´Ù.*/
-	//PrintStream out = new PrintStream;//¿ø·¡ ÀÌ·¸°Ô »ý¼ºµÈ°ÅÀÎµí
-	//ÀÚ¹Ù ¿¡ÇÃ¸®ÄÉÀÌ¼ÇÀ» ¸¸µç´Ù´Â °ÍÀº °á°úÀûÀ¸·Î ÀÚ¹Ù¿¡¼­ 
-	//Á¦°øÇÏ´Â ÆÐÅ°ÁöµéÀ» ºÎÇ°À¸·Î Á¶¸³ÇØ¼­ »ç¿ëÀÚ Á¤ÀÇ ·ÎÁ÷À» ¸¸µå´Â °úÁ¤ÀÌ¶ó°í ÇÒ ¼ö ÀÖ´Ù
+	//ì—¬ê¸°ì„œ Systemì€ í´ëž˜ìŠ¤
+	// out ì€ ì‹œìŠ¤í…œ í´ëž˜ìŠ¤ì˜ ë³€ìˆ˜ì¤‘ í•˜ë‚˜ì¸ ê°ì²´ì¸ë° static ë³€ìˆ˜ì´ë‹¤!ê·¸ëŸ¬ë‹ˆ
+	//ì‹œìŠ¤í…œ í´ëž˜ìŠ¤ ê°ì²´ìƒì„±ì•ˆí•˜ê³  ê°€ì ¸ë‹¤ ì“°ëŠ”ê±°ì§€
+	//println()ì€ ê°ì²´ì•ˆì—ë‹´ê²¨ì§„ ë©”ì†Œë“œ
+	//ê·¸ëŸ°ë° ì´ëŸ¬í•œ ì‹œìŠ¤í…œ í´ëž˜ìŠ¤ë¥¼ ìž„í¬íŠ¸í•œê²ƒë„ ì•„ë‹ˆê³  ë§Œë“ ê²ƒë„ ì•„ë‹Œë° ì–´ë–»ê²Œì“¸ìˆ˜ìžˆë‚˜?
+	//import java.lang.*; // ìžë™ìœ¼ë¡œ ìž„í¬íŠ¸ í•œë‹¤,,ì‹œìŠ¤í…œì€ ìžë°”ëž­íŒ¨í‚¤ì§€ì˜ ì†Œì†
+	//ìžë™ìœ¼ë¡œ ìžë°”ëž­íŒ¨í‚¤ì§€ì˜ í´ëž˜ìŠ¤ëŠ” ëª¨ë‘ ìž„í¬íŠ¸í•œë‹¤
+	/*ì§€ê¸ˆê¹Œì§€ ë¬´ìˆ˜ížˆ ë§Žì€ ì˜ˆì œì—ì„œ ì‚¬ìš©í–ˆë˜ ì½”ë“œë‹¤. 
+	ì´ê²ƒì´ í™”ë©´ì— ì–´ë–¤ ë‚´ìš©ì„ ì¶œë ¥í•˜ëŠ” ê²ƒì´ë¼ëŠ” ê±´ ì´ë¯¸ ì•Œê³  ìžˆë‹¤. 
+	í•˜ì§€ë§Œ ë„ëŒ€ì²´ ìš°ë¦¬ê°€ ì •ì˜í•œ ì ì´ ì—†ëŠ” ì´ ëª…ë ¹ì€ ë¬´ì—‡ì¼ê¹Œ?ë¥¼ ìƒê°í•´ë³¼ ë•Œê°€ ì™”ë‹¤.
+	ë¬¸ë²•ì ìœ¼ë¡œ ë´¤ì„ ë•Œ printlnì€ ë©”ì†Œë“œê°€ í‹€ë¦¼ì—†ë‹¤. 
+	ê·¸ëŸ°ë° ë©”ì†Œë“œ ì•žì— Sytem.outì´ ìžˆë‹¤. Systemì€ í´ëž˜ìŠ¤ì´ê³  outì€
+	ê·¸ í´ëž˜ìŠ¤ì˜ í•„ë“œ(ë³€ìˆ˜)ì´ë‹¤. ì´ í•„ë“œê°€ ë©”ì†Œë“œë¥¼ ê°€ì§€ê³  ìžˆëŠ” ê²ƒì€
+	ì´ í•„ë“œ ì—­ì‹œ ê°ì²´ë¼ëŠ” ê²ƒì„ ì•Œ ìˆ˜ ìžˆë‹¤. 
+	ê·¸ë¦¬ê³  Systemì„ ì¸ìŠ¤í„´ìŠ¤í™” í•œì ì´ ì—†ìŒì—ë„ ë¶ˆêµ¬í•˜ê³  í•„ë“œ outì— 
+	ì ‘ê·¼í•  ìˆ˜ ìžˆëŠ” ê²ƒì€ outì´ staticì´ë¼ëŠ” ê²ƒì„ ì•”ì‹œí•œë‹¤.*/
+	//PrintStream out = new PrintStream;//ì›ëž˜ ì´ë ‡ê²Œ ìƒì„±ëœê±°ì¸ë“¯
+	//ìžë°” ì—í”Œë¦¬ì¼€ì´ì…˜ì„ ë§Œë“ ë‹¤ëŠ” ê²ƒì€ ê²°ê³¼ì ìœ¼ë¡œ ìžë°”ì—ì„œ 
+	//ì œê³µí•˜ëŠ” íŒ¨í‚¤ì§€ë“¤ì„ ë¶€í’ˆìœ¼ë¡œ ì¡°ë¦½í•´ì„œ ì‚¬ìš©ìž ì •ì˜ ë¡œì§ì„ ë§Œë“œëŠ” ê³¼ì •ì´ë¼ê³  í•  ìˆ˜ ìžˆë‹¤
 	//api=application programming interface
-	//API¶õ ÀÚ¹Ù ½Ã½ºÅÛÀ» Á¦¾îÇÏ±â À§ÇØ¼­ ÀÚ¹Ù¿¡¼­ Á¦°øÇÏ´Â ¸í·É¾îµéÀ» ÀÇ¹ÌÇÑ´Ù
-	//ÇÊµå=ÇÊµå´Â ¸Þ¼Òµå°¡ ¾Æ´Ô OUT°°Àº°Ô ÇÊµåÀÓ =º¯¼ö¸¦¸»ÇÔ
-	//¸Þ¼Òµå=¸Þ¼Òµå´Â ¸Þ¼Òµå
+	//APIëž€ ìžë°” ì‹œìŠ¤í…œì„ ì œì–´í•˜ê¸° ìœ„í•´ì„œ ìžë°”ì—ì„œ ì œê³µí•˜ëŠ” ëª…ë ¹ì–´ë“¤ì„ ì˜ë¯¸í•œë‹¤
+	//í•„ë“œ=í•„ë“œëŠ” ë©”ì†Œë“œê°€ ì•„ë‹˜ OUTê°™ì€ê²Œ í•„ë“œìž„ =ë³€ìˆ˜ë¥¼ë§í•¨
+	//ë©”ì†Œë“œ=ë©”ì†Œë“œëŠ” ë©”ì†Œë“œ
 	

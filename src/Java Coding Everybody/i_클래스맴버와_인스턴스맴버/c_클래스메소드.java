@@ -1,7 +1,7 @@
-package i_Å¬·¡½º¸É¹ö¿Í_ÀÎ½ºÅÏ½º¸É¹ö;
+ï»¿package i_í´ë˜ìŠ¤ë§´ë²„ì™€_ì¸ìŠ¤í„´ìŠ¤ë§´ë²„;
 class Calculator3{
 	  
-    public static void sum(int left, int right){//staticÀ» ºÙÀÌ¸é Å¬·¡½º ¼Ò¼ÓÀÇ ¸Ş¼Òµå°¡ µÈ´Ù!!
+    public static void sum(int left, int right){//staticì„ ë¶™ì´ë©´ í´ë˜ìŠ¤ ì†Œì†ì˜ ë©”ì†Œë“œê°€ ëœë‹¤!!
         System.out.println(left+right);
     }
      
@@ -9,13 +9,13 @@ class Calculator3{
         System.out.println((left+right)/2);
     }
 }
-public class c_Å¬·¡½º¸Ş¼Òµå {
+public class c_í´ë˜ìŠ¤ë©”ì†Œë“œ {
      
     public static void main(String[] args) {
-        Calculator3.sum(10, 20);//°´Ã¼»ı¼º¾øÀÌ Å¬·¡½º¿¡ Á÷Á¢ Á¢±ÙÇØ¼­ ½ÇÇà°¡´É!
+        Calculator3.sum(10, 20);//ê°ì²´ìƒì„±ì—†ì´ í´ë˜ìŠ¤ì— ì§ì ‘ ì ‘ê·¼í•´ì„œ ì‹¤í–‰ê°€ëŠ¥!
         Calculator3.avg(10, 20);
-        //¸¸¾à ¸Ş¼Òµå°¡ ÀÎ½ºÅÏ½º º¯¼ö¸¦ ÂüÁ¶ÇÏÁö ¾Ê´Â´Ù¸é Å¬·¡½º ¸Ş¼Òµå¸¦ »ç¿ëÇØ¼­
-        //ºÒÇÊ¿äÇÑ ÀÎ½ºÅÏ½ºÀÇ »ı¼ºÀ» ¸·À» ¼ö ÀÖ´Ù.
+        //ë§Œì•½ ë©”ì†Œë“œê°€ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ë¥¼ ì°¸ì¡°í•˜ì§€ ì•ŠëŠ”ë‹¤ë©´ í´ë˜ìŠ¤ ë©”ì†Œë“œë¥¼ ì‚¬ìš©í•´ì„œ
+        //ë¶ˆí•„ìš”í•œ ì¸ìŠ¤í„´ìŠ¤ì˜ ìƒì„±ì„ ë§‰ì„ ìˆ˜ ìˆë‹¤.
         Calculator3.sum(20, 40);
         Calculator3.avg(20, 40);
     }

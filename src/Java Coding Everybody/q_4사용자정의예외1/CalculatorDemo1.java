@@ -1,14 +1,14 @@
-package q_4»ç¿ëÀÚÁ¤ÀÇ¿¹¿Ü1;
-//Á÷Á¢ DivideExceptionÀÌ¶ó°í ÀÌ¸§Áö¾î¼­ ¸¸µé¾îº¸ÀÚ
+ï»¿package q_4ì‚¬ìš©ìžì •ì˜ì˜ˆì™¸1;
+//ì§ì ‘ DivideExceptionì´ë¼ê³  ì´ë¦„ì§€ì–´ì„œ ë§Œë“¤ì–´ë³´ìž
 class DivideException extends RuntimeException {
-	//»ó¼Ó¹Þ´Â ¿¹¿ÜÅ¬·¡½º°¡ ·±Å¸ÀÓÀÌ¼Á¼ÇÅ¬·¡½º¶ó´Â°ÍÀº 
-	// ¾ðÃ¼Å©Æ® ÀÌ¼Á¼ÇÀÌ¶ó ±»ÀÌ 
- //trycatch³ª throws¸¦ »ç¿ëÇØ¼­ ¿¹¿Ü¸¦ Ã³¸® ¾ÈÇØµµµÊ
-    DivideException(){// ¹Ø¿¡ ¸Å°³º¯¼öµé¾î°£ »ý¼ºÀÚ ¸¸µé¾î¼­ ±âº» »ý¼ºÀÚ ¸¸µé¾îÁÜ
-        super();//ÀÌ°Ç ºÎ¸ðÅ¬·¡½º »ý¼ºÀÚÈ£Ãâ
+	//ìƒì†ë°›ëŠ” ì˜ˆì™¸í´ëž˜ìŠ¤ê°€ ëŸ°íƒ€ìž„ì´ì…‰ì…˜í´ëž˜ìŠ¤ë¼ëŠ”ê²ƒì€ 
+	// ì–¸ì²´í¬íŠ¸ ì´ì…‰ì…˜ì´ë¼ êµ³ì´ 
+ //trycatchë‚˜ throwsë¥¼ ì‚¬ìš©í•´ì„œ ì˜ˆì™¸ë¥¼ ì²˜ë¦¬ ì•ˆí•´ë„ë¨
+    DivideException(){// ë°‘ì— ë§¤ê°œë³€ìˆ˜ë“¤ì–´ê°„ ìƒì„±ìž ë§Œë“¤ì–´ì„œ ê¸°ë³¸ ìƒì„±ìž ë§Œë“¤ì–´ì¤Œ
+        super();//ì´ê±´ ë¶€ëª¨í´ëž˜ìŠ¤ ìƒì„±ìží˜¸ì¶œ
     }
     DivideException(String message){
-        super(message);//ºÎ¸ðÅ¬·¡½º »ý¼ºÀÚÈ£Ãâ ÇÏ¸é¼­ message°ª ¸Å°³º¯¼ö·Î Àü´Þ
+        super(message);//ë¶€ëª¨í´ëž˜ìŠ¤ ìƒì„±ìží˜¸ì¶œ í•˜ë©´ì„œ messageê°’ ë§¤ê°œë³€ìˆ˜ë¡œ ì „ë‹¬
     }
 }
 class Calculator{
@@ -19,7 +19,7 @@ class Calculator{
     }
     public void divide(){
         if(this.right == 0){
-            throw new DivideException("0À¸·Î ³ª´©´Â °ÍÀº Çã¿ëµÇÁö ¾Ê½À´Ï´Ù.");//ÀÌ°Ç±×³É ¿¹¿Ü¸¸¹ß»ý½ÃÅ°°í ÀâÀº°Ç¾Æ´Ô!
+            throw new DivideException("0ìœ¼ë¡œ ë‚˜ëˆ„ëŠ” ê²ƒì€ í—ˆìš©ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");//ì´ê±´ê·¸ëƒ¥ ì˜ˆì™¸ë§Œë°œìƒì‹œí‚¤ê³  ìž¡ì€ê±´ì•„ë‹˜!
         }
         System.out.print(this.left/this.right);
     }

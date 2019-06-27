@@ -1,13 +1,13 @@
-package r_enum¿­°Å2;//enumÀº »ç½Ç Å¬·¡½º´Ù. ±×·¸±â ¶§¹®¿¡ »ı¼ºÀÚ¸¦ °¡Áú ¼ö ÀÖ´Ù.
+ï»¿package r_enumì—´ê±°2;//enumì€ ì‚¬ì‹¤ í´ë˜ìŠ¤ë‹¤. ê·¸ë ‡ê¸° ë•Œë¬¸ì— ìƒì„±ìë¥¼ ê°€ì§ˆ ìˆ˜ ìˆë‹¤.
 /*class Fruit{
 public static final Fruit APPLE  = new Fruit();
 public static final Fruit PEACH  = new Fruit();
 public static final Fruit BANANA = new Fruit();
 }*/
 enum Fruit{
-    APPLE, PEACH, BANANA;//°´Ã¼¸¸µé¶§¸¶´Ù »ı¼ºÀÚ È£Ãâ
-    Fruit(){//»ı¼ºÀÚ   //public Fruit·Î ¾ÈµÊ private¸¸!
-    System.out.println("Call Constructor "+this);//this´Â »ı¼ºÀÚ¸¦ ´ëÇ¥ÇÒ¼öÀÖ´Â Á¤º¸
+    APPLE, PEACH, BANANA;//ê°ì²´ë§Œë“¤ë•Œë§ˆë‹¤ ìƒì„±ì í˜¸ì¶œ
+    Fruit(){//ìƒì„±ì   //public Fruitë¡œ ì•ˆë¨ privateë§Œ!
+    System.out.println("Call Constructor "+this);//thisëŠ” ìƒì„±ìë¥¼ ëŒ€í‘œí• ìˆ˜ìˆëŠ” ì •ë³´
     }
 }
 enum Company{
@@ -17,7 +17,7 @@ public class ConstantDemo8 {
     public static void main(String[] args) {
         /*
         if(Fruit.APPLE == Company.APPLE){
-            System.out.println("°úÀÏ ¾ÖÇÃ°ú È¸»ç ¾ÖÇÃÀÌ °°´Ù.");
+            System.out.println("ê³¼ì¼ ì• í”Œê³¼ íšŒì‚¬ ì• í”Œì´ ê°™ë‹¤.");
         }
         */
         Fruit type = Fruit.APPLE;

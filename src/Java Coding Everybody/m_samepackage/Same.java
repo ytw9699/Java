@@ -1,11 +1,11 @@
-package m_samepackage;
+ï»¿package m_samepackage;
 
 public class Same {
 
 	private void _private() {
 		System.out.println("private");
 	}
-	void _default() {//Á¢±ÙÁ¦¾îÀÚ ¸í½Ã¾ÈÇÏ¸é default Á¢±ÙÁ¦¾î°¡µÊ
+	void _default() {//ì ‘ê·¼ì œì–´ì ëª…ì‹œì•ˆí•˜ë©´ default ì ‘ê·¼ì œì–´ê°€ë¨
 		System.out.println("default");
 	}
 	protected void _protected() {

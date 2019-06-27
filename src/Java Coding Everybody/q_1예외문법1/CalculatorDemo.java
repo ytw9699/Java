@@ -1,5 +1,5 @@
-package q_1¿¹¿Ü¹®¹ı1;
-//¿À·ù¸¦ Ã³¸®ÇÏ´Â°ÍÀÌ ¿¹¿Ü¶ó°í ÀÏ´Ü »ı°¢
+ï»¿package q_1ì˜ˆì™¸ë¬¸ë²•1;
+//ì˜¤ë¥˜ë¥¼ ì²˜ë¦¬í•˜ëŠ”ê²ƒì´ ì˜ˆì™¸ë¼ê³  ì¼ë‹¨ ìƒê°
 class Calculator{
     int left, right;
     public void setOprands(int left, int right){
@@ -7,9 +7,9 @@ class Calculator{
         this.right = right;
     } 
     public void divide(){
-        System.out.print("°è»ê°á°ú´Â ");
+        System.out.print("ê³„ì‚°ê²°ê³¼ëŠ” ");
         System.out.print(this.left/this.right);
-        System.out.print(" ÀÔ´Ï´Ù.");
+        System.out.print(" ì…ë‹ˆë‹¤.");
     }
 } 
 public class CalculatorDemo {
@@ -19,5 +19,5 @@ public class CalculatorDemo {
         c1.divide();
     }
 }
-//°è»ê°á°ú´Â Exception in thread "main" java.lang.ArithmeticException: / by zero
-												//¼öÇĞÀûÀÎ ¿¹¿Ü¹ß»ı
+//ê³„ì‚°ê²°ê³¼ëŠ” Exception in thread "main" java.lang.ArithmeticException: / by zero
+												//ìˆ˜í•™ì ì¸ ì˜ˆì™¸ë°œìƒ

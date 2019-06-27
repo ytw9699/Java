@@ -1,20 +1,20 @@
-package q_3¿¹¿Ü¸¸µé±â2;
+ï»¿package q_3ì˜ˆì™¸ë§Œë“¤ê¸°2;
 import java.io.IOException;
-//¿¹¿Ü¸¦ ½º½º·Î ¸¸µé¾îº¸´Â°ÍÀÌ´Ù ÀÚ¹Ù°¡ Àâ¾ÆÁÖ±âÀü¿¡
+//ì˜ˆì™¸ë¥¼ ìŠ¤ìŠ¤ë¡œ ë§Œë“¤ì–´ë³´ëŠ”ê²ƒì´ë‹¤ ìë°”ê°€ ì¡ì•„ì£¼ê¸°ì „ì—
 class Calculator{
     int left, right;
     public void setOprands(int left, int right){
         if(right == 0){
-            throw new IllegalArgumentException("µÎ¹øÂ° ÀÎÀÚÀÇ °ªÀº 0ÀÌ µÉ ¼ö ¾ø½À´Ï´Ù");
-            //IllegalArgumentExceptionÀûÇÕÇÏÁö¾ÊÀº ÀÎÀÚ°¡µé¾î¿Ã¶§ ¿¹¿Ü
+            throw new IllegalArgumentException("ë‘ë²ˆì§¸ ì¸ìì˜ ê°’ì€ 0ì´ ë  ìˆ˜ ì—†ìŠµë‹ˆë‹¤");
+            //IllegalArgumentExceptionì í•©í•˜ì§€ì•Šì€ ì¸ìê°€ë“¤ì–´ì˜¬ë•Œ ì˜ˆì™¸
         }
         this.left = left;
         this.right = right;
     }
     public void divide(){
-            System.out.print("°è»ê°á°ú´Â ");
-            System.out.print(this.left/this.right);//´Ù½Ã¿¹¿Ü¹ß»ı
-            System.out.print(" ÀÔ´Ï´Ù.");
+            System.out.print("ê³„ì‚°ê²°ê³¼ëŠ” ");
+            System.out.print(this.left/this.right);//ë‹¤ì‹œì˜ˆì™¸ë°œìƒ
+            System.out.print(" ì…ë‹ˆë‹¤.");
       }
 } 
 public class CalculatorDemo2 {
@@ -24,10 +24,10 @@ public class CalculatorDemo2 {
         	c1.setOprands(10, 0);
         }
         catch(IllegalArgumentException e){
-        	//throw new IllegalArgumentException("µÎ¹øÂ° ÀÎÀÚÀÇ °ªÀº 0ÀÌ µÉ ¼ö ¾ø½À´Ï´Ù");
-        	//À§¿¡¼­ ÀÌ °´Ã¼°¡ e·Î µé¾î¿È
-        	 e.printStackTrace();//¿¹¿Ü¸¦ Àâ¾ÆÁÖ±â¶§¹®¿¡
+        	//throw new IllegalArgumentException("ë‘ë²ˆì§¸ ì¸ìì˜ ê°’ì€ 0ì´ ë  ìˆ˜ ì—†ìŠµë‹ˆë‹¤");
+        	//ìœ„ì—ì„œ ì´ ê°ì²´ê°€ eë¡œ ë“¤ì–´ì˜´
+        	 e.printStackTrace();//ì˜ˆì™¸ë¥¼ ì¡ì•„ì£¼ê¸°ë•Œë¬¸ì—
         }
-        c1.divide();//ÀÌ°Ô ½ÇÇà
+        c1.divide();//ì´ê²Œ ì‹¤í–‰
     }
 }

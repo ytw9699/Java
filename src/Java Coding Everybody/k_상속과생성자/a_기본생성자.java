@@ -1,10 +1,10 @@
-package k_»ó¼Ó°ú»ý¼ºÀÚ;
+ï»¿package k_ìƒì†ê³¼ìƒì„±ìž;
 
-public class a_±âº»»ý¼ºÀÚ {
+public class a_ê¸°ë³¸ìƒì„±ìž {
     public static void main(String[] args) {
-    	a_±âº»»ý¼ºÀÚ c = new a_±âº»»ý¼ºÀÚ();
-    	//ÀÌ·¸°Ô ¸ÞÀÎ¿¡¼­ ÀÚ½ÅÀÇ Å¬·¡½º °´Ã¼¸¦ »ý¼ºÇÒ¼öÀÖ´Ù
-    	// a_±âº»»ý¼ºÀÚ °´Ã¼¸¦ »ý¼ºÇÒ ¶§ ¼öµ¿À¸·Î »ý¼ºÀÚ¸¦ ¾È¸¸µé¾îÁàµµ µÈ´Ù
-    	//ÀÚµ¿À¸·Î ±âº» »ý¼ºÀÚ¸¦ ¸¸µé¾îÁØ´Ù ±×·¡¼­ ¿¡·¯¹ß»ý¾ÈÇÔ
+    	a_ê¸°ë³¸ìƒì„±ìž c = new a_ê¸°ë³¸ìƒì„±ìž();
+    	//ì´ë ‡ê²Œ ë©”ì¸ì—ì„œ ìžì‹ ì˜ í´ëž˜ìŠ¤ ê°ì²´ë¥¼ ìƒì„±í• ìˆ˜ìžˆë‹¤
+    	// a_ê¸°ë³¸ìƒì„±ìž ê°ì²´ë¥¼ ìƒì„±í•  ë•Œ ìˆ˜ë™ìœ¼ë¡œ ìƒì„±ìžë¥¼ ì•ˆë§Œë“¤ì–´ì¤˜ë„ ëœë‹¤
+    	//ìžë™ìœ¼ë¡œ ê¸°ë³¸ ìƒì„±ìžë¥¼ ë§Œë“¤ì–´ì¤€ë‹¤ ê·¸ëž˜ì„œ ì—ëŸ¬ë°œìƒì•ˆí•¨
     }
 }

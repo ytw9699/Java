@@ -1,4 +1,4 @@
-package e_Á¶°Ç¹®;
+ï»¿package e_ì¡°ê±´ë¬¸;
 
 public class c_else_if {
 
@@ -6,7 +6,7 @@ public class c_else_if {
         if (false) {
             System.out.println(1);
         } else if (true) {
-            System.out.println(2);//¿©±â¼­ºüÁ®³ª°¨
+            System.out.println(2);//ì—¬ê¸°ì„œë¹ ì ¸ë‚˜ê°
         } else if (true) {
             System.out.println(3);
         } else {
@@ -19,7 +19,7 @@ public class c_else_if {
             System.out.println(2);
         } else if (false) {
             System.out.println(3);
-          //else»ı·«°¡´É
+          //elseìƒëµê°€ëŠ¥
         }
         if (false) {
             System.out.println(1);
@@ -27,13 +27,13 @@ public class c_else_if {
             System.out.println(2);
         } else if (true) {
             System.out.println(3);
-          //else»ı·«°¡´É
+          //elseìƒëµê°€ëŠ¥
         } 
         
         if (false) {
             System.out.println(1);
         } else if (false) {
-            System.out.println(2);//¿©±â¼­ºüÁ®³ª°¨
+            System.out.println(2);//ì—¬ê¸°ì„œë¹ ì ¸ë‚˜ê°
         } else if (false) {
             System.out.println(3);
         } else {

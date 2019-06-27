@@ -1,22 +1,22 @@
-package f_¹è¿­;
+ï»¿package f_ë°°ì—´;
 
-//¹İº¹¹®°ú + ¹è¿­ ¶¿¼ö¾ø´Â°ü°è
-public class d_¹è¿­°ú¹İº¹¹®ÀÇÁ¶È­_foreach {
+//ë°˜ë³µë¬¸ê³¼ + ë°°ì—´ ë—„ìˆ˜ì—†ëŠ”ê´€ê³„
+public class d_ë°°ì—´ê³¼ë°˜ë³µë¬¸ì˜ì¡°í™”_foreach {
  
 public static void main(String[] args) {
  
-    String[] members = { "ÃÖÁøÇõ", "ÃÖÀ¯ºó", "ÇÑÀÌ¶÷" };
+    String[] members = { "ìµœì§„í˜", "ìµœìœ ë¹ˆ", "í•œì´ëŒ" };
     System.out.println(members.length);
-    for (int i = 0; i < members.length; i++) {//ÃÊ±âÈ­,¹İº¹Á¶°Ç,¹İº¹½ÇÇà
+    for (int i = 0; i < members.length; i++) {//ì´ˆê¸°í™”,ë°˜ë³µì¡°ê±´,ë°˜ë³µì‹¤í–‰
         /* String member = members[i];
-        System.out.println(member + "ÀÌ »ó´ãÀ» ¹Ş¾Ò½À´Ï´Ù");*/
-        System.out.println(members[i] + "ÀÌ »ó´ãÀ» ¹Ş¾Ò½À´Ï´Ù");
+        System.out.println(member + "ì´ ìƒë‹´ì„ ë°›ì•˜ìŠµë‹ˆë‹¤");*/
+        System.out.println(members[i] + "ì´ ìƒë‹´ì„ ë°›ì•˜ìŠµë‹ˆë‹¤");
     }
     
-	String[] members2 = { "ÃÖÁøÇõ2", "ÃÖÀ¯ºó2", "ÇÑÀÌ¶÷2" };
-    for (String e : members2) {//Äİ·ĞµÚ ¸â¹ö½ºÀÇ µ¥ÀÌÅÍ¿¡ ´ã°ÜÀÖ´Â °ªµéÀ» ÇÏ³ª¾¿ ¹İº¹¹®ÀÌ µ¿ÀÛÇÒ¶§¸¶´Ù
-    	//²¨³»¼­ e¶ó°í ÇÏ´Â º¯¼ö¿¡ ´ã¾ÆÁÖµµ·Ï ¾à¼ÓµÊ
-        System.out.println(e + "ÀÌ »ó´ãÀ» ¹Ş¾Ò½À´Ï´Ù");
+	String[] members2 = { "ìµœì§„í˜2", "ìµœìœ ë¹ˆ2", "í•œì´ëŒ2" };
+    for (String e : members2) {//ì½œë¡ ë’¤ ë©¤ë²„ìŠ¤ì˜ ë°ì´í„°ì— ë‹´ê²¨ìˆëŠ” ê°’ë“¤ì„ í•˜ë‚˜ì”© ë°˜ë³µë¬¸ì´ ë™ì‘í• ë•Œë§ˆë‹¤
+    	//êº¼ë‚´ì„œ eë¼ê³  í•˜ëŠ” ë³€ìˆ˜ì— ë‹´ì•„ì£¼ë„ë¡ ì•½ì†ë¨
+        System.out.println(e + "ì´ ìƒë‹´ì„ ë°›ì•˜ìŠµë‹ˆë‹¤");
     }
     int[] member3= { 1,2,3 };
 	for (int e : member3) {

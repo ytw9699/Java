@@ -1,4 +1,4 @@
-package k_»ó¼Ó°ú»ı¼ºÀÚ2;
+ï»¿package k_ìƒì†ê³¼ìƒì„±ì2;
 
 class Calculator2 {
     int left, right;
@@ -17,13 +17,13 @@ class Calculator2 {
     }
 }
  
-class SubstractionableCalculator2 extends Calculator2 {//»õ·Î¿î Å¬·¡½º¸¸µë
-	//±×¸®°í Calculator Å¬·¡½º¸¦ È®ÀåÇÑ´Ù Áï »ó¼Ó¹Ş´Â´Ù
+class SubstractionableCalculator2 extends Calculator2 {//ìƒˆë¡œìš´ í´ë˜ìŠ¤ë§Œë“¬
+	//ê·¸ë¦¬ê³  Calculator í´ë˜ìŠ¤ë¥¼ í™•ì¥í•œë‹¤ ì¦‰ ìƒì†ë°›ëŠ”ë‹¤
     public void substract() {
-        System.out.println(this.left - this.right);//CalculatorÀÇ º¯¼ö°ªÀ» °¡Á®¿À´Â°Í
+        System.out.println(this.left - this.right);//Calculatorì˜ ë³€ìˆ˜ê°’ì„ ê°€ì ¸ì˜¤ëŠ”ê²ƒ
     }
 }
-public class a_ÀÌÀü¿¹Á¦ {
+public class a_ì´ì „ì˜ˆì œ {
     public static void main(String[] args) {
  
         SubstractionableCalculator2 c1 = new SubstractionableCalculator2();

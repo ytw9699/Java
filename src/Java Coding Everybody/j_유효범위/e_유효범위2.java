@@ -1,15 +1,15 @@
-package j_À¯È¿¹üÀ§;
+ï»¿package j_ìœ íš¨ë²”ìœ„;
    
 class C2 {
     int v = 10;
  
     void m() {
-    	int v =20;//¸Ş¼Òµå ³»ºÎ¾È ¿ì¼±¼øÀ§°¡ ³ôÀº Áö¿ªº¯¼ö¸¦ ¾²´Â°Í
-        System.out.println(v);//Áö¿ªº¯¼ö v¸¦ ¾²´Â°Í
+    	int v =20;//ë©”ì†Œë“œ ë‚´ë¶€ì•ˆ ìš°ì„ ìˆœìœ„ê°€ ë†’ì€ ì§€ì—­ë³€ìˆ˜ë¥¼ ì“°ëŠ”ê²ƒ
+        System.out.println(v);//ì§€ì—­ë³€ìˆ˜ vë¥¼ ì“°ëŠ”ê²ƒ
     }
 }
  
-public class e_À¯È¿¹üÀ§2 {
+public class e_ìœ íš¨ë²”ìœ„2 {
  
     public static void main(String[] args) {
         C2 c1 = new C2();

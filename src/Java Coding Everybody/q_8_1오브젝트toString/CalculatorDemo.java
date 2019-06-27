@@ -1,6 +1,6 @@
-package q_8_1¿ÀºêÁ§Æ®toString;
+ï»¿package q_8_1ì˜¤ë¸Œì íŠ¸toString;
 
-class Calculator {//extends Object{ ¿Í °°Àº°Å
+class Calculator {//extends Object{ ì™€ ê°™ì€ê±°
    int left, right;
      
    public void setOprands(int left, int right){
@@ -22,9 +22,9 @@ public class CalculatorDemo {
          
    Calculator c1 = new Calculator();
    c1.setOprands(10, 20);
-   System.out.println(c1);//¿©±â¼± .toString()ÀÌ »ı·«µÈ°ÅÀÓ
-   System.out.println(c1.toString());//°á°ú°¡°°´Ù //°´Ã¼¸¦ ¹®ÀÚ¿­·Î Ç¥½ÃÇØÁÖ´Â//¹®ÀÚÈ­ 
- //¿ÀºêÁ§Æ® Å¬·¡½º¸¦ »ó¼Ó¹Ş±â¿¡ toString()¸Ş¼Òµåµµ ¾µ¼öÀÖ´Â°Å
-   }//q_¿ÀºêÁ§Æ®toString.Calculator@7852e922
-   //q_¿ÀºêÁ§Æ®toString.Calculator´Â ¾îµğ Å¬·¡½ºÀÎÁö°æ·Î¸¦ ³ªÅ¸³»°í ±×ÀÌÈÄ´Â ÀÎ½ºÅÏ½ºÀÇ ÀÌ¸§
+   System.out.println(c1);//ì—¬ê¸°ì„  .toString()ì´ ìƒëµëœê±°ì„
+   System.out.println(c1.toString());//ê²°ê³¼ê°€ê°™ë‹¤ //ê°ì²´ë¥¼ ë¬¸ìì—´ë¡œ í‘œì‹œí•´ì£¼ëŠ”//ë¬¸ìí™” 
+ //ì˜¤ë¸Œì íŠ¸ í´ë˜ìŠ¤ë¥¼ ìƒì†ë°›ê¸°ì— toString()ë©”ì†Œë“œë„ ì“¸ìˆ˜ìˆëŠ”ê±°
+   }//q_ì˜¤ë¸Œì íŠ¸toString.Calculator@7852e922
+   //q_ì˜¤ë¸Œì íŠ¸toString.CalculatorëŠ” ì–´ë”” í´ë˜ìŠ¤ì¸ì§€ê²½ë¡œë¥¼ ë‚˜íƒ€ë‚´ê³  ê·¸ì´í›„ëŠ” ì¸ìŠ¤í„´ìŠ¤ì˜ ì´ë¦„
 }

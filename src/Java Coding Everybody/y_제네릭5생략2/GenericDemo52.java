@@ -1,4 +1,4 @@
-package y_Á¦³×¸¯5»ı·«2;
+ï»¿package y_ì œë„¤ë¦­5ìƒëµ2;
 class EmployeeInfo{
     public int rank;
     EmployeeInfo(int rank){ this.rank = rank; }

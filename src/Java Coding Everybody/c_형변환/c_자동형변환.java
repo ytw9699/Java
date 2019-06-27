@@ -1,22 +1,22 @@
-package c_Çüº¯È¯;
+ï»¿package c_í˜•ë³€í™˜;
 
-public class c_ÀÚµ¿Çüº¯È¯ {
+public class c_ìžë™í˜•ë³€í™˜ {
 
 	public static void main(String[] args) {
-		//Ä³¸¯ÅÍ µ¥ÀÔÅÍÅ¸ÀÔµµ intÇü º¯È¯°¡´É Ä³¸¯ÅÍµµ ³»ºÎÀûÀ¸·Î ¼ýÀÚÀÌ±â¶§¹®,
-		//¹®ÀÚÀÇ À¯´ÏÄÚµå°ªÀ¸·Î º¯È¯ÀÌ µÈ´Ù
-		int f = 'a';//ÀÚ½Åº¸´Ù ³·Àº Å¸ÀÔÀÌ±â¶§¹® ÀÚµ¿Çüº¯È¯
-		//int f = "aa";//½ºÆ®¸µÀº ¾ÈµÊ
+		//ìºë¦­í„° ë°ìž…í„°íƒ€ìž…ë„ intí˜• ë³€í™˜ê°€ëŠ¥ ìºë¦­í„°ë„ ë‚´ë¶€ì ìœ¼ë¡œ ìˆ«ìžì´ê¸°ë•Œë¬¸,
+		//ë¬¸ìžì˜ ìœ ë‹ˆì½”ë“œê°’ìœ¼ë¡œ ë³€í™˜ì´ ëœë‹¤
+		int f = 'a';//ìžì‹ ë³´ë‹¤ ë‚®ì€ íƒ€ìž…ì´ê¸°ë•Œë¬¸ ìžë™í˜•ë³€í™˜
+		//int f = "aa";//ìŠ¤íŠ¸ë§ì€ ì•ˆë¨
 		char d='d';
 		System.out.println(f);//97 // 0~65,535
 		///////////////////////////////////////
 		System.out.println(d);
 		int a = 3;
 		float b = 1.0F;
-		double c = a + b;//a´Â int b´Â ÇÃ·ÎÆ®ÀÎµ¥ ´õÇÒ·Á¸é ÇüÀ» °°°ÔÇØ¾ßÇÔ 
-		//±×·¯¸é ÀÚµ¿ÀûÀ¸·Î Á¤¼öÀÎ a°¡ ½Ç¼öÀÎÇÃ·ÎÆ® ÇüÀ¸·Î Çüº¯È¯µÉ°ÅÀÓ
-		//Áï 3.0F+1.0F°¡ µÉ°ÅÀÓ=4.0F°¡µÊ
-		//±×·±µ¥ ±× 4.0F¸¦  ´õºíÇü¿¡ Áý¾î³ÖÀ¸´Ï±î ´õºíÇüÀ¸·Î ÀÚµ¿Çüº¯È¯µÊ
+		double c = a + b;//aëŠ” int bëŠ” í”Œë¡œíŠ¸ì¸ë° ë”í• ë ¤ë©´ í˜•ì„ ê°™ê²Œí•´ì•¼í•¨ 
+		//ê·¸ëŸ¬ë©´ ìžë™ì ìœ¼ë¡œ ì •ìˆ˜ì¸ aê°€ ì‹¤ìˆ˜ì¸í”Œë¡œíŠ¸ í˜•ìœ¼ë¡œ í˜•ë³€í™˜ë ê±°ìž„
+		//ì¦‰ 3.0F+1.0Fê°€ ë ê±°ìž„=4.0Fê°€ë¨
+		//ê·¸ëŸ°ë° ê·¸ 4.0Fë¥¼  ë”ë¸”í˜•ì— ì§‘ì–´ë„£ìœ¼ë‹ˆê¹Œ ë”ë¸”í˜•ìœ¼ë¡œ ìžë™í˜•ë³€í™˜ë¨
 		System.out.println(c);
 	}
 

@@ -1,10 +1,10 @@
-package k_»ó¼Ó;
+ï»¿package k_ìƒì†;
 class MultiplicationableCalculator extends Calculator {
     public void multiplication() {
         System.out.println(this.left * this.right);
     }
 }
-public class c_»ó¼ÓÀÇ¿¹Á¦ {
+public class c_ìƒì†ì˜ì˜ˆì œ {
  
     public static void main(String[] args) {
  

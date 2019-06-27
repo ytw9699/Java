@@ -1,12 +1,12 @@
-package d_¿¬»êÀÚ;
+ï»¿package d_ì—°ì‚°ì;
 
-public class b_³ª¸ÓÁö {
+public class b_ë‚˜ë¨¸ì§€ {
 
 	    public static void main(String[] args) {
 	        int a = 3;
-	        System.out.println(0%a);//	0/3ÀÇ ³ª¸ÓÁö´Â 0
-	        System.out.println(1%a);//	1/3ÀÇ ³ª¸ÓÁö´Â 1
-	        System.out.println(2%a);//	2/3ÀÇ ³ª¸ÓÁö´Â 2
+	        System.out.println(0%a);//	0/3ì˜ ë‚˜ë¨¸ì§€ëŠ” 0
+	        System.out.println(1%a);//	1/3ì˜ ë‚˜ë¨¸ì§€ëŠ” 1
+	        System.out.println(2%a);//	2/3ì˜ ë‚˜ë¨¸ì§€ëŠ” 2
 	        System.out.println(3%a);//  0
 	        System.out.println(4%a);//  1
 	        System.out.println(5%a);//  2

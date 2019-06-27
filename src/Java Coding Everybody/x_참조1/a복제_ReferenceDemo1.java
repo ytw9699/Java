@@ -1,10 +1,10 @@
-package x_ÂüÁ¶1;
-//±âº»µ¥ÀÌÅÍ Å¸ÀÔ vs ÂüÁ¶Çü µ¥ÀÌÅÍÅ¸ÀÔ (new¸¦ ÅëÇØ µ¥ÀÌÅÍ¸¦ »ı¼ºÇÏ´Â°Í)
-public class aº¹Á¦_ReferenceDemo1 {
+ï»¿package x_ì°¸ì¡°1;
+//ê¸°ë³¸ë°ì´í„° íƒ€ì… vs ì°¸ì¡°í˜• ë°ì´í„°íƒ€ì… (newë¥¼ í†µí•´ ë°ì´í„°ë¥¼ ìƒì„±í•˜ëŠ”ê²ƒ)
+public class aë³µì œ_ReferenceDemo1 {
 	 
     public static void runValue(){
-        int a = 1;//int´Â ±âº»µ¥ÀÌÅÍÇü
-        int b = a;//º¹Á¦
+        int a = 1;//intëŠ” ê¸°ë³¸ë°ì´í„°í˜•
+        int b = a;//ë³µì œ
         b = 2;
         System.out.println("runValue,"+a); //1
     }

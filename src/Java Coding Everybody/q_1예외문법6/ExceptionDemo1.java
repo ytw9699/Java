@@ -1,4 +1,4 @@
-package q_1¿¹¿Ü¹®¹ı6;
+ï»¿package q_1ì˜ˆì™¸ë¬¸ë²•6;
 class A{
     private int[] arr = new int[3];
     A(){
@@ -15,9 +15,9 @@ class A{
             System.out.println("ArithmeticException");
         } catch(Exception e){
             System.out.println("Exception");
-        } finally {//¹İµå½Ã try catchµÚ À§Ä¡
-            System.out.println("finally");//¿¹¿Ü¿©ºÎ¿Í °ü°è¾øÀÌ ½ÇÇàµÇ´Â ·ÎÁ÷
-            //db¿Í Á¢¼ÓÀ» ²÷¾îÁÖ´Â¿¹½Ã
+        } finally {//ë°˜ë“œì‹œ try catchë’¤ ìœ„ì¹˜
+            System.out.println("finally");//ì˜ˆì™¸ì—¬ë¶€ì™€ ê´€ê³„ì—†ì´ ì‹¤í–‰ë˜ëŠ” ë¡œì§
+            //dbì™€ ì ‘ì†ì„ ëŠì–´ì£¼ëŠ”ì˜ˆì‹œ
         }
     }
 }

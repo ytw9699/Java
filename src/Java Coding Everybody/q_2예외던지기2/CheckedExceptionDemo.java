@@ -1,19 +1,19 @@
-package q_2¿¹¿Ü´øÁö±â2;
+ï»¿package q_2ì˜ˆì™¸ë˜ì§€ê¸°2;
 import java.io.*;
 public class CheckedExceptionDemo {
     public static void main(String[] args) {
-        BufferedReader bReader=null;//Àü¿ªº¯¼ö·Î ¼±¾ğÇØ¾ß ´Ù¸¥°÷¿¡¼­¾´´Ù
-        String input=null;//Àü¿ªº¯¼ö·Î ¼±¾ğÇØ¾ß ´Ù¸¥°÷¿¡¼­¾´´Ù
+        BufferedReader bReader=null;//ì „ì—­ë³€ìˆ˜ë¡œ ì„ ì–¸í•´ì•¼ ë‹¤ë¥¸ê³³ì—ì„œì“´ë‹¤
+        String input=null;//ì „ì—­ë³€ìˆ˜ë¡œ ì„ ì–¸í•´ì•¼ ë‹¤ë¥¸ê³³ì—ì„œì“´ë‹¤
 		try {
 			bReader = new BufferedReader(new FileReader("out.txt"));
-		} catch (FileNotFoundException e) {//¿¹¿Ü¸¦ °­Á¦ÇØ¼­ ³»°¡Ã³¸®ÇÏ´Â°Í
+		} catch (FileNotFoundException e) {//ì˜ˆì™¸ë¥¼ ê°•ì œí•´ì„œ ë‚´ê°€ì²˜ë¦¬í•˜ëŠ”ê²ƒ
 			e.printStackTrace();
 		}
 		try {
 			input = bReader.readLine();
-		} catch (IOException e) {//¿¹¿Ü¸¦ °­Á¦ÇØ¼­ ³»°¡Ã³¸®ÇÏ´Â°Í
+		} catch (IOException e) {//ì˜ˆì™¸ë¥¼ ê°•ì œí•´ì„œ ë‚´ê°€ì²˜ë¦¬í•˜ëŠ”ê²ƒ
 			e.printStackTrace();
-		}//ÆÄÀÏ¿¡ ÀÖ´Â°É ÀĞ¾îµéÀÓ
+		}//íŒŒì¼ì— ìˆëŠ”ê±¸ ì½ì–´ë“¤ì„
         System.out.println(input); 
     }
 }

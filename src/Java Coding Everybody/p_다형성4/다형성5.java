@@ -1,21 +1,21 @@
-package p_´ÙÇü¼º4;
+ï»¿package p_ë‹¤í˜•ì„±4;
 
 class A{
     public String x(){return "A.x";}
 }
 class B extends A{
-    public String x(){return "B.x";}//¿À¹ö¶óÀÌµùÇÑ °á°úÃâ·Â
+    public String x(){return "B.x";}//ì˜¤ë²„ë¼ì´ë”©í•œ ê²°ê³¼ì¶œë ¥
     public String y(){return "y";}
 }
 class B2 extends A{
-    public String x(){return "B2.x";}//¿À¹ö¶óÀÌµùÇÑ °á°úÃâ·Â
+    public String x(){return "B2.x";}//ì˜¤ë²„ë¼ì´ë”©í•œ ê²°ê³¼ì¶œë ¥
 }
-public class ´ÙÇü¼º5 {
+public class ë‹¤í˜•ì„±5 {
     public static void main(String[] args) {
         A obj = new B();
         A obj2 = new B2();
-        System.out.println(obj.x());//¿À¹ö¶óÀÌµùÇÑ °á°úÃâ·Â
-        System.out.println(obj2.x());//¿À¹ö¶óÀÌµùÇÑ °á°úÃâ·Â
-        //ÇÏ³ªÀÇ Å¬·¡½ºA¸¦ »ó¼Ó ¹Ş´Âµ¥ °á°ú´Â Å¬·¡½º¸¶´Ù ´Ù¸£°Ô ³ª¿È ÀÌ°Ô ´ÙÇü¼º ´Ù¾çÇÑ°á°ú
+        System.out.println(obj.x());//ì˜¤ë²„ë¼ì´ë”©í•œ ê²°ê³¼ì¶œë ¥
+        System.out.println(obj2.x());//ì˜¤ë²„ë¼ì´ë”©í•œ ê²°ê³¼ì¶œë ¥
+        //í•˜ë‚˜ì˜ í´ë˜ìŠ¤Aë¥¼ ìƒì† ë°›ëŠ”ë° ê²°ê³¼ëŠ” í´ë˜ìŠ¤ë§ˆë‹¤ ë‹¤ë¥´ê²Œ ë‚˜ì˜´ ì´ê²Œ ë‹¤í˜•ì„± ë‹¤ì–‘í•œê²°ê³¼
     }
 }

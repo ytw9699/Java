@@ -1,18 +1,18 @@
-package r_enum»ó¼ö;
+ï»¿package r_enumìƒìˆ˜;
 
-interface FRUIT{//ÀÌ·¸°Ô ¹®¹ýÀûÀÎ°É·ÎÇØ°áÇÏ¸é ´õÁÁÀº°Å
+interface FRUIT{//ì´ë ‡ê²Œ ë¬¸ë²•ì ì¸ê±¸ë¡œí•´ê²°í•˜ë©´ ë”ì¢‹ì€ê±°
     int APPLE=6, PEACH=2, BANANA=3;
     /*
     public final static int APPLE = 6;
     public final static int PEACH = 2;
     public final static int BANANA = 3;
     */
-    //ÀÌ°Í°ú °°Àº ÀÇ¹Ì ÀÎÅÍÆäÀÌ½º¿¡¼­ º¯¼ö¼±¾ðÀº ÀÌ·¸°Ô »ý·«µÊ
+    //ì´ê²ƒê³¼ ê°™ì€ ì˜ë¯¸ ì¸í„°íŽ˜ì´ìŠ¤ì—ì„œ ë³€ìˆ˜ì„ ì–¸ì€ ì´ë ‡ê²Œ ìƒëžµë¨
 }
-/*Á¢¹Ì»ç(FRUIT_, COMPANY_)·Î ÀÌ¸§À» ±¸ºÐÇß´ø ºÎºÐÀÌ ÀÎÅÍÆäÀÌ½º·Î 
-±¸ºÐµÇ±â ¶§¹®¿¡ ¾ð¾îÀÇ Æ¯¼ºÀ» º¸´Ù Àß »ì¸° ±¸Á¶°¡ µÇ¾ú´Ù. ÀÎÅÍÆäÀÌ½º¸¦ 
-ÀÌ·¸°Ô »ç¿ëÇÒ ¼ö ÀÖ´Â °ÍÀº ÀÎÅÍÆäÀÌ½º¿¡¼­ ¼±¾ðµÈ º¯¼ö´Â ¹«Á¶°Ç 
-public static finalÀÇ ¼Ó¼ºÀ» °®±â ¶§¹®ÀÌ´Ù.*/
+/*ì ‘ë¯¸ì‚¬(FRUIT_, COMPANY_)ë¡œ ì´ë¦„ì„ êµ¬ë¶„í–ˆë˜ ë¶€ë¶„ì´ ì¸í„°íŽ˜ì´ìŠ¤ë¡œ 
+êµ¬ë¶„ë˜ê¸° ë•Œë¬¸ì— ì–¸ì–´ì˜ íŠ¹ì„±ì„ ë³´ë‹¤ ìž˜ ì‚´ë¦° êµ¬ì¡°ê°€ ë˜ì—ˆë‹¤. ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ 
+ì´ë ‡ê²Œ ì‚¬ìš©í•  ìˆ˜ ìžˆëŠ” ê²ƒì€ ì¸í„°íŽ˜ì´ìŠ¤ì—ì„œ ì„ ì–¸ëœ ë³€ìˆ˜ëŠ” ë¬´ì¡°ê±´ 
+public static finalì˜ ì†ì„±ì„ ê°–ê¸° ë•Œë¬¸ì´ë‹¤.*/
 interface COMPANY{
     int GOOGLE=1, APPLE=6, ORACLE=3;
 }
@@ -21,12 +21,12 @@ public class ConstantDemo5 {
      
     public static void main(String[] args) {
     	 
-        int type = FRUIT.APPLE;//ÀÌ·¸°Ô ¹®¹ýÀûÀÎ°É·ÎÇØ°áÇÏ¸é ´õÁÁÀº°Å
+        int type = FRUIT.APPLE;//ì´ë ‡ê²Œ ë¬¸ë²•ì ì¸ê±¸ë¡œí•´ê²°í•˜ë©´ ë”ì¢‹ì€ê±°
         switch(type){
             case FRUIT.APPLE:
                 System.out.println(57+" kcal");
                 break;
-            case FRUIT.PEACH://COMPANY.APPLEÇÏ¸é ¿¹¿Ü¹ß»ý 
+            case FRUIT.PEACH://COMPANY.APPLEí•˜ë©´ ì˜ˆì™¸ë°œìƒ 
                 System.out.println(34+" kcal");
                 break;
             case FRUIT.BANANA:
@@ -34,9 +34,9 @@ public class ConstantDemo5 {
                 break;
         }
         if(FRUIT.APPLE == COMPANY.APPLE) { 
-        	//±×·±µ¥ ¹®Á¦´Â ¸»µµ¾ÈµÇ°Ô ÀÌ·¸°Ô °°´Ù´Â°á°ú°¡ ³ª¿Í¹ö¸°´Ù
- 			System.out.println("°úÀÏ¾ÖÇÃ°ú ±â¾÷¾ÖÇÃÀº °°½À´Ï´Ù");
- 			//ÀÌ·¸°Ô ºñ±³ÇÏ¸é¾ÈµÇ´Â°É ºñ±³¸øÇÏ°ÔÇÒ¼ö¾øÀ»±î..
+        	//ê·¸ëŸ°ë° ë¬¸ì œëŠ” ë§ë„ì•ˆë˜ê²Œ ì´ë ‡ê²Œ ê°™ë‹¤ëŠ”ê²°ê³¼ê°€ ë‚˜ì™€ë²„ë¦°ë‹¤
+ 			System.out.println("ê³¼ì¼ì• í”Œê³¼ ê¸°ì—…ì• í”Œì€ ê°™ìŠµë‹ˆë‹¤");
+ 			//ì´ë ‡ê²Œ ë¹„êµí•˜ë©´ì•ˆë˜ëŠ”ê±¸ ë¹„êµëª»í•˜ê²Œí• ìˆ˜ì—†ì„ê¹Œ..
     	 }
 	}
     }

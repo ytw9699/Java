@@ -1,18 +1,18 @@
-package q_2¿¹¿Ü´øÁö±â3;
+ï»¿package q_2ì˜ˆì™¸ë˜ì§€ê¸°3;
 
-public class ThrowExceptionDemo {//¸ŞÀÎ¿¡ ´ëÇÑ »ç¿ëÀÚ´Â ¿ì¸®
+public class ThrowExceptionDemo {//ë©”ì¸ì— ëŒ€í•œ ì‚¬ìš©ìëŠ” ìš°ë¦¬
     public static void main(String[] args) {
          C c = new C();
          c.run();
     }   
 }
 class C{
-    void run(){//ÀÌ¸Ş¼Òµå »ç¿ëÀÚ´Â ¸ŞÀÎ
+    void run(){//ì´ë©”ì†Œë“œ ì‚¬ìš©ìëŠ” ë©”ì¸
         B b = new B();
         b.run();
     }
 }
 class B{
-    void run(){//ÀÌ¸Ş¼Òµå »ç¿ëÀÚ´Â C
+    void run(){//ì´ë©”ì†Œë“œ ì‚¬ìš©ìëŠ” C
     }
 }

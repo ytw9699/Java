@@ -1,32 +1,32 @@
-package q_9cloneº¹Á¦;//¿ÀºêÁ§Æ® Å¬·¡½ºÀÇ Å¬·Ð¸Þ¼ÒµåÀ» ¾Ë¾Æº¸ÀÚ
-//0.cloneÀº º¹Á¦¶ó´Â ¶æÀÌ´Ù. 
-//1¾î¶² °´Ã¼°¡ ÀÖÀ» ¶§ ±× °´Ã¼¿Í ¶È°°Àº °´Ã¼¸¦ º¹Á¦ÇØÁÖ´Â 
-//2.±â´ÉÀÌ clone ¸Þ¼ÒµåÀÇ ¿ªÇÒÀÌ´Ù. ¿¹¸¦ º¸ÀÚ
-class Student implements Cloneable{//5.º¹Á¦ÇÏ·Á¸é ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇØ¼­
-	//º¹Á¦°¡´ÉÇÑ  °´Ã¼¶ó´Â »ç½ÇÀ» ¾Ë·Á¾ßÇÔ//±×·±µ¥ CloneableÀÎÅÍÆäÀÌ½º´Â ºñ¾îÀÖÀ½
-	//´ÜÁö º¹Á¦°¡´ÉÇÏ´Ù´Â ±¸ºÐÀÚ¿ªÇÒ¸¸ÇÒ»Ó
+ï»¿package q_9cloneë³µì œ;//ì˜¤ë¸Œì íŠ¸ í´ëž˜ìŠ¤ì˜ í´ë¡ ë©”ì†Œë“œì„ ì•Œì•„ë³´ìž
+//0.cloneì€ ë³µì œë¼ëŠ” ëœ»ì´ë‹¤. 
+//1ì–´ë–¤ ê°ì²´ê°€ ìžˆì„ ë•Œ ê·¸ ê°ì²´ì™€ ë˜‘ê°™ì€ ê°ì²´ë¥¼ ë³µì œí•´ì£¼ëŠ” 
+//2.ê¸°ëŠ¥ì´ clone ë©”ì†Œë“œì˜ ì—­í• ì´ë‹¤. ì˜ˆë¥¼ ë³´ìž
+class Student implements Cloneable{//5.ë³µì œí•˜ë ¤ë©´ ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•´ì„œ
+	//ë³µì œê°€ëŠ¥í•œ  ê°ì²´ë¼ëŠ” ì‚¬ì‹¤ì„ ì•Œë ¤ì•¼í•¨//ê·¸ëŸ°ë° Cloneableì¸í„°íŽ˜ì´ìŠ¤ëŠ” ë¹„ì–´ìžˆìŒ
+	//ë‹¨ì§€ ë³µì œê°€ëŠ¥í•˜ë‹¤ëŠ” êµ¬ë¶„ìžì—­í• ë§Œí• ë¿
     String name;
     Student(String name){
         this.name = name;
     }
-    // CloneableÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÏ´Â Å¬·¡½º´Â (protected ¸Þ¼ÒµåÀÎ) 
-    //Object.clone ¸Þ¼Òµå¸¦ ¹Ýµå½Ã ¿À¹ö¶óÀÌµåÇØ¾ß ÇÕ´Ï´Ù. 
+    // Cloneableì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•˜ëŠ” í´ëž˜ìŠ¤ëŠ” (protected ë©”ì†Œë“œì¸) 
+    //Object.clone ë©”ì†Œë“œë¥¼ ë°˜ë“œì‹œ ì˜¤ë²„ë¼ì´ë“œí•´ì•¼ í•©ë‹ˆë‹¤. 
     public Object clone() throws CloneNotSupportedException{
-    	//¿À¹ö¶óÀÌµùÇÏ¸é¼­
-    	//Á¢±ÙÁ¦¾îÀÚ´Â protected¿¡¼­  publicÀ¸·Î ¹Ù²Þ ´õ °³¹æÀûÀ¸·Î ´Ù¸¥Å¬·¡½º¿¡¼­ ¾²±âÀ§ÇØ
-    	//throws CloneNotSupportedException°¡ api¿¡ ¸í½ÃµÇ¾îÀÖ´Â°Ç 
-    	//·±Å¸ÀÓÀÌ ¾Æ´Ï¶ó//±×³ÉÀÌ¼Á¼ÇÀÌ¶ó °­Á¦Ã³¸®ÇØ¾ßÇÔ,¶Ç´Â ´øÁö±â
-        return super.clone();//¿ÀºêÁ§Æ® Å¬·¡½ºÀÇ ¸Þ¼Òµå È£Ãâ
-        // //clone();¸Þ¼Òµå´Â Á¢±ÙÁ¦¾îÀÚ°¡ protected
-        //¼­·Î´Ù¸¥ÆÐÅ°Áö¿¡¼­´Â È£Ãâ¾ÈµÊ,ÇÏÁö¸¸ »ó¼ÓÀÏ¶§ this.clone()·Î °¡´ÉÀº ÇÏ³ª ¿©±â¼± ¿¹¿ÜÀûÀ¸·Î ¿À¹ö¶óÀÌµùÇØ¼­ ½á¾ßÇÔ..
+    	//ì˜¤ë²„ë¼ì´ë”©í•˜ë©´ì„œ
+    	//ì ‘ê·¼ì œì–´ìžëŠ” protectedì—ì„œ  publicìœ¼ë¡œ ë°”ê¿ˆ ë” ê°œë°©ì ìœ¼ë¡œ ë‹¤ë¥¸í´ëž˜ìŠ¤ì—ì„œ ì“°ê¸°ìœ„í•´
+    	//throws CloneNotSupportedExceptionê°€ apiì— ëª…ì‹œë˜ì–´ìžˆëŠ”ê±´ 
+    	//ëŸ°íƒ€ìž„ì´ ì•„ë‹ˆë¼//ê·¸ëƒ¥ì´ì…‰ì…˜ì´ë¼ ê°•ì œì²˜ë¦¬í•´ì•¼í•¨,ë˜ëŠ” ë˜ì§€ê¸°
+        return super.clone();//ì˜¤ë¸Œì íŠ¸ í´ëž˜ìŠ¤ì˜ ë©”ì†Œë“œ í˜¸ì¶œ
+        // //clone();ë©”ì†Œë“œëŠ” ì ‘ê·¼ì œì–´ìžê°€ protected
+        //ì„œë¡œë‹¤ë¥¸íŒ¨í‚¤ì§€ì—ì„œëŠ” í˜¸ì¶œì•ˆë¨,í•˜ì§€ë§Œ ìƒì†ì¼ë•Œ this.clone()ë¡œ ê°€ëŠ¥ì€ í•˜ë‚˜ ì—¬ê¸°ì„  ì˜ˆì™¸ì ìœ¼ë¡œ ì˜¤ë²„ë¼ì´ë”©í•´ì„œ ì¨ì•¼í•¨..
     }
 }  
 class ObjectDemo {
     public static void main(String[] args) {
-        Student s1 = new Student("egoing");//3.s1°ú ¶È°°Àº °´Ã¼¸¦ º¹Á¦ÇØº¸ÀÚ
-        //4.¿ÀºêÁ§Æ®¿¡ Å¬·ÐÀÌ¶ó´Â ¸Þ¼Òµå ÀÖÀ½
+        Student s1 = new Student("egoing");//3.s1ê³¼ ë˜‘ê°™ì€ ê°ì²´ë¥¼ ë³µì œí•´ë³´ìž
+        //4.ì˜¤ë¸Œì íŠ¸ì— í´ë¡ ì´ë¼ëŠ” ë©”ì†Œë“œ ìžˆìŒ
         try {
-            Student s2 = (Student)s1.clone();//º¹Á¦ÇÑ°á°ú¸¦ s2¿¡ ´ã´Â´Ù
+            Student s2 = (Student)s1.clone();//ë³µì œí•œê²°ê³¼ë¥¼ s2ì— ë‹´ëŠ”ë‹¤
            
             System.out.println(s1.name);//egoing
             System.out.println(s2.name);//egoing

@@ -1,8 +1,8 @@
-package g_¸Ş¼Òµå;
+ï»¿package g_ë©”ì†Œë“œ;
 
-public class a_¸Ş¼ÒµåÁ¤ÀÇ¿ÍÈ£Ãâ {
-    public static void numbering() {//¸Ş¼ÒµåÁ¤ÀÇ
-    	//¸Ş¼Òµå(method)´Â ÄÚµå¸¦ Àç»ç¿ëÇÒ ¼ö ÀÖ°Ô ÇØÁØ´Ù.
+public class a_ë©”ì†Œë“œì •ì˜ì™€í˜¸ì¶œ {
+    public static void numbering() {//ë©”ì†Œë“œì •ì˜
+    	//ë©”ì†Œë“œ(method)ëŠ” ì½”ë“œë¥¼ ì¬ì‚¬ìš©í•  ìˆ˜ ìˆê²Œ í•´ì¤€ë‹¤.
         int i = 0;
         while (i < 4) {
             System.out.println(i);
@@ -10,7 +10,7 @@ public class a_¸Ş¼ÒµåÁ¤ÀÇ¿ÍÈ£Ãâ {
         }
     }
      public static void main(String[] args) {
-        numbering();//¸Ş¼ÒµåÈ£Ãâ
+        numbering();//ë©”ì†Œë“œí˜¸ì¶œ
         numbering();
      /*   int i = 0;
         while (i < 4) {

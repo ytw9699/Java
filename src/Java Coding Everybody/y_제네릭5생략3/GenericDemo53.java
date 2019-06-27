@@ -1,6 +1,6 @@
-package y_Á¦³×¸¯5»ı·«3;
+ï»¿package y_ì œë„¤ë¦­5ìƒëµ3;
 
-import y_Á¦³×¸¯5»ı·«3.Person;
+import y_ì œë„¤ë¦­5ìƒëµ3.Person;
 
 class Person<U,K>{
      public void printInfo(U info,K infos){

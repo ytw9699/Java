@@ -1,4 +1,4 @@
-package p_´ÙÇü¼º5;
+ï»¿package p_ë‹¤í˜•ì„±5;
 abstract class Calculator{
     int left, right;
     public void setOprands(int left, int right){
@@ -33,10 +33,10 @@ class CalculatorDecoMinus extends Calculator {
 } 
 public class CalculatorDemo {
     public static void main(String[] args) { 
-        Calculator c1 = new CalculatorDecoPlus();//ÀÌÀü°ú ´Ş¶óÁøºÎºĞ
+        Calculator c1 = new CalculatorDecoPlus();//ì´ì „ê³¼ ë‹¬ë¼ì§„ë¶€ë¶„
         c1.setOprands(10, 20);
         c1.run();
-        Calculator c2 = new CalculatorDecoMinus();//ÀÌÀü°ú ´Ş¶óÁøºÎºĞ
+        Calculator c2 = new CalculatorDecoMinus();//ì´ì „ê³¼ ë‹¬ë¼ì§„ë¶€ë¶„
         c2.setOprands(10, 20);
         c2.run();
     }

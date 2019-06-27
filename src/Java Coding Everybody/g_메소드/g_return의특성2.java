@@ -1,23 +1,23 @@
-package g_¸Ş¼Òµå;
+ï»¿package g_ë©”ì†Œë“œ;
 
-public class g_returnÀÇÆ¯¼º2 {
+public class g_returnì˜íŠ¹ì„±2 {
     public static String num(int i) {
         if(i==0){
             return "zero";
         } else if(i==1){
-            return "one";//¿©±â¼­ Á¾·á
+            return "one";//ì—¬ê¸°ì„œ ì¢…ë£Œ
         } else if(i==2){
             return "two";
-        }//else//¸¦ ¿©±â ºÙ¿©µµµÊ 
-        return "none";//À§¿¡¾Æ¹«°Íµµ ¾È°É¸®¸é ÀÌ°ÍÀÌ ¸®ÅÏ
-    } //return "none";¸¦ Á¦°ÅÇÏ¸é ÄÄÆÄÀÏÀÌ µÇÁö ¾ÊÀ» °ÍÀÌ´Ù. 
-    //½ºÆ®¸µÀ» ¹«Á¶°Ç ¸®ÅÏÇÏ´Â ¸Ş¼Òµå´Ï±î
+        }//else//ë¥¼ ì—¬ê¸° ë¶™ì—¬ë„ë¨ 
+        return "none";//ìœ„ì—ì•„ë¬´ê²ƒë„ ì•ˆê±¸ë¦¬ë©´ ì´ê²ƒì´ ë¦¬í„´
+    } //return "none";ë¥¼ ì œê±°í•˜ë©´ ì»´íŒŒì¼ì´ ë˜ì§€ ì•Šì„ ê²ƒì´ë‹¤. 
+    //ìŠ¤íŠ¸ë§ì„ ë¬´ì¡°ê±´ ë¦¬í„´í•˜ëŠ” ë©”ì†Œë“œë‹ˆê¹Œ
  
     public static void main(String[] args) {
         System.out.println(num(3));
         
-        System.out.println("switch(5)");//¿©±â´Â À§¿Í ºñ±³ÇØºÁ
-        switch(5){//¾îµğ¿¡µµ ¼ÓÇÏÁö¾Ê´Â´Ù
+        System.out.println("switch(5)");//ì—¬ê¸°ëŠ” ìœ„ì™€ ë¹„êµí•´ë´
+        switch(5){//ì–´ë””ì—ë„ ì†í•˜ì§€ì•ŠëŠ”ë‹¤
         case 1:
             System.out.println("one");
             break;
@@ -27,7 +27,7 @@ public class g_returnÀÇÆ¯¼º2 {
         case 3:
             System.out.println("three");
             break;
-        default://°á±¹ if¹®ÀÇ else¶û ¶È°°Àºµí!
+        default://ê²°êµ­ ifë¬¸ì˜ elseë‘ ë˜‘ê°™ì€ë“¯!
             System.out.println("default");
             break;
         }

@@ -1,11 +1,11 @@
-package m_otherpackage;
+ï»¿package m_otherpackage;
 
 public class other {
 
 	private void _private() {
 		System.out.println("private");
 	}	
-	void _default() {//Á¢±ÙÁ¦¾îÀÚ ¸í½Ã¾ÈÇÏ¸é default Á¢±ÙÁ¦¾î°¡
+	void _default() {//ì ‘ê·¼ì œì–´ì ëª…ì‹œì•ˆí•˜ë©´ default ì ‘ê·¼ì œì–´ê°€
 		System.out.println("default");
 	}
 	protected void _protected() {

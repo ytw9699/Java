@@ -1,24 +1,24 @@
-package r_enum¿­°Å1;
-/*enumÀº ¿­°ÅÇü(enumerated type)ÀÌ¶ó°í ºÎ¸¥´Ù.¾î¶°ÇÑ Á¤º¸¸¦ ¿­°ÅÇÒ¼öÀÖ´Ù
-¿­°ÅÇüÀº ¼­·Î ¿¬°üµÈ »ó¼öµéÀÇ ÁıÇÕÀÌ¶ó°í ÇÒ ¼ö ÀÖ´Ù.¹Ù²îÁö¾Ê´Â °ªµéÀÇ ÁıÇÕ 
-¹è¿­Àº ¼­·Î ¿¬°üµÈ °ªµéÀÇ ÁıÇÕ
-À§ÀÇ ¿¹Á¦¿¡¼­´Â Fruit¿Í Company°¡ ¸»ÇÏÀÚ¸é ¿­°ÅÀÎ ¼ÀÀÌ´Ù
-¿­°Å¶ó´Â Æ¯¼ºÀ» ÀÚ¹Ù¿¡¼­ ¹®¹ıÀûÀ¸·Î Áö¿øÇÏ´Â ÇüÅÂ°¡  enumÀÌ´Ù
+ï»¿package r_enumì—´ê±°1;
+/*enumì€ ì—´ê±°í˜•(enumerated type)ì´ë¼ê³  ë¶€ë¥¸ë‹¤.ì–´ë– í•œ ì •ë³´ë¥¼ ì—´ê±°í• ìˆ˜ìˆë‹¤
+ì—´ê±°í˜•ì€ ì„œë¡œ ì—°ê´€ëœ ìƒìˆ˜ë“¤ì˜ ì§‘í•©ì´ë¼ê³  í•  ìˆ˜ ìˆë‹¤.ë°”ë€Œì§€ì•ŠëŠ” ê°’ë“¤ì˜ ì§‘í•© 
+ë°°ì—´ì€ ì„œë¡œ ì—°ê´€ëœ ê°’ë“¤ì˜ ì§‘í•©
+ìœ„ì˜ ì˜ˆì œì—ì„œëŠ” Fruitì™€ Companyê°€ ë§í•˜ìë©´ ì—´ê±°ì¸ ì…ˆì´ë‹¤
+ì—´ê±°ë¼ëŠ” íŠ¹ì„±ì„ ìë°”ì—ì„œ ë¬¸ë²•ì ìœ¼ë¡œ ì§€ì›í•˜ëŠ” í˜•íƒœê°€  enumì´ë‹¤
 */
-//enumÀº class, interface¿Í µ¿±ŞÀÇ Çü½ÄÀ» °¡Áö´Â ´ÜÀ§´Ù. ÇÏÁö¸¸ enumÀº »ç½Ç»ó classÀÌ´Ù
+//enumì€ class, interfaceì™€ ë™ê¸‰ì˜ í˜•ì‹ì„ ê°€ì§€ëŠ” ë‹¨ìœ„ë‹¤. í•˜ì§€ë§Œ enumì€ ì‚¬ì‹¤ìƒ classì´ë‹¤
 /*class Fruit{
 public static final Fruit APPLE  = new Fruit();
 public static final Fruit PEACH  = new Fruit();
 public static final Fruit BANANA = new Fruit();
 }*/
-//À§¿Í ¾Æ·¡´Â °°À½ À§ ÆĞÅÏÀ» ÀÚÁÖ¾²´Ï±î ÀÚ¹Ù¿¡¼­ ¹®¹ıÀûÀ¸·Î °£´ÜÇÏ°Ô enum¸¸µë
-enum Fruit{//FruitÀÌ°Ô À§ Å¬·¡½ºÀÓ
+//ìœ„ì™€ ì•„ë˜ëŠ” ê°™ìŒ ìœ„ íŒ¨í„´ì„ ìì£¼ì“°ë‹ˆê¹Œ ìë°”ì—ì„œ ë¬¸ë²•ì ìœ¼ë¡œ ê°„ë‹¨í•˜ê²Œ enumë§Œë“¬
+enum Fruit{//Fruitì´ê²Œ ìœ„ í´ë˜ìŠ¤ì„
     APPLE, PEACH, BANANA;
 }
 /*class Fruit{
-private Fruit(){}//»ı¼ºÀÚÀÇ Á¢±Ù Á¦¾îÀÚ°¡ privateÀÌ´Ù. 
-//±×°ÍÀÌ Å¬·¡½º Fruit¸¦ ´Ù¸¥Å¬·¡½º¿¡¼­ ÀÎ½ºÅÏ½º·Î ¸¸µé ¼ö ¾ø´Ù´Â °ÍÀ» ÀÇ¹ÌÇÑ´Ù.
-// ´Ù¸¥ ¿ëµµ·Î »ç¿ëÇÏ´Â °ÍÀ» >±İÁöÇÏ°í ÀÖ´Â °ÍÀÌ´Ù. 
+private Fruit(){}//ìƒì„±ìì˜ ì ‘ê·¼ ì œì–´ìê°€ privateì´ë‹¤. 
+//ê·¸ê²ƒì´ í´ë˜ìŠ¤ Fruitë¥¼ ë‹¤ë¥¸í´ë˜ìŠ¤ì—ì„œ ì¸ìŠ¤í„´ìŠ¤ë¡œ ë§Œë“¤ ìˆ˜ ì—†ë‹¤ëŠ” ê²ƒì„ ì˜ë¯¸í•œë‹¤.
+// ë‹¤ë¥¸ ìš©ë„ë¡œ ì‚¬ìš©í•˜ëŠ” ê²ƒì„ >ê¸ˆì§€í•˜ê³  ìˆëŠ” ê²ƒì´ë‹¤. 
 public static final Fruit APPLE  = new Fruit();
 public static final Fruit PEACH  = new Fruit();
 public static final Fruit BANANA = new Fruit();
@@ -29,13 +29,13 @@ enum Company{
 public class ConstantDemo7 {
     public static void main(String[] args) {
     	/*
-    	if(Fruit.APPLE == Company.APPLE){//ÄÄÆÄÀÏ¿¡·¯¹ß»ı
-    	    System.out.println("°úÀÏ ¾ÖÇÃ°ú È¸»ç ¾ÖÇÃÀÌ °°´Ù.");
+    	if(Fruit.APPLE == Company.APPLE){//ì»´íŒŒì¼ì—ëŸ¬ë°œìƒ
+    	    System.out.println("ê³¼ì¼ ì• í”Œê³¼ íšŒì‚¬ ì• í”Œì´ ê°™ë‹¤.");
     	}
     	*/
         Fruit type = Fruit.APPLE;
         switch(type){
-            case APPLE://Fuit.APPLEÀÎµ¥ ¾Õ¿¡ Fuit. »ı·«ÇÏµµ·Ï ¾à¼Ó , ´õ °£°á
+            case APPLE://Fuit.APPLEì¸ë° ì•ì— Fuit. ìƒëµí•˜ë„ë¡ ì•½ì† , ë” ê°„ê²°
                 System.out.println(57+" kcal");
                 break;
             case PEACH:
@@ -47,7 +47,7 @@ public class ConstantDemo7 {
         } 
     }
 }
-/*enumÀ» »ç¿ëÇÏ´Â ÀÌÀ¯¸¦ Á¤¸®ÇÏ¸é ¾Æ·¡¿Í °°´Ù.
-ÄÚµå°¡ ´Ü¼øÇØÁø´Ù.
-ÀÎ½ºÅÏ½º »ı¼º°ú »ó¼ÓÀ» ¹æÁöÇÑ´Ù.public static final Fruit PEACH  = new Fruit();
-Å°¿öµå enumÀ» »ç¿ëÇÏ±â ¶§¹®¿¡ ±¸ÇöÀÇ ÀÇµµ°¡ ¿­°ÅÀÓÀ» ºĞ¸íÇÏ°Ô ³ªÅ¸³¾ ¼ö ÀÖ´Ù.*/
+/*enumì„ ì‚¬ìš©í•˜ëŠ” ì´ìœ ë¥¼ ì •ë¦¬í•˜ë©´ ì•„ë˜ì™€ ê°™ë‹¤.
+ì½”ë“œê°€ ë‹¨ìˆœí•´ì§„ë‹¤.
+ì¸ìŠ¤í„´ìŠ¤ ìƒì„±ê³¼ ìƒì†ì„ ë°©ì§€í•œë‹¤.public static final Fruit PEACH  = new Fruit();
+í‚¤ì›Œë“œ enumì„ ì‚¬ìš©í•˜ê¸° ë•Œë¬¸ì— êµ¬í˜„ì˜ ì˜ë„ê°€ ì—´ê±°ì„ì„ ë¶„ëª…í•˜ê²Œ ë‚˜íƒ€ë‚¼ ìˆ˜ ìˆë‹¤.*/

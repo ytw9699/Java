@@ -1,4 +1,4 @@
-package r_enum»ó¼ö;//°úÀÏÀÌ¸§»ÓÀÌ¾Æ´Ñ ±â¾÷ÀÌ¸§¿¡ ´ëÇÑ »ó¼ö°¡ ÇÊ¿äÇØÁ³À»¶§ ¿¹½Ã
+ï»¿package r_enumìƒìˆ˜;//ê³¼ì¼ì´ë¦„ë¿ì´ì•„ë‹Œ ê¸°ì—…ì´ë¦„ì— ëŒ€í•œ ìƒìˆ˜ê°€ í•„ìš”í•´ì¡Œì„ë•Œ ì˜ˆì‹œ
 
 public class ConstantDemo3 {
     // fruit
@@ -8,7 +8,7 @@ public class ConstantDemo3 {
     // company
     private final static int GOOGLE = 1;
     //private final static int APPLE = 2;
-    //final·Î ÁöÁ¤ÇÑ °ªÀ» ¸ø¹Ù²Û´Ù´Â ÀÇ¹Ì·Î º¸°í½ÍÀºµí ¹¹°¡‰çµç ÀÌ¸§ÀÌ Ãæµ¹µÈ´Ù
+    //finalë¡œ ì§€ì •í•œ ê°’ì„ ëª»ë°”ê¾¼ë‹¤ëŠ” ì˜ë¯¸ë¡œ ë³´ê³ ì‹¶ì€ë“¯ ë­ê°€Â‰æ°¸?ì´ë¦„ì´ ì¶©ëŒëœë‹¤
     private final static int ORACLE = 3;
      
     public static void main(String[] args) {

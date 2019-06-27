@@ -1,21 +1,21 @@
-package f_¹è¿­;
+ï»¿package f_ë°°ì—´;
 
-public class c_¹è¿­ÀÇ±æÀÌ {
+public class c_ë°°ì—´ì˜ê¸¸ì´ {
 	
     public static void main(String[] args) {
-    	//String[] classGroup = { "ÃÖÁøÇõ", "ÃÖÀ¯ºó", "ÇÑÀÌ¶÷", "ÀÌ°íÀ×" }; //ÀÌ°Í°ú °°Àº ÀÇ¹Ì
-        String[] classGroup = new String[4];//4°³ÀÇ ¿ø¼Ò¸¦ ´ãÀ»¼öÀÖ´Â ¹è¿­
+    	//String[] classGroup = { "ìµœì§„í˜", "ìµœìœ ë¹ˆ", "í•œì´ëŒ", "ì´ê³ ì‰" }; //ì´ê²ƒê³¼ ê°™ì€ ì˜ë¯¸
+        String[] classGroup = new String[4];//4ê°œì˜ ì›ì†Œë¥¼ ë‹´ì„ìˆ˜ìˆëŠ” ë°°ì—´
         
-        classGroup[0] = "ÃÖÁøÇõ";//0¹ø ÀÎµ¦½º¿¡ ÃÖÁøÇõ ÀúÀå
+        classGroup[0] = "ìµœì§„í˜";//0ë²ˆ ì¸ë±ìŠ¤ì— ìµœì§„í˜ ì €ì¥
         System.out.println(classGroup.length);
-        //length´Â ´ã°ÜÁø ¿ø¼ÒÀÇ °¹¼ö°¡ ¾Æ´Ï¶ó ´ãÀ»¼öÀÖ´Â ¿ø¼ÒÀÇ °¹¼ö length´Â ±æÀÌ
-        //.length´Â ¹è¿­¿¡ ½ÇÁ¦ ´ã±ä µ¥ÀÌÅÍÀÇ ¼ıÀÚ¸¦ ÀÇ¹ÌÇÏ´Â °ÍÀÌ ¾Æ´Ï¶ó 
-        //¹è¿­À» Ã³À½ »ı¼ºÇÒ ¶§ ÁöÁ¤ÇÑ ¹è¿­ÀÇ Å©±â¸¦ ÀÇ¹ÌÇÑ´Ù´Â Á¡À» ÁÖÀÇÇÏÀÚ
-        classGroup[1] = "ÃÖÀ¯ºó";
+        //lengthëŠ” ë‹´ê²¨ì§„ ì›ì†Œì˜ ê°¯ìˆ˜ê°€ ì•„ë‹ˆë¼ ë‹´ì„ìˆ˜ìˆëŠ” ì›ì†Œì˜ ê°¯ìˆ˜ lengthëŠ” ê¸¸ì´
+        //.lengthëŠ” ë°°ì—´ì— ì‹¤ì œ ë‹´ê¸´ ë°ì´í„°ì˜ ìˆ«ìë¥¼ ì˜ë¯¸í•˜ëŠ” ê²ƒì´ ì•„ë‹ˆë¼ 
+        //ë°°ì—´ì„ ì²˜ìŒ ìƒì„±í•  ë•Œ ì§€ì •í•œ ë°°ì—´ì˜ í¬ê¸°ë¥¼ ì˜ë¯¸í•œë‹¤ëŠ” ì ì„ ì£¼ì˜í•˜ì
+        classGroup[1] = "ìµœìœ ë¹ˆ";
         System.out.println(classGroup.length);//4
-        classGroup[2] = "ÇÑÀÌ¶÷";
+        classGroup[2] = "í•œì´ëŒ";
         System.out.println(classGroup.length);
-        classGroup[3] = "ÀÌ°íÀ×";
+        classGroup[3] = "ì´ê³ ì‰";
         System.out.println(classGroup.length);
     }
 }

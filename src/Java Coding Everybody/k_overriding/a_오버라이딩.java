@@ -1,6 +1,6 @@
-package k_overriding;
-/*»ó¼ÓÀº ºÎ¸ğÅ¬·¡½º¿¡ÀÖ´Â°É ¹Ş°í , ºÎ¸ğÅ¬·¡½º¿¡ ¾ø´Â°É ÀÚ½ÄÅ¬·¡½º¿¡¼­ ´õ Ãß°¡ÇÑ´Ù´Â°Ô °³³äÀÌ¾úÀ¸¸é
-	¸Ş¼Òµå ¿À¹ö¶óÀÌµùÀº ºÎ¸ğ°¡ °¡Áø ¸Ş¼Òµå¸¦ ÀçÁ¤ÀÇ ÇÏ´Â°ÍÀÌ´Ù*/
+ï»¿package k_overriding;
+/*ìƒì†ì€ ë¶€ëª¨í´ë˜ìŠ¤ì—ìˆëŠ”ê±¸ ë°›ê³  , ë¶€ëª¨í´ë˜ìŠ¤ì— ì—†ëŠ”ê±¸ ìì‹í´ë˜ìŠ¤ì—ì„œ ë” ì¶”ê°€í•œë‹¤ëŠ”ê²Œ ê°œë…ì´ì—ˆìœ¼ë©´
+	ë©”ì†Œë“œ ì˜¤ë²„ë¼ì´ë”©ì€ ë¶€ëª¨ê°€ ê°€ì§„ ë©”ì†Œë“œë¥¼ ì¬ì •ì˜ í•˜ëŠ”ê²ƒì´ë‹¤*/
 class Calculator {
     int left, right;
     public void setOprands(int left, int right) {
@@ -15,14 +15,14 @@ class Calculator {
     }
 }
 class SubstractionableCalculator extends Calculator {
-    public void sum() {//¿À¹ö¶óÀÌµù »õ·Ó°Ô ¸Ş¼Òµå ÀçÁ¤ÀÇ!!
-        System.out.println("½ÇÇà °á°ú´Â " +(this.left + this.right)+"ÀÔ´Ï´Ù.");
+    public void sum() {//ì˜¤ë²„ë¼ì´ë”© ìƒˆë¡­ê²Œ ë©”ì†Œë“œ ì¬ì •ì˜!!
+        System.out.println("ì‹¤í–‰ ê²°ê³¼ëŠ” " +(this.left + this.right)+"ì…ë‹ˆë‹¤.");
     }
     public void substract() {
         System.out.println(this.left - this.right);
     }
 }
-public class a_¿À¹ö¶óÀÌµù {
+public class a_ì˜¤ë²„ë¼ì´ë”© {
     public static void main(String[] args) {
         SubstractionableCalculator c1 = new SubstractionableCalculator();
         c1.setOprands(10, 20);

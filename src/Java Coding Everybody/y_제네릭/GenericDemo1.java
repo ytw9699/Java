@@ -1,11 +1,11 @@
-package y_Á¦³×¸¯;
+ï»¿package y_ì œë„¤ë¦­;
 class StudentInfo{
     public int grade;
-   StudentInfo(int grade){ //»ı¼ºÀÚ
+   StudentInfo(int grade){ //ìƒì„±ì
     	this.grade = grade;
   }
 }
-class StudentPerson{//Áßº¹
+class StudentPerson{//ì¤‘ë³µ
     public StudentInfo info;
     StudentPerson(StudentInfo info){
     	this.info = info;
@@ -15,7 +15,7 @@ class EmployeeInfo{
     public int rank;
     EmployeeInfo(int rank){ this.rank = rank; }
 }
-class EmployeePerson{//Áßº¹
+class EmployeePerson{//ì¤‘ë³µ
     public EmployeeInfo info;
     EmployeePerson(EmployeeInfo info){ this.info = info; }
 }

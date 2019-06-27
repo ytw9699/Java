@@ -1,17 +1,17 @@
-package f_¹è¿­;
-//¹è¿­ÀÇ ÇÑ°è
+ï»¿package f_ë°°ì—´;
+//ë°°ì—´ì˜ í•œê³„
 
-public class e_¹è¿­ÀÇÇÑ°è1 {
+public class e_ë°°ì—´ì˜í•œê³„1 {
  
     public static void main(String[] args) {
      
-    	String[] members = { "ÃÖÁøÇõ", "ÃÖÀ¯ºó", "ÇÑÀÌ¶÷" };
+    	String[] members = { "ìµœì§„í˜", "ìµœìœ ë¹ˆ", "í•œì´ëžŒ" };
     	System.out.println(members[3]);
     	//ArrayIndexOutOfBoundsException 
-    	//¹è¿­Àº ÃÊ±âÈ­ÇÒ ¶§ ±× Å©±â°¡ Á¤ÇØÁø´Ù. ±×·¡¼­ Á¤ÇØÁø Å©±â ÀÌ»óÀÇ °ªÀ» ³ÖÀ» ¼ö ¾ø´Ù.
-    	//¹°·Ð ¹æ¹ýÀÌ ÀÖ´Ù. ÀÚ¹Ù¿¡´Â ÄÃ·º¼Ç CollectionÀÌ¶ó´Â ±â´ÉÀÌ ÀÖ´Ù. 
-    	//Container¶ó°íµµ ºÎ¸£´Â ÀÌ ±â´ÉÀ» ÀÌ¿ëÇÏ¸é 
-    	//JavaScriptÀÇ ¹è¿­°ú °°ÀÌ À¯¿¬ÇÏ°Ô ¹è¿­À» »ç¿ëÇÒ ¼ö ÀÖ´Ù. 
+    	//ë°°ì—´ì€ ì´ˆê¸°í™”í•  ë•Œ ê·¸ í¬ê¸°ê°€ ì •í•´ì§„ë‹¤. ê·¸ëž˜ì„œ ì •í•´ì§„ í¬ê¸° ì´ìƒì˜ ê°’ì„ ë„£ì„ ìˆ˜ ì—†ë‹¤.
+    	//ë¬¼ë¡  ë°©ë²•ì´ ìžˆë‹¤. ìžë°”ì—ëŠ” ì»¬ë ‰ì…˜ Collectionì´ë¼ëŠ” ê¸°ëŠ¥ì´ ìžˆë‹¤. 
+    	//Containerë¼ê³ ë„ ë¶€ë¥´ëŠ” ì´ ê¸°ëŠ¥ì„ ì´ìš©í•˜ë©´ 
+    	//JavaScriptì˜ ë°°ì—´ê³¼ ê°™ì´ ìœ ì—°í•˜ê²Œ ë°°ì—´ì„ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤. 
  }
 }
 

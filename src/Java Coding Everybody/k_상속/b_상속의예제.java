@@ -1,4 +1,4 @@
-package k_»ó¼Ó;
+ï»¿package k_ìƒì†;
 class Calculator {
     int left, right;
     public void setOprands(int left, int right) {
@@ -12,13 +12,13 @@ class Calculator {
         System.out.println((this.left + this.right) / 2);
     }
 }
-class SubstractionableCalculator extends Calculator {//»õ·Î¿î Å¬·¡½º¸¸µë
-	//±×¸®°í Calculator Å¬·¡½º¸¦ È®ÀåÇÑ´Ù Áï »ó¼Ó¹Ş´Â´Ù
+class SubstractionableCalculator extends Calculator {//ìƒˆë¡œìš´ í´ë˜ìŠ¤ë§Œë“¬
+	//ê·¸ë¦¬ê³  Calculator í´ë˜ìŠ¤ë¥¼ í™•ì¥í•œë‹¤ ì¦‰ ìƒì†ë°›ëŠ”ë‹¤
     public void substract() {
-        System.out.println(this.left - this.right);//CalculatorÀÇ º¯¼ö°ªÀ» °¡Á®¿À´Â°Í
+        System.out.println(this.left - this.right);//Calculatorì˜ ë³€ìˆ˜ê°’ì„ ê°€ì ¸ì˜¤ëŠ”ê²ƒ
     }
 }
-public class b_»ó¼ÓÀÇ¿¹Á¦ {
+public class b_ìƒì†ì˜ì˜ˆì œ {
  
     public static void main(String[] args) {
  

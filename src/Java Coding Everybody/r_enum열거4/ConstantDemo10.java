@@ -1,10 +1,10 @@
-package r_enum¿­°Å4;
+ï»¿package r_enumì—´ê±°4;
 
 enum Fruit{
     APPLE("red"), PEACH("pink"), BANANA("yellow");
     private String color;
    
-    public String getColor(){//¸Ş¼Òµåµµ ´Ù°¡´ÉÇÑ Å¬·¡½º´Ù
+    public String getColor(){//ë©”ì†Œë“œë„ ë‹¤ê°€ëŠ¥í•œ í´ë˜ìŠ¤ë‹¤
         return this.color;
     }
     Fruit(String color){

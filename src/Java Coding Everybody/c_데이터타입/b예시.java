@@ -1,12 +1,12 @@
-package c_µ¥ÀÌÅÍÅ¸ÀÔ;
-public class b¿¹½Ã {
+ï»¿package c_ë°ì´í„°íƒ€ìž…;
+public class bì˜ˆì‹œ {
 	public static void main(String[] args) {
-		//¾Æ·¡ÀÇ º¯¼ö a¿Í º¯¼ö b´Â µÑ ´Ù ¶È°°ÀÌ 8byteÀÇ ¸Þ¸ð¸®¸¦ »ç¿ëÇÏ°Ô µÈ´Ù.
-		//µ¥ÀÌÅÍ Å¸ÀÔÀÌ °°±â ¶§¹®ÀÌ´Ù.
+		//ì•„ëž˜ì˜ ë³€ìˆ˜ aì™€ ë³€ìˆ˜ bëŠ” ë‘˜ ë‹¤ ë˜‘ê°™ì´ 8byteì˜ ë©”ëª¨ë¦¬ë¥¼ ì‚¬ìš©í•˜ê²Œ ëœë‹¤.
+		//ë°ì´í„° íƒ€ìž…ì´ ê°™ê¸° ë•Œë¬¸ì´ë‹¤.
 		long a = 2147483647;
 		long b = 1;
-		//¹Ý´ë·Î ¾Æ·¡ÀÇ º¯¼ö c¿Í º¯¼ö d´Â ¶È°°Àº ¼ö¸¦ ÀúÀåÇÏ°í ÀÖÁö¸¸, 
-		//º¯¼ö d°¡ 2¹èÀÇ ¸Þ¸ð¸®¸¦ »ç¿ëÇÑ´Ù. µ¥ÀÌÅÍ Å¸ÀÔÀÌ ´Ù¸£±â ¶§¹®ÀÌ´Ù. 
+		//ë°˜ëŒ€ë¡œ ì•„ëž˜ì˜ ë³€ìˆ˜ cì™€ ë³€ìˆ˜ dëŠ” ë˜‘ê°™ì€ ìˆ˜ë¥¼ ì €ìž¥í•˜ê³  ìžˆì§€ë§Œ, 
+		//ë³€ìˆ˜ dê°€ 2ë°°ì˜ ë©”ëª¨ë¦¬ë¥¼ ì‚¬ìš©í•œë‹¤. ë°ì´í„° íƒ€ìž…ì´ ë‹¤ë¥´ê¸° ë•Œë¬¸ì´ë‹¤. 
 		int c = 2147483647;
 		long d = 2147483647;
 	}

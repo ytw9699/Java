@@ -1,16 +1,16 @@
-package y_Á¦³×¸¯;
-//Á¦³×¸¯ : Æ÷°ıÀûÀÎ ±âº»¶æ
-//Á¦³×¸¯(Generic)Àº Å¬·¡½º ³»ºÎ¿¡¼­ »ç¿ëÇÒ µ¥ÀÌÅÍ Å¸ÀÔÀ» ¿ÜºÎ¿¡¼­ ÁöÁ¤ÇÏ´Â ±â¹ıÀ» ÀÇ¹ÌÇÑ´Ù 
+ï»¿package y_ì œë„¤ë¦­;
+//ì œë„¤ë¦­ : í¬ê´„ì ì¸ ê¸°ë³¸ëœ»
+//ì œë„¤ë¦­(Generic)ì€ í´ë˜ìŠ¤ ë‚´ë¶€ì—ì„œ ì‚¬ìš©í•  ë°ì´í„° íƒ€ì…ì„ ì™¸ë¶€ì—ì„œ ì§€ì •í•˜ëŠ” ê¸°ë²•ì„ ì˜ë¯¸í•œë‹¤ 
 class Person<T>{
-    public T info;//ÀÎÆ÷º¯¼öÀÇ µ¥ÀÌÅÍÅ¸ÀÔ
-    //T¿¡´Â String,StringBuilderÀÌ µé¾î°¡´Â°Í
+    public T info;//ì¸í¬ë³€ìˆ˜ì˜ ë°ì´í„°íƒ€ì…
+    //Tì—ëŠ” String,StringBuilderì´ ë“¤ì–´ê°€ëŠ”ê²ƒ
 }
 
 public class GenericDemo0 {
  
 public static void main(String[] args) {
     Person<String> p1 = new Person<String>();
-    //Person<String>ÀÌ µ¥ÀÌÅÍÅ¸ÀÔÀÌ´Ù
+    //Person<String>ì´ ë°ì´í„°íƒ€ì…ì´ë‹¤
     Person<StringBuilder> p2 = new Person<StringBuilder>();
     }
  

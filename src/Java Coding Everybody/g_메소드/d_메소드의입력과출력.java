@@ -1,34 +1,34 @@
-package g_¸Þ¼Òµå;
-//¸Þ¼Òµå´Â ÀÛÀº ÇÁ·Î±×·¥À¸·Î¼­ ÀÔ·Â°ú Ãâ·ÂÀÇ °ü°è¸¦ º¸¿©ÁØ´Ù
-//(1, 5)¶ó´Â ÀÎÀÚ ÆÄ¶ó¹ÌÅÍ ÀÔ·Â°ªÀ»ÁÖ¸é !  outputÀÌ Ãâ·Â°ªÀÌ µÇ´Â°Í 
-//returnÀº ¸Þ¼ÒµåÀÇ Ãâ·Â°ú ¿¬°ü//¸Þ¼Òµå¸¦  µ¿ÀÛÇØ¼­ ±× °á°ú¸¦ ¹ÛÀ¸·Î µ¹·ÁÁØ´Ù´Â °³³ä
-public class d_¸Þ¼ÒµåÀÇÀÔ·Â°úÃâ·Â {
+ï»¿package g_ë©”ì†Œë“œ;
+//ë©”ì†Œë“œëŠ” ìž‘ì€ í”„ë¡œê·¸ëž¨ìœ¼ë¡œì„œ ìž…ë ¥ê³¼ ì¶œë ¥ì˜ ê´€ê³„ë¥¼ ë³´ì—¬ì¤€ë‹¤
+//(1, 5)ë¼ëŠ” ì¸ìž íŒŒë¼ë¯¸í„° ìž…ë ¥ê°’ì„ì£¼ë©´ !  outputì´ ì¶œë ¥ê°’ì´ ë˜ëŠ”ê²ƒ 
+//returnì€ ë©”ì†Œë“œì˜ ì¶œë ¥ê³¼ ì—°ê´€//ë©”ì†Œë“œë¥¼  ë™ìž‘í•´ì„œ ê·¸ ê²°ê³¼ë¥¼ ë°–ìœ¼ë¡œ ëŒë ¤ì¤€ë‹¤ëŠ” ê°œë…
+public class d_ë©”ì†Œë“œì˜ìž…ë ¥ê³¼ì¶œë ¥ {
 public static String numbering(int init, int limit) {
-	//¿©±â¼­ StringÀº ÀÌ ¸Þ¼Òµå°¡ ¸®ÅÏÇÒ °ªÀÌ ¹Ýµå½Ã ¹®ÀÚ¿­ÀÌ´Ù¶ó´Â°Í
-    //String a; º¯¼öa´Â ¹®ÀÚ¿­Å¸ÀÔÀÌ´Ù ¶ó°í ÇÏ´Â°Í°ú µ¿ÀÏ 
+	//ì—¬ê¸°ì„œ Stringì€ ì´ ë©”ì†Œë“œê°€ ë¦¬í„´í•  ê°’ì´ ë°˜ë“œì‹œ ë¬¸ìžì—´ì´ë‹¤ë¼ëŠ”ê²ƒ
+    //String a; ë³€ìˆ˜aëŠ” ë¬¸ìžì—´íƒ€ìž…ì´ë‹¤ ë¼ê³  í•˜ëŠ”ê²ƒê³¼ ë™ì¼ 
 	//String numbering
 	int i = init;
-    // ¸¸µé¾îÁö´Â ¼ýÀÚµéÀ» outputÀÌ¶ó´Â º¯¼ö¿¡ ´ã±â À§ÇØ¼­ º¯¼ö¿¡ ºó °ªÀ» ÁÖ¾ú´Ù.¾ÈÁÖ¸é ¿À·ù
+    // ë§Œë“¤ì–´ì§€ëŠ” ìˆ«ìžë“¤ì„ outputì´ë¼ëŠ” ë³€ìˆ˜ì— ë‹´ê¸° ìœ„í•´ì„œ ë³€ìˆ˜ì— ë¹ˆ ê°’ì„ ì£¼ì—ˆë‹¤.ì•ˆì£¼ë©´ ì˜¤ë¥˜
     String output = "";
     while (i < limit) {
-        // while¹® ³»ºÎ¿¡¼­ ¼ýÀÚ¸¦ È­¸é¿¡ Ãâ·ÂÇÏ´Â ´ë½Å º¯¼ö output¿¡ ´ã¾Ò´Ù.
-    	//System.out.println(i);//ÀÌ·¸°ÔÇÏ´Â°Å ´ë½Å
+        // whileë¬¸ ë‚´ë¶€ì—ì„œ ìˆ«ìžë¥¼ í™”ë©´ì— ì¶œë ¥í•˜ëŠ” ëŒ€ì‹  ë³€ìˆ˜ outputì— ë‹´ì•˜ë‹¤.
+    	//System.out.println(i);//ì´ë ‡ê²Œí•˜ëŠ”ê±° ëŒ€ì‹ 
         output += i;//output=output+i;
         i++;
     }
-    //Áß¿ä!!! output¿¡ ´ã°Ü ÀÖ´Â ¹®ÀÚ¿­À» ¸Þ¼Òµå ¿ÜºÎ·Î ¹ÝÈ¯ÇÏ·Á¸é
-    //¾Æ·¡¿Í °°ÀÌ return Å°¿öµå µÚ¿¡ ¹ÝÈ¯ÇÏ·Á´Â °ªÀ»
-    //¹èÄ¡ÇÏ¸é µÈ´Ù.
-    return output;//¸®ÅÏ¿¡¼­ ÇÁ·Î±×·¥ ¹Ýµå½Ã Á¾·á!
-    //¸®ÅÏµÚ¿¡¿À´Â outputÀÇ °ªÀ» ¸Þ¼ÒµåÀÇ Ãâ·Â°ªÀ¸·Î ¿ÜºÎ·Î ¹ÝÈ¯! 
+    //ì¤‘ìš”!!! outputì— ë‹´ê²¨ ìžˆëŠ” ë¬¸ìžì—´ì„ ë©”ì†Œë“œ ì™¸ë¶€ë¡œ ë°˜í™˜í•˜ë ¤ë©´
+    //ì•„ëž˜ì™€ ê°™ì´ return í‚¤ì›Œë“œ ë’¤ì— ë°˜í™˜í•˜ë ¤ëŠ” ê°’ì„
+    //ë°°ì¹˜í•˜ë©´ ëœë‹¤.
+    return output;//ë¦¬í„´ì—ì„œ í”„ë¡œê·¸ëž¨ ë°˜ë“œì‹œ ì¢…ë£Œ!
+    //ë¦¬í„´ë’¤ì—ì˜¤ëŠ” outputì˜ ê°’ì„ ë©”ì†Œë“œì˜ ì¶œë ¥ê°’ìœ¼ë¡œ ì™¸ë¶€ë¡œ ë°˜í™˜! 
 }
-    public static void main(String[] args) {//void´Â ºó°ø°£¶æ, ¸®ÅÏ°ªÀÌ Á¸Àç¾ÈÇÑ´Ù
-    	//±×·¡¼­ ¸Þ¼Òµå¾È¿¡´Â returnÀÌ¾ø´Â°Å
-        //¸Þ¼Òµå numberingÀÌ ¸®ÅÏÇÑ °ªÀÌ º¯¼ö result¿¡ ´ã±ä´Ù.
-        String result = numbering(1, 5);//ÀÔ·Â°ú
-        //º¯¼ö resultÀÇ °ªÀ» È­¸é¿¡ Ãâ·ÂÇÑ´Ù.
-        System.out.println(result);//1234 Ãâ·Â
+    public static void main(String[] args) {//voidëŠ” ë¹ˆê³µê°„ëœ», ë¦¬í„´ê°’ì´ ì¡´ìž¬ì•ˆí•œë‹¤
+    	//ê·¸ëž˜ì„œ ë©”ì†Œë“œì•ˆì—ëŠ” returnì´ì—†ëŠ”ê±°
+        //ë©”ì†Œë“œ numberingì´ ë¦¬í„´í•œ ê°’ì´ ë³€ìˆ˜ resultì— ë‹´ê¸´ë‹¤.
+        String result = numbering(1, 5);//ìž…ë ¥ê³¼
+        //ë³€ìˆ˜ resultì˜ ê°’ì„ í™”ë©´ì— ì¶œë ¥í•œë‹¤.
+        System.out.println(result);//1234 ì¶œë ¥
     }
 }
-//¸Þ¼Òµå°¡ ¸®ÅÏ ÇÒ °ªÀ» ¸í½ÃÇÔÀ¸·Î¼­ numberingÀÌ¶ó´Â ¸Þ¼Òµå´Â ¹Ýµå½Ã ¹®ÀÚ¿­ÀÇ °ªÀ»
-//¸®ÅÏÇÑ´Ù´Â °ÍÀ» º¸ÀåÇÒ ¼ö ÀÖ´Â ÀåÁ¡ÀÌ ÀÖ´Ù. ´ÜÁ¡Àº À¯¿¬¼ºÀÌ ¾øÀ½
+//ë©”ì†Œë“œê°€ ë¦¬í„´ í•  ê°’ì„ ëª…ì‹œí•¨ìœ¼ë¡œì„œ numberingì´ë¼ëŠ” ë©”ì†Œë“œëŠ” ë°˜ë“œì‹œ ë¬¸ìžì—´ì˜ ê°’ì„
+//ë¦¬í„´í•œë‹¤ëŠ” ê²ƒì„ ë³´ìž¥í•  ìˆ˜ ìžˆëŠ” ìž¥ì ì´ ìžˆë‹¤. ë‹¨ì ì€ ìœ ì—°ì„±ì´ ì—†ìŒ

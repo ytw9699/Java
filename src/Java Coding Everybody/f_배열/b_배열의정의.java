@@ -1,8 +1,8 @@
-package f_¹è¿­;
-public class b_¹è¿­ÀÇÁ¤ÀÇ {
+ï»¿package f_ë°°ì—´;
+public class b_ë°°ì—´ì˜ì •ì˜ {
 public static void main(String[] args) {
-    String[] classGroup = { "ÃÖÁøÇõ", "ÃÖÀ¯ºó", "ÇÑÀÌ¶÷", "ÀÌ°íÀ×" };//element ¿ø¼Ò4°³
-    	System.out.println(classGroup[0]);//»öÀÎ
+    String[] classGroup = { "ìµœì§„í˜", "ìµœìœ ë¹ˆ", "í•œì´ëŒ", "ì´ê³ ì‰" };//element ì›ì†Œ4ê°œ
+    	System.out.println(classGroup[0]);//ìƒ‰ì¸
         System.out.println(classGroup[1]);
         System.out.println(classGroup[2]);
         System.out.println(classGroup[3]);

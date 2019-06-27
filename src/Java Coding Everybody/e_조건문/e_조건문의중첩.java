@@ -1,9 +1,9 @@
-package e_Á¶°Ç¹®;
+ï»¿package e_ì¡°ê±´ë¬¸;
 
-public class e_Á¶°Ç¹®ÀÇÁßÃ¸ {
+public class e_ì¡°ê±´ë¬¸ì˜ì¤‘ì²© {
 	public static void main(String[] args) {
         String id = args[0];
-        String password = args[1];//2°³ÀÇ ÀÎÀÚ°ªÇÊ¿ä
+        String password = args[1];//2ê°œì˜ ì¸ìê°’í•„ìš”
         if (id.equals("egoing")) {
             if (password.equals("111111")) {
                 System.out.println("right");

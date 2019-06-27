@@ -1,21 +1,21 @@
-package j_À¯È¿¹üÀ§;
+ï»¿package j_ìœ íš¨ë²”ìœ„;
    
 class C {
-    int v = 10;//ÀÎ½ºÅÏ½º º¯¼ö
+    int v = 10;//ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜
  
     void m() {
-    	//¸Þ¼Òµå³»ºÎ¾È¿¡ Áö¿ªº¯¼ö°¡ ¾ø±â¶§¹®¿¡ 
-        System.out.println(v);//ÀÎ½ºÅÏ½º º¯¼ö Àü¿ªº¯¼öv¸¦ ¾²´Â°Í
+    	//ë©”ì†Œë“œë‚´ë¶€ì•ˆì— ì§€ì—­ë³€ìˆ˜ê°€ ì—†ê¸°ë•Œë¬¸ì— 
+        System.out.println(v);//ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ ì „ì—­ë³€ìˆ˜vë¥¼ ì“°ëŠ”ê²ƒ
    }
 }
  
-public class e_À¯È¿¹üÀ§ {
+public class e_ìœ íš¨ë²”ìœ„ {
  
     public static void main(String[] args) {
         C c1 = new C();
-        c1.m();//ÀÎ½ºÅÏ½º¸¦ ÅëÇØ ÀÎ½ºÅÏ½º ¸Þ¼Òµå Á¢±Ù°¡´É
-        //ÇÏ°í ´Ù½Ã ÀÎ½ºÅÏ½º º¯¼ö¿¡ Á¢±Ù  °¡´É°ú °°Àº¸»
-        //d_Å¬·¡½º¸É¹ö¿ÍÀÎ½ºÅÍ¸É¹öÀÇ°ü°è °¡º¸¸é ÁßÃ¸µÇ´Â ºÎºÐÀÌÀÖ´Ù
+        c1.m();//ì¸ìŠ¤í„´ìŠ¤ë¥¼ í†µí•´ ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œ ì ‘ê·¼ê°€ëŠ¥
+        //í•˜ê³  ë‹¤ì‹œ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼  ê°€ëŠ¥ê³¼ ê°™ì€ë§
+        //d_í´ëž˜ìŠ¤ë§´ë²„ì™€ì¸ìŠ¤í„°ë§´ë²„ì˜ê´€ê³„ ê°€ë³´ë©´ ì¤‘ì²©ë˜ëŠ” ë¶€ë¶„ì´ìžˆë‹¤
         
     }
  

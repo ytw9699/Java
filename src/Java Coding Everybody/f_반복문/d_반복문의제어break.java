@@ -1,9 +1,9 @@
-package f_¹İº¹¹®;
-public class d_¹İº¹¹®ÀÇÁ¦¾îbreak {
+ï»¿package f_ë°˜ë³µë¬¸;
+public class d_ë°˜ë³µë¬¸ì˜ì œì–´break {
 public static void main(String[] args) {
  for (int i = 0; i < 10; i++) {
-    if (i == 5)//if¹®¾È¿¡ ÇÑÁÙÂ¥¸®°¡¿À¸é Áß°ıÈ£ »ı·«ÇØµµµÊ{}
-        break;//¹İº¹¹® ºüÁ®³ª°¨ Á¾·á
+    if (i == 5)//ifë¬¸ì•ˆì— í•œì¤„ì§œë¦¬ê°€ì˜¤ë©´ ì¤‘ê´„í˜¸ ìƒëµí•´ë„ë¨{}
+        break;//ë°˜ë³µë¬¸ ë¹ ì ¸ë‚˜ê° ì¢…ë£Œ
     System.out.println("Coding Everybody " + i);
 }
 }

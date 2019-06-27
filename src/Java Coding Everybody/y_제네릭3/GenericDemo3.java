@@ -1,4 +1,4 @@
-package y_Á¦³×¸¯3;
+ï»¿package y_ì œë„¤ë¦­3;
 
 class StudentInfo{
     public int grade;
@@ -8,7 +8,7 @@ class EmployeeInfo{
     public int rank;
     EmployeeInfo(int rank){ this.rank = rank; }
 }
-class Person<T>{//Á¦³×¸¯È­
+class Person<T>{//ì œë„¤ë¦­í™”
     public T info;
     Person(T info){ this.info = info; }
  // EmployeeInfo info = new EmployeeInfo(1);
@@ -17,10 +17,10 @@ public class GenericDemo3 {
 public static void main(String[] args) {
 Person<EmployeeInfo> p1 = new Person<EmployeeInfo>(new EmployeeInfo(1));
 EmployeeInfo ei1 = p1.info;
-System.out.println(ei1.rank); // ¼º°ø
+System.out.println(ei1.rank); // ì„±ê³µ
  
-Person<String> p2 = new Person<String>("ºÎÀå");
+Person<String> p2 = new Person<String>("ë¶€ì¥");
 String ei2 = p2.info;
-//System.out.println(ei2.rank); // ÄÄÆÄÀÏ ½ÇÆĞ
+//System.out.println(ei2.rank); // ì»´íŒŒì¼ ì‹¤íŒ¨
 }
 }

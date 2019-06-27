@@ -1,5 +1,5 @@
-package o_ÀÎÅÍÆäÀÌ½º;
-//´ÙÀ½ ÄÚµå´Â ÀÎÅÍÆäÀÌ½º¿¡ µû¶ó¼­ ±¸ÇöµÈ Å¬·¡½ºÀÌ´Ù.
+ï»¿package o_ì¸í„°í˜ì´ìŠ¤;
+//ë‹¤ìŒ ì½”ë“œëŠ” ì¸í„°í˜ì´ìŠ¤ì— ë”°ë¼ì„œ êµ¬í˜„ëœ í´ë˜ìŠ¤ì´ë‹¤.
 class e_Calculator implements c_Calculatable {
     int first, second, third;
     public void setOprands(int first, int second, int third) {
@@ -14,7 +14,7 @@ class e_Calculator implements c_Calculatable {
         return (this.first + this.second + this.third) / 3;
     }
 }
-////ÀÌÁ¦ ÇØ¾ß ÇÒ ÀÏÀº °¡Â¥ Å¬·¡½ºÀÎ CalculatorDummy¸¦ ½ÇÁ¦ ·ÎÁ÷À¸·Î ±³Ã¼ÇÏ¸é µÈ´Ù.
+////ì´ì œ í•´ì•¼ í•  ì¼ì€ ê°€ì§œ í´ë˜ìŠ¤ì¸ CalculatorDummyë¥¼ ì‹¤ì œ ë¡œì§ìœ¼ë¡œ êµì²´í•˜ë©´ ëœë‹¤.
 /*public class f_CalculatorConsumer {
     public static void main(String[] args) {
         e_Calculator c = new e_Calculator();
