@@ -1,4 +1,4 @@
-package ch12;
+ï»¿package ch12;
 abstract class MyEnum<T extends MyEnum<T>> implements Comparable<T> {
 	static int id = 0;
 		
@@ -32,7 +32,7 @@ abstract class MyTransportation extends MyEnum {
 		int fare(int distance) { return distance * BASIC_FARE; }
 	};
 
-	abstract int fare(int distance); // Ãß»ó ¸Ş¼­µå
+	abstract int fare(int distance); // ì¶”ìƒ ë©”ì„œë“œ
 
 	protected final int BASIC_FARE;
 

@@ -1,4 +1,4 @@
-package ch14;
+ï»¿package ch14;
 import java.util.*;
 
 class OptionalEx1 {
@@ -22,8 +22,8 @@ class OptionalEx1 {
 		Optional.of("456").map(Integer::parseInt)
 					      .ifPresent(x->System.out.printf("result3=%d%n",x));
 
-		OptionalInt optInt1  = OptionalInt.of(0);   // 0À» ÀúÀå
-		OptionalInt optInt2  = OptionalInt.empty(); // ºó °´Ã¼¸¦ »ı¼º
+		OptionalInt optInt1  = OptionalInt.of(0);   // 0é˜‘ å†å˜
+		OptionalInt optInt2  = OptionalInt.empty(); // å æŒ‰çœ‰ç”« ç§¯å·±
 
 		System.out.println(optInt1.isPresent());   // true
 		System.out.println(optInt2.isPresent());   // false
@@ -34,8 +34,8 @@ class OptionalEx1 {
 		System.out.println("optInt2="+optInt2);
 	     System.out.println("optInt1.equals(optInt2)?"+optInt1.equals(optInt2));
 	
-		Optional<String> opt  = Optional.ofNullable(null); // nullÀ» ÀúÀå
-		Optional<String> opt2 = Optional.empty();          // ºó °´Ã¼¸¦ »ı¼º
+		Optional<String> opt  = Optional.ofNullable(null); // nullé˜‘ å†å˜
+		Optional<String> opt2 = Optional.empty();          // å æŒ‰çœ‰ç”« ç§¯å·±
 		System.out.println("opt ="+opt);
 		System.out.println("opt2="+opt2);
 		System.out.println("opt.equals(opt2)?"+opt.equals(opt2)); // true

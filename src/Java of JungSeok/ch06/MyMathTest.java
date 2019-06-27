@@ -1,4 +1,4 @@
-package ch06;
+ï»¿package ch06;
 class MyMathTest {
 	public static void main(String args[]) {
 		MyMath mm = new MyMath();
@@ -17,7 +17,7 @@ class MyMath {
 	long add(long a, long b) {
 		long result = a+b;
 		return result;
-	//	return a + b;	// À§ÀÇ µÎ ÁÙÀ» ÀÌ¿Í °°ÀÌ ÇÑ ÁÙ·Î °£´ÜÈ÷ ÇÒ ¼ö ÀÖ´Ù.
+	//	return a + b;	// ìœ„ì˜ ë‘ ì¤„ì„ ì´ì™€ ê°™ì´ í•œ ì¤„ë¡œ ê°„ë‹¨íˆ í•  ìˆ˜ ìˆë‹¤.
 	}
 
 	long subtract(long a, long b) {

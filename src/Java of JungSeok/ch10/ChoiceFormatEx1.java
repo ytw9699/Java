@@ -1,10 +1,10 @@
-package ch10;
+ï»¿package ch10;
 import java.text.*;
 
 class ChoiceFormatEx1 {
 	public static void main(String[] args) {
-		double[] limits = {60, 70, 80, 90};	// ³·Àº °ªºÎÅÍ Å« °ªÀÇ ¼ø¼­·Î Àû¾î¾ßÇÑ´Ù.
-		// limits, grades°£ÀÇ ¼ø¼­¿Í °³¼ö¸¦ ¸ÂÃß¾î¾ß ÇÑ´Ù. 
+		double[] limits = {60, 70, 80, 90};	// ë‚®ì€ ê°’ë¶€í„° í° ê°’ì˜ ìˆœì„œë¡œ ì ì–´ì•¼í•œë‹¤.
+		// limits, gradesê°„ì˜ ìˆœì„œì™€ ê°œìˆ˜ë¥¼ ë§ì¶”ì–´ì•¼ í•œë‹¤. 
 		String[] grades = {"D", "C", "B", "A"};	
 		
 		int[] scores = { 100, 95, 88, 70, 52, 60, 70};

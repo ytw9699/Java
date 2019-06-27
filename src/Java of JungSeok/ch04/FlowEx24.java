@@ -1,9 +1,9 @@
-package ch04;
+ï»¿package ch04;
 class FlowEx24 {
 	public static void main(String[] args) { 
 		int i=11;
 
-		System.out.println("ÀÚ, ÀÌÁ¦ Ä«¿îÆ®´Ù¿îÀ» ½ÃÀÛÇÕ´Ï´Ù.");
+		System.out.println("ì, ì´ì œ ì¹´ìš´íŠ¸ë‹¤ìš´ì„ ì‹œì‘í•©ë‹ˆë‹¤.");
 
 		while(i--!=0) {
 			System.out.println(i);

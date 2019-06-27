@@ -1,5 +1,5 @@
-package ch05_¹è¿­;
-class ArrayEx01_ÀÎµ¦½º°ªÀÇ¹üÀ§ {
+ï»¿package ch05_ë°°ì—´;
+class ArrayEx01_ì¸ë±ìŠ¤ê°’ì˜ë²”ìœ„ {
 	public static void main(String[] args) {
 		int[] score = new int[5];
 		
@@ -13,12 +13,12 @@ class ArrayEx01_ÀÎµ¦½º°ªÀÇ¹üÀ§ {
 
 		int tmp = score[k+2] + score[4];  // int tmp = score[3] + score[4]
 
-	    // for¹®À¸·Î ¹è¿­ÀÇ ¸ğµç ¿ä¼Ò¸¦ Ãâ·ÂÇÑ´Ù.
+	    // forë¬¸ìœ¼ë¡œ ë°°ì—´ì˜ ëª¨ë“  ìš”ì†Œë¥¼ ì¶œë ¥í•œë‹¤.
 		for(int i=0; i < 5; i++) {
 			System.out.printf("score[%d]:%d%n", i, score[i]);		
 		}
 		System.out.printf("tmp:%d%n", tmp);
-		System.out.printf("score[%d]:%d%n",7,score[7]); //indexÀÇ ¹üÀ§¸¦ ¹ş¾î³­ °ª
+		System.out.printf("score[%d]:%d%n",7,score[7]); //indexì˜ ë²”ìœ„ë¥¼ ë²—ì–´ë‚œ ê°’
 		
 	} // main
 }

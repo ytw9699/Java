@@ -1,4 +1,4 @@
-package ch13;
+﻿package ch13;
  class ThreadEx02 {
 	public static void main(String args[]) throws Exception {
 		ThreadEx2_1 t1 = new ThreadEx2_1();

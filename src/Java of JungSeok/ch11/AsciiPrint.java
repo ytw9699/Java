@@ -1,8 +1,8 @@
-package ch11;
+ï»¿package ch11;
 class AsciiPrint{
 	public static void main(String[] args) {
 		char ch = ' ';
-		for(int i=0; i < 95; i++)  // °ø¹é(' ')ÀÌÈÄÀÇ ¹®ÀÚµéÀ» Ãâ·ÂÇÑ´Ù.
+		for(int i=0; i < 95; i++)  // ê³µë°±(' ')ì´í›„ì˜ ë¬¸ìžë“¤ì„ ì¶œë ¥í•œë‹¤.
 			System.out.print(ch++);
 	}
 }

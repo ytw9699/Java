@@ -1,4 +1,4 @@
-package ch13;
+ï»¿package ch13;
 class ThreadEx20 {
 	public static void main(String args[]) {
 		ThreadEx20_1 gc = new ThreadEx20_1();
@@ -10,10 +10,10 @@ class ThreadEx20 {
 		for(int i=0; i < 20; i++) {
 			requiredMemory = (int)(Math.random() * 10) * 20;
 
-			// ÇÊ¿äÇÑ ¸Þ¸ð¸®°¡ »ç¿ëÇÒ ¼ö ÀÖ´Â ¾çº¸´Ù Å©°Å³ª ÀüÃ¼ ¸Þ¸ð¸®ÀÇ 60%ÀÌ»óÀ»
-            // »ç¿ëÇßÀ» °æ¿ì gc¸¦ ±ú¿î´Ù.
+			// í•„ìš”í•œ ë©”ëª¨ë¦¬ê°€ ì‚¬ìš©í•  ìˆ˜ ìžˆëŠ” ì–‘ë³´ë‹¤ í¬ê±°ë‚˜ ì „ì²´ ë©”ëª¨ë¦¬ì˜ 60%ì´ìƒì„
+            // ì‚¬ìš©í–ˆì„ ê²½ìš° gcë¥¼ ê¹¨ìš´ë‹¤.
 			if(gc.freeMemory() < requiredMemory || gc.freeMemory() < gc.totalMemory() * 0.4) {	
-				gc.interrupt();	// ÀáÀÚ°í ÀÖ´Â ¾²·¹µå t1À» ±ú¿î´Ù.		
+				gc.interrupt();	// ìž ìžê³  ìžˆëŠ” ì“°ë ˆë“œ t1ì„ ê¹¨ìš´ë‹¤.		
 			}
 			
 			gc.usedMemory += requiredMemory;
@@ -29,12 +29,12 @@ class ThreadEx20_1 extends Thread {
 	public void run() {
 		while(true) {
 			try {
-				Thread.sleep(10 * 1000);	// 10ÃÊ¸¦ ±â´Ù¸°´Ù.
+				Thread.sleep(10 * 1000);	// 10ì´ˆë¥¼ ê¸°ë‹¤ë¦°ë‹¤.
 			} catch(InterruptedException e) {
 				System.out.println("Awaken by interrupt().");
 			}
 
-			gc();	// garbage collectionÀ» ¼öÇàÇÑ´Ù.
+			gc();	// garbage collectionì„ ìˆ˜í–‰í•œë‹¤.
 			System.out.println("Garbage Collected. Free Memory :" + freeMemory());
 		}
 	}

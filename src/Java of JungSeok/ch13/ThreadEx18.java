@@ -1,4 +1,4 @@
-package ch13;
+﻿package ch13;
 class ThreadEx18 {
 	public static void main(String args[]) {
 		ThreadEx18_1 th1 = new ThreadEx18_1("*");

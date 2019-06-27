@@ -1,5 +1,5 @@
-package ch05_¹è¿­;
-class ArrayEx18_2Â÷¿ø¹è¿­ {
+ï»¿package ch05_ë°°ì—´;
+class ArrayEx18_2ì°¨ì›ë°°ì—´ {
 	public static void main(String[] args) {
 		
 		 int[][] score = {

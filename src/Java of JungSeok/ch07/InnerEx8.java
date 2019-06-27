@@ -1,4 +1,4 @@
-package ch07;
+ï»¿package ch07;
 import java.awt.*;
 import java.awt.event.*;
 
@@ -9,7 +9,7 @@ class  InnerEx8 {
 				public void actionPerformed(ActionEvent e) {
 					System.out.println("ActionEvent occurred!!!");
 				}
-			} // ÀÍ¸í Å¬·¡½ºÀÇ ³¡
+			} // ìµëª… í´ë˜ìŠ¤ì˜ ë
 		);
-	} // main¸Ş¼­µåÀÇ ³¡
-} // InnerEx8Å¬·¡½ºÀÇ ³¡
+	} // mainë©”ì„œë“œì˜ ë
+} // InnerEx8í´ë˜ìŠ¤ì˜ ë

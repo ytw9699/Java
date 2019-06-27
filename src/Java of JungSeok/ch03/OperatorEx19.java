@@ -1,10 +1,10 @@
-package ch03;
+ï»¿package ch03;
 class OperatorEx19 {
 	public static void main(String args[]) { 
 		int x = 10;
 		int y = 8;
 
-		System.out.printf("%dÀ» %d·Î ³ª´©¸é, %n", x, y); 
-		System.out.printf("¸òÀº %dÀÌ°í, ³ª¸ÓÁö´Â %dÀÔ´Ï´Ù.%n", x / y, x % y); 
+		System.out.printf("%dì„ %dë¡œ ë‚˜ëˆ„ë©´, %n", x, y); 
+		System.out.printf("ëª«ì€ %dì´ê³ , ë‚˜ë¨¸ì§€ëŠ” %dì…ë‹ˆë‹¤.%n", x / y, x % y); 
 	}
 }

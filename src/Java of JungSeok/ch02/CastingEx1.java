@@ -1,4 +1,4 @@
-package ch02;
+﻿package ch02;
 class CastingEx1 {
 	public static void main(String[] args) {
 		double d  = 85.4;

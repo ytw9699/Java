@@ -1,4 +1,4 @@
-package ch12;
+ï»¿package ch12;
 enum Direction2 { 
 	EAST(1, ">"), SOUTH(2,"V"), WEST(3, "<"), NORTH(4,"^");
 
@@ -21,11 +21,11 @@ enum Direction2 {
         return DIR_ARR[dir - 1];		
 	}	
 
-	// ¹æÇâÀ» È¸Àü½ÃÅ°´Â ¸Þ¼­µå. numÀÇ °ª¸¸Å­ 90µµ¾¿ ½Ã°è¹æÇâÀ¸·Î È¸ÀüÇÑ´Ù.
+	// ë°©í–¥ì„ íšŒì „ì‹œí‚¤ëŠ” ë©”ì„œë“œ. numì˜ ê°’ë§Œí¼ 90ë„ì”© ì‹œê³„ë°©í–¥ìœ¼ë¡œ íšŒì „í•œë‹¤.
 	public Direction2 rotate(int num) {
 		num = num % 4;
 
-		if(num < 0) num +=4; // numÀÌ À½¼öÀÏ ¶§´Â ½Ã°è¹Ý´ë ¹æÇâÀ¸·Î È¸Àü 
+		if(num < 0) num +=4; // numì´ ìŒìˆ˜ì¼ ë•ŒëŠ” ì‹œê³„ë°˜ëŒ€ ë°©í–¥ìœ¼ë¡œ íšŒì „ 
 
 		return DIR_ARR[(value-1+num) % 4];
 	}

@@ -1,4 +1,4 @@
-package ch06;
+﻿package ch06;
 class VarArgsEx {
 	public static void main(String[] args) {
 		String[] strArr = { "100", "200", "300" };

@@ -1,5 +1,5 @@
-package ch05_¹è¿­;
-class ArrayEx04_¹è¿­ÀÇº¹»ç_È¿À²Àû {
+ï»¿package ch05_ë°°ì—´;
+class ArrayEx04_ë°°ì—´ì˜ë³µì‚¬_íš¨ìœ¨ì  {
 	public static void main(String[] args) {
 		
 		char[] abc = { 'A', 'B', 'C', 'D'};
@@ -8,21 +8,21 @@ class ArrayEx04_¹è¿­ÀÇº¹»ç_È¿À²Àû {
 		System.out.println(abc);
 		System.out.println(num);
 
-		// ¹è¿­ abc¿Í numÀ» ºÙ¿©¼­ ÇÏ³ªÀÇ ¹è¿­(result)·Î ¸¸µç´Ù.
+		// ë°°ì—´ abcì™€ numì„ ë¶™ì—¬ì„œ í•˜ë‚˜ì˜ ë°°ì—´(result)ë¡œ ë§Œë“ ë‹¤.
 		char[] result = new char[abc.length+num.length];
 		
 		System.arraycopy(abc, 0, result, 0, abc.length);
-		//abcÀÇ ¹è¿­ÀÇ 0¹øÂ°ºÎÅÍ length¸¸Å­ resultÀÇ ¹è¿­ÀÇ 0¹øÂ°ºÎÅÍ length¸¸Å­ º¹»ç 
+		//abcì˜ ë°°ì—´ì˜ 0ë²ˆì§¸ë¶€í„° lengthë§Œí¼ resultì˜ ë°°ì—´ì˜ 0ë²ˆì§¸ë¶€í„° lengthë§Œí¼ ë³µì‚¬ 
 		System.out.println(result);
 		System.arraycopy(num, 0, result, abc.length, num.length);
 		System.out.println(result);
 
 		System.arraycopy(abc, 0, num, 0, abc.length);	
-		// ¹è¿­ abcÀ» ¹è¿­ numÀÇ Ã¹ ¹øÂ° À§Ä¡ºÎÅÍ ¹è¿­ abcÀÇ ±æÀÌ¸¸Å­ º¹»ç
+		// ë°°ì—´ abcì„ ë°°ì—´ numì˜ ì²« ë²ˆì§¸ ìœ„ì¹˜ë¶€í„° ë°°ì—´ abcì˜ ê¸¸ì´ë§Œí¼ ë³µì‚¬
 		System.out.println(2);
 		System.out.println(num);
 
-	     // numberÀÇ ÀÎµ¦½º6 À§Ä¡¿¡ 3°³¸¦ º¹»ç // 678À§Ä¡¿¡ º¹»çÇÏ´Â°Í
+	     // numberì˜ ì¸ë±ìŠ¤6 ìœ„ì¹˜ì— 3ê°œë¥¼ ë³µì‚¬ // 678ìœ„ì¹˜ì— ë³µì‚¬í•˜ëŠ”ê²ƒ
 		System.arraycopy(abc, 0, num, 6, 3);
 		System.out.println(num);
 	}

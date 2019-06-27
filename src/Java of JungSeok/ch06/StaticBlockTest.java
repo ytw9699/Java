@@ -1,11 +1,11 @@
-package ch06;
+ï»¿package ch06;
 class StaticBlockTest 
 {
 	static int[] arr = new int[10];
 
 	static {
 		for(int i=0;i<arr.length;i++) {
-			// 1°ú 10»çÀÌÀÇ ÀÓÀÇÀÇ °ªÀ» ¹è¿­ arr¿¡ ÀúÀåÇÑ´Ù.
+			// 1ê³¼ 10ì‚¬ì´ì˜ ìž„ì˜ì˜ ê°’ì„ ë°°ì—´ arrì— ì €ìž¥í•œë‹¤.
 			arr[i] = (int)(Math.random()*10) + 1;
 		}
 	}

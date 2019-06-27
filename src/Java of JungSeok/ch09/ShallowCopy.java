@@ -1,16 +1,16 @@
-package ch09;
+ï»¿package ch09;
 import java.util.*;
 
 class Circle implements Cloneable {
-	Point2 p;  // ¿øÁ¡
-	double r; // ¹İÁö¸§
+	Point2 p;  // ì›ì 
+	double r; // ë°˜ì§€ë¦„
 
 	Circle(Point2 p, double r) {
 		this.p = p;
 		this.r = r;
 	}
 
-	public Circle shallowCopy() { // ¾èÀº º¹»ç
+	public Circle shallowCopy() { // ì–•ì€ ë³µì‚¬
 		Object obj = null;
 
 		try {
@@ -20,7 +20,7 @@ class Circle implements Cloneable {
 		return (Circle)obj;
 	}
 
-	public Circle deepCopy() { // ±íÀº º¹»ç
+	public Circle deepCopy() { // ê¹Šì€ ë³µì‚¬
 		Object obj = null;
 
 		try {
@@ -63,7 +63,7 @@ class ShallowCopy {
 		System.out.println("c3="+c3);
 		c1.p.x = 9;
 		c1.p.y = 9;
-		System.out.println("= c1ÀÇ º¯°æ ÈÄ =");
+		System.out.println("= c1ì˜ ë³€ê²½ í›„ =");
 		System.out.println("c1="+c1);
 		System.out.println("c2="+c2);
 		System.out.println("c3="+c3);

@@ -1,18 +1,18 @@
-package ch05_¹è¿­;
-class ArrayEx07_¼ıÀÚ¼¯±â {
+ï»¿package ch05_ë°°ì—´;
+class ArrayEx07_ìˆ«ìì„ê¸° {
 	
 	public static void main(String[] args) {
 		
 		int[] numArr = new int[10];
 
 		for (int i=0; i < numArr.length ; i++ ) {
-             numArr[i] = i;  // ¹è¿­À» 0~9ÀÇ ¼ıÀÚ·Î ÃÊ±âÈ­ÇÑ´Ù.
+             numArr[i] = i;  // ë°°ì—´ì„ 0~9ì˜ ìˆ«ìë¡œ ì´ˆê¸°í™”í•œë‹¤.
 			System.out.print(numArr[i]);  
 		}
 		System.out.println();
 
 		for (int i=0; i < 100; i++ ) {
-			int n = (int)(Math.random() * 10);	// 0~9ÁßÀÇ ÇÑ °ªÀ» ÀÓÀÇ·Î ¾ò´Â´Ù.
+			int n = (int)(Math.random() * 10);	// 0~9ì¤‘ì˜ í•œ ê°’ì„ ì„ì˜ë¡œ ì–»ëŠ”ë‹¤.
 
 			int tmp = numArr[0];
 			numArr[0] = numArr[n];
@@ -21,5 +21,5 @@ class ArrayEx07_¼ıÀÚ¼¯±â {
 
 		for (int i=0; i < numArr.length ; i++ )
 			System.out.print(numArr[i]);		
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }

@@ -1,10 +1,10 @@
-package ch05_¹è¿­;
-import java.util.Arrays;  // Arrays.toString()À» »ç¿ëÇÏ±â À§ÇØ Ãß°¡
+ï»¿package ch05_ë°°ì—´;
+import java.util.Arrays;  // Arrays.toString()ì„ ì‚¬ìš©í•˜ê¸° ìœ„í•´ ì¶”ê°€
 
-class ArrayEx09ºÒ¿¬¼Ó¹è¿­Ã¤¿ì±â {
+class ArrayEx09ë¶ˆì—°ì†ë°°ì—´ì±„ìš°ê¸° {
 	public static void main(String[] args) {
 		
-		int[] code = { -4, -1, 3, 6, 11 };  // ºÒ¿¬¼ÓÀûÀÎ °ªµé·Î ±¸¼ºµÈ ¹è¿­
+		int[] code = { -4, -1, 3, 6, 11 };  // ë¶ˆì—°ì†ì ì¸ ê°’ë“¤ë¡œ êµ¬ì„±ëœ ë°°ì—´
 		
 		int[] arr = new int[10];
 
@@ -13,5 +13,5 @@ class ArrayEx09ºÒ¿¬¼Ó¹è¿­Ã¤¿ì±â {
 			arr[i] = code[tmp];
 		}
 		System.out.println(Arrays.toString(arr));
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }

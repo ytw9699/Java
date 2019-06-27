@@ -1,10 +1,10 @@
-package ch11;
+ï»¿package ch11;
 import java.util.*; 
 
 class HashSetEx2_Bingo { 
       public static void main(String[] args) { 
             Set set = new HashSet(); 
-//          Set set = new LinkedHashSet(); //ÀÌ°É¾²¸é ¿À¸§Â÷¼øÁ¤·Ä¾ÈµÊ
+//          Set set = new LinkedHashSet(); //ì´ê±¸ì“°ë©´ ì˜¤ë¦„ì°¨ìˆœì •ë ¬ì•ˆë¨
             int[][] board = new int[5][5]; 
 
             for(int i=0; set.size() < 25; i++) { 
@@ -15,7 +15,7 @@ class HashSetEx2_Bingo {
 
             for(int i=0; i < board.length; i++) { 
                   for(int j=0; j < board[i].length; j++) { 
-                        board[i][j] = Integer.parseInt((String)it.next());//¿©±â¼­ ÀÌÅÍ·¹ÀÌÅÍ°¡ ¿À¸§Â÷¼øÁ¤·ÄÇØÁÜ ±×·¡¼­ Áß°£Áß°£ ¿À¸§Â÷¼øÀ¸·Î³ª¿À´Â°Å
+                        board[i][j] = Integer.parseInt((String)it.next());//ì—¬ê¸°ì„œ ì´í„°ë ˆì´í„°ê°€ ì˜¤ë¦„ì°¨ìˆœì •ë ¬í•´ì¤Œ ê·¸ë˜ì„œ ì¤‘ê°„ì¤‘ê°„ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œë‚˜ì˜¤ëŠ”ê±°
                         System.out.print((board[i][j] < 10 ? "  " : " ") + board[i][j]); 
                   } 
                   System.out.println(); 

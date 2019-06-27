@@ -1,4 +1,4 @@
-package ch06;
+﻿package ch06;
 class CallStackTest {
 	public static void main(String[] args) {
 		firstMethod();

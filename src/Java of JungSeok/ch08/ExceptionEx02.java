@@ -1,12 +1,12 @@
-package ch08;
+ï»¿package ch08;
 class ExceptionEx02 {
 	public static void main(String args[]) {
 		int number = 100;
 		int result = 0;
 
 		for(int i=0; i < 10; i++) {
-			result = number / (int)(Math.random() * 10); // 7¹øÂ° ¶óÀÎ
+			result = number / (int)(Math.random() * 10); // 7ë²ˆì§¸ ë¼ì¸
 			System.out.println(result);
 		}
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }

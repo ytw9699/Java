@@ -1,4 +1,4 @@
-package ch13;
+﻿package ch13;
  class ThreadEx05 {
 	static long startTime = 0;
 
@@ -11,7 +11,7 @@ package ch13;
 			System.out.print("-");
 		}
 
-		System.out.print("�ҿ�ð�1:" + (System.currentTimeMillis() - ThreadEx05.startTime));
+		System.out.print("소요시간1:" + (System.currentTimeMillis() - ThreadEx05.startTime));
 	}
 }
 
@@ -21,6 +21,6 @@ class ThreadEx5_1 extends Thread {
 			System.out.print("|");
 		}
 
-		System.out.print("�ҿ�ð�2:" + (System.currentTimeMillis() - ThreadEx05.startTime));
+		System.out.print("소요시간2:" + (System.currentTimeMillis() - ThreadEx05.startTime));
 	}
 }

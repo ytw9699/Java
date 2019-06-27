@@ -1,4 +1,4 @@
-package ch15;
+ï»¿package ch15;
 import java.io.*;
 
 class DataInputStreamEx3 {
@@ -16,7 +16,7 @@ class DataInputStreamEx3 {
 				sum += score;
 			}
 		} catch (EOFException e) {
-			System.out.println("Á¡¼öÀÇ ÃÑÇÕÀº " + sum +"ÀÔ´Ï´Ù.");
+			System.out.println("ì ìˆ˜ì˜ ì´í•©ì€ " + sum +"ì…ë‹ˆë‹¤.");
 		} catch (IOException ie) {
 			ie.printStackTrace();
 		} // try

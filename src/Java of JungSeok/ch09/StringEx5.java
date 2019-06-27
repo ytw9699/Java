@@ -1,9 +1,9 @@
-package ch09;
+ï»¿package ch09;
 import java.util.StringJoiner;
 
 class StringEx5 {
 	public static void main(String[] args) throws Exception {
-		String str = "°¡";
+		String str = "ê°€";
 
 		byte[] bArr  = str.getBytes("UTF-8");
 		byte[] bArr2 = str.getBytes("CP949");

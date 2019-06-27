@@ -1,4 +1,4 @@
-package ch13;
+ï»¿package ch13;
 import java.util.ArrayList;
 
 class Customer2 implements Runnable {
@@ -44,7 +44,7 @@ class Table2 {
 	final int MAX_FOOD = 6;
 	private ArrayList<String> dishes = new ArrayList<>();
 
-	public synchronized void add(String dish) { // synchronized¸¦ Ãß°¡
+	public synchronized void add(String dish) { // synchronizedë¥¼ ì¶”ê°€
 		if(dishes.size() >= MAX_FOOD)	
 			return;
 		dishes.add(dish);
@@ -74,7 +74,7 @@ class Table2 {
 
 class ThreadWaitEx2 {
 	public static void main(String[] args) throws Exception {
-		Table2 table = new Table2(); // ¿©·¯ ¾²·¹µå°¡ °øÀ¯ÇÏ´Â °´Ã¼
+		Table2 table = new Table2(); // ì—¬ëŸ¬ ì“°ë ˆë“œê°€ ê³µìœ í•˜ëŠ” ê°ì²´
 
 		new Thread(new Cook2(table), "COOK1").start();
 		new Thread(new Customer2(table, "donut"),  "CUST1").start();

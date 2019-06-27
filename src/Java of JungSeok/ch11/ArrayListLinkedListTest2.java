@@ -1,4 +1,4 @@
-package ch11;
+﻿package ch11;
 import java.util.*; 
 
 public class ArrayListLinkedListTest2 { 
@@ -8,7 +8,7 @@ public class ArrayListLinkedListTest2 {
             add(al);
             add(ll);
 
-            System.out.println("= ���ٽð��׽�Ʈ ="); 
+            System.out.println("= 접근시간테스트 ="); 
             System.out.println("ArrayList :"+access(al)); 
             System.out.println("LinkedList :"+access(ll)); 
 	  }

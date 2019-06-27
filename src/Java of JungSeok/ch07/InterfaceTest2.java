@@ -1,4 +1,4 @@
-package ch07;
+ï»¿package ch07;
  class A2 {
     void autoPlay(I i) {
           i.play();
@@ -24,7 +24,7 @@ package ch07;
 class InterfaceTest2 {
 	public static void main(String[] args) {
 		A2 a = new A2();
-		a.autoPlay(new B2()); // void autoPlay(I i)È£Ãâ
-		a.autoPlay(new C2()); // void autoPlay(I i)È£Ãâ
+		a.autoPlay(new B2()); // void autoPlay(I i)í˜¸ì¶œ
+		a.autoPlay(new C2()); // void autoPlay(I i)í˜¸ì¶œ
 	}
 }

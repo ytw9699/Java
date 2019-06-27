@@ -1,4 +1,4 @@
-package ch03;
+ï»¿package ch03;
 class OperatorEx31 {
 	public static void main(String[] args) {
 		int dec  = 1234; 
@@ -16,5 +16,5 @@ class OperatorEx31 {
 
 		hex = hex >> 4;
 		System.out.printf("%X%n", hex & mask);
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }

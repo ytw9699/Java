@@ -1,4 +1,4 @@
-package ch07;
+ï»¿package ch07;
 class PointTest {
 	public static void main(String args[]) {
 		Point3D p3 = new Point3D(1,2,3);
@@ -29,7 +29,7 @@ class Point3D extends Point2 {
 		this.z = z;
 	}
 
-	String getLocation() {	// ¿À¹ö¶óÀÌµù
+	String getLocation() {	// ì˜¤ë²„ë¼ì´ë”©
 		return "x :" + x + ", y :"+ y + ", z :" + z;
 	}	
 }

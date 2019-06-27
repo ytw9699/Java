@@ -1,4 +1,4 @@
-package ch07;
+ï»¿package ch07;
 class InterfaceTest3 {
 	public static void main(String[] args) {
 		A3 a = new A3();
@@ -10,7 +10,7 @@ class InterfaceTest3 {
     void methodA() {
           I3 i = InstanceManager.getInstance();
 		  i.methodB();
-		  System.out.println(i.toString()); // i·Î ObjectÅ¬·¡½ºÀÇ ¸Ş¼­µå È£Ãâ°¡´É
+		  System.out.println(i.toString()); // ië¡œ Objectí´ë˜ìŠ¤ì˜ ë©”ì„œë“œ í˜¸ì¶œê°€ëŠ¥
      }
  }
 

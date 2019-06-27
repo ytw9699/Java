@@ -1,4 +1,4 @@
-package ch12;
+ï»¿package ch12;
 import java.util.ArrayList;
 
 class Fruit2 implements Eatable {
@@ -15,14 +15,14 @@ class FruitBoxEx2 {
 		FruitBox2<Fruit2> fruitBox = new FruitBox2<Fruit2>();
 		FruitBox2<Apple2> appleBox = new FruitBox2<Apple2>();
 		FruitBox2<Grape2> grapeBox = new FruitBox2<Grape2>();
-//		FruitBox2<Grape> grapeBox = new FruitBox2<Apple>(); // ¿¡·¯. Å¸ÀÔ ºÒÀÏÄ¡
-//		FruitBox2<Toy>   toyBox    = new FruitBox2<Toy>();   // ¿¡·¯.
+//		FruitBox2<Grape> grapeBox = new FruitBox2<Apple>(); // ì—ëŸ¬. íƒ€ì… ë¶ˆì¼ì¹˜
+//		FruitBox2<Toy>   toyBox    = new FruitBox2<Toy>();   // ì—ëŸ¬.
 
 		fruitBox.add(new Fruit2());
 		fruitBox.add(new Apple2());
 		fruitBox.add(new Grape2());
 		appleBox.add(new Apple2());
-//		appleBox.add(new Grape2());  // ¿¡·¯. Grape´Â AppleÀÇ ÀÚ¼ÕÀÌ ¾Æ´Ô
+//		appleBox.add(new Grape2());  // ì—ëŸ¬. GrapeëŠ” Appleì˜ ìì†ì´ ì•„ë‹˜
 		grapeBox.add(new Grape2());
 
 		System.out.println("fruitBox-"+fruitBox);

@@ -1,4 +1,4 @@
-package ch11;
+ï»¿package ch11;
 import java.util.*;
 
 class HashSetEx3 {
@@ -7,8 +7,8 @@ class HashSetEx3 {
 
 		set.add("abc");
 		set.add("abc");
-		set.add(new Person("David",10));//Áßº¹¹ß»ı¾ÈµÊ
-		set.add(new Person("David",10));//Áßº¹¹ß»ı¾ÈµÊ
+		set.add(new Person("David",10));//ì¤‘ë³µë°œìƒì•ˆë¨
+		set.add(new Person("David",10));//ì¤‘ë³µë°œìƒì•ˆë¨
 
 		System.out.println(set);
 	}

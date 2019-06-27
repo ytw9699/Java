@@ -1,4 +1,4 @@
-package ch02;
+﻿package ch02;
 class VarEx2 {
 	public static void main(String[] args) {
 		int x = 10;

@@ -1,4 +1,4 @@
-package ch07;
+﻿package ch07;
 final class Singleton {
 	private static Singleton s = new Singleton();
 	

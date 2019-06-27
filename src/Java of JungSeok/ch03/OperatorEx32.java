@@ -1,4 +1,4 @@
-package ch03;
+ï»¿package ch03;
 class OperatorEx32 {
 	public static void main(String args[]) { 
 		int  x, y, z;
@@ -9,11 +9,11 @@ class OperatorEx32 {
 		y = -5;
 		z = 0;
 
-		absX = x >= 0 ? x : -x;  // xÀÇ °ªÀÌ À½¼öÀÌ¸é, ¾ç¼ö·Î ¸¸µç´Ù.
+		absX = x >= 0 ? x : -x;  // xì˜ ê°’ì´ ìŒìˆ˜ì´ë©´, ì–‘ìˆ˜ë¡œ ë§Œë“ ë‹¤.
 		absY = y >= 0 ? y : -y;
 		absZ = z >= 0 ? z : -z;
 
-		signX = x > 0 ? '+' : ( x==0 ? ' ' : '-');  // Á¶°Ç ¿¬»êÀÚ¸¦ ÁßÃ¸
+		signX = x > 0 ? '+' : ( x==0 ? ' ' : '-');  // ì¡°ê±´ ì—°ì‚°ìžë¥¼ ì¤‘ì²©
 		signY = y > 0 ? '+' : ( y==0 ? ' ' : '-'); 
 		signZ = z > 0 ? '+' : ( z==0 ? ' ' : '-'); 
 

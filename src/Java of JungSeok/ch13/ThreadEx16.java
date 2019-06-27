@@ -1,4 +1,4 @@
-package ch13;
+ï»¿package ch13;
  class ThreadEx16 {
 	public static void main(String args[]) {
 		RunImplEx16 r1 = new RunImplEx16();
@@ -14,7 +14,7 @@ package ch13;
 
 		try {
 			Thread.sleep(2000);
-			r1.suspend();		// th1.suspend()ÀÌ ¾Æ´Ô¿¡ ÁÖÀÇ
+			r1.suspend();		// th1.suspend()ì´ ì•„ë‹˜ì— ì£¼ì˜
 			Thread.sleep(2000);
 			r2.suspend();
 			Thread.sleep(3000);

@@ -1,4 +1,4 @@
-package ch02;
+﻿package ch02;
 class StringEx {
 	public static void main(String[] args) {
 		String name = "Ja" + "va";

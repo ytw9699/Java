@@ -1,4 +1,4 @@
-package ch11;
+ï»¿package ch11;
 
 import java.util.Collections;
 import java.util.HashSet;
@@ -7,16 +7,16 @@ import java.util.List;
 import java.util.Set;
 
 class HashSetEx2 {
-	public static void main(String[] args) {//·Î¶Ç¹øÈ£
+	public static void main(String[] args) {//ë¡œë˜ë²ˆí˜¸
 		Set set = new HashSet();
 
 		for(int i=0; set.size()<6; i++) {
-			set.add((int)(Math.random()*45+1));//Áßº¹µÈ°ªÀº ÀúÀå¾ÈÇÑ´Ù ¿Ö³Ä¸é À§¿¡¼­
-			//setÀÇ size·Î ÆÇ´ÜÇÏ´Ï±î!
+			set.add((int)(Math.random()*45+1));//ì¤‘ë³µëœê°’ì€ ì €ì¥ì•ˆí•œë‹¤ ì™œëƒë©´ ìœ„ì—ì„œ
+			//setì˜ sizeë¡œ íŒë‹¨í•˜ë‹ˆê¹Œ!
 		}
 		List list = new LinkedList(set);
 		
-		Collections.sort(list);//¼ÂÀº Á¤·ÄÀÌ¾ÈµÊ ¸®½ºÆ®ÂÊ¸¸µÊ ¿Ö³Ä¸é ¼ÂÀº ¼ø¼­°¡¾øÀ¸´Ï±î
+		Collections.sort(list);//ì…‹ì€ ì •ë ¬ì´ì•ˆë¨ ë¦¬ìŠ¤íŠ¸ìª½ë§Œë¨ ì™œëƒë©´ ì…‹ì€ ìˆœì„œê°€ì—†ìœ¼ë‹ˆê¹Œ
 		
 		System.out.println(list);	
 	}

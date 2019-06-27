@@ -1,4 +1,4 @@
-package ch04;
+ï»¿package ch04;
 class FlowEx18 {
 	public static void main(String[] args) { 
 		for(int i=2;i<=9;i++) { 
@@ -6,5 +6,5 @@ class FlowEx18 {
 				System.out.printf("%d x %d = %d%n", i, j, i*j);			
 			}
 		}
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }

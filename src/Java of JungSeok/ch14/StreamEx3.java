@@ -1,17 +1,17 @@
-package ch14;
+ï»¿package ch14;
 import java.util.*;
 import java.util.stream.*;
 
 class StreamEx3 {
 	public static void main(String[] args) {
 		Student2[] stuArr = {
-			new Student2("ÀÌÀÚ¹Ù", 3, 300),
-			new Student2("±èÀÚ¹Ù", 1, 200),
-			new Student2("¾ÈÀÚ¹Ù", 2, 100),
-			new Student2("¹ÚÀÚ¹Ù", 2, 150),
-			new Student2("¼ÒÀÚ¹Ù", 1, 200),
-			new Student2("³ªÀÚ¹Ù", 3, 290),
-			new Student2("°¨ÀÚ¹Ù", 3, 180)	
+			new Student2("ì´ìë°”", 3, 300),
+			new Student2("ê¹€ìë°”", 1, 200),
+			new Student2("ì•ˆìë°”", 2, 100),
+			new Student2("ë°•ìë°”", 2, 150),
+			new Student2("ì†Œìë°”", 1, 200),
+			new Student2("ë‚˜ìë°”", 3, 290),
+			new Student2("ê°ìë°”", 3, 180)	
 		};
 
 		Stream<Student2> stuStream = Stream.of(stuArr);
@@ -20,7 +20,7 @@ class StreamEx3 {
 				 .thenComparing(Comparator.naturalOrder()))
 				 .forEach(System.out::println);
 
-		stuStream = Stream.of(stuArr); // ½ºÆ®¸²À» ´Ù½Ã »ı¼ºÇÑ´Ù. 
+		stuStream = Stream.of(stuArr); // ìŠ¤íŠ¸ë¦¼ì„ ë‹¤ì‹œ ìƒì„±í•œë‹¤. 
 	     IntStream stuScoreStream= stuStream.mapToInt(Student2::getTotalScore);
 
 		IntSummaryStatistics stat = stuScoreStream.summaryStatistics();

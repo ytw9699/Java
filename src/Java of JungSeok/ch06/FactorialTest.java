@@ -1,4 +1,4 @@
-package ch06;
+ï»¿package ch06;
 class FactorialTest {
 	public static void main(String args[]) {
 		int result = factorial(4);  // int result = FactorialTest.factorial(4);
@@ -12,7 +12,7 @@ class FactorialTest {
 		if ( n == 1) {
 			result = 1;		
 		} else {
-			result = n * factorial(n-1);		// ´Ù½Ã ¸Ş¼­µå ÀÚ½ÅÀ» È£ÃâÇÑ´Ù.
+			result = n * factorial(n-1);		// ë‹¤ì‹œ ë©”ì„œë“œ ìì‹ ì„ í˜¸ì¶œí•œë‹¤.
 		}
 
 		return result;

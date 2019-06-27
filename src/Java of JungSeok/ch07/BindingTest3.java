@@ -1,4 +1,4 @@
-package ch07;
+ï»¿package ch07;
 class BindingTest3{
 	public static void main(String[] args) {
 		Parent5 p = new Child5();
@@ -24,7 +24,7 @@ class Child5 extends Parent5 {
 	int x = 200;
 
 	void method() {
-		System.out.println("x=" + x);  // this.x¿Í °°´Ù.
+		System.out.println("x=" + x);  // this.xì™€ ê°™ë‹¤.
 		System.out.println("super.x=" + super.x);
 		System.out.println("this.x="  + this.x);
 	}

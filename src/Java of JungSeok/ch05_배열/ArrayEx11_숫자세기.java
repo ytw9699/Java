@@ -1,23 +1,23 @@
-package ch05_¹è¿­;
-class ArrayEx11_¼ıÀÚ¼¼±â {
+ï»¿package ch05_ë°°ì—´;
+class ArrayEx11_ìˆ«ìì„¸ê¸° {
 	public static void main(String[] args) {
 		
 		int[] numArr  = new int[10];
 		int[] counter = new int[10];
 
 		for (int i=0; i < numArr.length ; i++ ) {
-			numArr[i] = (int)(Math.random() * 10); // 0~9ÀÇ ÀÓÀÇÀÇ ¼ö¸¦ ¹è¿­¿¡ ÀúÀå
+			numArr[i] = (int)(Math.random() * 10); // 0~9ì˜ ì„ì˜ì˜ ìˆ˜ë¥¼ ë°°ì—´ì— ì €ì¥
 			System.out.print(numArr[i]);
 		}
 		System.out.println();
 
 		for (int i=0; i < numArr.length ; i++ ) {
-			counter[numArr[i]]++;//Ä«¿îÅÍ¹è¿­ÀÇ °¢¿ä¼Ò(0À¸·ÎÃÊ±âÈ­µÇ¾îÀÖ´Â°Í)
-			//µéÀ» È½¼ö¸¦ 1¾¿ Áõ°¡½ÃÄÑÁÖ´Â°Í
+			counter[numArr[i]]++;//ì¹´ìš´í„°ë°°ì—´ì˜ ê°ìš”ì†Œ(0ìœ¼ë¡œì´ˆê¸°í™”ë˜ì–´ìˆëŠ”ê²ƒ)
+			//ë“¤ì„ íšŸìˆ˜ë¥¼ 1ì”© ì¦ê°€ì‹œì¼œì£¼ëŠ”ê²ƒ
 		}
 
 		for (int i=0; i < numArr.length ; i++ ) {
-			System.out.println( i +"ÀÇ °³¼ö :"+ counter[i]);
+			System.out.println( i +"ì˜ ê°œìˆ˜ :"+ counter[i]);
 		}
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }

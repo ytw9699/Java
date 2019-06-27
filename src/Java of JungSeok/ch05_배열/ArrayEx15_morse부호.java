@@ -1,10 +1,10 @@
-package ch05_¹è¿­;
-class ArrayEx15_morseºÎÈ£ {
+ï»¿package ch05_ë°°ì—´;
+class ArrayEx15_morseë¶€í˜¸ {
 	public static void main(String[] args) {
 		
 		String source = "SOSHELP";
 		
-		String[] morse = {//a~z±îÁö
+		String[] morse = {//a~zê¹Œì§€
 						   ".-", "-...", "-.-.","-..", "."
 						,"..-.", "--.", "....","..",".---"
 						, "-.-", ".-..", "--", "-.", "---"

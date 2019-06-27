@@ -1,5 +1,5 @@
-package ch05_¹è¿­;
-class ArrayEx12_Çâ»óµÈfor¹®À»ÀÌ¿ëÇÑ¹è¿­¹İº¹ {
+ï»¿package ch05_ë°°ì—´;
+class ArrayEx12_í–¥ìƒëœforë¬¸ì„ì´ìš©í•œë°°ì—´ë°˜ë³µ {
 	public static void main(String[] args) {
 		String[] names = {"Kim", "Park", "Yi"};
 
@@ -7,12 +7,12 @@ class ArrayEx12_Çâ»óµÈfor¹®À»ÀÌ¿ëÇÑ¹è¿­¹İº¹ {
 			System.out.println("names["+i+"]:"+names[i]);
 		}
 
-		String tmp = names[2]; // ¹è¿­ namesÀÇ ¼¼ ¹øÂ°¿ä¼Ò¸¦ tmp¿¡ ÀúÀå
+		String tmp = names[2]; // ë°°ì—´ namesì˜ ì„¸ ë²ˆì§¸ìš”ì†Œë¥¼ tmpì— ì €ì¥
 		System.out.println("tmp:"+tmp);
 
-		names[0] = "Yu"; // ¹è¿­ namesÀÇ Ã¹ ¹øÂ° ¿ä¼Ò¸¦ "Yu"·Î º¯°æ
+		names[0] = "Yu"; // ë°°ì—´ namesì˜ ì²« ë²ˆì§¸ ìš”ì†Œë¥¼ "Yu"ë¡œ ë³€ê²½
 
-		for(String str : names)   // Çâ»óµÈ for¹®
+		for(String str : names)   // í–¥ìƒëœ forë¬¸
 			System.out.println(str);
 	} // main
 }

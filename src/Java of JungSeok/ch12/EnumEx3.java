@@ -1,11 +1,11 @@
-package ch12;
+ï»¿package ch12;
 enum Transportation { 
 	BUS(100)      { int fare(int distance) { return distance*BASIC_FARE;}},
 	TRAIN(150)    { int fare(int distance) { return distance*BASIC_FARE;}},
 	SHIP(100)     { int fare(int distance) { return distance*BASIC_FARE;}},
 	AIRPLANE(300) { int fare(int distance) { return distance*BASIC_FARE;}};
 
-	protected final int BASIC_FARE; // protected·Î ÇØ¾ß °¢ »ó¼ö¿¡¼­ Á¢±Ù°¡´É
+	protected final int BASIC_FARE; // protectedë¡œ í•´ì•¼ ê° ìƒìˆ˜ì—ì„œ ì ‘ê·¼ê°€ëŠ¥
 	
 	Transportation(int basicFare) { // private Transportation(int basicFare) {
 		BASIC_FARE = basicFare;
@@ -13,7 +13,7 @@ enum Transportation {
 
 	public int getBasicFare() { return BASIC_FARE; }
 
-	abstract int fare(int distance); // °Å¸®¿¡ µû¸¥ ¿ä±İ °è»ê
+	abstract int fare(int distance); // ê±°ë¦¬ì— ë”°ë¥¸ ìš”ê¸ˆ ê³„ì‚°
 }
 
 class EnumEx3 {

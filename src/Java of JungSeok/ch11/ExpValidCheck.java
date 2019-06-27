@@ -1,4 +1,4 @@
-package ch11;
+ï»¿package ch11;
 import java.util.*;
 
 public class ExpValidCheck {
@@ -26,12 +26,12 @@ public class ExpValidCheck {
 			}
 			
 			if(st.isEmpty()){
-				System.out.println("°ıÈ£°¡ ÀÏÄ¡ÇÕ´Ï´Ù.");
+				System.out.println("ê´„í˜¸ê°€ ì¼ì¹˜í•©ë‹ˆë‹¤.");
 			} else {
-				System.out.println("°ıÈ£°¡ ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù.");
+				System.out.println("ê´„í˜¸ê°€ ì¼ì¹˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 			}
 		} catch (EmptyStackException e) {
-			System.out.println("°ıÈ£°¡ ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù.");		
+			System.out.println("ê´„í˜¸ê°€ ì¼ì¹˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");		
 		} // try
 	}
 }

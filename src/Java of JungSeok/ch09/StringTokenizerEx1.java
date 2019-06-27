@@ -1,4 +1,4 @@
-package ch09;
+ï»¿package ch09;
 import java.util.*; 
 
 class StringTokenizerEx1 { 
@@ -9,5 +9,5 @@ class StringTokenizerEx1 {
 		while(st.hasMoreTokens()){
 			System.out.println(st.nextToken());
 		}
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 } 

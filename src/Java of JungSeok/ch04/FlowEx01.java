@@ -1,9 +1,9 @@
-package ch04;
+ï»¿package ch04;
 class FlowEx01 {
 	public static void main(String[] args) { 
 		int x= 0;
 
-		System.out.printf("x=%d ÀÏ¶§, ÂüÀÎ °ÍÀº%n", x);
+		System.out.printf("x=%d ì¼ë•Œ, ì°¸ì¸ ê²ƒì€%n", x);
 
 		if(x==0) System.out.println("x==0");
 		if(x!=0) System.out.println("x!=0");
@@ -12,7 +12,7 @@ class FlowEx01 {
 		System.out.println();
 
 		x = 1;
-		System.out.printf("x=%d ÀÏ¶§, ÂüÀÎ °ÍÀº%n", x);
+		System.out.printf("x=%d ì¼ë•Œ, ì°¸ì¸ ê²ƒì€%n", x);
 
 		if(x==0) System.out.println("x==0");
 		if(x!=0) System.out.println("x!=0");

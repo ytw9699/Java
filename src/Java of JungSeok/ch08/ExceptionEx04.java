@@ -1,4 +1,4 @@
-package ch08;
+ï»¿package ch08;
 class ExceptionEx04 {
 	public static void main(String args[]) {
 			System.out.println(1);			
@@ -8,7 +8,7 @@ class ExceptionEx04 {
 				System.out.println(4);
 			} catch (Exception e)	{
 				System.out.println(5);
-			} // try-catchÀÇ ³¡
+			} // try-catchì˜ ë
 			System.out.println(6);
-	}	// main¸Ş¼­µåÀÇ ³¡
+	}	// mainë©”ì„œë“œì˜ ë
 }

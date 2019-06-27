@@ -1,4 +1,4 @@
-package ch08;
+ï»¿package ch08;
 class ExceptionEx03 {
 	public static void main(String args[]) {
 		int number = 100;
@@ -10,7 +10,7 @@ class ExceptionEx03 {
 				System.out.println(result);
 			} catch (ArithmeticException e)	{
 				System.out.println("0");	
-			} // try-catchÀÇ ³¡
-		} // forÀÇ ³¡
+			} // try-catchì˜ ë
+		} // forì˜ ë
 	} 
 }

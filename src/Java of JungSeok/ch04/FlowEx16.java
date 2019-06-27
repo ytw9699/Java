@@ -1,4 +1,4 @@
-package ch04;
+ï»¿package ch04;
 class FlowEx16 {
 	public static void main(String[] args) { 
 		for(int i=1;i<=5;i++) { 
@@ -7,5 +7,5 @@ class FlowEx16 {
 			}
 			System.out.println();
 		}
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }

@@ -1,10 +1,10 @@
-package ch05_¹è¿­;
-class ArrayEx05_ÃÑÁ¡°úÆò±Õ {
+ï»¿package ch05_ë°°ì—´;
+class ArrayEx05_ì´ì ê³¼í‰ê·  {
 	public static void main(String[] args) {
 		
-		int sum =0;				// ÃÑÁ¡À» ÀúÀåÇÏ±â À§ÇÑ º¯¼ö
-		float average = 0f;		// Æò±ÕÀ» ÀúÀåÇÏ±â À§ÇÑ º¯¼ö
-		System.out.println("Æò±Õ : " + average);
+		int sum =0;				// ì´ì ì„ ì €ì¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜
+		float average = 0f;		// í‰ê· ì„ ì €ì¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜
+		System.out.println("í‰ê·  : " + average);
 
 		int[] score = {100, 88, 100, 100, 90};
 
@@ -12,9 +12,9 @@ class ArrayEx05_ÃÑÁ¡°úÆò±Õ {
 			sum += score[i];
 		}
 
-		average = sum / (float)score.length ; // °è»ê°á°ú¸¦ float·Î ¾ò±â À§ÇÔ.
+		average = sum / (float)score.length ; // ê³„ì‚°ê²°ê³¼ë¥¼ floatë¡œ ì–»ê¸° ìœ„í•¨.
 
-		System.out.println("ÃÑÁ¡ : " + sum);
-		System.out.println("Æò±Õ : " + average);
+		System.out.println("ì´ì  : " + sum);
+		System.out.println("í‰ê·  : " + average);
 	}
 }

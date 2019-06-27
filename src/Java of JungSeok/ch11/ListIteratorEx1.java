@@ -1,4 +1,4 @@
-package ch11;
+ï»¿package ch11;
 import java.util.*;
 
 class ListIteratorEx1 {
@@ -13,12 +13,12 @@ class ListIteratorEx1 {
 		ListIterator it = list.listIterator();
 
 		while(it.hasNext()) {
-			System.out.print(it.next()); // ¼ø¹æÇâÀ¸·Î ÁøÇàÇÏ¸é¼­ ÀĞ¾î¿Â´Ù.
+			System.out.print(it.next()); // ìˆœë°©í–¥ìœ¼ë¡œ ì§„í–‰í•˜ë©´ì„œ ì½ì–´ì˜¨ë‹¤.
 		}
 		System.out.println();
 
 		while(it.hasPrevious()) {
-			System.out.print(it.previous()); // ¿ª¹æÇâÀ¸·Î ÁøÇàÇÏ¸é¼­ ÀĞ¾î¿Â´Ù.
+			System.out.print(it.previous()); // ì—­ë°©í–¥ìœ¼ë¡œ ì§„í–‰í•˜ë©´ì„œ ì½ì–´ì˜¨ë‹¤.
 		}
 		System.out.println();
 	}

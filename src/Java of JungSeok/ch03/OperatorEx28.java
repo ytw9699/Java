@@ -1,4 +1,4 @@
-package ch03;
+ï»¿package ch03;
 class OperatorEx28 {
 	public static void main(String[] args) { 
 		int x = 0xAB;
@@ -10,9 +10,9 @@ class OperatorEx28 {
 		System.out.printf("%#X & %#X = %#X \t%s%n", x, y, x & y, toBinaryString(x & y));
 		System.out.printf("%#X ^ %#X = %#X \t%s%n", x, y, x ^ y, toBinaryString(x ^ y));
 		System.out.printf("%#X ^ %#X ^ %#X = %#X %s%n", x, y, y, x ^ y ^ y, toBinaryString(x ^ y ^ y));
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 
-	// 10Áø Á¤¼ö¸¦ 2Áø¼ö·Î º¯È¯ÇÏ´Â ¸Ş¼­µå
+	// 10ì§„ ì •ìˆ˜ë¥¼ 2ì§„ìˆ˜ë¡œ ë³€í™˜í•˜ëŠ” ë©”ì„œë“œ
 	static String toBinaryString(int x) {
 		String zero = "00000000000000000000000000000000";
 		String tmp = zero + Integer.toBinaryString(x);

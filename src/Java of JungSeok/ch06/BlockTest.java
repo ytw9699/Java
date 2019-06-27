@@ -1,4 +1,4 @@
-package ch06;
+ï»¿package ch06;
 class BlockTest {
 
 	static {
@@ -10,7 +10,7 @@ class BlockTest {
 	}
 
 	public BlockTest() {     
-		System.out.println("»ı¼ºÀÚ");
+		System.out.println("ìƒì„±ì");
 	}
 
 	public static void main(String args[]) {

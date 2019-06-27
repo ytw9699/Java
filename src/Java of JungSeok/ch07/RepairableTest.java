@@ -1,4 +1,4 @@
-package ch07;
+ï»¿package ch07;
 class RepairableTest{
 	public static void main(String[] args) {
 		Tank tank = new Tank();
@@ -7,7 +7,7 @@ class RepairableTest{
 		Marine marine = new Marine();
 		SCV	scv = new SCV();
 
-		scv.repair(tank);	// SCV°¡ Tank¸¦ ¼ö¸®ÇÏµµ·Ï ÇÑ´Ù.
+		scv.repair(tank);	// SCVê°€ Tankë¥¼ ìˆ˜ë¦¬í•˜ë„ë¡ í•œë‹¤.
 		scv.repair(dropship);
 //		scv.repair(marine);	
 	}
@@ -37,7 +37,7 @@ class Unit2 {
 
 class Tank extends GroundUnit implements Repairable {
 	Tank() {
-		super(150);		// TankÀÇ HP´Â 150ÀÌ´Ù.
+		super(150);		// Tankì˜ HPëŠ” 150ì´ë‹¤.
 		hitPoint = MAX_HP;
 	}
 
@@ -49,7 +49,7 @@ class Tank extends GroundUnit implements Repairable {
 
 class Dropship extends AirUnit implements Repairable {
 	Dropship() {
-		super(125);		// DropshipÀÇ HP´Â 125ÀÌ´Ù.
+		super(125);		// Dropshipì˜ HPëŠ” 125ì´ë‹¤.
 		hitPoint = MAX_HP;
 	}
 
@@ -77,10 +77,10 @@ class SCV extends GroundUnit implements Repairable{
 		if (r instanceof Unit2) {
 			Unit2 u = (Unit2)r;
 			while(u.hitPoint!=u.MAX_HP) {
-				/* UnitÀÇ HP¸¦ Áõ°¡½ÃÅ²´Ù. */
+				/* Unitì˜ HPë¥¼ ì¦ê°€ì‹œí‚¨ë‹¤. */
 				u.hitPoint++;
 			}
-			System.out.println( u.toString() + "ÀÇ ¼ö¸®°¡ ³¡³µ½À´Ï´Ù.");
+			System.out.println( u.toString() + "ì˜ ìˆ˜ë¦¬ê°€ ëë‚¬ìŠµë‹ˆë‹¤.");
 		}
 	}	
 	//...

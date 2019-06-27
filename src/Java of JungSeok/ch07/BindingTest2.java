@@ -1,4 +1,4 @@
-package ch07;
+﻿package ch07;
 class BindingTest2 {
 	public static void main(String[] args) {
 		Parent4 p = new Child4();

@@ -1,4 +1,4 @@
-package ch04;
+ï»¿package ch04;
 class FlowEx22 {
 	public static void main(String[] args) { 
 		int[] arr = {10,20,30,40,50};
@@ -15,5 +15,5 @@ class FlowEx22 {
 		}
 		System.out.println();		
 		System.out.println("sum="+sum);
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }

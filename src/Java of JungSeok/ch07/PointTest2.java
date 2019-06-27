@@ -1,4 +1,4 @@
-package ch07;
+ï»¿package ch07;
 class PointTest2 {
 	public static void main(String argsp[]) {
 		Point3D2 p3 = new Point3D2();
@@ -23,11 +23,11 @@ class Point3D2 extends Point3 {
 	int z=30;
 
 	Point3D2() {
-		this(100, 200, 300);	// Point3D2(int x, int y, int z)¸¦ È£ÃâÇÑ´Ù.
+		this(100, 200, 300);	// Point3D2(int x, int y, int z)ë¥¼ í˜¸ì¶œí•œë‹¤.
 	}
 
 	Point3D2(int x, int y, int z) {
-		super(x, y);			// Point3(int x, int y)¸¦ È£ÃâÇÑ´Ù.
+		super(x, y);			// Point3(int x, int y)ë¥¼ í˜¸ì¶œí•œë‹¤.
 		this.z = z;
 	}
 }

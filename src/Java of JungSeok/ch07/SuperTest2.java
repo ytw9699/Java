@@ -1,4 +1,4 @@
-package ch07;
+﻿package ch07;
 class SuperTest2 {
 	public static void main(String args[]) {
 		Child2 c = new Child2();

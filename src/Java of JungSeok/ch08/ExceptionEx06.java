@@ -1,4 +1,4 @@
-package ch08;
+ï»¿package ch08;
 class ExceptionEx06 {
 	public static void main(String args[]) {
 		System.out.println(1);			
@@ -6,10 +6,10 @@ class ExceptionEx06 {
 		try {
 			System.out.println(3);
 			System.out.println(0/0);
-			System.out.println(4); 	// ½ÇÇàµÇÁö ¾Ê´Â´Ù.
-		} catch (Exception e)	{	// ArithmeticException´ë½Å ExceptionÀ» »ç¿ë.
+			System.out.println(4); 	// ì‹¤í–‰ë˜ì§€ ì•ŠëŠ”ë‹¤.
+		} catch (Exception e)	{	// ArithmeticExceptionëŒ€ì‹  Exceptionì„ ì‚¬ìš©.
 			System.out.println(5);
-		}	// try-catchÀÇ ³¡
+		}	// try-catchì˜ ë
 		System.out.println(6);
-	}	// main¸Ş¼­µåÀÇ ³¡
+	}	// mainë©”ì„œë“œì˜ ë
 }

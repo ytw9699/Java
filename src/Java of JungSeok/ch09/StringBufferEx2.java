@@ -1,4 +1,4 @@
-package ch09;
+﻿package ch09;
 class  StringBufferEx2 {
 	public static void main(String[] args) {
 		StringBuffer sb  = new StringBuffer("01");

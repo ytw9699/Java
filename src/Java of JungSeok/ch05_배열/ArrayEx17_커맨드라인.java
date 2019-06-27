@@ -1,17 +1,17 @@
-package ch05_¹è¿­;
-class ArrayEx17_Ä¿¸Çµå¶óÀÎ {
+ï»¿package ch05_ë°°ì—´;
+class ArrayEx17_ì»¤ë§¨ë“œë¼ì¸ {
 	public static void main(String[] args) {
 		if (args.length !=3) {
 			System.out.println("usage: java ArrayEx15 NUM1 OP NUM2");
 			System.exit(0);
 		}
-		int num1 = Integer.parseInt(args[0]);   // ¹®ÀÚ¿­À» ¼ıÀÚ·Î º¯È¯ÇÑ´Ù.
-		char op = args[1].charAt(0);            // ¹®ÀÚ¿­À» ¹®ÀÚ(char)·Î º¯È¯ÇÑ´Ù.
+		int num1 = Integer.parseInt(args[0]);   // ë¬¸ìì—´ì„ ìˆ«ìë¡œ ë³€í™˜í•œë‹¤.
+		char op = args[1].charAt(0);            // ë¬¸ìì—´ì„ ë¬¸ì(char)ë¡œ ë³€í™˜í•œë‹¤.
 		int num2 = Integer.parseInt(args[2]);
 
 		int result = 0;
 
-		switch(op) {    // switch¹®ÀÇ ¼ö½ÄÀ¸·Î charÅ¸ÀÔÀÇ º¯¼öµµ °¡´ÉÇÏ´Ù.					
+		switch(op) {    // switchë¬¸ì˜ ìˆ˜ì‹ìœ¼ë¡œ charíƒ€ì…ì˜ ë³€ìˆ˜ë„ ê°€ëŠ¥í•˜ë‹¤.					
 			case '+':
 				result = num1 + num2;
 				break;
@@ -26,8 +26,8 @@ class ArrayEx17_Ä¿¸Çµå¶óÀÎ {
 				result = num1 / num2;
 				break;
 			default :
-				System.out.println("Áö¿øµÇÁö ¾Ê´Â ¿¬»êÀÔ´Ï´Ù.");
+				System.out.println("ì§€ì›ë˜ì§€ ì•ŠëŠ” ì—°ì‚°ì…ë‹ˆë‹¤.");
 		}
-		System.out.println("°á°ú:"+result);
+		System.out.println("ê²°ê³¼:"+result);
 	}
 }

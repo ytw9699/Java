@@ -1,12 +1,12 @@
-package ch05_¹è¿­;
+ï»¿package ch05_ë°°ì—´;
 import javax.swing.*;
-class ArrayEx20_»ç¿ëÀÚÀÔ·Â¹Ş±â_InputDialog {
+class ArrayEx20_ì‚¬ìš©ìì…ë ¥ë°›ê¸°_InputDialog {
 	public static void main(String[] args) {
 		String temp = "";
 		int input = 0 ;
 		
 		do {
-		temp = JOptionPane.showInputDialog("1~100»çÀÌÀÇ ¼ıÀÚÀÔ·ÂÇÏ¼¼¿ä."+"³¡³»·Á¸é-1À» ÀÔ·ÂÇÏ¼¼¿ä");
+		temp = JOptionPane.showInputDialog("1~100ì‚¬ì´ì˜ ìˆ«ìì…ë ¥í•˜ì„¸ìš”."+"ëë‚´ë ¤ë©´-1ì„ ì…ë ¥í•˜ì„¸ìš”");
 		
 		if(temp==null || temp.equals("-1")) {
 			break;
