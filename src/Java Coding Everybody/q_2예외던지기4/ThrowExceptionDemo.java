@@ -17,7 +17,7 @@ class B{
         System.out.println(input); 
     }
 }
-class C{
+class dokky.png{
     void run(){
         B b = new B();
         b.run();//여기서 예외처리하게 넘길수있음
