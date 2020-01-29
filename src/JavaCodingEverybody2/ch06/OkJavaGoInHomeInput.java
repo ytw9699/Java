@@ -8,7 +8,7 @@ import org.opentutorials.iot.Security;
  
 public class OkJavaGoInHomeInput {
  
-    public static void main(String[] args) {
+    public static void main(String[] args) {//다양한 인풋값
          
         String id = JOptionPane.showInputDialog("Enter a ID");
         String bright = JOptionPane.showInputDialog("Enter a Bright level");

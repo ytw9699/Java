@@ -6,7 +6,7 @@ import org.opentutorials.iot.Security;
  
 public class OkJavaGoInHomeInput2 {
  
-    // paramter, 매개변수
+    // paramter =  매개변수 = 프로그램을 사용하는 사람과 프로그램사이에 값을 매개해준다고해서 매개변수
     public static void main(String[] args) {
          
         String id = args[0];
