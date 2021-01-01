@@ -3,10 +3,6 @@
 class Calculator {
 	
 	   int left, right;
-	   /* public void setOprands(int left, int right) {
-	   this.left = left;
-	   this.right = right;
-		}*/
 	    
 	   //public Calculator(){}//이제는 없어도 상관없다//새롭게 바뀐부분 
 	  
