@@ -16,7 +16,7 @@ class SubstractionableCalculator extends Calculator {//새로운 클래스만듬
 	//그리고 Calculator 클래스를 확장한다 즉 상속받는다
     public void substract() {
         System.out.println(this.left - this.right);//Calculator의 변수값을 가져오는것
-    }
+    }	
 }
 public class b_상속의예제 {
  
