@@ -1,6 +1,7 @@
 ﻿package j_유효범위;
 
 public class c_유효범위 {
+	
 	static int i = 5;//전역변수
 	 
     static void a() {
@@ -14,8 +15,7 @@ public class c_유효범위 {
     }
  
     public static void main(String[] args) {
-         int i=1;//지역변수
-    	a();
+		int i=1;//지역변수
+		a();
     }
- 
 }

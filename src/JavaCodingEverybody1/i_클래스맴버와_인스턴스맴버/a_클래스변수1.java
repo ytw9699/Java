@@ -8,7 +8,7 @@ class Calculator {
 	
     static double PI = 3.14;//원주율은 모든객체(인스턴스)가 똑같은 값을가지면됨
     //클래스의 변수는 모든 인스턴스가 공통적으로 같은 값을 가질수 있게 한다
-    //static이붙으면 스테이틱변수는 클래스의 소속이된다 그러면 모든 인스턴스에서 동일한값이됨
+    //static이 붙으면 스테이틱 변수는 클래스의 소속이된다 그러면 모든 인스턴스에서 동일한값이됨
     int left, right;
  
     public void setOprands(int left, int right) {

@@ -1,6 +1,7 @@
 ﻿package j_유효범위;
    
 class C2 {
+	
     int v = 10;
  
     void m() {
@@ -12,8 +13,8 @@ class C2 {
 public class e_유효범위2 {
  
     public static void main(String[] args) {
+    	
         C2 c1 = new C2();
         c1.m();
     }
- 
 }
