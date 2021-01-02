@@ -1,4 +1,7 @@
 ﻿package q_1예외문법1;
+
+import java.io.IOException;
+
 //오류를 처리하는것이 예외라고 일단 생각
 class Calculator2{
     int left, right;
@@ -20,6 +23,16 @@ class Calculator2{
     	}// Exception은 자바에서 기본적으로 제공하는 클래스로 java.lang에 소속
     }
 } 
+
+
+try {
+	input = bReader.readLine();
+} catch (IOException e) {//예외를 강제해서 내가처리하는것
+	System.out.println("오류가 발생했습니다 : ");
+	e.printStackTrace();
+}//파일에 있는걸 읽어들임
+
+
 public class CalculatorDemo2 {
     public static void main(String[] args) {
         Calculator2 c1 = new Calculator2();
