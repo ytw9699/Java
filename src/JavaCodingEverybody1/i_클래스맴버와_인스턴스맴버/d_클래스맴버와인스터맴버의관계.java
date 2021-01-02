@@ -1,24 +1,32 @@
 ﻿package i_클래스맴버와_인스턴스맴버;
 
 class C1{//여기 의문이다 생코가 설명잘못한듯? 밑에 로직은 맞는데 설명은..?좀 이상?
+	
     static int static_variable = 1;//스테이틱이 붙어서 스테이틱변수!클래스 변수!
     int instance_variable = 2;//인스턴스 변수! 
+    
     static void static_static(){//클래스 메소드에서
         System.out.println(static_variable);//클래스 변수에 접근!1이출력
     }
+    
     static void static_instance(){//클래스 메소드에서는 인스턴스 변수에 접근 할 수 없다.★★
          // System.out.println(instance_variable);//★★
     }
+    
     void instance_static(){
         // 인스턴스 메소드에서는 클래스 변수에 접근 할 수 있다.
         System.out.println(static_variable);
     }
+    
     void instance_instance(){//인스턴스 메소드에서 인스턴스 변수에 접근  
         System.out.println(instance_variable);
     }
 }
+
 public class d_클래스맴버와인스터맴버의관계 {  
+	
     public static void main(String[] args) {
+    	
         C1 a = new C1();
 
         a.static_static();//인스턴스를 통해 클래스 메소드에 접근 가능 하고 다시 클래스 변수에 접근 가능

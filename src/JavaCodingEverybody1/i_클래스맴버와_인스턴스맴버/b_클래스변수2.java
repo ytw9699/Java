@@ -1,5 +1,7 @@
 ﻿package i_클래스맴버와_인스턴스맴버;
+
 class Calculator2 {
+	
     static double PI = 3.14;
     static int base = 0;
     //클래스(스테이틱) 변수인 base가 추가되었다.
@@ -10,17 +12,21 @@ class Calculator2 {
         this.left = left;
         this.right = right;
     }
-     public void sum() {
+    
+    public void sum() {
         // 더하기에 base의 값을 포함시킨다.
         System.out.println(this.left + this.right + base);
     }
-     public void avg() {
+    
+    public void avg() {
         // 평균치에 base의 값을 포함시킨다.
         System.out.println((this.left + this.right + base) / 2);
     }
 }
  public class b_클래스변수2 {
+	 
     public static void main(String[] args) {
+    	
         Calculator2 c1 = new Calculator2();
         c1.setOprands(10, 20);
         // 30 출력
@@ -38,6 +44,7 @@ class Calculator2 {
         c2.sum();
      }
  }
+ 
  /*클래스 변수의 용도를 정리해보면 아래와 같다
  1.인스턴스에 따라서 변하지 않는 값이 필요한 경우 (위의 예에서는 PI)
  (이런 경우 final을 이용해서 상수로 선언하는 것이 바람직 하지만 final을 아직 배우지 않았기 때문에 언급하지 않았다)

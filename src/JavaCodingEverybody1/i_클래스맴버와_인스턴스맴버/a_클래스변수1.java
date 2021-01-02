@@ -3,7 +3,9 @@
 //필드는 변수라는말
 //객체의 구성원: 변수, 메소드
 //클래스의 구성원 : 변수, 메소드
+
 class Calculator {
+	
     static double PI = 3.14;//원주율은 모든객체(인스턴스)가 똑같은 값을가지면됨
     //클래스의 변수는 모든 인스턴스가 공통적으로 같은 값을 가질수 있게 한다
     //static이붙으면 스테이틱변수는 클래스의 소속이된다 그러면 모든 인스턴스에서 동일한값이됨
@@ -20,6 +22,7 @@ class Calculator {
         System.out.println((this.left + this.right) / 2);
     }
 }
+
 public class a_클래스변수1 {
 	 
     public static void main(String[] args) {

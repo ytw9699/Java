@@ -15,7 +15,9 @@ class Calculator{
         System.out.println((this.left+this.right)/2);
     }
 }
+
 public class c_객체화 {
+	
     public static void main(String[] args) {
          //클래스 : 설계도
     	//인스턴스 : 제품
@@ -35,6 +37,7 @@ public class c_객체화 {
         c1.avg(); 
     }
 }
+
 /*변수를 다른 말로는 상태(state)라고도 표현한다. 
 c1.sum의 결과는 30, c2.sum의 결과는 60인 것을 통해서 알 수 있듯이 
 상태가 다른 객체를 대상으로 메소스를 실행시키면 다른 결과를 나타내게 된다.
