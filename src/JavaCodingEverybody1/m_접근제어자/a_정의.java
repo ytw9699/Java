@@ -1,4 +1,5 @@
 ﻿package m_접근제어자;
+
 public class a_정의 {
 	/*
 	 * 결국 api를 만드는 개발자와 그걸 쓰는 우리들을 생각해보자

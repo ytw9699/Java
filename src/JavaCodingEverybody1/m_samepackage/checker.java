@@ -1,8 +1,12 @@
 ﻿package m_samepackage;
+
 import m_otherpackage.*;
-public class checker {}
+
+public class checker {
+}
 
 class SameClassChecker{//1.같은 클래스의 경우
+	
 	public SameClassChecker() {//생성자가짐
 		//같은 클래스에 존재하는 모든 메소드,변수  접근 가능
 		this._public();//자기자신에게 정의된 메소드 호출
@@ -10,20 +14,26 @@ class SameClassChecker{//1.같은 클래스의 경우
 		this._default();
 		this._private();
 	}
+	
 	private void _private() {
 		System.out.println("private");
 	}
+	
 	void _default() {//접근제어자 명시안하면 default 접근제어가됨
 		System.out.println("default");
 	}
+	
 	protected void _protected() {
 		System.out.println("protected");
 	}
+	
 	public void _public() {
 		System.out.println("public");
 	}
 }
+
 class SamePackageChecker{//2.같은 패키지인경우
+	
 	public SamePackageChecker() {
 	
 		Same same = new Same();	
@@ -34,7 +44,9 @@ class SamePackageChecker{//2.같은 패키지인경우
 		//same._private();//프라이 베잇 접근자가붙은 메소드만 접근 불가
 	}
 }
+
 class SamePackageChecker2 extends Same{//2.같은 패키지의 상속받는 클래스에 접근할때
+	
 	public SamePackageChecker2() {
 		//같은 패키지 상속관계일때 Same 클래스의 메소드에 접근하면 같은결과
 		this._public();//this는 1차적으로 클래스 자신인
@@ -46,8 +58,11 @@ class SamePackageChecker2 extends Same{//2.같은 패키지의 상속받는 클�
 		//this._prviate();
 	}
 }
+
 class otherpackagechecker extends other{//3.다른패키지
+	
 	public otherpackagechecker() {
+		
 		nothing nothing = new nothing();//3-3다른패키지  클래스 객체생성해서
 		nothing._public();
 		//nothing._protected();
