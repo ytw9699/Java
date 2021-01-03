@@ -17,6 +17,9 @@ class SubstractionableCalculator extends Calculator {//새로운 클래스만듬
     public void substract() {
         System.out.println(this.left - this.right);//Calculator의 변수값을 가져오는것
     }	
+    public void sum() {
+        System.out.println(this.left + this.right+"ddd");
+    }
 }
 public class b_상속의예제 {
  

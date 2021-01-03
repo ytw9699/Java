@@ -1,5 +1,7 @@
 ﻿package l_overloading;
+
 class Calculator{
+	
     int left, right;
     int third = 0;
 
@@ -11,21 +13,26 @@ class Calculator{
     //선언 할 수 있는 방법을 메소드 오버로딩(overloading)이라고 한다.
 
     public void setOprands(int left, int right, int third){
+    	
       this.setOprands(left, right);//중복의제거
-    /*    this.left = left;
+      /*this.left = left;
         this.right = right;*/
         this.third = third;
     }
+    
     public void sum(){
         System.out.println(this.left+this.right+this.third);
     } 
+    
     public void avg(){
         System.out.println((this.left+this.right+this.third)/3);
     }
 }
+
 public class a_오버로딩 {
       
-    public static void main(String[] args) {
+    public static void main(String[] args){
+    	
         Calculator c1 = new Calculator();
         c1.setOprands(10, 20);
         c1.sum();       

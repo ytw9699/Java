@@ -3,22 +3,26 @@
 public class OverloadingDemo {
 	
     void A (){
-    System.out.println("void A()");
+    	System.out.println("void A()");
     }
-    void A (int arg1){
-    System.out.println("void A (int arg1)");
-    }
-   /* void A (int param1){
-    System.out.println("void A (int arg1)");
-    }인자값 이름만 다른건 안된다*/
-    void A (String arg1){
-    	System.out.println("void A (String arg1)");
-    	}
-/*  int A (){
-    System.out.println("void A()");
-    } 오버로딩은 리턴타입이 같아야 한다 
     
-    */
+    void A (int arg1){
+    	System.out.println("void A (int arg1)");
+    }
+    
+    /*void A (int param1){//인자값 이름만 다른건 안된다
+    	System.out.println("void A (int arg1)");
+    }*/
+    
+    void A (String arg1){
+    		System.out.println("void A (String arg1)");
+    	}
+    
+	    int A (int a,int b){//오버로딩은 리턴타입이 같아야 한다
+	    	System.out.println("void A()");
+	    	return a+b;
+	    }  
+    
     public static void main(String[] args) {
     	OverloadingDemo od = new OverloadingDemo();
         od.A();

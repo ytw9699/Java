@@ -1,4 +1,5 @@
 ﻿package l_overloading규칙;
+
 class Calculator{
 	
     int[] oprands;
@@ -6,23 +7,34 @@ class Calculator{
     public void setOprands(int[] oprands){
         this.oprands = oprands;
     }
+    
     public void sum(){
+    	
         int total = 0;
+        
         for(int value : this.oprands){
             total += value;
         }
+        
         System.out.println(total);
     }
+    
     public void avg(){
+    	
         int total = 0;
+        
         for(int value : this.oprands){
             total += value;
         }
-    System.out.println(total/this.oprands.length);
+        
+	    System.out.println(total/this.oprands.length);
     }
 }
+
 public class OverloadingDemo3추가예시 {
+	
     public static void main(String[] args) {
+    	
         Calculator c1 = new Calculator();
         c1.setOprands(new int[]{10,20});
         c1.sum();       

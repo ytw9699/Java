@@ -1,5 +1,7 @@
 ﻿package k_overriding3;
+
 class Calculator {
+	
     int left, right;
  
     public void setOprands(int left, int right) {
@@ -15,6 +17,7 @@ class Calculator {
         return ((this.left + this.right) / 2);
     }
 }
+
 class SubstractionableCalculator extends Calculator {
      
     public void sum() {//오버라이딩
@@ -30,8 +33,11 @@ class SubstractionableCalculator extends Calculator {
         System.out.println(this.left - this.right);
     }
 }
+
 public class c_오버라이딩 {
+	
     public static void main(String[] args) {
+    	
         SubstractionableCalculator c1 = new SubstractionableCalculator();
         c1.setOprands(10, 20);
         c1.sum();
