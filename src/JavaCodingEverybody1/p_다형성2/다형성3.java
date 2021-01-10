@@ -1,18 +1,24 @@
 ﻿package p_다형성2;
 
 class A{
+	
     public String x(){
     	return "x";
-    	}
+	}
 }
+
 class B extends A{
-    public String y(){
+   
+	public String y(){
     	return "y";
-    	}
+	}
 }
+
 public class 다형성3 {
-    public static void main(String[] args) {
-        A obj = new B();
+    
+	public static void main(String[] args) {
+    
+		A obj = new B();
         System.out.println(obj.x());
         B obj2 = new B();
         System.out.println(obj2.x());

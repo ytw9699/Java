@@ -1,7 +1,9 @@
 ﻿package p_다형성;
 /*다형성 개념 1. 다형성은 다양하다라고 생각해야해 다양하게쓰일수있다라는개념이야 
  * 오버로딩 : 매개변수에따라 다른 메소드가 호출 메소드에서의 다형성*/
+
 class O{
+	
     public void a(int param){
         System.out.println("숫자출력");
         System.out.println(param);
@@ -11,7 +13,9 @@ class O{
         System.out.println(param);
     }
 }
+
 public class 다형성1오버로딩 {
+	
     public static void main(String[] args) {
         O o = new O();
         o.a(1);

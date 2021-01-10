@@ -13,11 +13,15 @@ public class ThreadTest extends Thread {
     public void run(){
  
         System.out.println( id + "번 쓰레드 동작 중..." );
+        
         Random r = new Random(System.currentTimeMillis());
-        try {
-            long s = r.nextInt(3000);
+        
+        try{
+            
+        	long s = r.nextInt(3000);
             Thread.sleep(s); // 쓰레드를 잠시 멈춤
-        } catch (InterruptedException e) {
+            
+        }catch (InterruptedException e) {
             e.printStackTrace();
         }
         

@@ -1,8 +1,11 @@
 ﻿package p_다형성;
 
 class A{}
+
 class B extends A{}
+
 public class 다형성2클래스 {
+	
     public static void main(String[] args) {
         A obj = new B();
         //B obj2 = new B();

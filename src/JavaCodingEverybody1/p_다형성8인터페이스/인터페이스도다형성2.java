@@ -1,11 +1,15 @@
 ﻿package p_다형성8인터페이스;
+
 interface I2{
     public String A();
 }
+
 interface I3{
     public String B();
 }
+
 class D implements I2, I3{
+	
     public String A(){
         return "A";
     }
@@ -13,8 +17,11 @@ class D implements I2, I3{
         return "B";
     }
 }
+
 public class 인터페이스도다형성2{
-    public static void main(String[] args) {
+	
+    public static void main(String[] args){
+    	
         D obj = new D();
         I2 objI2 = new D();
         I3 objI3 = new D();
@@ -27,6 +34,5 @@ public class 인터페이스도다형성2{
          
         //objI3.A();
         System.out.println(objI3.B());// return "B";
-        
     }
 }

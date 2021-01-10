@@ -1,11 +1,15 @@
 ﻿package x_참조1;
+
 class A{
+	
     public int id;//인스턴스 변수
     A(int id){//생성자
         this.id = id;
     }
 }
+
 public class b참조_ReferenceDemo2 {
+	
     public static void runValue(){
         int a = 1;
         //int는 기본 데이터형(원시 데이터형, Primitive Data Types)이다. 
@@ -13,7 +17,9 @@ public class b참조_ReferenceDemo2 {
         b = 2;
         System.out.println("runValue, "+a); 
     }
+    
     public static void runReference(){
+    	
         A a = new A(1);
         A b = a;//이것은 참조이다
         b.id = 2;//a와b에 담긴값들은 new A()를(원본) 통해 만든 인스턴스 주소값(참조값)이 담겨있는거라 같은것이고 
@@ -26,6 +32,7 @@ public class b참조_ReferenceDemo2 {
         System.out.println("runReference, "+a.id);      
         System.out.println("runReference, "+b.id);      
     }
+    
     public static void main(String[] args) {
         runValue();
         runReference();

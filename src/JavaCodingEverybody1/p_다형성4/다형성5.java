@@ -3,14 +3,18 @@
 class A{
     public String x(){return "A.x";}
 }
+
 class B extends A{
     public String x(){return "B.x";}//오버라이딩한 결과출력
     public String y(){return "y";}
 }
+
 class B2 extends A{
     public String x(){return "B2.x";}//오버라이딩한 결과출력
 }
+
 public class 다형성5 {
+	
     public static void main(String[] args) {
         A obj = new B();
         A obj2 = new B2();
