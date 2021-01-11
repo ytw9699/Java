@@ -1,12 +1,12 @@
-package a_숫자와문자;
+package Z_쓰레드;
 
 import java.util.Random;
 
-public class ThreadTest extends Thread {
+public class multiThreadEx extends Thread {
  
     private int id = -1;
  
-    public ThreadTest(int id){
+    public multiThreadEx(int id){
         this.id = id;
     }
  
@@ -33,8 +33,9 @@ public class ThreadTest extends Thread {
         System.out.println("Start main method.");
         
         for(int i = 0 ; i < 10 ; i++ ){
-            ThreadTest test = new ThreadTest(i);
-            test.start(); // 이 메소드를 실행하면 Thread 내의 run()을 수행한다.
+        	
+            multiThreadEx test = new multiThreadEx(i);
+            test.start(); // 이 start 메소드를 실행하면 Thread 내의 run()메소드를 수행한다.
         }
         
         System.out.println("End main method.");
